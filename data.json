@@ -1,0 +1,19 @@
+{
+  "team": [
+    { "id": 70189044, "name": "Amalie Williams", "role": "Marketing Team", "photo": "https://files.monday.com/use1/photos/70189044/thumb_small/70189044-user_photo_initials_2025_01_02_15_37_36.png?1735832256" },
+    { "id": 70235520, "name": "Ameer Elsherif", "role": "Tech Lead", "photo": "https://files.monday.com/use1/photos/70235520/thumb_small/70235520-user_photo_2025_01_03_22_17_13.png?1735942633" },
+    { "id": 82116197, "name": "Chase Holmes", "role": "Marketing Team", "photo": "https://files.monday.com/use1/photos/82116197/thumb_small/82116197-user_photo_initials_2025_09_02_16_47_08.png?1756831628" },
+    { "id": 72726169, "name": "Craig Fleck", "role": "Creative Director", "photo": "https://files.monday.com/use1/photos/72726169/thumb_small/72726169-user_photo_initials_2025_02_27_10_50_42.png?1740653442" },
+    { "id": 97224167, "name": "David Dunkelberg", "role": "Designer", "photo": "https://files.monday.com/use1/photos/97224167/thumb_small/97224167-user_photo_initials_2025_12_09_22_47_48.png?1765320468" },
+    { "id": 72726193, "name": "Jeremy Osborn", "role": "SEO Lead", "photo": "https://files.monday.com/use1/photos/72726193/thumb_small/72726193-user_photo_initials_2025_02_28_05_37_21.png?1740721041" },
+    { "id": 72775950, "name": "Katherine Rupp", "role": "Marketing Team", "photo": "https://files.monday.com/use1/photos/72775950/thumb_small/72775950-user_photo_initials_2025_03_14_14_10_17.png?1741961417" },
+    { "id": 71942881, "name": "Perry Orth", "role": "Vice President", "photo": "https://files.monday.com/use1/photos/71942881/thumb_small/71942881-user_photo_2025_02_07_14_42_07.png?1738939327" },
+    { "id": 70189041, "name": "Quinn Weathers", "role": "Project Manager & Analyst", "photo": "https://files.monday.com/use1/photos/70189041/thumb_small/70189041-user_photo_2025_05_08_13_53_52.png?1746712432" },
+    { "id": 77274910, "name": "Rey Banda", "role": "Designer", "photo": "https://files.monday.com/use1/photos/77274910/thumb_small/77274910-user_photo_2025_06_16_14_53_16.png?1750085597" },
+    { "id": 70188838, "name": "Richard Louise", "role": "VP of Marketing", "photo": "https://files.monday.com/use1/photos/70188838/thumb_small/70188838-user_photo_initials_2025_01_02_15_32_54.png?1735831974" },
+    { "id": 70232590, "name": "TreVon Barber", "role": "Affiliate Marketing Director", "photo": "https://files.monday.com/use1/photos/70232590/thumb_small/70232590-user_photo_initials_2025_03_14_14_10_57.png?1741961457" },
+    { "id": 77014271, "name": "Zana Squire", "role": "Marketing Team", "photo": "https://files.monday.com/use1/photos/77014271/thumb_small/77014271-user_photo_initials_2025_06_09_16_06_32.png?1749485192" }
+  ],
+  "tasks": [],
+  "last_updated": "2026-04-23T00:00:00Z"
+}
