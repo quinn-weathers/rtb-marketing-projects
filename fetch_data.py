@@ -15,7 +15,7 @@ API_TOKEN = os.environ.get("MONDAY_API_TOKEN")
 BOARD_IDS = [
     "9533201616",    # Marketing Requests
     "18004001679",   # Blog Content Creative Requests
-    "17945827124"    # Social Media Creative Requests
+    "9668868754"    # Social Media Creative Requests
 ]
 
 def query_monday(query):
