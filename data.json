@@ -210,19 +210,6 @@
     {
       "board": "Marketing Requests",
       "short": "MAR",
-      "id": "11756333013",
-      "name": "EVENTS - Meta Ads Templates (3 sizes) - Class",
-      "url": "https://right-to-bear-association.monday.com/boards/9533201616/pulses/11756333013",
-      "assignees": [],
-      "approvers": [],
-      "date": null,
-      "status": "NEEDS REVIEW",
-      "priority": "",
-      "summary": ""
-    },
-    {
-      "board": "Marketing Requests",
-      "short": "MAR",
       "id": "9552869260",
       "name": "FBSN SOS Program Guide",
       "url": "https://right-to-bear-association.monday.com/boards/9533201616/pulses/9552869260",
@@ -2394,6 +2381,19 @@
     {
       "board": "Marketing Requests",
       "short": "MAR",
+      "id": "11756333013",
+      "name": "EVENTS - Meta Ads Templates (3 sizes) - Class",
+      "url": "https://right-to-bear-association.monday.com/boards/9533201616/pulses/11756333013",
+      "assignees": [],
+      "approvers": [],
+      "date": null,
+      "status": "COMPLETE",
+      "priority": "",
+      "summary": ""
+    },
+    {
+      "board": "Marketing Requests",
+      "short": "MAR",
       "id": "18324379245",
       "name": "Use Threat Level Indicator (CWT) In Content",
       "url": "https://right-to-bear-association.monday.com/boards/9533201616/pulses/18324379245",
@@ -2804,45 +2804,6 @@
       "approvers": [],
       "date": null,
       "status": "IN PROGRESS",
-      "priority": "",
-      "summary": ""
-    },
-    {
-      "board": "Blog Content Creative Requests",
-      "short": "BLO",
-      "id": "11632264005",
-      "name": "Castle Doctrine - Infographic",
-      "url": "https://right-to-bear-association.monday.com/boards/18004001679/pulses/11632264005",
-      "assignees": [],
-      "approvers": [],
-      "date": null,
-      "status": "NEEDS REVIEW",
-      "priority": "",
-      "summary": ""
-    },
-    {
-      "board": "Blog Content Creative Requests",
-      "short": "BLO",
-      "id": "11632332178",
-      "name": "Red Flag Laws - Header Image",
-      "url": "https://right-to-bear-association.monday.com/boards/18004001679/pulses/11632332178",
-      "assignees": [],
-      "approvers": [],
-      "date": null,
-      "status": "NEEDS REVIEW",
-      "priority": "",
-      "summary": ""
-    },
-    {
-      "board": "Blog Content Creative Requests",
-      "short": "BLO",
-      "id": "11632332901",
-      "name": "Red Flag Laws - In-Text Images",
-      "url": "https://right-to-bear-association.monday.com/boards/18004001679/pulses/11632332901",
-      "assignees": [],
-      "approvers": [],
-      "date": null,
-      "status": "NEEDS REVIEW",
       "priority": "",
       "summary": ""
     },
@@ -4446,6 +4407,45 @@
       "summary": ""
     },
     {
+      "board": "Blog Content Creative Requests",
+      "short": "BLO",
+      "id": "11632264005",
+      "name": "Castle Doctrine - Infographic",
+      "url": "https://right-to-bear-association.monday.com/boards/18004001679/pulses/11632264005",
+      "assignees": [],
+      "approvers": [],
+      "date": null,
+      "status": "COMPLETE",
+      "priority": "",
+      "summary": ""
+    },
+    {
+      "board": "Blog Content Creative Requests",
+      "short": "BLO",
+      "id": "11632332178",
+      "name": "Red Flag Laws - Header Image",
+      "url": "https://right-to-bear-association.monday.com/boards/18004001679/pulses/11632332178",
+      "assignees": [],
+      "approvers": [],
+      "date": null,
+      "status": "COMPLETE",
+      "priority": "",
+      "summary": ""
+    },
+    {
+      "board": "Blog Content Creative Requests",
+      "short": "BLO",
+      "id": "11632332901",
+      "name": "Red Flag Laws - In-Text Images",
+      "url": "https://right-to-bear-association.monday.com/boards/18004001679/pulses/11632332901",
+      "assignees": [],
+      "approvers": [],
+      "date": null,
+      "status": "COMPLETE",
+      "priority": "",
+      "summary": ""
+    },
+    {
       "board": "Social Media Creative Requests",
       "short": "SOC",
       "id": "11733488800",
@@ -4480,7 +4480,59 @@
       "assignees": [],
       "approvers": [],
       "date": null,
+      "status": "COMPLETE",
+      "priority": "",
+      "summary": ""
+    },
+    {
+      "board": "Social Media Creative Requests",
+      "short": "SOC",
+      "id": "11831009874",
+      "name": "Mother's Day 2026 - Static Post",
+      "url": "https://right-to-bear-association.monday.com/boards/9668868754/pulses/11831009874",
+      "assignees": [],
+      "approvers": [],
+      "date": null,
+      "status": "IN PROGRESS",
+      "priority": "",
+      "summary": ""
+    },
+    {
+      "board": "Social Media Creative Requests",
+      "short": "SOC",
+      "id": "11830181650",
+      "name": "Machine Gun Ban Upheld by 11th circuit court",
+      "url": "https://right-to-bear-association.monday.com/boards/9668868754/pulses/11830181650",
+      "assignees": [],
+      "approvers": [],
+      "date": null,
       "status": "NEEDS REVIEW",
+      "priority": "",
+      "summary": ""
+    },
+    {
+      "board": "Social Media Creative Requests",
+      "short": "SOC",
+      "id": "11830246099",
+      "name": "Should all private property be \"no gun zones\" unless a \"guns welcome\" sign is in place? (Wolford v. Lopez)",
+      "url": "https://right-to-bear-association.monday.com/boards/9668868754/pulses/11830246099",
+      "assignees": [],
+      "approvers": [],
+      "date": null,
+      "status": "IN PROGRESS",
+      "priority": "",
+      "summary": ""
+    },
+    {
+      "board": "Social Media Creative Requests",
+      "short": "SOC",
+      "id": "11830515169",
+      "name": "9mm vs 10mm is the new ammo debate. What's your take?",
+      "url": "https://right-to-bear-association.monday.com/boards/9668868754/pulses/11830515169",
+      "assignees": [],
+      "approvers": [],
+      "date": null,
+      "status": "IN PROGRESS",
       "priority": "",
       "summary": ""
     },
@@ -6058,5 +6110,5 @@
       "summary": ""
     }
   ],
-  "last_updated": "2026-04-23T15:25:47.770941Z"
+  "last_updated": "2026-04-24T08:10:49.733794Z"
 }
