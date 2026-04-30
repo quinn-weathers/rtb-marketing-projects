@@ -2725,7 +2725,7 @@
       "assignees": [],
       "approvers": [],
       "date": null,
-      "status": "IN PROGRESS",
+      "status": "NEEDS REVIEW",
       "priority": "",
       "summary": ""
     },
@@ -2738,7 +2738,7 @@
       "assignees": [],
       "approvers": [],
       "date": null,
-      "status": "IN PROGRESS",
+      "status": "NEEDS REVIEW",
       "priority": "",
       "summary": ""
     },
@@ -2751,7 +2751,7 @@
       "assignees": [],
       "approvers": [],
       "date": null,
-      "status": "IN PROGRESS",
+      "status": "NEEDS REVIEW",
       "priority": "",
       "summary": ""
     },
@@ -2998,7 +2998,7 @@
       "assignees": [],
       "approvers": [],
       "date": null,
-      "status": "IN PROGRESS",
+      "status": "NEEDS REVIEW",
       "priority": "",
       "summary": ""
     },
@@ -4701,7 +4701,7 @@
       "assignees": [],
       "approvers": [],
       "date": null,
-      "status": "IN PROGRESS",
+      "status": "NEEDS REVIEW",
       "priority": "",
       "summary": ""
     },
@@ -4728,32 +4728,6 @@
       "approvers": [],
       "date": null,
       "status": "IN PROGRESS",
-      "priority": "",
-      "summary": ""
-    },
-    {
-      "board": "Social Media Creative Requests",
-      "short": "SOC",
-      "id": "11830246099",
-      "name": "Should all private property be \"no gun zones\" unless a \"guns welcome\" sign is in place? (Wolford v. Lopez)",
-      "url": "https://right-to-bear-association.monday.com/boards/9668868754/pulses/11830246099",
-      "assignees": [],
-      "approvers": [],
-      "date": null,
-      "status": "NEEDS REVIEW",
-      "priority": "",
-      "summary": ""
-    },
-    {
-      "board": "Social Media Creative Requests",
-      "short": "SOC",
-      "id": "11830515169",
-      "name": "9mm vs 10mm is the new ammo debate. What's your take?",
-      "url": "https://right-to-bear-association.monday.com/boards/9668868754/pulses/11830515169",
-      "assignees": [],
-      "approvers": [],
-      "date": null,
-      "status": "NEEDS REVIEW",
       "priority": "",
       "summary": ""
     },
@@ -6333,6 +6307,45 @@
     {
       "board": "Social Media Creative Requests",
       "short": "SOC",
+      "id": "11830246099",
+      "name": "Should all private property be \"no gun zones\" unless a \"guns welcome\" sign is in place? (Wolford v. Lopez)",
+      "url": "https://right-to-bear-association.monday.com/boards/9668868754/pulses/11830246099",
+      "assignees": [],
+      "approvers": [],
+      "date": null,
+      "status": "COMPLETE",
+      "priority": "",
+      "summary": ""
+    },
+    {
+      "board": "Social Media Creative Requests",
+      "short": "SOC",
+      "id": "11830515169",
+      "name": "9mm vs 10mm is the new ammo debate. What's your take?",
+      "url": "https://right-to-bear-association.monday.com/boards/9668868754/pulses/11830515169",
+      "assignees": [],
+      "approvers": [],
+      "date": null,
+      "status": "COMPLETE",
+      "priority": "",
+      "summary": ""
+    },
+    {
+      "board": "Social Media Creative Requests",
+      "short": "SOC",
+      "id": "11874261094",
+      "name": "May the 4th Post",
+      "url": "https://right-to-bear-association.monday.com/boards/9668868754/pulses/11874261094",
+      "assignees": [],
+      "approvers": [],
+      "date": null,
+      "status": "COMPLETE",
+      "priority": "",
+      "summary": ""
+    },
+    {
+      "board": "Social Media Creative Requests",
+      "short": "SOC",
       "id": "18387824808",
       "name": "Blog Highlight Template",
       "url": "https://right-to-bear-association.monday.com/boards/9668868754/pulses/18387824808",
@@ -6357,5 +6370,5 @@
       "summary": ""
     }
   ],
-  "last_updated": "2026-04-29T08:24:51.598573Z"
+  "last_updated": "2026-04-30T08:27:39.813655Z"
 }
