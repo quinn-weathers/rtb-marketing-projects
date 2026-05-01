@@ -1,0 +1,54 @@
+name: Post RTB brief to Teams
+
+# Triggered by the scheduled brief generator each morning when it pushes
+# a fresh daily-news-brief/_teams_card.json. The scheduled task can't POST
+# the webhook directly because its Cowork sandbox blocks outbound HTTPS to
+# Power Automate. GitHub Actions can.
+
+on:
+  push:
+    paths:
+      - 'daily-news-brief/_teams_card.json'
+  workflow_dispatch: {}  # allow manual re-fire from the Actions tab
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Verify card payload exists
+        run: |
+          if [ ! -f daily-news-brief/_teams_card.json ]; then
+            echo "::error::daily-news-brief/_teams_card.json not found"
+            exit 1
+          fi
+          echo "Card payload found, size: $(wc -c < daily-news-brief/_teams_card.json) bytes"
+
+      - name: POST adaptive card to Teams webhook
+        env:
+          TEAMS_URL: ${{ secrets.TEAMS_WEBHOOK_URL }}
+        run: |
+          if [ -z "$TEAMS_URL" ]; then
+            echo "::error::TEAMS_WEBHOOK_URL secret is not set. Add it under Settings → Secrets and variables → Actions."
+            exit 1
+          fi
+
+          HTTP_CODE=$(curl -sS -o /tmp/response.txt -w "%{http_code}" \
+            -X POST \
+            -H "Content-Type: application/json" \
+            --data-binary @daily-news-brief/_teams_card.json \
+            "$TEAMS_URL")
+
+          echo "HTTP $HTTP_CODE"
+          echo "Response body:"
+          cat /tmp/response.txt
+          echo ""
+
+          # Power Automate returns 200 or 202 on success
+          if [ "$HTTP_CODE" -ne 200 ] && [ "$HTTP_CODE" -ne 202 ]; then
+            echo "::error::Teams webhook returned HTTP $HTTP_CODE"
+            exit 1
+          fi
+
+          echo "::notice::Teams card posted successfully"
