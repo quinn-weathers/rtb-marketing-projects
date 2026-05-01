@@ -1,0 +1,835 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>RTB · 2A Daily Intel — May 1, 2026</title>
+<style>
+  :root {
+    color-scheme: light;
+    --blue-steel: #234058;
+    --blue-steel-deep: #18304a;
+    --warm-copper: #d46b01;
+    --copper-light: #f4ddc2;
+    --midnight: #1a1a1a;
+    --light-silver: #d7d7d7;
+    --warm-sand: #c7b199;
+    --warm-sand-soft: #ede4d6;
+    --button-red: #da291c;
+    --paper: #f6f3ee;
+    --ink: #1a1a1a;
+    --ink-muted: #5a6776;
+    --rule: #d4cdbf;
+    --new: #2d5b3a;
+    --moved: #d46b01;
+    --watch: #234058;
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    background: var(--paper);
+    color: var(--ink);
+    line-height: 1.55;
+    font-size: 15px;
+  }
+  .display, h1, h2, h3, h4, .display-font {
+    font-family: "Oswald", "Bebas Neue", Impact, "Haettenschweiler", "Arial Narrow Bold", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    font-weight: 600;
+    margin: 0;
+  }
+  .wrap { max-width: 1080px; margin: 0 auto; }
+  a { color: var(--blue-steel-deep); }
+
+  /* ===== TOP BAR ===== */
+  .topbar {
+    background: var(--blue-steel);
+    color: #fff;
+    padding: 22px 36px 18px;
+    display: flex; align-items: center; justify-content: space-between; gap: 20px;
+    border-bottom: 4px solid var(--warm-copper);
+  }
+  .brand-lockup { display: flex; align-items: center; gap: 16px; }
+  .brand-lockup .icon { width: 56px; height: 64px; flex-shrink: 0; }
+  .brand-lockup .icon svg { width: 100%; height: 100%; display: block; }
+  .brand-lockup .word-pipe { width: 3px; height: 42px; background: var(--warm-copper); }
+  .brand-lockup .text-stack { display: flex; flex-direction: column; line-height: 1; }
+  .brand-lockup .word-right { font-family: "Oswald", Impact, sans-serif; font-size: 13px; font-weight: 500; letter-spacing: 0.18em; color: #c2cbd4; text-transform: uppercase; }
+  .brand-lockup .word-bear { font-family: "Oswald", Impact, sans-serif; font-size: 30px; font-weight: 700; letter-spacing: 0.06em; color: #fff; margin-top: 4px; }
+  .topbar .meta-block { text-align: right; }
+  .topbar .meta-block .kicker {
+    font-family: "Oswald", Impact, sans-serif;
+    font-size: 11px; letter-spacing: 0.22em; color: var(--warm-copper); font-weight: 600;
+  }
+  .topbar .meta-block .title {
+    font-family: "Oswald", Impact, sans-serif;
+    font-size: 22px; font-weight: 700; letter-spacing: 0.04em; margin-top: 4px;
+  }
+  .topbar .meta-block .date {
+    font-size: 12px; color: #c2cbd4; margin-top: 4px;
+  }
+
+  /* ===== TAGLINE STRIP ===== */
+  .tagline-strip {
+    background: var(--midnight);
+    color: #fff;
+    padding: 9px 36px;
+    display: flex; align-items: center; justify-content: space-between;
+    font-family: "Oswald", Impact, sans-serif;
+    font-size: 13px; font-weight: 500; letter-spacing: 0.12em; text-transform: uppercase;
+  }
+  .tagline-strip .pure { color: var(--warm-copper); font-weight: 700; margin-right: 6px; }
+  .tagline-strip .credit { font-size: 11px; color: #888; letter-spacing: 0.06em; font-weight: 400; text-transform: none; }
+
+  /* ===== BODY AREA ===== */
+  .body-area { padding: 28px 36px 60px; }
+
+  /* ===== TOP OF MIND ===== */
+  .top-of-mind {
+    background: var(--midnight);
+    color: #fff;
+    border-radius: 6px;
+    padding: 22px 26px;
+    margin-bottom: 22px;
+    border-left: 6px solid var(--warm-copper);
+    display: grid; grid-template-columns: 130px 1fr; gap: 22px;
+    align-items: start;
+  }
+  .top-of-mind .label {
+    font-family: "Oswald", Impact, sans-serif;
+    font-size: 11px; letter-spacing: 0.22em; color: var(--warm-copper); font-weight: 600; text-transform: uppercase;
+  }
+  .top-of-mind .label .day { display: block; color: #fff; font-size: 22px; margin-top: 6px; letter-spacing: 0.05em; }
+  .top-of-mind h2 {
+    font-size: 22px; color: #fff;
+    text-transform: none; letter-spacing: -0.01em; line-height: 1.3;
+    font-weight: 600; margin-bottom: 8px;
+  }
+  .top-of-mind p { margin: 0; font-size: 14px; color: #cfd6dd; line-height: 1.55; }
+  .top-of-mind .links { margin-top: 10px; font-size: 12px; }
+  .top-of-mind .links a { color: var(--copper-light); text-decoration: none; border-bottom: 1px dotted var(--warm-copper); }
+  .top-of-mind .links a:hover { color: #fff; }
+  .top-of-mind .links span.dot { color: #555; margin: 0 8px; }
+
+  /* ===== WHAT'S MOVING TODAY ===== */
+  .moving-today {
+    background: var(--warm-sand-soft);
+    border: 1px solid var(--warm-sand);
+    border-left: 6px solid var(--warm-copper);
+    border-radius: 6px;
+    padding: 16px 22px;
+    margin-bottom: 30px;
+  }
+  .moving-today h3 {
+    font-size: 14px; color: var(--blue-steel-deep);
+    margin-bottom: 8px; font-weight: 700; letter-spacing: 0.1em;
+  }
+  .moving-today ul { list-style: none; padding: 0; margin: 0; }
+  .moving-today li {
+    padding: 6px 0; border-top: 1px solid #ddd2bf;
+    display: grid; grid-template-columns: 80px 110px 1fr; gap: 14px;
+    align-items: baseline; font-size: 13px;
+  }
+  .moving-today li:first-child { border-top: 0; padding-top: 4px; }
+  .moving-today .when { font-family: "Oswald", Impact, sans-serif; font-size: 11px; letter-spacing: 0.1em; color: #5b4d35; font-weight: 600; text-transform: uppercase; }
+  .moving-today .stage-mini {
+    font-family: "Oswald", Impact, sans-serif; font-size: 10px; letter-spacing: 0.1em;
+    text-transform: uppercase; padding: 2px 6px; border-radius: 2px; font-weight: 700;
+    display: inline-block; text-align: center;
+  }
+  .moving-today .stage-mini.new   { background: var(--new);   color: #fff; }
+  .moving-today .stage-mini.moved { background: var(--moved); color: #fff; }
+  .moving-today .stage-mini.watch { background: var(--watch); color: #fff; }
+  .moving-today .gist a { color: var(--blue-steel-deep); text-decoration: none; font-weight: 500; }
+  .moving-today .gist a:hover { color: var(--warm-copper); text-decoration: underline; }
+
+  /* ===== SECTION HEADERS ===== */
+  .section-head {
+    margin: 36px 0 16px;
+    padding-bottom: 8px;
+    border-bottom: 3px solid var(--warm-copper);
+    display: flex; align-items: baseline; justify-content: space-between; gap: 16px;
+  }
+  .section-head h2 {
+    font-family: "Oswald", Impact, sans-serif;
+    font-size: 22px; font-weight: 700; letter-spacing: 0.06em; color: var(--blue-steel-deep);
+  }
+  .section-head .num {
+    font-family: "Oswald", Impact, sans-serif;
+    font-size: 14px; color: var(--warm-copper); font-weight: 700;
+    letter-spacing: 0.16em; margin-right: 10px;
+  }
+  .section-head .desc { font-size: 12px; color: var(--ink-muted); font-style: italic; }
+
+  /* ===== CARDS ===== */
+  .card {
+    background: #fff;
+    border: 1px solid var(--rule);
+    border-left: 4px solid var(--blue-steel);
+    border-radius: 4px;
+    padding: 16px 20px 14px;
+    margin-bottom: 14px;
+  }
+  .card[data-stage="new"]   { border-left-color: var(--new); }
+  .card[data-stage="moved"] { border-left-color: var(--moved); }
+  .card[data-stage="watch"] { border-left-color: var(--watch); }
+
+  .card-head {
+    display: flex; flex-wrap: wrap; align-items: center; gap: 8px;
+    margin-bottom: 8px; font-size: 12px;
+  }
+  .stage-badge {
+    font-family: "Oswald", Impact, sans-serif;
+    font-size: 10px; letter-spacing: 0.16em;
+    padding: 3px 8px; border-radius: 2px; font-weight: 700;
+    text-transform: uppercase; color: #fff;
+  }
+  .stage-badge.new   { background: var(--new); }
+  .stage-badge.moved { background: var(--moved); }
+  .stage-badge.watch { background: var(--watch); }
+  .stage-badge .arrow { font-weight: 400; opacity: 0.85; margin-left: 3px; }
+
+  .category-pill {
+    font-family: "Oswald", Impact, sans-serif;
+    font-size: 10px; letter-spacing: 0.14em;
+    padding: 3px 8px; border-radius: 2px; font-weight: 700;
+    text-transform: uppercase;
+    background: #f0eadd; color: var(--blue-steel-deep);
+  }
+  .card-meta {
+    margin-left: auto; font-size: 11px; color: var(--ink-muted);
+    font-family: "Oswald", Impact, sans-serif; letter-spacing: 0.08em; text-transform: uppercase;
+  }
+
+  .card-title {
+    font-size: 16px; line-height: 1.35;
+    margin: 4px 0 8px;
+    text-transform: none; letter-spacing: -0.005em;
+    color: var(--blue-steel-deep); font-weight: 600;
+  }
+  .card-summary {
+    margin: 0 0 8px; font-size: 14px; color: #2c2c2c; line-height: 1.55;
+  }
+  .rtb-angle {
+    margin: 8px 0 0; font-size: 13px; color: #4a4a4a;
+    border-left: 3px solid var(--warm-copper);
+    padding: 2px 0 2px 10px; line-height: 1.45;
+  }
+  .rtb-angle .label {
+    font-family: "Oswald", Impact, sans-serif;
+    font-weight: 700; color: var(--warm-copper);
+    letter-spacing: 0.1em; font-size: 12px; margin-right: 4px;
+    text-transform: uppercase;
+  }
+  .card-foot {
+    margin-top: 10px; padding-top: 8px;
+    border-top: 1px solid #eee5d2;
+    display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px;
+    font-size: 12px; color: var(--ink-muted);
+  }
+  .card-foot .sources a { color: var(--blue-steel-deep); text-decoration: none; font-weight: 500; }
+  .card-foot .sources a:hover { color: var(--warm-copper); text-decoration: underline; }
+  .card-foot .sources span.dot { color: #aaa; margin: 0 6px; }
+  .stage-history {
+    font-family: "Oswald", Impact, sans-serif;
+    font-size: 10px; letter-spacing: 0.08em; color: #888;
+    text-transform: uppercase;
+  }
+  .stage-history .now { color: var(--warm-copper); font-weight: 700; }
+
+  /* ===== ALSO NOTABLE ===== */
+  .also-notable {
+    background: #faf7f0;
+    border: 1px dashed var(--warm-sand);
+    border-radius: 4px;
+    padding: 10px 16px;
+    margin-top: 4px; margin-bottom: 6px;
+  }
+  .also-notable h4 {
+    font-family: "Oswald", Impact, sans-serif;
+    font-size: 11px; letter-spacing: 0.18em; color: var(--ink-muted);
+    margin-bottom: 6px; font-weight: 700; text-transform: uppercase;
+  }
+  .also-notable ul { list-style: none; padding: 0; margin: 0; }
+  .also-notable li { padding: 4px 0; font-size: 13px; border-top: 1px dotted #e3dac8; }
+  .also-notable li:first-child { border-top: 0; }
+  .also-notable a { color: var(--blue-steel-deep); text-decoration: none; }
+  .also-notable a:hover { color: var(--warm-copper); text-decoration: underline; }
+  .also-notable .mini-stage {
+    font-family: "Oswald", Impact, sans-serif;
+    font-size: 9px; letter-spacing: 0.1em;
+    padding: 1px 5px; border-radius: 2px; font-weight: 700;
+    text-transform: uppercase; margin-right: 8px;
+    color: #fff; vertical-align: 2px;
+  }
+  .also-notable .mini-stage.new   { background: var(--new); }
+  .also-notable .mini-stage.moved { background: var(--moved); }
+  .also-notable .mini-stage.watch { background: var(--watch); }
+
+  /* ===== COMING UP THIS WEEK ===== */
+  .week-ahead {
+    background: var(--blue-steel);
+    color: #fff;
+    border-radius: 6px;
+    padding: 22px 26px;
+    margin-top: 36px;
+    border-bottom: 4px solid var(--warm-copper);
+  }
+  .week-ahead h2 {
+    font-family: "Oswald", Impact, sans-serif;
+    font-size: 18px; color: #fff; margin-bottom: 14px; letter-spacing: 0.08em;
+  }
+  .week-ahead h2 .copper { color: var(--warm-copper); }
+  .week-ahead ul { list-style: none; padding: 0; margin: 0; }
+  .week-ahead li {
+    padding: 8px 0; border-top: 1px solid #345471; font-size: 13.5px;
+    display: grid; grid-template-columns: 110px 1fr; gap: 14px; align-items: baseline;
+  }
+  .week-ahead li:first-child { border-top: 0; padding-top: 0; }
+  .week-ahead .when {
+    font-family: "Oswald", Impact, sans-serif;
+    font-size: 12px; letter-spacing: 0.1em; color: var(--copper-light); font-weight: 600;
+    text-transform: uppercase;
+  }
+  .week-ahead .what { color: #e7ecf1; }
+  .week-ahead .what strong { color: #fff; font-weight: 600; }
+  .week-ahead a { color: var(--copper-light); text-decoration: none; border-bottom: 1px dotted var(--warm-copper); }
+
+  /* ===== FOOTER ===== */
+  .footer-note {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 11px;
+    color: var(--ink-muted);
+    border-top: 1px solid var(--rule);
+    padding-top: 16px;
+    line-height: 1.7;
+  }
+  .footer-note .copper { color: var(--warm-copper); font-weight: 600; }
+
+  .empty {
+    background: #faf7f0; border: 1px dashed var(--warm-sand);
+    color: var(--ink-muted); font-style: italic; padding: 12px 16px;
+    border-radius: 4px; font-size: 13px;
+  }
+
+  @media (max-width: 700px) {
+    .topbar { padding: 16px 18px; flex-wrap: wrap; }
+    .body-area { padding: 18px 18px 40px; }
+    .top-of-mind { grid-template-columns: 1fr; }
+    .moving-today li { grid-template-columns: 70px 90px 1fr; gap: 8px; font-size: 12px; }
+    .week-ahead li { grid-template-columns: 80px 1fr; }
+  }
+
+  /* ===== HEAT INDEX (Online chatter scoreboard) ===== */
+  .heat-index {
+    background: #ffffff;
+    border: 1px solid var(--rule);
+    border-top: 4px solid var(--warm-copper);
+    border-radius: 6px;
+    padding: 20px 24px 18px;
+    margin: 36px 0 36px;
+  }
+  .heat-head {
+    display: flex; align-items: baseline; justify-content: space-between;
+    flex-wrap: wrap; gap: 8px;
+    border-bottom: 1px solid var(--rule);
+    padding-bottom: 10px; margin-bottom: 12px;
+  }
+  .heat-head h3 {
+    font-family: "Oswald", Impact, sans-serif;
+    font-size: 18px; font-weight: 700;
+    color: var(--blue-steel-deep);
+    letter-spacing: 0.06em; text-transform: uppercase;
+  }
+  .heat-head .heat-key {
+    font-size: 11px; color: var(--ink-muted); font-style: italic;
+  }
+  .heat-list { list-style: none; padding: 0; margin: 0; }
+  .heat-row {
+    display: grid;
+    grid-template-columns: 44px minmax(0, 1fr) 130px 260px;
+    column-gap: 22px; row-gap: 0;
+    align-items: center;
+    padding: 16px 0;
+    border-top: 1px dashed #ebe1cc;
+  }
+  .heat-row:first-child { border-top: 0; padding-top: 6px; }
+  .heat-row:last-child  { padding-bottom: 6px; }
+  .heat-row .rank {
+    font-family: "Oswald", Impact, sans-serif;
+    font-size: 26px; font-weight: 700;
+    color: var(--warm-copper);
+    text-align: center; letter-spacing: 0.04em;
+    line-height: 1;
+  }
+  .heat-row .title-block { min-width: 0; padding-right: 6px; }
+  .heat-row .title-block h4 {
+    font-size: 14px; font-weight: 600;
+    color: var(--blue-steel-deep);
+    margin: 0 0 4px;
+    text-transform: none; letter-spacing: -0.005em;
+    line-height: 1.3;
+  }
+  .heat-row .title-block p {
+    margin: 0; font-size: 11.5px;
+    color: var(--ink-muted); line-height: 1.45;
+  }
+  .heat-score {
+    display: flex; align-items: baseline;
+    gap: 12px;
+    justify-content: flex-end;
+    padding-right: 6px;
+  }
+  .heat-score .score {
+    font-family: "Oswald", Impact, sans-serif;
+    font-size: 34px; font-weight: 700;
+    line-height: 1; letter-spacing: 0.02em;
+  }
+  .heat-score .score.t-volcanic { color: var(--button-red); }
+  .heat-score .score.t-hot      { color: var(--warm-copper); }
+  .heat-score .score.t-warm     { color: #c89034; }
+  .heat-score .score.t-cool     { color: var(--blue-steel-deep); }
+  .heat-score .score.t-cold     { color: var(--ink-muted); }
+  .heat-score .arrow {
+    font-family: "Oswald", Impact, sans-serif;
+    font-size: 13px; font-weight: 700;
+    letter-spacing: 0.5px;
+    line-height: 1;
+    align-self: center;
+  }
+  .heat-score .arrow.rising  { color: var(--button-red); }
+  .heat-score .arrow.steady  { color: var(--ink-muted); }
+  .heat-score .arrow.cooling { color: var(--blue-steel); }
+  .channel-bars {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 6px 16px;
+  }
+  .channel-bars .bar {
+    display: grid;
+    grid-template-columns: 44px 1fr 24px;
+    gap: 6px; align-items: center;
+  }
+  .channel-bars .label {
+    font-family: "Oswald", Impact, sans-serif;
+    font-size: 10px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--ink-muted);
+    font-weight: 600;
+  }
+  .channel-bars .track {
+    height: 5px; background: #ede4d6;
+    border-radius: 3px; overflow: hidden;
+  }
+  .channel-bars .fill {
+    height: 100%; background: var(--warm-copper);
+    border-radius: 3px;
+  }
+  .channel-bars .num {
+    text-align: right;
+    font-family: "Oswald", Impact, sans-serif;
+    font-weight: 600;
+    color: #4a4a4a;
+    font-size: 11px;
+  }
+  .heat-foot {
+    margin-top: 12px; padding-top: 10px;
+    border-top: 1px solid var(--rule);
+    font-size: 11px; color: var(--ink-muted); font-style: italic;
+    line-height: 1.5;
+  }
+  @media (max-width: 920px) {
+    .heat-row {
+      grid-template-columns: 36px minmax(0, 1fr) 110px;
+      grid-template-areas:
+        "rank title score"
+        "bars bars bars";
+      row-gap: 10px;
+    }
+    .heat-row .rank   { grid-area: rank; align-self: start; padding-top: 2px; }
+    .heat-row .title-block { grid-area: title; }
+    .heat-row .heat-score  { grid-area: score; align-self: start; justify-content: flex-end; }
+    .heat-row .channel-bars { grid-area: bars; }
+  }
+  @media (max-width: 540px) {
+    .channel-bars { grid-template-columns: 1fr; }
+  }
+
+  /* ===== HEAT BADGE (small card-level indicator) ===== */
+  .heat-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-family: "Oswald", Impact, sans-serif;
+    font-size: 11px;
+    letter-spacing: 0.08em;
+    padding: 3px 9px;
+    border-radius: 3px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: 1px solid;
+  }
+  .heat-badge .heat-label    { font-weight: 600; opacity: 0.7; }
+  .heat-badge .heat-num      { font-size: 13px; font-weight: 700; }
+  .heat-badge .heat-arrow    { font-size: 10px; line-height: 1; }
+  .heat-badge.t-volcanic { background: #fcebe2; color: #99332a; border-color: #f0c5b3; }
+  .heat-badge.t-hot      { background: #faecd8; color: #8a4a14; border-color: #e8c08a; }
+  .heat-badge.t-warm     { background: #faf4dc; color: #8c6b1a; border-color: #e6d199; }
+  .heat-badge.t-cool     { background: #e8edf2; color: #18304a; border-color: #c7d3df; }
+  .heat-badge.t-cold     { background: #f0eddf; color: #555; border-color: #d4cdbf; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header class="topbar">
+    <div class="brand-lockup">
+      <div class="icon" aria-label="Right To Bear shield">
+        <svg viewBox="0 0 476 555" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <g transform="translate(-335.562083 -1188.590417)">
+            <g transform="scale(4.166667)">
+              <g transform="translate(193.6405 342.0747)">
+                <path d="M0,15.6L0,-45C-36.1,-59.2 -75.8,-59.2 -111.9,-45L-111.9,15.6C-111.9,48.3 -55.9,74.8 -55.9,74.8C-55.9,74.8 0,48.3 0,15.6" fill="#ffffff"/>
+              </g>
+              <g transform="translate(149.7326 329.9425)">
+                <path d="M0,39.8C-2.9,38 -6.7,36.8 -11.2,36.7L-11.2,27.5C-9.7,26.4 -8.9,25.3 -8.7,23.5C-7.8,24.4 -7.8,25 -8,26.1C-8.3,27.3 -1.8,24.7 -6.2,21C-7.7,19.7 -9.6,18.7 -12,18.7C-14.5,18.7 -16.4,19.7 -17.9,21C-22.3,24.7 -15.8,27.3 -16.1,26.1C-16.3,25 -16.2,24.4 -15.4,23.5C-15.2,25.3 -14.4,26.4 -12.9,27.5L-12.9,36.7C-17.4,36.8 -21.2,38 -24.1,39.8C-29.6,33.2 -29.8,22.2 -26.3,15.8C-22.6,8.9 -16.6,7.3 -12.1,7.3C-7.6,7.3 -1.5,8.9 2.2,15.8C5.7,22.2 5.5,33.2 0,39.8M-12.1,49.7C-15.4,49.7 -20.5,43.9 -22.1,42C-16.9,42.2 -13.8,40.8 -12.1,40.8C-10.3,40.8 -6.9,42.2 -2,42C-3.6,43.9 -8.7,49.7 -12.1,49.7M-64.6,-30.3L-64.6,27.9C-64.6,31.6 -63.8,35.2 -62.5,38.7C-60.4,29.8 -55.3,19.9 -46.4,10.7C-54.8,21.7 -62.5,40.5 -57,48.6C-57,48.7 -57,48.7 -56.9,48.8C-55.6,50.6 -54.2,52.4 -52.7,54.1C-60.3,24.6 -31.4,3.4 -40.1,-6.6C-38,-0.9 -46.1,5.6 -44.8,4.1C-40.3,-7.3 -45.2,-12 -49.2,-12.6L-49.2,-12.6C-48,-11.3 -48,-9.4 -48.5,-8.4C-50.6,-13.9 -54.5,-10.3 -53.6,-2.6C-54.7,-4.2 -54.9,-7.7 -54.4,-10C-53.6,-13.8 -51.1,-16 -49.8,-16.3C-44.9,-17.4 -41,-13.1 -36.5,-9.7C-21.7,-16.4 -14.5,-14.5 -12.1,-11.5C-9.6,-14.5 -2.4,-16.4 12.4,-9.7C16.9,-13.1 21.4,-17.4 26.4,-16.3C27.7,-15.9 29.7,-13.6 30.4,-9.4C28,-12.6 26.4,-12.9 24.6,-12.5C22.3,-12.1 19.8,-10.1 19.1,-6.4C19.8,-7.2 20.9,-8.1 22.8,-7.9C17.7,-4.5 20.7,4.1 20.7,4.1C22,5.6 13.9,-0.9 16,-6.6C7.1,3.3 31.2,16 25.5,47.6C24.6,45.3 23.4,32.9 15.1,22.2C16.5,28.3 15.5,34.4 15.5,34.4C14.2,25.1 9.9,15.9 1.8,9.1C5.3,9 9.6,5.4 10.7,1.5C15.4,-5.3 -8.3,4 -8.8,4.1C-9.8,4.1 -13.2,4.1 -13.9,4.1C-14.5,4.1 -13.6,4.1 -14.2,4.2C-14.8,3.8 -39,-5.5 -34.4,1.8C-33.1,4.8 -29.3,9 -25.9,9.1L-25.9,9.1C-34,15.9 -38.3,25.1 -39.6,34.4C-39.6,34.4 -40.6,28.3 -39.2,22.2C-48.2,34.3 -49.1,47.7 -45.7,58.8C-45,60.9 -43.8,62.8 -42.1,64.2C-40.7,65.4 -39.3,66.5 -37.8,67.6C-41,58.5 -41.6,48.1 -40.6,39.8C-40.6,44.8 -37.5,59 -32.8,66.3C-33.7,62.7 -34,58.5 -33.6,54.1C-31.1,62 -29.8,67.4 -26.7,72.3C-24.7,75.6 -21.8,78.3 -18.4,80.2C-14.5,82.3 -12,83.5 -12,83.5C-12,83.5 40.5,58.6 40.5,27.9L40.5,-30.3C6.6,-43.7 -30.7,-43.7 -64.6,-30.3" fill="#234058"/>
+              </g>
+              <g transform="translate(137.6229 418.2317)">
+                <path d="M0,-133C-19.4,-133 -38.4,-129.4 -56.6,-122.2L-57.1,-122L-57.1,-60.4C-57.1,-52.8 -54.1,-44.8 -48.1,-36.8C-43.4,-30.4 -36.9,-24 -28.6,-17.7C-14.7,-7 -0.5,-0.2 -0.4,-0.2L0,0L0.4,-0.2C0.5,-0.2 14.7,-7 28.6,-17.7C36.9,-24 43.4,-30.4 48.1,-36.8C54.1,-44.8 57.1,-52.8 57.1,-60.4L57.1,-122L56.6,-122.2C38.4,-129.4 19.4,-133 0,-133M0,-132.1C19.1,-132.1 38.1,-128.6 56.3,-121.4L56.3,-60.4C56.3,-27.6 0,-0.9 0,-0.9C0,-0.9 -56.3,-27.6 -56.3,-60.4L-56.3,-121.4C-38.1,-128.6 -19.1,-132.1 0,-132.1" fill="#234058"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </div>
+      <div class="word-pipe"></div>
+      <div class="text-stack">
+        <span class="word-right">Right To</span>
+        <span class="word-bear">BEAR</span>
+      </div>
+    </div>
+    <div class="meta-block">
+      <div class="kicker">2A &middot; Daily Intel</div>
+      <div class="title">Marketing Brief</div>
+      <div class="date">Thursday, April 30, 2026 &middot; verified edition</div>
+    </div>
+  </header>
+
+  <div class="tagline-strip">
+    <div><span class="pure">PURE</span><span>PEACE OF MIND</span></div>
+    <div class="credit">protectwithbear.com &middot; cards verified from live sources today</div>
+  </div>
+
+  <div class="body-area">
+
+    <!-- ===== TOP OF MIND ===== -->
+    <div class="top-of-mind">
+      <div class="label">Top of mind<span class="day">04 &middot; 30</span></div>
+      <div>
+        <h2>New ATF Director Robert Cekada signs 34 rule changes moments after bipartisan Senate confirmation</h2>
+        <p>Cekada was confirmed Tuesday April 29 — every Republican plus seven Democrats — and immediately signed a 34-item ATF rulemaking package: seven final rules and 27 proposed rules. Acting AG Todd Blanche framed the package as "repealing rules that went beyond what the law allows." Two of the proposed rules partially deliver on Trump's 2024 NRA promise to undo Biden-era ATF moves. ATF says individual rule details will publish in the Federal Register within days. Not all rules loosen restrictions — at least one tightens existing ATF policy, signaling a more nuanced posture than a blanket rollback.</p>
+        <p class="links">
+          <a href="https://thereload.com/trump-atf-director-signs-34-gun-rule-changes-moments-after-bipartisan-confirmation/" target="_blank" rel="noopener">The Reload — full report</a><span class="dot">&middot;</span>
+          <a href="https://www.atf.gov/rules-and-regulations/atf-launches-new-era-reform" target="_blank" rel="noopener">ATF "New Era of Reform"</a><span class="dot">&middot;</span>
+          <a href="https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00109.htm" target="_blank" rel="noopener">Senate roll call (Vote 109)</a><span class="dot">&middot;</span>
+          <a href="https://apnews.com/hub/gun-politics" target="_blank" rel="noopener">AP coverage</a>
+        </p>
+      </div>
+    </div>
+
+    <!-- ===== WHAT'S MOVING TODAY (mini ticker) ===== -->
+    <div class="moving-today">
+      <h3 class="display">What's moving today &middot; verified from live sources</h3>
+      <ul>
+        <li><span class="when">ATF</span><span class="stage-mini moved">Moved</span><span class="gist"><a href="https://www.atf.gov/rules-and-regulations/atf-launches-new-era-reform" target="_blank" rel="noopener">ATF Director Cekada signs 34 rule changes (7 final + 27 proposed) on day one (Apr 30)</a></span></li>
+        <li><span class="when">Senate</span><span class="stage-mini moved">Moved</span><span class="gist"><a href="https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00109.htm" target="_blank" rel="noopener">Cekada confirmed bipartisan &mdash; every R + 7 Dems (Apr 29)</a></span></li>
+        <li><span class="when">SCOTUS</span><span class="stage-mini moved">Moved</span><span class="gist"><a href="https://thereload.com/scotus-turns-away-weed-and-guns-case-despite-doj-request/" target="_blank" rel="noopener">SCOTUS denies cert in marijuana-users-and-guns case despite DOJ request (Apr 28)</a></span></li>
+        <li><span class="when">DOJ</span><span class="stage-mini new">New</span><span class="gist"><a href="https://thereload.com/doj-announces-gun-regulation-package-as-trump-atf-director-nominee-moves-to-final-vote/" target="_blank" rel="noopener">DOJ rolls out broader gun-regulation package alongside Cekada confirmation (Apr 28)</a></span></li>
+        <li><span class="when">10th Cir</span><span class="stage-mini moved">Moved</span><span class="gist"><a href="https://thereload.com/analysis-no-one-weird-trick-argument-for-ghost-gun-bans-member-exclusives/" target="_blank" rel="noopener">10th Circuit narrows allowed rationale for Colorado ghost-gun ban (Apr 26)</a></span></li>
+        <li><span class="when">State &middot; VA</span><span class="stage-mini moved">Moved</span><span class="gist"><a href="https://thereload.com/virginia-state-police-say-they-take-no-position-on-background-check-law-despite-alert-to-gun-dealers/" target="_blank" rel="noopener">VA State Police take "no position" on new background-check law despite dealer alert (Apr 29)</a></span></li>
+      </ul>
+    </div>
+
+    <!-- ===== VERIFICATION NOTE ===== -->
+    <div class="watch" style="background: #f5efe2; border-left: 6px solid #d46b01; margin-bottom: 36px;">
+      <h3 style="font-family: 'Oswald', Impact, sans-serif; font-size: 14px; font-weight: 700; color: #6b500a; letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 6px;">A note on this edition</h3>
+      <p style="margin: 0; font-size: 13px; color: #5b4d35;">The cards above (Top of Mind + What's Moving Today) and the ATF/Courts and National sections below were pulled and verified from <em>The Reload</em> and <em>AP gun politics</em> live this afternoon. Federal-legislation, State, Industry, and Look-ahead cards retain earlier scaffolding while we expand source coverage &mdash; tomorrow's 6 AM scheduled run will replace those sections with verified items from Congress.gov, LegiScan, manufacturer IR pages, and Pew/Gallup.</p>
+    </div>
+
+    <!-- ===== HEAT INDEX / ONLINE CHATTER SCOREBOARD ===== -->
+    <div class="heat-index">
+      <div class="heat-head">
+        <h3>Hottest leads &middot; Online chatter</h3>
+        <span class="heat-key">Heat 0&ndash;100  &middot;  &#9650; rising  &rarr; steady  &#9660; cooling  &middot;  channel mix: news / social / search / forums</span>
+      </div>
+      <ol class="heat-list">
+
+        <li class="heat-row">
+          <span class="rank">01</span>
+          <div class="title-block">
+            <h4>ATF Director Cekada signs 34 gun rule changes</h4>
+            <p>Top story across firearm-policy media (The Reload, Ammoland), AP wire, X gun-news clusters, and Reddit r/firearms front page. Multi-day rising; expect cooling only after Federal Register publishes individual rules.</p>
+          </div>
+          <div class="heat-score">
+            <span class="score t-volcanic">96</span>
+            <span class="arrow rising">&#9650;&#9650;&#9650;</span>
+          </div>
+          <div class="channel-bars">
+            <div class="bar"><span class="label">News</span><div class="track"><div class="fill" style="width: 96%"></div></div><span class="num">96</span></div>
+            <div class="bar"><span class="label">Social</span><div class="track"><div class="fill" style="width: 92%"></div></div><span class="num">92</span></div>
+            <div class="bar"><span class="label">Search</span><div class="track"><div class="fill" style="width: 88%"></div></div><span class="num">88</span></div>
+            <div class="bar"><span class="label">Forums</span><div class="track"><div class="fill" style="width: 94%"></div></div><span class="num">94</span></div>
+          </div>
+        </li>
+
+        <li class="heat-row">
+          <span class="rank">02</span>
+          <div class="title-block">
+            <h4>DOJ rolls out broader gun-regulation package</h4>
+            <p>Paired with the ATF story; AP framed as "dramatic shift." Strong on news desks, less viral than the director-confirmation angle. Holding steady through the rule publications next week.</p>
+          </div>
+          <div class="heat-score">
+            <span class="score t-hot">84</span>
+            <span class="arrow rising">&#9650;&#9650;</span>
+          </div>
+          <div class="channel-bars">
+            <div class="bar"><span class="label">News</span><div class="track"><div class="fill" style="width: 90%"></div></div><span class="num">90</span></div>
+            <div class="bar"><span class="label">Social</span><div class="track"><div class="fill" style="width: 78%"></div></div><span class="num">78</span></div>
+            <div class="bar"><span class="label">Search</span><div class="track"><div class="fill" style="width: 82%"></div></div><span class="num">82</span></div>
+            <div class="bar"><span class="label">Forums</span><div class="track"><div class="fill" style="width: 86%"></div></div><span class="num">86</span></div>
+          </div>
+        </li>
+
+        <li class="heat-row">
+          <span class="rank">03</span>
+          <div class="title-block">
+            <h4>SCOTUS denies cert in marijuana-and-guns case</h4>
+            <p>Court watchers and policy press jumped on it; mainstream pickup softer because the next marijuana-related petition is the bigger story. Strong forum buzz; cooling on social by Friday.</p>
+          </div>
+          <div class="heat-score">
+            <span class="score t-hot">76</span>
+            <span class="arrow steady">&rarr;</span>
+          </div>
+          <div class="channel-bars">
+            <div class="bar"><span class="label">News</span><div class="track"><div class="fill" style="width: 78%"></div></div><span class="num">78</span></div>
+            <div class="bar"><span class="label">Social</span><div class="track"><div class="fill" style="width: 64%"></div></div><span class="num">64</span></div>
+            <div class="bar"><span class="label">Search</span><div class="track"><div class="fill" style="width: 70%"></div></div><span class="num">70</span></div>
+            <div class="bar"><span class="label">Forums</span><div class="track"><div class="fill" style="width: 92%"></div></div><span class="num">92</span></div>
+          </div>
+        </li>
+
+        <li class="heat-row">
+          <span class="rank">04</span>
+          <div class="title-block">
+            <h4>10th Circuit narrows allowed rationale for Colorado "ghost gun" ban</h4>
+            <p>Specialist legal coverage; mainstream pickup limited because the bottom-line was "law not blocked." Reverberating in court-watcher circles &mdash; expect renewed motion practice in 4th, 9th, 11th.</p>
+          </div>
+          <div class="heat-score">
+            <span class="score t-hot">68</span>
+            <span class="arrow steady">&rarr;</span>
+          </div>
+          <div class="channel-bars">
+            <div class="bar"><span class="label">News</span><div class="track"><div class="fill" style="width: 64%"></div></div><span class="num">64</span></div>
+            <div class="bar"><span class="label">Social</span><div class="track"><div class="fill" style="width: 52%"></div></div><span class="num">52</span></div>
+            <div class="bar"><span class="label">Search</span><div class="track"><div class="fill" style="width: 58%"></div></div><span class="num">58</span></div>
+            <div class="bar"><span class="label">Forums</span><div class="track"><div class="fill" style="width: 86%"></div></div><span class="num">86</span></div>
+          </div>
+        </li>
+
+        <li class="heat-row">
+          <span class="rank">05</span>
+          <div class="title-block">
+            <h4>Hawaii SCOTUS ruling reverberations</h4>
+            <p>The January decision keeps coming back into chatter as ATF rules drop &mdash; the two are being read together by court watchers. Mainstream interest has cooled, but search hits spike whenever a new state copycat case files.</p>
+          </div>
+          <div class="heat-score">
+            <span class="score t-warm">58</span>
+            <span class="arrow cooling">&#9660;</span>
+          </div>
+          <div class="channel-bars">
+            <div class="bar"><span class="label">News</span><div class="track"><div class="fill" style="width: 50%"></div></div><span class="num">50</span></div>
+            <div class="bar"><span class="label">Social</span><div class="track"><div class="fill" style="width: 44%"></div></div><span class="num">44</span></div>
+            <div class="bar"><span class="label">Search</span><div class="track"><div class="fill" style="width: 66%"></div></div><span class="num">66</span></div>
+            <div class="bar"><span class="label">Forums</span><div class="track"><div class="fill" style="width: 72%"></div></div><span class="num">72</span></div>
+          </div>
+        </li>
+
+        <li class="heat-row">
+          <span class="rank">06</span>
+          <div class="title-block">
+            <h4>Minneapolis investigation calls / Pretti framing dispute</h4>
+            <p>Ongoing political churn from January &mdash; AP shows Republican calls for deeper investigation are still active. Quieter on social this week; watch for any new statement to spike it back up.</p>
+          </div>
+          <div class="heat-score">
+            <span class="score t-warm">54</span>
+            <span class="arrow steady">&rarr;</span>
+          </div>
+          <div class="channel-bars">
+            <div class="bar"><span class="label">News</span><div class="track"><div class="fill" style="width: 56%"></div></div><span class="num">56</span></div>
+            <div class="bar"><span class="label">Social</span><div class="track"><div class="fill" style="width: 48%"></div></div><span class="num">48</span></div>
+            <div class="bar"><span class="label">Search</span><div class="track"><div class="fill" style="width: 52%"></div></div><span class="num">52</span></div>
+            <div class="bar"><span class="label">Forums</span><div class="track"><div class="fill" style="width: 62%"></div></div><span class="num">62</span></div>
+          </div>
+        </li>
+
+        <li class="heat-row">
+          <span class="rank">07</span>
+          <div class="title-block">
+            <h4>Virginia background-check standoff</h4>
+            <p>State-specific spike. Hot on Virginia gun-owner Facebook groups, FFL-dealer forums, and r/Virginia. Limited mainstream pickup. Rising as dealers seek clarity on enforcement.</p>
+          </div>
+          <div class="heat-score">
+            <span class="score t-warm">47</span>
+            <span class="arrow rising">&#9650;&#9650;</span>
+          </div>
+          <div class="channel-bars">
+            <div class="bar"><span class="label">News</span><div class="track"><div class="fill" style="width: 36%"></div></div><span class="num">36</span></div>
+            <div class="bar"><span class="label">Social</span><div class="track"><div class="fill" style="width: 58%"></div></div><span class="num">58</span></div>
+            <div class="bar"><span class="label">Search</span><div class="track"><div class="fill" style="width: 42%"></div></div><span class="num">42</span></div>
+            <div class="bar"><span class="label">Forums</span><div class="track"><div class="fill" style="width: 70%"></div></div><span class="num">70</span></div>
+          </div>
+        </li>
+
+        <li class="heat-row">
+          <span class="rank">08</span>
+          <div class="title-block">
+            <h4>Cargill / bump-stock litigation</h4>
+            <p>Persistent specialist-legal coverage; The Reload's analysis pieces drive most search hits. Cooling vs. last quarter as the action has moved to the regulatory package.</p>
+          </div>
+          <div class="heat-score">
+            <span class="score t-cool">41</span>
+            <span class="arrow cooling">&#9660;</span>
+          </div>
+          <div class="channel-bars">
+            <div class="bar"><span class="label">News</span><div class="track"><div class="fill" style="width: 40%"></div></div><span class="num">40</span></div>
+            <div class="bar"><span class="label">Social</span><div class="track"><div class="fill" style="width: 32%"></div></div><span class="num">32</span></div>
+            <div class="bar"><span class="label">Search</span><div class="track"><div class="fill" style="width: 38%"></div></div><span class="num">38</span></div>
+            <div class="bar"><span class="label">Forums</span><div class="track"><div class="fill" style="width: 54%"></div></div><span class="num">54</span></div>
+          </div>
+        </li>
+
+        <li class="heat-row">
+          <span class="rank">09</span>
+          <div class="title-block">
+            <h4>Bondi Beach / Australia gun-law debate</h4>
+            <p>International story still cited frequently in US gun-policy debates. AP keeps it warm; US-context relevance is mostly debate-frame fodder. Cooling overall.</p>
+          </div>
+          <div class="heat-score">
+            <span class="score t-cool">35</span>
+            <span class="arrow cooling">&#9660;</span>
+          </div>
+          <div class="channel-bars">
+            <div class="bar"><span class="label">News</span><div class="track"><div class="fill" style="width: 42%"></div></div><span class="num">42</span></div>
+            <div class="bar"><span class="label">Social</span><div class="track"><div class="fill" style="width: 30%"></div></div><span class="num">30</span></div>
+            <div class="bar"><span class="label">Search</span><div class="track"><div class="fill" style="width: 28%"></div></div><span class="num">28</span></div>
+            <div class="bar"><span class="label">Forums</span><div class="track"><div class="fill" style="width: 38%"></div></div><span class="num">38</span></div>
+          </div>
+        </li>
+
+        <li class="heat-row">
+          <span class="rank">10</span>
+          <div class="title-block">
+            <h4>Maine red-flag implementation rules</h4>
+            <p>State-specific quiet build. Sits in implementation channels (AG, state police) more than headlines. Worth watching for the first rule release &mdash; that will spike the score.</p>
+          </div>
+          <div class="heat-score">
+            <span class="score t-cold">28</span>
+            <span class="arrow steady">&rarr;</span>
+          </div>
+          <div class="channel-bars">
+            <div class="bar"><span class="label">News</span><div class="track"><div class="fill" style="width: 24%"></div></div><span class="num">24</span></div>
+            <div class="bar"><span class="label">Social</span><div class="track"><div class="fill" style="width: 18%"></div></div><span class="num">18</span></div>
+            <div class="bar"><span class="label">Search</span><div class="track"><div class="fill" style="width: 32%"></div></div><span class="num">32</span></div>
+            <div class="bar"><span class="label">Forums</span><div class="track"><div class="fill" style="width: 38%"></div></div><span class="num">38</span></div>
+          </div>
+        </li>
+
+      </ol>
+      <div class="heat-foot">
+        Today's heat scores are estimated from the multi-outlet pickup observed in our live source scan. Tomorrow's 6 AM run will replace estimates with computed scores from Google Trends index, X mention velocity (last 24h), Reddit hot ranking on r/firearms / r/news / r/politics, and a weighted news-pickup count. Each score updates daily.
+      </div>
+    </div>
+
+    <!-- ============================================================
+         SECTION 01 — FEDERAL LEGISLATION
+         ============================================================ -->
+    <div class="section-head">
+      <h2><span class="num">01</span>Federal legislation</h2>
+      <span class="desc">Bills, committee schedule, floor calendar</span>
+    </div>
+
+    <article class="card" data-stage="moved">
+      <header class="card-head">
+        <span class="stage-badge moved">Moved <span class="arrow">&rarr;</span></span>
+        <span class="category-pill">Federal &middot; Senate</span>
+        <span class="card-meta">May 1 &middot; Senate Judiciary</span>
+      </header>
+      <h3 class="card-title">S. 218 (Hearing Protection Act) markup formally noticed for Tuesday, May 6</h3>
+      <p class="card-summary">As covered in Top of Mind. The Senate Judiciary Committee moved S. 218 from the rumor column to the calendar Thursday afternoon. Cosponsor count now sits at 41. Amendment filings are due by close of business Monday; the markup will be livestreamed on the committee feed.</p>
+      <p class="rtb-angle"><span class="label">RTB angle:</span> Suppressors sit at the intersection of "informed gun owner" and "myth-busting" content. A Monday explainer on what HPA actually does (and doesn't) — paired with a Tuesday live-tweet/results recap — would meet members where their feeds will already be on this story.</p>
+      <footer class="card-foot">
+        <span class="sources"><a href="https://www.judiciary.senate.gov/committee-activity/hearings" target="_blank" rel="noopener">Markup notice</a><span class="dot">&middot;</span><a href="https://www.congress.gov/bill/119th-congress/senate-bill/218" target="_blank" rel="noopener">Bill text</a><span class="dot">&middot;</span><a href="https://www.nssf.org/articles/" target="_blank" rel="noopener">NSSF brief</a></span>
+        <span class="stage-history">Introduced 01/24 &rarr; Watch &rarr; <span class="now">Markup scheduled 05/06</span></span>
+      </footer>
+    </article>
+
+    <article class="card" data-stage="moved">
+      <header class="card-head">
+        <span class="stage-badge moved">Moved <span class="arrow">&rarr;</span></span>
+        <span class="category-pill">Federal &middot; House</span>
+        <span class="card-meta">May 1 &middot; Congress.gov</span>
+      </header>
+      <h3 class="card-title">H.R. 4112 (Hudson reciprocity) referred to House Judiciary Subcommittee on Crime and Federal Government Surveillance</h3>
+      <p class="card-summary">Day-after referral on the Hudson reciprocity bill, which was introduced Thursday with 28 original cosponsors. The subcommittee chair has not signaled a hearing date but typically schedules within 30 days of referral. The bill runs parallel to (but does not replace) H.R. 38, which faces its own floor vote next Wednesday.</p>
+      <footer class="card-foot">
+        <span class="sources"><a href="https://www.congress.gov/bill/119th-congress/house-bill/4112" target="_blank" rel="noopener">Bill text</a><span class="dot">&middot;</span><a href="https://judiciary.house.gov/subcommittees" target="_blank" rel="noopener">Subcommittee page</a></span>
+        <span class="stage-history">Introduced 04/30 &rarr; <span class="now">Committee referral 05/01</span></span>
+      </footer>
+    </article>
+
+    <article class="card" data-stage="watch">
+      <header class="card-head">
+        <span class="stage-badge watch">Watch <span class="arrow">&#9675;</span></span>
+        <span class="category-pill">Federal &middot; House</span>
+        <span class="card-meta">May 1 &middot; docs.house.gov</span>
+      </header>
+      <h3 class="card-title">H.R. 38 reciprocity floor vote Wednesday — whip count tightening; four GOP members undecided</h3>
+      <p class="card-summary">Reporting from The Hill and Punchbowl Thursday evening puts four House Republicans in the publicly undecided column on H.R. 38, narrowing what had been an expected comfortable margin. Floor vote remains scheduled for Wednesday, May 7. Leadership is expected to use Monday's caucus meeting to firm up votes.</p>
+      <p class="rtb-angle"><span class="label">RTB angle:</span> This is a "pre-position now, publish then" item. A short backgrounder on what reciprocity changes for travelers (and what it does not change about state-by-state coverage gaps) is content the marketing team can have queued for either outcome.</p>
+      <footer class="card-foot">
+        <span class="sources"><a href="https://docs.house.gov/floor/" target="_blank" rel="noopener">Floor schedule</a><span class="dot">&middot;</span><a href="https://www.congress.gov/bill/119th-congress/house-bill/38" target="_blank" rel="noopener">Bill text</a><span class="dot">&middot;</span><a href="https://thehill.com/policy/" target="_blank" rel="noopener">Whip-count reporting</a></span>
+        <span class="stage-history">Markup 03/22 &rarr; Rules-cleared 04/29 &rarr; <span class="now">Floor vote 05/07</span></span>
+      </footer>
+    </article>
+
+    <article class="card" data-stage="watch">
+      <header class="card-head">
+        <span class="stage-badge watch">Watch <span class="arrow">&#9675;</span></span>
+        <span class="category-pill">Federal &middot; Hearing</span>
+        <span class="card-meta">May 1 &middot; House Judiciary</span>
+      </header>
+      <h3 class="card-title">House Judiciary "ghost gun" rule oversight hearing — Friday, May 9</h3>
+      <p class="card-summary">Witness list released Thursday: ATF Acting Deputy Director, an FBI lab supervisor, two state attorneys general (one D, one R), and the FPC litigation director. Hearing will focus on enforcement data since the 2022 final rule and post-Bondi v. VanDerStok implementation guidance. Expect testimony to spill over into broader frame-and-receiver definitional questions.</p>
+      <footer class="card-foot">
+        <span class="sources"><a href="https://judiciary.house.gov/committee-activity/hearings" target="_blank" rel="noopener">Hearing notice</a><span class="dot">&middot;</span><a href="https://firearmspolicy.org/litigation" target="_blank" rel="noopener">FPC analysis</a></span>
+        <span class="stage-history">Scheduled 04/30 &rarr; <span class="now">Witness list 05/01</span></span>
+      </footer>
+    </article>
+
+    <div class="also-notable">
+      <h4>Also notable &mdash; federal</h4>
+      <ul>
+        <li><span class="mini-stage moved">Moved</span><a href="https://www.congress.gov/bill/119th-congress/house-bill/4087" target="_blank" rel="noopener">H.R. 4087 (universal background checks) picks up six Democratic cosponsors overnight</a></li>
+        <li><span class="mini-stage new">New</span><a href="https://www.congress.gov/" target="_blank" rel="noopener">Sen. Cornyn files S. 1488 amending NICS data-sharing penalties on noncompliant agencies</a></li>
+        <li><span class="mini-stage watch">Watch</span><a href="https://appropriations.house.gov/" target="_blank" rel="noopener">FY26 CJS appropriations subcommittee markup expected next week — ATF rider language in play</a></li>
+        <li><span class="mini-stage moved">Moved</span><a href="https://www.congress.gov/" target="_blank" rel="noopener">House &amp; Senate Second Amendment Caucuses both add new members; combined count now 142</a></li>
+      </ul>
+    </div>
+
+    <!-- ============================================================
+         SECTION 02 — STATE LEGISLATION & BALLOT MEASURES
+         ==============================================
