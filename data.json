@@ -132,6 +132,32 @@
     {
       "board": "Marketing Requests",
       "short": "MAR",
+      "id": "11736339015",
+      "name": "Workshop Certificate of Completion.",
+      "url": "https://right-to-bear-association.monday.com/boards/9533201616/pulses/11736339015",
+      "assignees": [],
+      "approvers": [],
+      "date": null,
+      "status": "IN PROGRESS",
+      "priority": "",
+      "summary": ""
+    },
+    {
+      "board": "Marketing Requests",
+      "short": "MAR",
+      "id": "11899324601",
+      "name": "New Member Packet",
+      "url": "https://right-to-bear-association.monday.com/boards/9533201616/pulses/11899324601",
+      "assignees": [],
+      "approvers": [],
+      "date": null,
+      "status": "IN PROGRESS",
+      "priority": "",
+      "summary": ""
+    },
+    {
+      "board": "Marketing Requests",
+      "short": "MAR",
       "id": "18345577359",
       "name": "Strategos - Partnership Announcement - Press Release",
       "url": "https://right-to-bear-association.monday.com/boards/9533201616/pulses/18345577359",
@@ -174,19 +200,6 @@
       "id": "10676047841",
       "name": "Field Material - Generic TriFold [REDESIGN]",
       "url": "https://right-to-bear-association.monday.com/boards/9533201616/pulses/10676047841",
-      "assignees": [],
-      "approvers": [],
-      "date": null,
-      "status": "NEEDS REVIEW",
-      "priority": "",
-      "summary": ""
-    },
-    {
-      "board": "Marketing Requests",
-      "short": "MAR",
-      "id": "11736339015",
-      "name": "Workshop Certificate of Completion.",
-      "url": "https://right-to-bear-association.monday.com/boards/9533201616/pulses/11736339015",
       "assignees": [],
       "approvers": [],
       "date": null,
@@ -2704,19 +2717,6 @@
       "summary": ""
     },
     {
-      "board": "Marketing Requests",
-      "short": "MAR",
-      "id": "10812394175",
-      "name": "New Years 2026 - Email Banner - Price and Benefits Upsell",
-      "url": "https://right-to-bear-association.monday.com/boards/9533201616/pulses/10812394175",
-      "assignees": [],
-      "approvers": [],
-      "date": null,
-      "status": "DENIED",
-      "priority": "",
-      "summary": ""
-    },
-    {
       "board": "Blog Content Creative Requests",
       "short": "BLO",
       "id": "11481120412",
@@ -2738,7 +2738,7 @@
       "assignees": [],
       "approvers": [],
       "date": null,
-      "status": "IN PROGRESS",
+      "status": "NEEDS REVIEW",
       "priority": "",
       "summary": ""
     },
@@ -2751,7 +2751,7 @@
       "assignees": [],
       "approvers": [],
       "date": null,
-      "status": "IN PROGRESS",
+      "status": "NEEDS REVIEW",
       "priority": "",
       "summary": ""
     },
@@ -6370,5 +6370,5 @@
       "summary": ""
     }
   ],
-  "last_updated": "2026-05-01T08:18:02.365559Z"
+  "last_updated": "2026-05-02T07:50:02.505378Z"
 }
