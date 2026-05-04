@@ -7,84 +7,78 @@
       "content": {
         "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
         "type": "AdaptiveCard",
-        "version": "1.4",
+        "version": "1.5",
         "body": [
           {
             "type": "TextBlock",
             "size": "Small",
             "weight": "Bolder",
-            "color": "Accent",
-            "text": "RIGHT TO BEAR · 2A DAILY INTEL"
+            "color": "Warning",
+            "text": "RTB · 2A DAILY INTEL · Monday, May 4, 2026",
+            "spacing": "None"
           },
           {
             "type": "TextBlock",
-            "size": "Medium",
+            "size": "Large",
             "weight": "Bolder",
+            "text": "The 34 ATF rules in detail: pistol brace repeal, NFA travel relief, electronic 4473s — and the constitutional architect behind it all",
             "wrap": true,
-            "text": "Friday, May 1, 2026 — re-run 12:29 PM ET"
+            "spacing": "Small"
           },
           {
             "type": "TextBlock",
-            "size": "Default",
+            "text": "The Reload's Sunday and Monday deep-dives detailed the rule package — pistol brace repeal, NFA travel relief, FOPA travel clarification, joint NFA applications, electronic 4473s, and more. Acting AG Blanche named ATF Chief Counsel Robert Leider (a former Justice Thomas clerk) as the architect.",
+            "wrap": true,
+            "spacing": "Small"
+          },
+          {
+            "type": "TextBlock",
+            "size": "Small",
             "weight": "Bolder",
-            "wrap": true,
-            "text": "Top of mind: New ATF Director Robert Cekada signs 34 rule changes moments after bipartisan Senate confirmation"
-          },
-          {
-            "type": "TextBlock",
-            "wrap": true,
-            "isSubtle": true,
-            "text": "Cekada confirmed Tuesday Apr 29 (every Republican plus seven Democrats) and immediately signed a 34-item ATF package: 7 final rules + 27 proposed. Acting AG Blanche framed the package as 'repealing rules that went beyond what the law allows.' Federal Register publication of individual rule text is the active watch — content opportunity once specific rules drop."
-          },
-          {
-            "type": "TextBlock",
-            "weight": "Bolder",
-            "text": "What's moving today",
+            "color": "Warning",
+            "text": "HOTTEST LEADS",
             "spacing": "Medium"
           },
           {
             "type": "FactSet",
             "facts": [
-              { "title": "ATF",       "value": "MOVED — Cekada signs 34 rule changes (Apr 30)" },
-              { "title": "Senate",    "value": "MOVED — Cekada confirmed bipartisan (Apr 29)" },
-              { "title": "SCOTUS",    "value": "MOVED — Cert denied in marijuana-and-guns case (Apr 28)" },
-              { "title": "DOJ",       "value": "NEW — Broader gun-regulation package rolled out (Apr 28)" },
-              { "title": "10th Cir",  "value": "MOVED — Colorado ghost-gun ban rationale narrowed (Apr 26)" },
-              { "title": "Virginia",  "value": "MOVED — State Police 'no position' on background-check law" }
+              {
+                "title": "1. ATF 34-rule package — line-by-line breakdown drops",
+                "value": "Heat 94 ▲▲"
+              },
+              {
+                "title": "2. Pistol brace rule repeal (sub-thread)",
+                "value": "Heat 90 ▲▲▲"
+              },
+              {
+                "title": "3. H.R. 38 reciprocity floor vote May 7",
+                "value": "Heat 82 ▲▲"
+              }
             ]
           },
           {
             "type": "TextBlock",
+            "size": "Small",
             "weight": "Bolder",
-            "text": "Coming up this week",
+            "color": "Warning",
+            "text": "WHAT'S MOVING",
             "spacing": "Medium"
           },
           {
-            "type": "FactSet",
-            "facts": [
-              { "title": "Mon May 4",  "value": "Cargill briefing closes (5th Cir. en banc)" },
-              { "title": "Tue May 5",  "value": "OH-6 special election · Michigan Init 4 cert deadline" },
-              { "title": "Tue May 6",  "value": "Senate Judiciary markup — S. 218 (HPA)" },
-              { "title": "Wed May 7",  "value": "House floor vote — H.R. 38 reciprocity" },
-              { "title": "Thu May 8",  "value": "TX House Homeland Sec hearing — SB 1245" },
-              { "title": "Fri May 9",  "value": "SCOTUS conference (3 2A petitions) · Ghost-gun oversight" },
-              { "title": "Tue May 14", "value": "5th Cir. en banc oral argument — Cargill v. Garland" },
-              { "title": "Thu May 21", "value": "Senate Judiciary — ATF Director nominee hearing" }
-            ]
+            "type": "TextBlock",
+            "size": "Small",
+            "text": "• ATF: Reload publishes line-by-line breakdown of the 34-rule package (May 3)\n• DOJ: Acting AG Blanche names Robert Leider as architect — designed to hold up in court\n• House: H.R. 38 reciprocity floor vote scheduled Wednesday May 7\n• Senate: S. 218 (HPA) markup Tuesday May 6 in Judiciary",
+            "wrap": true
           }
         ],
         "actions": [
           {
             "type": "Action.OpenUrl",
-            "title": "Open today's brief",
+            "title": "Read full brief →",
             "url": "https://quinn-weathers.github.io/rtb-marketing-projects/daily-news-brief/"
-          },
-          {
-            "type": "Action.OpenUrl",
-            "title": "May 1 archive",
-            "url": "https://quinn-weathers.github.io/rtb-marketing-projects/daily-news-brief/archive/RTB_2A_Brief_2026-05-01.html"
           }
         ]
       }
     }
   ]
+}
