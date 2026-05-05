@@ -14,20 +14,20 @@
             "size": "Small",
             "weight": "Bolder",
             "color": "Warning",
-            "text": "RTB · 2A DAILY INTEL · Monday, May 4, 2026",
+            "text": "RTB · 2A DAILY INTEL · Tuesday, May 5, 2026",
             "spacing": "None"
           },
           {
             "type": "TextBlock",
             "size": "Large",
             "weight": "Bolder",
-            "text": "The 34 ATF rules in detail: pistol brace repeal, NFA travel relief, electronic 4473s — and the constitutional architect behind it all",
+            "text": "Stakeholder reaction wave breaks across the ATF rule package — and a busy three-day legislative window opens",
             "wrap": true,
             "spacing": "Small"
           },
           {
             "type": "TextBlock",
-            "text": "The Reload's Sunday and Monday deep-dives detailed the rule package — pistol brace repeal, NFA travel relief, FOPA travel clarification, joint NFA applications, electronic 4473s, and more. Acting AG Blanche named ATF Chief Counsel Robert Leider (a former Justice Thomas clerk) as the architect.",
+            "text": "The political reaction phase landed Monday night with The Reload's roundup of statements from across the gun-policy ecosystem. NRA-ILA called the package the biggest one-day regulatory overhaul in the agency's history; SAF welcomed the pistol-brace rescission; Brady, Everytown, Giffords, Moms Demand opposed.",
             "wrap": true,
             "spacing": "Small"
           },
@@ -43,16 +43,16 @@
             "type": "FactSet",
             "facts": [
               {
-                "title": "1. ATF 34-rule package — line-by-line breakdown drops",
-                "value": "Heat 94 ▲▲"
+                "title": "1. ATF 34-rule package — reaction-cycle wave",
+                "value": "Heat 92 ▲"
               },
               {
                 "title": "2. Pistol brace rule repeal (sub-thread)",
-                "value": "Heat 90 ▲▲▲"
+                "value": "Heat 88 ▲▲"
               },
               {
-                "title": "3. H.R. 38 reciprocity floor vote May 7",
-                "value": "Heat 82 ▲▲"
+                "title": "3. Gun-group reactions (NRA/SAF/Brady/Giffords/GOA)",
+                "value": "Heat 85 ▲▲▲"
               }
             ]
           },
@@ -67,7 +67,7 @@
           {
             "type": "TextBlock",
             "size": "Small",
-            "text": "• ATF: Reload publishes line-by-line breakdown of the 34-rule package (May 3)\n• DOJ: Acting AG Blanche names Robert Leider as architect — designed to hold up in court\n• House: H.R. 38 reciprocity floor vote scheduled Wednesday May 7\n• Senate: S. 218 (HPA) markup Tuesday May 6 in Judiciary",
+            "text": "• Reload publishes stakeholder reaction roundup — NRA, SAF, Brady, Giffords, Everytown, GOA on the record\n• GOA signals possible court challenge to FFL record-retention rule — first litigation threat\n• S.218 Hearing Protection Act markup tomorrow (Tue 5/6); amendments due COB today\n• H.R. 38 reciprocity floor vote Wednesday May 7 — whip count tightening",
             "wrap": true
           }
         ],
