@@ -14,20 +14,20 @@
             "size": "Small",
             "weight": "Bolder",
             "color": "Warning",
-            "text": "RTB · 2A DAILY INTEL · Tuesday, May 5, 2026",
+            "text": "RTB · 2A DAILY INTEL · Wednesday, May 6, 2026",
             "spacing": "None"
           },
           {
             "type": "TextBlock",
             "size": "Large",
             "weight": "Bolder",
-            "text": "Stakeholder reaction wave breaks across the ATF rule package — and a busy three-day legislative window opens",
+            "text": "First 21 ATF rules officially hit the Federal Register today — comment-period clocks start, and HPA markup happens this morning",
             "wrap": true,
             "spacing": "Small"
           },
           {
             "type": "TextBlock",
-            "text": "The political reaction phase landed Monday night with The Reload's roundup of statements from across the gun-policy ecosystem. NRA-ILA called the package the biggest one-day regulatory overhaul in the agency's history; SAF welcomed the pistol-brace rescission; Brady, Everytown, Giffords, Moms Demand opposed.",
+            "text": "ATF released 21 of 34 rules to the Federal Register: pistol-brace rescission and EITB rollback (proposed, 90-day comment) plus bump-stock rescission (final). S. 218 markup is today; H.R. 38 floor vote tomorrow.",
             "wrap": true,
             "spacing": "Small"
           },
@@ -43,16 +43,16 @@
             "type": "FactSet",
             "facts": [
               {
-                "title": "1. ATF 34-rule package — reaction-cycle wave",
-                "value": "Heat 92 ▲"
+                "title": "1. First 21 ATF rules hit the Federal Register",
+                "value": "Heat 96 ▲ (rising)"
               },
               {
-                "title": "2. Pistol brace rule repeal (sub-thread)",
-                "value": "Heat 88 ▲▲"
+                "title": "2. Pistol brace rescission — proposed rule",
+                "value": "Heat 94 ▲ (rising)"
               },
               {
-                "title": "3. Gun-group reactions (NRA/SAF/Brady/Giffords/GOA)",
-                "value": "Heat 85 ▲▲▲"
+                "title": "3. Bump stock rule rescission — FINAL",
+                "value": "Heat 88 ▲ (rising)"
               }
             ]
           },
@@ -67,7 +67,7 @@
           {
             "type": "TextBlock",
             "size": "Small",
-            "text": "• Reload publishes stakeholder reaction roundup — NRA, SAF, Brady, Giffords, Everytown, GOA on the record\n• GOA signals possible court challenge to FFL record-retention rule — first litigation threat\n• S.218 Hearing Protection Act markup tomorrow (Tue 5/6); amendments due COB today\n• H.R. 38 reciprocity floor vote Wednesday May 7 — whip count tightening",
+            "text": "• First 21 ATF rules go to the Federal Register — brace, EITB, bump stoc\n• Pistol brace proposed rule — 90-day comment period opens today\n• Bump stock rescission FINAL — conforms regulations to Cargill SCOTUS d\n• S. 218 Hearing Protection Act markup TODAY in Senate Judiciary",
             "wrap": true
           }
         ],
