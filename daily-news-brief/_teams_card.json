@@ -9,74 +9,20 @@
         "type": "AdaptiveCard",
         "version": "1.5",
         "body": [
-          {
-            "type": "TextBlock",
-            "size": "Small",
-            "weight": "Bolder",
-            "color": "Warning",
-            "text": "RTB · 2A DAILY INTEL · Friday, May 8, 2026 (PM)",
-            "spacing": "None"
-          },
-          {
-            "type": "TextBlock",
-            "size": "Large",
-            "weight": "Bolder",
-            "text": "End-of-day Friday: House Judiciary “ghost gun” hearing has wrapped, SCOTUS conference concluded with orders Monday, H.R. 38 aftermath continues into the weekend cycle",
-            "wrap": true,
-            "spacing": "Small"
-          },
-          {
-            "type": "TextBlock",
-            "text": "Three storylines closed out the day. The House Judiciary “ghost gun” oversight hearing wrapped this afternoon; the announced witness panel (ATF Acting Deputy Director, FBI lab supervisor, two state AGs, FPC litigation director) covered enforcement data since the 2022 final rul...",
-            "wrap": true,
-            "spacing": "Small"
-          },
-          {
-            "type": "TextBlock",
-            "size": "Small",
-            "weight": "Bolder",
-            "color": "Warning",
-            "text": "HOTTEST LEADS",
-            "spacing": "Medium"
-          },
-          {
-            "type": "FactSet",
-            "facts": [
-              {
-                "title": "1. House Judiciary “ghost gun” oversight hearing — wrapped t...",
-                "value": "Heat 94 ^"
-              },
-              {
-                "title": "2. H.R. 38 reciprocity floor vote — aftermath sustains",
-                "value": "Heat 90 ->"
-              },
-              {
-                "title": "3. SCOTUS conference concluded — orders Monday May 11",
-                "value": "Heat 82 ->"
-              }
-            ]
-          },
-          {
-            "type": "TextBlock",
-            "size": "Small",
-            "weight": "Bolder",
-            "color": "Warning",
-            "text": "WHAT'S MOVING",
-            "spacing": "Medium"
-          },
-          {
-            "type": "TextBlock",
-            "size": "Small",
-            "wrap": true,
-            "text": "• House Judiciary “ghost gun” oversight hearing has wrapped — weekend...\n• SCOTUS conference concluded — orders list now anchored to Monday Ma...\n• H.R. 38 reciprocity post-vote cycle continuing into the weekend — p...\n• End of day 2: comment counts climbed sharply on brace and EITB prop..."
-          }
+          { "type": "TextBlock", "size": "Small", "weight": "Bolder", "color": "Warning", "text": "RTB · 2A DAILY INTEL · Friday, May 8, 2026 (PM)", "spacing": "None" },
+          { "type": "TextBlock", "size": "Large", "weight": "Bolder", "text": "End-of-day Friday: House Judiciary ghost-gun hearing wrapped, SCOTUS conference concluded with orders Monday, H.R. 38 aftermath into the weekend cycle", "wrap": true, "spacing": "Small" },
+          { "type": "TextBlock", "text": "House Judiciary ghost-gun oversight hearing wrapped this afternoon; clip-and-react now rolling into the weekend. SCOTUS conference concluded — orders list Monday May 11. H.R. 38 reciprocity post-vote cycle is dominant; permit-holder forums and border-state searches at session highs.", "wrap": true, "spacing": "Small" },
+          { "type": "TextBlock", "size": "Small", "weight": "Bolder", "color": "Warning", "text": "HOTTEST LEADS", "spacing": "Medium" },
+          { "type": "FactSet", "facts": [
+            { "title": "1. House Judiciary ghost-gun hearing — wrapped", "value": "Heat 94 ▲▲▲" },
+            { "title": "2. H.R. 38 reciprocity — post-vote aftermath", "value": "Heat 90 →" },
+            { "title": "3. SCOTUS conference concluded — orders May 11", "value": "Heat 82 →" }
+          ]},
+          { "type": "TextBlock", "size": "Small", "weight": "Bolder", "color": "Warning", "text": "WHAT'S MOVING", "spacing": "Medium" },
+          { "type": "TextBlock", "size": "Small", "text": "• House Judiciary ghost-gun oversight hearing has wrapped — weekend clip-and-react cycle in motion\n• SCOTUS conference concluded — orders list anchored to Monday May 11; pre-position both scenarios\n• H.R. 38 reciprocity post-vote cycle continues into the weekend; border-state searches at highs\n• End of day 2: comment counts climbed sharply on brace and EITB proposed rules", "wrap": true }
         ],
         "actions": [
-          {
-            "type": "Action.OpenUrl",
-            "title": "Read full brief →",
-            "url": "https://quinn-weathers.github.io/rtb-marketing-projects/daily-news-brief/"
-          }
+          { "type": "Action.OpenUrl", "title": "Read full brief →", "url": "https://quinn-weathers.github.io/rtb-marketing-projects/daily-news-brief/" }
         ]
       }
     }
