@@ -14,20 +14,20 @@
             "size": "Small",
             "weight": "Bolder",
             "color": "Warning",
-            "text": "RTB · 2A DAILY INTEL · Wednesday, May 6, 2026",
+            "text": "RTB \u00b7 2A DAILY INTEL \u00b7 Friday, May 8, 2026",
             "spacing": "None"
           },
           {
             "type": "TextBlock",
             "size": "Large",
             "weight": "Bolder",
-            "text": "First 21 ATF rules officially hit the Federal Register today — comment-period clocks start, and HPA markup happens this morning",
+            "text": "Big-event Friday: ghost-gun hearing, SCOTUS conference, H.R. 38 aftermath",
             "wrap": true,
             "spacing": "Small"
           },
           {
             "type": "TextBlock",
-            "text": "ATF released 21 of 34 rules to the Federal Register: pistol-brace rescission and EITB rollback (proposed, 90-day comment) plus bump-stock rescission (final). S. 218 markup is today; H.R. 38 floor vote tomorrow.",
+            "text": "Three convergent storylines today: House Judiciary 'ghost gun' oversight hearing this morning, SCOTUS conference midday with multiple 2A cert petitions on the list (orders Mon May 11), and yesterday's H.R. 38 reciprocity floor vote driving sustained traveler-posture coverage.",
             "wrap": true,
             "spacing": "Small"
           },
@@ -43,16 +43,16 @@
             "type": "FactSet",
             "facts": [
               {
-                "title": "1. First 21 ATF rules hit the Federal Register",
-                "value": "Heat 96 ▲ (rising)"
+                "title": "1. House Judiciary ghost-gun oversight hearing",
+                "value": "Heat 93 \u25b2\u25b2\u25b2"
               },
               {
-                "title": "2. Pistol brace rescission — proposed rule",
-                "value": "Heat 94 ▲ (rising)"
+                "title": "2. H.R. 38 reciprocity floor vote \u2014 aftermath wave",
+                "value": "Heat 91 \u25b2\u25b2"
               },
               {
-                "title": "3. Bump stock rule rescission — FINAL",
-                "value": "Heat 88 ▲ (rising)"
+                "title": "3. SCOTUS conference today \u2014 2A cert petitions",
+                "value": "Heat 82 \u25b2\u25b2"
               }
             ]
           },
@@ -67,14 +67,14 @@
           {
             "type": "TextBlock",
             "size": "Small",
-            "text": "• First 21 ATF rules go to the Federal Register — brace, EITB, bump stoc\n• Pistol brace proposed rule — 90-day comment period opens today\n• Bump stock rescission FINAL — conforms regulations to Cargill SCOTUS d\n• S. 218 Hearing Protection Act markup TODAY in Senate Judiciary",
+            "text": "\u2022 House Judiciary 'ghost gun' oversight hearing this morning\n\u2022 SCOTUS conference today; orders Mon May 11\n\u2022 H.R. 38 reciprocity floor vote completed yesterday \u2014 recap queued\n\u2022 Day 2 of public comment for brace and EITB proposed rules",
             "wrap": true
           }
         ],
         "actions": [
           {
             "type": "Action.OpenUrl",
-            "title": "Read full brief →",
+            "title": "Read full brief \u2192",
             "url": "https://quinn-weathers.github.io/rtb-marketing-projects/daily-news-brief/"
           }
         ]
