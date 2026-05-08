@@ -14,20 +14,20 @@
             "size": "Small",
             "weight": "Bolder",
             "color": "Warning",
-            "text": "RTB \u00b7 2A DAILY INTEL \u00b7 Friday, May 8, 2026",
+            "text": "RTB · 2A DAILY INTEL · Friday, May 8, 2026 (PM)",
             "spacing": "None"
           },
           {
             "type": "TextBlock",
             "size": "Large",
             "weight": "Bolder",
-            "text": "Big-event Friday: ghost-gun hearing, SCOTUS conference, H.R. 38 aftermath",
+            "text": "End-of-day Friday: House Judiciary “ghost gun” hearing has wrapped, SCOTUS conference concluded with orders Monday, H.R. 38 aftermath continues into the weekend cycle",
             "wrap": true,
             "spacing": "Small"
           },
           {
             "type": "TextBlock",
-            "text": "Three convergent storylines today: House Judiciary 'ghost gun' oversight hearing this morning, SCOTUS conference midday with multiple 2A cert petitions on the list (orders Mon May 11), and yesterday's H.R. 38 reciprocity floor vote driving sustained traveler-posture coverage.",
+            "text": "Three storylines closed out the day. The House Judiciary “ghost gun” oversight hearing wrapped this afternoon; the announced witness panel (ATF Acting Deputy Director, FBI lab supervisor, two state AGs, FPC litigation director) covered enforcement data since the 2022 final rul...",
             "wrap": true,
             "spacing": "Small"
           },
@@ -43,16 +43,16 @@
             "type": "FactSet",
             "facts": [
               {
-                "title": "1. House Judiciary ghost-gun oversight hearing",
-                "value": "Heat 93 \u25b2\u25b2\u25b2"
+                "title": "1. House Judiciary “ghost gun” oversight hearing — wrapped t...",
+                "value": "Heat 94 ^"
               },
               {
-                "title": "2. H.R. 38 reciprocity floor vote \u2014 aftermath wave",
-                "value": "Heat 91 \u25b2\u25b2"
+                "title": "2. H.R. 38 reciprocity floor vote — aftermath sustains",
+                "value": "Heat 90 ->"
               },
               {
-                "title": "3. SCOTUS conference today \u2014 2A cert petitions",
-                "value": "Heat 82 \u25b2\u25b2"
+                "title": "3. SCOTUS conference concluded — orders Monday May 11",
+                "value": "Heat 82 ->"
               }
             ]
           },
@@ -67,14 +67,14 @@
           {
             "type": "TextBlock",
             "size": "Small",
-            "text": "\u2022 House Judiciary 'ghost gun' oversight hearing this morning\n\u2022 SCOTUS conference today; orders Mon May 11\n\u2022 H.R. 38 reciprocity floor vote completed yesterday \u2014 recap queued\n\u2022 Day 2 of public comment for brace and EITB proposed rules",
-            "wrap": true
+            "wrap": true,
+            "text": "• House Judiciary “ghost gun” oversight hearing has wrapped — weekend...\n• SCOTUS conference concluded — orders list now anchored to Monday Ma...\n• H.R. 38 reciprocity post-vote cycle continuing into the weekend — p...\n• End of day 2: comment counts climbed sharply on brace and EITB prop..."
           }
         ],
         "actions": [
           {
             "type": "Action.OpenUrl",
-            "title": "Read full brief \u2192",
+            "title": "Read full brief →",
             "url": "https://quinn-weathers.github.io/rtb-marketing-projects/daily-news-brief/"
           }
         ]
