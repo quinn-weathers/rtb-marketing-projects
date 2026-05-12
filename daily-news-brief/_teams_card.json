@@ -14,20 +14,20 @@
             "size": "Small",
             "weight": "Bolder",
             "color": "Warning",
-            "text": "RTB \u00b7 2A DAILY INTEL \u00b7 Monday, May 11, 2026",
+            "text": "RTB · 2A DAILY INTEL · Tuesday, May 12, 2026",
             "spacing": "None"
           },
           {
             "type": "TextBlock",
             "size": "Large",
             "weight": "Bolder",
-            "text": "Monday open: SCOTUS orders list issues today; weekend recap on Friday's House Judiciary ghost-gun hearing is the highest-fit member content",
+            "text": "Tuesday open: DOJ's Colorado AR-15 and magazine-ban lawsuits become the week's dominant 2A storyline; ATF's new interstate-transport NPRM is the highest member-relevance consumer rule of the package; Monday's SCOTUS orders list shifts to recap mode",
             "wrap": true,
             "spacing": "Small"
           },
           {
             "type": "TextBlock",
-            "text": "Three storylines anchor the open: today's SCOTUS orders list is the dominant event with 2A-adjacent cert petitions on the day; the House Judiciary ghost-gun hearing transcript is now posted; and H.R. 38 reciprocity aftermath continues into a second week.",
+            "text": "Three storylines anchor the open. First, the DOJ's two-pronged Colorado lawsuit — against Denver's 1989 'assault weapons' ordinance (filed May 6) and Colorado's post-Aurora magazine-capacity ban (filed May 7) — is the splashiest legal intervention to date by DOJ's new Second A...",
             "wrap": true,
             "spacing": "Small"
           },
@@ -43,16 +43,16 @@
             "type": "FactSet",
             "facts": [
               {
-                "title": "1. SCOTUS orders list - 2A cert petitions on the day",
-                "value": "Heat 93 rising"
+                "title": "1. DOJ vs. Denver + Colorado — AR-15 and magazine-ban lawsuits",
+                "value": "Heat 93 ▲▲▲"
               },
               {
-                "title": "2. House Judiciary ghost-gun hearing - weekend recap cycle",
-                "value": "Heat 80 cooling"
+                "title": "2. ATF Section 926A interstate-transport NPRM — new consumer r…",
+                "value": "Heat 85 ▲▲"
               },
               {
-                "title": "3. H.R. 38 reciprocity - aftermath enters week 2",
-                "value": "Heat 78 cooling"
+                "title": "3. ATF rule package — comment Week 2 (brace + EITB)",
+                "value": "Heat 78 ▲"
               }
             ]
           },
@@ -67,14 +67,14 @@
           {
             "type": "TextBlock",
             "size": "Small",
-            "text": "\u2022 SCOTUS orders list issues this morning - 2A-adjacent cert petitions on\n\u2022 House Judiciary ghost-gun hearing transcript posted - Monday recap is \n\u2022 Brace + EITB proposed rule comment Week 2 opens on Regulations.gov\n\u2022 Reciprocity aftermath continues - border-state metro searches still el",
+            "text": "• DOJ's Denver + CO AR-15/mag lawsuits dominate; Fogleman analysis flag…\n• ATF Sec. 926A transport NPRM — 90-day comment window now open\n• Monday's SCOTUS orders list — recap and next-conference watch\n• Brace + EITB comment Week 2 continues; transport NPRM adds 3rd window",
             "wrap": true
           }
         ],
         "actions": [
           {
             "type": "Action.OpenUrl",
-            "title": "Read full brief \u2192",
+            "title": "Read full brief →",
             "url": "https://quinn-weathers.github.io/rtb-marketing-projects/daily-news-brief/"
           }
         ]
