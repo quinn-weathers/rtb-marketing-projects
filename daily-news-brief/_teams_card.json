@@ -9,74 +9,20 @@
         "type": "AdaptiveCard",
         "version": "1.5",
         "body": [
-          {
-            "type": "TextBlock",
-            "size": "Small",
-            "weight": "Bolder",
-            "color": "Warning",
-            "text": "RTB · 2A DAILY INTEL · Tuesday, May 12, 2026",
-            "spacing": "None"
-          },
-          {
-            "type": "TextBlock",
-            "size": "Large",
-            "weight": "Bolder",
-            "text": "Tuesday open: DOJ's Colorado AR-15 and magazine-ban lawsuits become the week's dominant 2A storyline; ATF's new interstate-transport NPRM is the highest member-relevance consumer rule of the package; Monday's SCOTUS orders list shifts to recap mode",
-            "wrap": true,
-            "spacing": "Small"
-          },
-          {
-            "type": "TextBlock",
-            "text": "Three storylines anchor the open. First, the DOJ's two-pronged Colorado lawsuit — against Denver's 1989 'assault weapons' ordinance (filed May 6) and Colorado's post-Aurora magazine-capacity ban (filed May 7) — is the splashiest legal intervention to date by DOJ's new Second A...",
-            "wrap": true,
-            "spacing": "Small"
-          },
-          {
-            "type": "TextBlock",
-            "size": "Small",
-            "weight": "Bolder",
-            "color": "Warning",
-            "text": "HOTTEST LEADS",
-            "spacing": "Medium"
-          },
-          {
-            "type": "FactSet",
-            "facts": [
-              {
-                "title": "1. DOJ vs. Denver + Colorado — AR-15 and magazine-ban lawsuits",
-                "value": "Heat 93 ▲▲▲"
-              },
-              {
-                "title": "2. ATF Section 926A interstate-transport NPRM — new consumer r…",
-                "value": "Heat 85 ▲▲"
-              },
-              {
-                "title": "3. ATF rule package — comment Week 2 (brace + EITB)",
-                "value": "Heat 78 ▲"
-              }
-            ]
-          },
-          {
-            "type": "TextBlock",
-            "size": "Small",
-            "weight": "Bolder",
-            "color": "Warning",
-            "text": "WHAT'S MOVING",
-            "spacing": "Medium"
-          },
-          {
-            "type": "TextBlock",
-            "size": "Small",
-            "text": "• DOJ's Denver + CO AR-15/mag lawsuits dominate; Fogleman analysis flag…\n• ATF Sec. 926A transport NPRM — 90-day comment window now open\n• Monday's SCOTUS orders list — recap and next-conference watch\n• Brace + EITB comment Week 2 continues; transport NPRM adds 3rd window",
-            "wrap": true
-          }
+          { "type": "TextBlock", "size": "Small", "weight": "Bolder", "color": "Warning", "text": "RTB · 2A DAILY INTEL · Wednesday, May 13, 2026", "spacing": "None" },
+          { "type": "TextBlock", "size": "Large", "weight": "Bolder", "text": "Virginia hardware-ban bills on Gov. Spanberger's desk (deadline May 23, T-10); April NICS confirms politics-driven sales surge — VA +79% YoY, #2 long-gun nationally", "wrap": true, "spacing": "Small" },
+          { "type": "TextBlock", "text": "The 2A storyline pivots to Virginia. Spanberger has 10 days to sign, veto, or let become law the legislature's 'assault firearms' sales ban (HB217/SB749) and carry ban (HB1524/SB727). April NICS released Tuesday PM confirms VA up nearly 79% YoY — #4 nationally, #2 long-gun. CT +28%, RI +54%.", "wrap": true, "spacing": "Small" },
+          { "type": "TextBlock", "size": "Small", "weight": "Bolder", "color": "Warning", "text": "HOTTEST LEADS", "spacing": "Medium" },
+          { "type": "FactSet", "facts": [
+            { "title": "1. VA hardware bans on Gov. Spanberger's desk + Apr NICS surge", "value": "Heat 94 ▲▲▲" },
+            { "title": "2. DOJ vs. Denver + CO AR-15/mag suits (week 2)", "value": "Heat 88 →" },
+            { "title": "3. April NSSF-adjusted NICS released (+1.6% YoY)", "value": "Heat 82 ▲▲" }
+          ]},
+          { "type": "TextBlock", "size": "Small", "weight": "Bolder", "color": "Warning", "text": "WHAT'S MOVING", "spacing": "Medium" },
+          { "type": "TextBlock", "size": "Small", "text": "• VA bills on Gov. desk; decision deadline May 23 (T-10)\n• April NICS: nationwide +1.6% YoY; pending-ban states surge\n• DOJ CO suits in week 2 — D. Colo. scheduling-order watch\n• ATF Sec. 926A transport NPRM — comment day 7 of 90", "wrap": true }
         ],
         "actions": [
-          {
-            "type": "Action.OpenUrl",
-            "title": "Read full brief →",
-            "url": "https://quinn-weathers.github.io/rtb-marketing-projects/daily-news-brief/"
-          }
+          { "type": "Action.OpenUrl", "title": "Read full brief →", "url": "https://quinn-weathers.github.io/rtb-marketing-projects/daily-news-brief/" }
         ]
       }
     }
