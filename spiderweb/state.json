@@ -205,6 +205,30 @@
         "notes": ""
       },
       {
+        "id": "task-33313d9n",
+        "title": "US v. Denver + CO Mag Ban - May 2026 Op-Ed",
+        "owner": "—",
+        "status": "in-progress",
+        "tags": [],
+        "askDate": "2026-05-18",
+        "priority": "high",
+        "lift": "L",
+        "assignee": "Chase Holmes",
+        "approver": "Jeremy Osborn",
+        "pm": "Quinn Weathers",
+        "projects": [
+          "proj-upl4ik9z",
+          "state-of-the-union"
+        ],
+        "pipelines": [
+          {
+            "id": "blog-production",
+            "stage": "In-Progress"
+          }
+        ],
+        "notes": ""
+      },
+      {
         "id": "task-ug7qr3pg",
         "title": "What is an Amicus Brief? - May 2026 Article",
         "owner": "—",
@@ -227,27 +251,6 @@
           {
             "id": "social-content",
             "stage": "Review/Approval"
-          }
-        ],
-        "notes": ""
-      },
-      {
-        "id": "iytqkawj",
-        "title": "New task",
-        "owner": "",
-        "status": "backlog",
-        "tags": [],
-        "projects": [],
-        "askDate": "",
-        "priority": "med",
-        "lift": "M",
-        "assignee": "",
-        "approver": "",
-        "pm": "Quinn Weathers",
-        "pipelines": [
-          {
-            "id": "blog-production",
-            "stage": "Ideation/Outline"
           }
         ],
         "notes": ""
@@ -7798,13 +7801,13 @@
         "id": "7hmoe6o4",
         "title": "Baird v. Bonta Amicus Brief Post",
         "owner": "",
-        "status": "backlog",
+        "status": "complete",
         "tags": [],
         "projects": [
           "proj-upl4ik9z"
         ],
-        "askDate": "",
-        "priority": "med",
+        "askDate": "2026-05-11",
+        "priority": "critical",
         "lift": "M",
         "assignee": "Rey Banda",
         "approver": "Craig Fleck",
@@ -7816,7 +7819,34 @@
           },
           {
             "id": "social-content",
-            "stage": "Concept"
+            "stage": "Posted"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": "task-zy4nalch",
+        "title": "Adamiak v. US Amicus Brief Post",
+        "owner": "",
+        "status": "complete",
+        "tags": [],
+        "projects": [
+          "proj-upl4ik9z"
+        ],
+        "askDate": "2026-05-11",
+        "priority": "critical",
+        "lift": "M",
+        "assignee": "Rey Banda",
+        "approver": "Craig Fleck",
+        "pm": "Quinn Weathers",
+        "pipelines": [
+          {
+            "id": "blog-production",
+            "stage": "Published"
+          },
+          {
+            "id": "social-content",
+            "stage": "Posted"
           }
         ],
         "notes": ""
@@ -8047,7 +8077,7 @@
         "id": "3rcegiar",
         "title": "ATF 34-Rule Package - Hero Image",
         "owner": "—",
-        "status": "review",
+        "status": "complete",
         "tags": [],
         "askDate": "2026-05-14",
         "priority": "med",
@@ -8061,7 +8091,84 @@
         "pipelines": [
           {
             "id": "blog-production",
-            "stage": "In Review"
+            "stage": "Complete"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": "task-k100j6op",
+        "title": "What is an Amicus Brief? - Hero Image",
+        "owner": "—",
+        "status": "complete",
+        "tags": [],
+        "askDate": "2026-05-14",
+        "priority": "med",
+        "lift": "S",
+        "assignee": "Quinn Weathers",
+        "approver": "Craig Fleck",
+        "pm": "Quinn Weathers",
+        "projects": [
+          "proj-upl4ik9z"
+        ],
+        "pipelines": [
+          {
+            "id": "blog-production",
+            "stage": "Complete"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": "2t94ia4t",
+        "title": "US v. Denver - Mag Ban Post",
+        "owner": "",
+        "status": "in-progress",
+        "tags": [],
+        "projects": [
+          "proj-upl4ik9z"
+        ],
+        "askDate": "2026-05-15",
+        "priority": "med",
+        "lift": "M",
+        "assignee": "David",
+        "approver": "Rey Banda",
+        "pm": "Quinn Weathers",
+        "pipelines": [
+          {
+            "id": "blog-production",
+            "stage": "In-Progress"
+          },
+          {
+            "id": "social-content",
+            "stage": "Creative"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": "task-xkpu04wd",
+        "title": "US v. Colorado - Mag Ban Post",
+        "owner": "",
+        "status": "in-progress",
+        "tags": [],
+        "projects": [
+          "proj-upl4ik9z"
+        ],
+        "askDate": "2026-05-15",
+        "priority": "med",
+        "lift": "M",
+        "assignee": "David",
+        "approver": "Rey Banda",
+        "pm": "Quinn Weathers",
+        "pipelines": [
+          {
+            "id": "blog-production",
+            "stage": "In-Progress"
+          },
+          {
+            "id": "social-content",
+            "stage": "Creative"
           }
         ],
         "notes": ""
