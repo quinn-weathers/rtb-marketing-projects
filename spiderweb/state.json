@@ -346,52 +346,6 @@
     ],
     "projects": [
       {
-        "id": "social-imp-001",
-        "title": "Texas · News Recap",
-        "owner": "Tre'Von Barber",
-        "status": "backlog",
-        "tags": [],
-        "projects": [
-          "multi-pillar"
-        ],
-        "askDate": "2026-05-04",
-        "priority": "med",
-        "lift": "S",
-        "assignee": "Tre'Von Barber",
-        "approver": "Richard Louise",
-        "pm": "Quinn Weathers",
-        "notes": "Platform: FB/IG/X · Pillar: Multi-Pillar · Day: Mon\n\nNRA AM Houston recap: 'What we learned about the future of 2A.' | protectwithbear.com",
-        "pipelines": [
-          {
-            "id": "social-content",
-            "stage": "Concept"
-          }
-        ]
-      },
-      {
-        "id": "social-imp-002",
-        "title": "Texas · Lawyer Spotlight",
-        "owner": "Tre'Von Barber",
-        "status": "backlog",
-        "tags": [],
-        "projects": [
-          "counselor-spotlight"
-        ],
-        "askDate": "2026-05-05",
-        "priority": "med",
-        "lift": "S",
-        "assignee": "Tre'Von Barber",
-        "approver": "Richard Louise",
-        "pm": "Quinn Weathers",
-        "notes": "Platform: TikTok/LinkedIn · Pillar: Counselor Spotlight · Day: Tue\n\nMeet [NAME], our Texas Network Attorney — criminal defense background + personal CCW philosophy.",
-        "pipelines": [
-          {
-            "id": "social-content",
-            "stage": "Concept"
-          }
-        ]
-      },
-      {
         "id": "social-imp-003",
         "title": "Texas · Poll",
         "owner": "Tre'Von Barber",
@@ -407,75 +361,6 @@
         "approver": "Richard Louise",
         "pm": "Quinn Weathers",
         "notes": "Platform: X · Pillar: State of the Union · Day: Wed\n\nRapid-growth poll: 'Which state has the best self-defense laws? TX / FL / AZ / OH.' Tag influencers.",
-        "pipelines": [
-          {
-            "id": "social-content",
-            "stage": "Concept"
-          }
-        ]
-      },
-      {
-        "id": "social-imp-004",
-        "title": "Texas · House of Worship Safety",
-        "owner": "Tre'Von Barber",
-        "status": "backlog",
-        "tags": [],
-        "projects": [
-          "sanctuary-shield"
-        ],
-        "askDate": "2026-05-07",
-        "priority": "med",
-        "lift": "S",
-        "assignee": "Tre'Von Barber",
-        "approver": "Richard Louise",
-        "pm": "Quinn Weathers",
-        "notes": "Platform: FB/IG · Pillar: Sanctuary Shield · Day: Thu\n\nTop 3 communication tools for Church Safety Teams. #SanctuaryShield #PurePeaceOfMind",
-        "pipelines": [
-          {
-            "id": "social-content",
-            "stage": "Concept"
-          }
-        ]
-      },
-      {
-        "id": "social-imp-005",
-        "title": "Texas · State Law Update",
-        "owner": "Tre'Von Barber",
-        "status": "backlog",
-        "tags": [],
-        "projects": [
-          "state-of-the-union"
-        ],
-        "askDate": "2026-05-08",
-        "priority": "med",
-        "lift": "S",
-        "assignee": "Tre'Von Barber",
-        "approver": "Richard Louise",
-        "pm": "Quinn Weathers",
-        "notes": "Platform: All · Pillar: State of the Union · Day: Fri\n\nTX legislative wins: campus carry & signage laws explained. protectwithbear.com",
-        "pipelines": [
-          {
-            "id": "social-content",
-            "stage": "Concept"
-          }
-        ]
-      },
-      {
-        "id": "social-imp-006",
-        "title": "Florida · Pro-2A Voice",
-        "owner": "Tre'Von Barber",
-        "status": "backlog",
-        "tags": [],
-        "projects": [
-          "state-of-the-union"
-        ],
-        "askDate": "2026-05-11",
-        "priority": "med",
-        "lift": "S",
-        "assignee": "Tre'Von Barber",
-        "approver": "Richard Louise",
-        "pm": "Quinn Weathers",
-        "notes": "Platform: X · Pillar: State of the Union · Day: Mon\n\nRights don't start at 21. Why we support FL's push to restore rights for 18–21 year olds.",
         "pipelines": [
           {
             "id": "social-content",
