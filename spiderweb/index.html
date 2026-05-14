@@ -3907,6 +3907,18 @@ function isoWeek(d) {
 }
 
 function migrateState(s) {
+  // Defensive shape normalization — bad/missing core fields should never crash render
+  if (!Array.isArray(s.events)) s.events = [];
+  if (!s.hubMeta || typeof s.hubMeta !== 'object') s.hubMeta = {};
+  if (typeof s.calMonth !== 'string') s.calMonth = new Date().toISOString().slice(0, 7);
+  ['seo','social','email','affiliate','events','creative','video'].forEach(d => {
+    if (!s[d] || typeof s[d] !== 'object') {
+      s[d] = { members: [], goals: [], stakeholders: [], notes: [], projects: [] };
+    }
+    ['members','goals','stakeholders','notes','projects'].forEach(k => {
+      if (!Array.isArray(s[d][k])) s[d][k] = [];
+    });
+  });
   // Ensure tagDefs exists
   if (!Array.isArray(s.tagDefs) || s.tagDefs.length === 0) {
     s.tagDefs = defaultState().tagDefs;
