@@ -199,7 +199,7 @@
         "pipelines": [
           {
             "id": "blog-production",
-            "stage": "Complete"
+            "stage": "Published"
           }
         ],
         "notes": ""
@@ -235,6 +235,33 @@
         "status": "review",
         "tags": [],
         "askDate": "2026-05-14",
+        "priority": "high",
+        "lift": "L",
+        "assignee": "Chase Holmes",
+        "approver": "Jeremy Osborn",
+        "pm": "Quinn Weathers",
+        "projects": [
+          "proj-upl4ik9z"
+        ],
+        "pipelines": [
+          {
+            "id": "blog-production",
+            "stage": "In Review"
+          },
+          {
+            "id": "social-content",
+            "stage": "Review/Approval"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": "task-ekjufpzf",
+        "title": "Adamiak v. US Amicus Brief - May 2026 Article",
+        "owner": "—",
+        "status": "review",
+        "tags": [],
+        "askDate": "2026-05-19",
         "priority": "high",
         "lift": "L",
         "assignee": "Chase Holmes",
@@ -7387,7 +7414,7 @@
         "id": "pqoezugn",
         "title": "ATF 34-Rule Package - Video #1",
         "owner": "—",
-        "status": "in-progress",
+        "status": "review",
         "tags": [],
         "askDate": "2026-05-27",
         "priority": "high",
@@ -7401,30 +7428,7 @@
         "pipelines": [
           {
             "id": "blog-production",
-            "stage": "In-Progress"
-          }
-        ],
-        "notes": ""
-      },
-      {
-        "id": "task-ha86lssm",
-        "title": "ATF 34-Rule Package - Video #2",
-        "owner": "—",
-        "status": "backlog",
-        "tags": [],
-        "askDate": "2026-05-29",
-        "priority": "high",
-        "lift": "L",
-        "assignee": "Tre'Von Barber",
-        "approver": "Craig Fleck",
-        "pm": "Quinn Weathers",
-        "projects": [
-          "proj-upl4ik9z"
-        ],
-        "pipelines": [
-          {
-            "id": "blog-production",
-            "stage": "Ideation/Outline"
+            "stage": "In Review"
           }
         ],
         "notes": ""
@@ -7723,7 +7727,30 @@
         "pipelines": [
           {
             "id": "blog-production",
-            "stage": "Complete"
+            "stage": "Published"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": "task-gm86lzo0",
+        "title": "Adamiak Amicus Brief Article - Hero Image",
+        "owner": "—",
+        "status": "in-progress",
+        "tags": [],
+        "askDate": "2026-05-14",
+        "priority": "med",
+        "lift": "S",
+        "assignee": "Quinn Weathers",
+        "approver": "Craig Fleck",
+        "pm": "Quinn Weathers",
+        "projects": [
+          "proj-upl4ik9z"
+        ],
+        "pipelines": [
+          {
+            "id": "blog-production",
+            "stage": "In-Progress"
           }
         ],
         "notes": ""
