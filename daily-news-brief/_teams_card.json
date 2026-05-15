@@ -9,74 +9,20 @@
         "type": "AdaptiveCard",
         "version": "1.5",
         "body": [
-          {
-            "type": "TextBlock",
-            "size": "Small",
-            "weight": "Bolder",
-            "color": "Warning",
-            "text": "RTB · 2A DAILY INTEL · Thursday, May 14, 2026",
-            "spacing": "None"
-          },
-          {
-            "type": "TextBlock",
-            "size": "Large",
-            "weight": "Bolder",
-            "text": "Thursday open: Virginia hardware-ban decision clock at T-9, April NICS state-surge data settles, DOJ Colorado lawsuits at week 2 day 8",
-            "wrap": true,
-            "spacing": "Small"
-          },
-          {
-            "type": "TextBlock",
-            "text": "Spanberger has nine days remaining to sign, veto, or let HB217/SB749 (sales ban) and HB1524/SB727 (carry ban) become law. April NICS still anchoring the demand story: VA +79% YoY, #2 long-gun nationally.",
-            "wrap": true,
-            "spacing": "Small"
-          },
-          {
-            "type": "TextBlock",
-            "size": "Small",
-            "weight": "Bolder",
-            "color": "Warning",
-            "text": "HOTTEST LEADS",
-            "spacing": "Medium"
-          },
-          {
-            "type": "FactSet",
-            "facts": [
-              {
-                "title": "1. Virginia hardware-ban bills on Spanberger's desk",
-                "value": "Heat 93 ▲▲"
-              },
-              {
-                "title": "2. DOJ vs. Denver + Colorado AR-15/mag suits (wk 2 d8)",
-                "value": "Heat 85 →"
-              },
-              {
-                "title": "3. April NSSF-adjusted NICS — 2nd public-cycle day",
-                "value": "Heat 78 ▼"
-              }
-            ]
-          },
-          {
-            "type": "TextBlock",
-            "size": "Small",
-            "weight": "Bolder",
-            "color": "Warning",
-            "text": "WHAT'S MOVING",
-            "spacing": "Medium"
-          },
-          {
-            "type": "TextBlock",
-            "size": "Small",
-            "text": "• VA hardware-ban bills on Spanberger's desk; decision deadline May 23 (T-9)\n• April NICS: 2nd public-cycle day; VA +79%, RI +54%, CT +28% YoY\n• DOJ Denver + Colorado AR-15/mag suits — week 2 day 8; scheduling order pending\n• ATF Sec. 926A transport NPRM — comment day 8 of 90",
-            "wrap": true
-          }
+          { "type": "TextBlock", "size": "Small", "weight": "Bolder", "color": "Warning", "text": "RTB · 2A DAILY INTEL · Friday, May 15, 2026", "spacing": "None" },
+          { "type": "TextBlock", "size": "Large", "weight": "Bolder", "text": "Friday wrap: VA hardware-ban decision T-8, DOJ Colorado suits week-2 day-9, ATF transport NPRM comment-day 9", "wrap": true, "spacing": "Small" },
+          { "type": "TextBlock", "text": "Governor Spanberger has 8 days remaining on the VA assault-firearm sales ban / carry ban / hospital ban package (deadline May 23). DOJ Colorado lawsuits cross to week-2 day-9 with the first scheduling order still the next concrete data point.", "wrap": true, "spacing": "Small" },
+          { "type": "TextBlock", "size": "Small", "weight": "Bolder", "color": "Warning", "text": "HOTTEST LEADS", "spacing": "Medium" },
+          { "type": "FactSet", "facts": [
+            { "title": "1. VA hardware-ban bills on Gov. Spanberger's desk (T-8)", "value": "Heat 92 ▲" },
+            { "title": "2. DOJ vs. Denver + Colorado — week 2 day 9", "value": "Heat 84 →" },
+            { "title": "3. April NICS — third public-cycle day", "value": "Heat 74 ▼" }
+          ]},
+          { "type": "TextBlock", "size": "Small", "weight": "Bolder", "color": "Warning", "text": "WHAT'S MOVING", "spacing": "Medium" },
+          { "type": "TextBlock", "size": "Small", "text": "• VA hardware-ban bills on Gov. desk (T-8); Governor's office still 'no comment'\n• DOJ Denver + Colorado suits week 2 day 9; scheduling order still pending\n• ATF Sec. 926A transport NPRM — comment day 9 of 90\n• Brace + EITB Week 2 day 5; ~T-82 to close; submissions ahead of curve", "wrap": true }
         ],
         "actions": [
-          {
-            "type": "Action.OpenUrl",
-            "title": "Read full brief →",
-            "url": "https://quinn-weathers.github.io/rtb-marketing-projects/daily-news-brief/"
-          }
+          { "type": "Action.OpenUrl", "title": "Read full brief →", "url": "https://quinn-weathers.github.io/rtb-marketing-projects/daily-news-brief/" }
         ]
       }
     }
