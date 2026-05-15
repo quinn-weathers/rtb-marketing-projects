@@ -354,266 +354,13 @@
         "projects": [
           "state-of-the-union"
         ],
-        "askDate": "2026-05-06",
+        "askDate": "2026-06-03",
         "priority": "med",
         "lift": "S",
         "assignee": "Tre'Von Barber",
         "approver": "Richard Louise",
         "pm": "Quinn Weathers",
         "notes": "Platform: X · Pillar: State of the Union · Day: Wed\n\nRapid-growth poll: 'Which state has the best self-defense laws? TX / FL / AZ / OH.' Tag influencers.",
-        "pipelines": [
-          {
-            "id": "social-content",
-            "stage": "Concept"
-          }
-        ]
-      },
-      {
-        "id": "social-imp-007",
-        "title": "Florida · Lawyer Spotlight",
-        "owner": "Tre'Von Barber",
-        "status": "backlog",
-        "tags": [],
-        "projects": [
-          "counselor-spotlight"
-        ],
-        "askDate": "2026-05-12",
-        "priority": "med",
-        "lift": "S",
-        "assignee": "Tre'Von Barber",
-        "approver": "Richard Louise",
-        "pm": "Quinn Weathers",
-        "notes": "Platform: TikTok/LinkedIn · Pillar: Counselor Spotlight · Day: Tue\n\nMeet [NAME], our Florida Network Attorney — Stand Your Ground specialist and case breakdown.",
-        "pipelines": [
-          {
-            "id": "social-content",
-            "stage": "Concept"
-          }
-        ]
-      },
-      {
-        "id": "social-imp-008",
-        "title": "Florida · Video Interview",
-        "owner": "Tre'Von Barber",
-        "status": "backlog",
-        "tags": [],
-        "projects": [
-          "sanctuary-shield"
-        ],
-        "askDate": "2026-05-13",
-        "priority": "med",
-        "lift": "S",
-        "assignee": "Tre'Von Barber",
-        "approver": "Richard Louise",
-        "pm": "Quinn Weathers",
-        "notes": "Platform: FB/IG · Pillar: Sanctuary Shield · Day: Wed\n\nHow Florida churches are handling increased security needs. #SanctuaryShield",
-        "pipelines": [
-          {
-            "id": "social-content",
-            "stage": "Concept"
-          }
-        ]
-      },
-      {
-        "id": "social-imp-009",
-        "title": "National · News Thread",
-        "owner": "Tre'Von Barber",
-        "status": "backlog",
-        "tags": [],
-        "projects": [
-          "state-of-the-union"
-        ],
-        "askDate": "2026-05-14",
-        "priority": "med",
-        "lift": "S",
-        "assignee": "Tre'Von Barber",
-        "approver": "Richard Louise",
-        "pm": "Quinn Weathers",
-        "notes": "Platform: X/Threads · Pillar: State of the Union · Day: Thu\n\nLatest SCOTUS 2A movement — rolling thread.",
-        "pipelines": [
-          {
-            "id": "social-content",
-            "stage": "Concept"
-          }
-        ]
-      },
-      {
-        "id": "social-imp-010",
-        "title": "Florida · Education",
-        "owner": "Tre'Von Barber",
-        "status": "backlog",
-        "tags": [],
-        "projects": [
-          "state-of-the-union"
-        ],
-        "askDate": "2026-05-15",
-        "priority": "med",
-        "lift": "S",
-        "assignee": "Tre'Von Barber",
-        "approver": "Richard Louise",
-        "pm": "Quinn Weathers",
-        "notes": "Platform: IG Reel/FB · Pillar: State of the Union · Day: Fri\n\nCan you carry in a car in FL without a permit? (Positive law focus.) protectwithbear.com",
-        "pipelines": [
-          {
-            "id": "social-content",
-            "stage": "Concept"
-          }
-        ]
-      },
-      {
-        "id": "social-imp-011",
-        "title": "Ohio · Event Announcement",
-        "owner": "Tre'Von Barber",
-        "status": "backlog",
-        "tags": [],
-        "projects": [
-          "multi-pillar"
-        ],
-        "askDate": "2026-05-18",
-        "priority": "med",
-        "lift": "S",
-        "assignee": "Tre'Von Barber",
-        "approver": "Richard Louise",
-        "pm": "Quinn Weathers",
-        "notes": "Platform: FB/IG · Pillar: Multi-Pillar · Day: Mon\n\nRight to Bear is heading to GunCon in Niles, OH next month\\! Who's coming? #GunCon2026",
-        "pipelines": [
-          {
-            "id": "social-content",
-            "stage": "Concept"
-          }
-        ]
-      },
-      {
-        "id": "social-imp-012",
-        "title": "Ohio · Lawyer Spotlight",
-        "owner": "Tre'Von Barber",
-        "status": "backlog",
-        "tags": [],
-        "projects": [
-          "counselor-spotlight"
-        ],
-        "askDate": "2026-05-19",
-        "priority": "med",
-        "lift": "S",
-        "assignee": "Tre'Von Barber",
-        "approver": "Richard Louise",
-        "pm": "Quinn Weathers",
-        "notes": "Platform: TikTok/LinkedIn · Pillar: Counselor Spotlight · Day: Tue\n\nMeet [NAME], our Ohio Network Attorney — personal story: 'Why I became a 2A specialist.'",
-        "pipelines": [
-          {
-            "id": "social-content",
-            "stage": "Concept"
-          }
-        ]
-      },
-      {
-        "id": "social-imp-013",
-        "title": "Ohio · Pro-2A Voice",
-        "owner": "Tre'Von Barber",
-        "status": "backlog",
-        "tags": [],
-        "projects": [
-          "state-of-the-union"
-        ],
-        "askDate": "2026-05-20",
-        "priority": "med",
-        "lift": "S",
-        "assignee": "Tre'Von Barber",
-        "approver": "Richard Louise",
-        "pm": "Quinn Weathers",
-        "notes": "Platform: X · Pillar: State of the Union · Day: Wed\n\nOhio is a Constitutional Carry state. Here's why the 'wild west' predictions never came true.",
-        "pipelines": [
-          {
-            "id": "social-content",
-            "stage": "Concept"
-          }
-        ]
-      },
-      {
-        "id": "social-imp-014",
-        "title": "Ohio · House of Worship Safety",
-        "owner": "Tre'Von Barber",
-        "status": "backlog",
-        "tags": [],
-        "projects": [
-          "sanctuary-shield"
-        ],
-        "askDate": "2026-05-21",
-        "priority": "med",
-        "lift": "S",
-        "assignee": "Tre'Von Barber",
-        "approver": "Richard Louise",
-        "pm": "Quinn Weathers",
-        "notes": "Platform: FB/IG · Pillar: Sanctuary Shield · Day: Thu\n\nIntegrating 'Stop the Bleed' training into your Sunday safety team rotation.",
-        "pipelines": [
-          {
-            "id": "social-content",
-            "stage": "Concept"
-          }
-        ]
-      },
-      {
-        "id": "social-imp-015",
-        "title": "Ohio · State Law Update",
-        "owner": "Tre'Von Barber",
-        "status": "backlog",
-        "tags": [],
-        "projects": [
-          "state-of-the-union"
-        ],
-        "askDate": "2026-05-22",
-        "priority": "med",
-        "lift": "S",
-        "assignee": "Tre'Von Barber",
-        "approver": "Richard Louise",
-        "pm": "Quinn Weathers",
-        "notes": "Platform: All · Pillar: State of the Union · Day: Fri\n\nOH self-defense immunity laws explained. protectwithbear.com",
-        "pipelines": [
-          {
-            "id": "social-content",
-            "stage": "Concept"
-          }
-        ]
-      },
-      {
-        "id": "social-imp-016",
-        "title": "National · Memorial Day",
-        "owner": "Tre'Von Barber",
-        "status": "backlog",
-        "tags": [],
-        "projects": [
-          "memorial-special"
-        ],
-        "askDate": "2026-05-25",
-        "priority": "med",
-        "lift": "S",
-        "assignee": "Tre'Von Barber",
-        "approver": "Richard Louise",
-        "pm": "Quinn Weathers",
-        "notes": "Platform: All · Pillar: Memorial / Special · Day: Mon\n\nHonoring those who gave everything to protect the freedoms we defend today. #PurePeaceOfMind",
-        "pipelines": [
-          {
-            "id": "social-content",
-            "stage": "Concept"
-          }
-        ]
-      },
-      {
-        "id": "social-imp-017",
-        "title": "National · Lawyer Spotlight",
-        "owner": "Tre'Von Barber",
-        "status": "backlog",
-        "tags": [],
-        "projects": [
-          "counselor-spotlight"
-        ],
-        "askDate": "2026-05-26",
-        "priority": "med",
-        "lift": "S",
-        "assignee": "Tre'Von Barber",
-        "approver": "Richard Louise",
-        "pm": "Quinn Weathers",
-        "notes": "Platform: TikTok/LinkedIn · Pillar: Counselor Spotlight · Day: Tue\n\nNetwork-wide spotlight: Meet [NAME], our Chief Counsel — Q1 24/7 Hotline stats recap.",
         "pipelines": [
           {
             "id": "social-content",
@@ -630,7 +377,7 @@
         "projects": [
           "state-of-the-union"
         ],
-        "askDate": "2026-05-27",
+        "askDate": "2026-06-03",
         "priority": "med",
         "lift": "S",
         "assignee": "Tre'Von Barber",
@@ -653,7 +400,7 @@
         "projects": [
           "sanctuary-shield"
         ],
-        "askDate": "2026-05-28",
+        "askDate": "2026-06-04",
         "priority": "med",
         "lift": "S",
         "assignee": "Tre'Von Barber",
@@ -676,7 +423,7 @@
         "projects": [
           "counselor-spotlight"
         ],
-        "askDate": "2026-05-29",
+        "askDate": "2026-06-05",
         "priority": "med",
         "lift": "S",
         "assignee": "Tre'Von Barber",
@@ -3942,7 +3689,7 @@
         "projects": [
           "multi-pillar"
         ],
-        "askDate": "2026-05-04",
+        "askDate": "2026-06-01",
         "priority": "med",
         "lift": "S",
         "assignee": "Tre'Von Barber",
@@ -3965,7 +3712,7 @@
         "projects": [
           "counselor-spotlight"
         ],
-        "askDate": "2026-05-05",
+        "askDate": "2026-06-02",
         "priority": "med",
         "lift": "S",
         "assignee": "Tre'Von Barber",
@@ -3988,7 +3735,7 @@
         "projects": [
           "state-of-the-union"
         ],
-        "askDate": "2026-05-06",
+        "askDate": "2026-06-03",
         "priority": "med",
         "lift": "S",
         "assignee": "Tre'Von Barber",
@@ -4011,7 +3758,7 @@
         "projects": [
           "sanctuary-shield"
         ],
-        "askDate": "2026-05-07",
+        "askDate": "2026-06-04",
         "priority": "med",
         "lift": "S",
         "assignee": "Tre'Von Barber",
@@ -4034,7 +3781,7 @@
         "projects": [
           "state-of-the-union"
         ],
-        "askDate": "2026-05-08",
+        "askDate": "2026-06-05",
         "priority": "med",
         "lift": "S",
         "assignee": "Tre'Von Barber",
@@ -4057,7 +3804,7 @@
         "projects": [
           "state-of-the-union"
         ],
-        "askDate": "2026-05-11",
+        "askDate": "2026-06-01",
         "priority": "med",
         "lift": "S",
         "assignee": "Tre'Von Barber",
@@ -4080,7 +3827,7 @@
         "projects": [
           "counselor-spotlight"
         ],
-        "askDate": "2026-05-12",
+        "askDate": "2026-06-02",
         "priority": "med",
         "lift": "S",
         "assignee": "Tre'Von Barber",
@@ -4103,7 +3850,7 @@
         "projects": [
           "sanctuary-shield"
         ],
-        "askDate": "2026-05-13",
+        "askDate": "2026-06-03",
         "priority": "med",
         "lift": "S",
         "assignee": "Tre'Von Barber",
@@ -4126,7 +3873,7 @@
         "projects": [
           "state-of-the-union"
         ],
-        "askDate": "2026-05-14",
+        "askDate": "2026-06-04",
         "priority": "med",
         "lift": "S",
         "assignee": "Tre'Von Barber",
@@ -4149,7 +3896,7 @@
         "projects": [
           "state-of-the-union"
         ],
-        "askDate": "2026-05-15",
+        "askDate": "2026-06-05",
         "priority": "med",
         "lift": "S",
         "assignee": "Tre'Von Barber",
@@ -4172,7 +3919,7 @@
         "projects": [
           "multi-pillar"
         ],
-        "askDate": "2026-05-18",
+        "askDate": "2026-06-01",
         "priority": "med",
         "lift": "S",
         "assignee": "Tre'Von Barber",
@@ -4195,7 +3942,7 @@
         "projects": [
           "counselor-spotlight"
         ],
-        "askDate": "2026-05-19",
+        "askDate": "2026-06-02",
         "priority": "med",
         "lift": "S",
         "assignee": "Tre'Von Barber",
@@ -4218,7 +3965,7 @@
         "projects": [
           "state-of-the-union"
         ],
-        "askDate": "2026-05-20",
+        "askDate": "2026-06-03",
         "priority": "med",
         "lift": "S",
         "assignee": "Tre'Von Barber",
@@ -4241,7 +3988,7 @@
         "projects": [
           "sanctuary-shield"
         ],
-        "askDate": "2026-05-21",
+        "askDate": "2026-06-04",
         "priority": "med",
         "lift": "S",
         "assignee": "Tre'Von Barber",
@@ -4264,7 +4011,7 @@
         "projects": [
           "state-of-the-union"
         ],
-        "askDate": "2026-05-22",
+        "askDate": "2026-06-05",
         "priority": "med",
         "lift": "S",
         "assignee": "Tre'Von Barber",
@@ -4310,7 +4057,7 @@
         "projects": [
           "counselor-spotlight"
         ],
-        "askDate": "2026-05-26",
+        "askDate": "2026-06-02",
         "priority": "med",
         "lift": "S",
         "assignee": "Tre'Von Barber",
@@ -4333,7 +4080,7 @@
         "projects": [
           "state-of-the-union"
         ],
-        "askDate": "2026-05-27",
+        "askDate": "2026-06-03",
         "priority": "med",
         "lift": "S",
         "assignee": "Tre'Von Barber",
@@ -4356,7 +4103,7 @@
         "projects": [
           "sanctuary-shield"
         ],
-        "askDate": "2026-05-28",
+        "askDate": "2026-06-04",
         "priority": "med",
         "lift": "S",
         "assignee": "Tre'Von Barber",
@@ -4379,7 +4126,7 @@
         "projects": [
           "counselor-spotlight"
         ],
-        "askDate": "2026-05-29",
+        "askDate": "2026-06-05",
         "priority": "med",
         "lift": "S",
         "assignee": "Tre'Von Barber",
