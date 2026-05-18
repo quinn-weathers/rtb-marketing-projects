@@ -9,20 +9,74 @@
         "type": "AdaptiveCard",
         "version": "1.5",
         "body": [
-          { "type": "TextBlock", "size": "Small", "weight": "Bolder", "color": "Warning", "text": "RTB · 2A DAILY INTEL · Friday, May 15, 2026", "spacing": "None" },
-          { "type": "TextBlock", "size": "Large", "weight": "Bolder", "text": "Friday wrap: VA hardware-ban decision T-8, DOJ Colorado suits week-2 day-9, ATF transport NPRM comment-day 9", "wrap": true, "spacing": "Small" },
-          { "type": "TextBlock", "text": "Governor Spanberger has 8 days remaining on the VA assault-firearm sales ban / carry ban / hospital ban package (deadline May 23). DOJ Colorado lawsuits cross to week-2 day-9 with the first scheduling order still the next concrete data point.", "wrap": true, "spacing": "Small" },
-          { "type": "TextBlock", "size": "Small", "weight": "Bolder", "color": "Warning", "text": "HOTTEST LEADS", "spacing": "Medium" },
-          { "type": "FactSet", "facts": [
-            { "title": "1. VA hardware-ban bills on Gov. Spanberger's desk (T-8)", "value": "Heat 92 ▲" },
-            { "title": "2. DOJ vs. Denver + Colorado — week 2 day 9", "value": "Heat 84 →" },
-            { "title": "3. April NICS — third public-cycle day", "value": "Heat 74 ▼" }
-          ]},
-          { "type": "TextBlock", "size": "Small", "weight": "Bolder", "color": "Warning", "text": "WHAT'S MOVING", "spacing": "Medium" },
-          { "type": "TextBlock", "size": "Small", "text": "• VA hardware-ban bills on Gov. desk (T-8); Governor's office still 'no comment'\n• DOJ Denver + Colorado suits week 2 day 9; scheduling order still pending\n• ATF Sec. 926A transport NPRM — comment day 9 of 90\n• Brace + EITB Week 2 day 5; ~T-82 to close; submissions ahead of curve", "wrap": true }
+          {
+            "type": "TextBlock",
+            "size": "Small",
+            "weight": "Bolder",
+            "color": "Warning",
+            "text": "RTB · 2A DAILY INTEL · Monday, May 18, 2026",
+            "spacing": "None"
+          },
+          {
+            "type": "TextBlock",
+            "size": "Large",
+            "weight": "Bolder",
+            "text": "Monday open: Virginia hardware bans NOW LAW (signed Thu 5/14) — 4 lawsuits filed within hours",
+            "wrap": true,
+            "spacing": "Small"
+          },
+          {
+            "type": "TextBlock",
+            "text": "Gov. Spanberger signed HB217/SB749 (AR-15 sales ban) and the >15-round magazine ban late Thursday May 14. McDonald v. Katz (NRA/FPC/SAF federal), NRA-VA state, Crump v. Katz (GOA/VCDL), and an NSSF-funded state suit filed within hours. Story has structurally shifted to litigation.",
+            "wrap": true,
+            "spacing": "Small"
+          },
+          {
+            "type": "TextBlock",
+            "size": "Small",
+            "weight": "Bolder",
+            "color": "Warning",
+            "text": "HOTTEST LEADS",
+            "spacing": "Medium"
+          },
+          {
+            "type": "FactSet",
+            "facts": [
+              {
+                "title": "1. Virginia bans signed + multi-suit response",
+                "value": "Heat 98 ▲▲"
+              },
+              {
+                "title": "2. ATF Chief Counsel Leider podcast (Reload)",
+                "value": "Heat 90 ▲"
+              },
+              {
+                "title": "3. DOJ Colorado AR-15/mag suits — week 3 day 1",
+                "value": "Heat 78 →"
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "size": "Small",
+            "weight": "Bolder",
+            "color": "Warning",
+            "text": "WHAT'S MOVING",
+            "spacing": "Medium"
+          },
+          {
+            "type": "TextBlock",
+            "size": "Small",
+            "text": "• VA assault-firearm + magazine bans SIGNED INTO LAW Thursday May 14\n• 4 lawsuits filed within hours: McDonald (federal) + 3 state suits (NRA-VA, Crump, NSSF)\n• ATF Chief Counsel Robert Leider on The Reload Podcast — first direct ATF read of 34-rule package\n• NRA 2025 Annual Report: $176M of $257M net assets at stake in Foundation lawsuit",
+            "wrap": true
+          }
         ],
         "actions": [
-          { "type": "Action.OpenUrl", "title": "Read full brief →", "url": "https://quinn-weathers.github.io/rtb-marketing-projects/daily-news-brief/" }
+          {
+            "type": "Action.OpenUrl",
+            "title": "Read full brief →",
+            "url": "https://quinn-weathers.github.io/rtb-marketing-projects/daily-news-brief/"
+          }
         ]
       }
     }
