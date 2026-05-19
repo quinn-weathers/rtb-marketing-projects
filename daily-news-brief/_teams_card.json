@@ -14,20 +14,20 @@
             "size": "Small",
             "weight": "Bolder",
             "color": "Warning",
-            "text": "RTB · 2A DAILY INTEL · Monday, May 18, 2026",
+            "text": "RTB \u00b7 2A DAILY INTEL \u00b7 Tuesday, May 19, 2026",
             "spacing": "None"
           },
           {
             "type": "TextBlock",
             "size": "Large",
             "weight": "Bolder",
-            "text": "Monday open: Virginia hardware bans NOW LAW (signed Thu 5/14) — 4 lawsuits filed within hours",
+            "text": "Tuesday open: VA hardware-ban litigation day 5 \u2014 four-suit landscape holding; Leider podcast in second day of public release",
             "wrap": true,
             "spacing": "Small"
           },
           {
             "type": "TextBlock",
-            "text": "Gov. Spanberger signed HB217/SB749 (AR-15 sales ban) and the >15-round magazine ban late Thursday May 14. McDonald v. Katz (NRA/FPC/SAF federal), NRA-VA state, Crump v. Katz (GOA/VCDL), and an NSSF-funded state suit filed within hours. Story has structurally shifted to litigation.",
+            "text": "The structural picture from Monday is intact. VA hardware-ban suits (McDonald federal, NRA-VA state, Crump v. Katz, NSSF-funded state) sit on file without weekend docket fireworks. The Leider podcast moved to public release Monday May 18 and is now in its second 24 hours of open ",
             "wrap": true,
             "spacing": "Small"
           },
@@ -43,16 +43,16 @@
             "type": "FactSet",
             "facts": [
               {
-                "title": "1. Virginia bans signed + multi-suit response",
-                "value": "Heat 98 ▲▲"
+                "title": "1. VA hardware bans + 4-suit landscape \u2014 day 5",
+                "value": "Heat 96 \u25b2"
               },
               {
-                "title": "2. ATF Chief Counsel Leider podcast (Reload)",
-                "value": "Heat 90 ▲"
+                "title": "2. ATF Chief Counsel Leider podcast \u2014 public day 2",
+                "value": "Heat 88 \u25b2"
               },
               {
-                "title": "3. DOJ Colorado AR-15/mag suits — week 3 day 1",
-                "value": "Heat 78 →"
+                "title": "3. DOJ vs. Colorado AR-15/mag suits \u2014 wk 3 d2",
+                "value": "Heat 76 \u2192"
               }
             ]
           },
@@ -67,14 +67,14 @@
           {
             "type": "TextBlock",
             "size": "Small",
-            "text": "• VA assault-firearm + magazine bans SIGNED INTO LAW Thursday May 14\n• 4 lawsuits filed within hours: McDonald (federal) + 3 state suits (NRA-VA, Crump, NSSF)\n• ATF Chief Counsel Robert Leider on The Reload Podcast — first direct ATF read of 34-rule package\n• NRA 2025 Annual Report: $176M of $257M net assets at stake in Foundation lawsuit",
-            "wrap": true
+            "wrap": true,
+            "text": "\u2022 VA hardware-ban litigation day 5 \u2014 four-suit landscape holding; first scheduling/TRO activity the next data point\n\u2022 Leider podcast day 2 of public release \u2014 r/NFA + r/Firearms_Industry secondary explainer cycle\n\u2022 DOJ vs. Denver+CO AR-15/mag suits \u2014 week 3 day 2; no weekend docket activity\n\u2022 ATF Sec. 926A transport NPRM \u2014 comment day 13 of 90; brace+EITB Week 3 day 2 (T-77)"
           }
         ],
         "actions": [
           {
             "type": "Action.OpenUrl",
-            "title": "Read full brief →",
+            "title": "Read full brief \u2192",
             "url": "https://quinn-weathers.github.io/rtb-marketing-projects/daily-news-brief/"
           }
         ]
