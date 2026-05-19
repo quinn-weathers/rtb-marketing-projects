@@ -21,13 +21,13 @@
             "type": "TextBlock",
             "size": "Large",
             "weight": "Bolder",
-            "text": "Tuesday open: VA hardware-ban litigation day 5 \u2014 four-suit landscape holding; Leider podcast in second day of public release",
+            "text": "Tuesday open: Virginia hardware bans now Day 5 as law; four-suit landscape awaits first procedural docket entries",
             "wrap": true,
             "spacing": "Small"
           },
           {
             "type": "TextBlock",
-            "text": "The structural picture from Monday is intact. VA hardware-ban suits (McDonald federal, NRA-VA state, Crump v. Katz, NSSF-funded state) sit on file without weekend docket fireworks. The Leider podcast moved to public release Monday May 18 and is now in its second 24 hours of open ",
+            "text": "The signing storyline is in its Day-5 phase, with the news cycle settled around 'laws on the books, four lawsuits filed, first procedural docket entries pending.' Leider podcast public release is now in its second full day.",
             "wrap": true,
             "spacing": "Small"
           },
@@ -43,16 +43,16 @@
             "type": "FactSet",
             "facts": [
               {
-                "title": "1. VA hardware bans + 4-suit landscape \u2014 day 5",
-                "value": "Heat 96 \u25b2"
+                "title": "1. VA hardware bans + four-suit landscape \u2014 Day 5",
+                "value": "Heat 96 \u25bc"
               },
               {
-                "title": "2. ATF Chief Counsel Leider podcast \u2014 public day 2",
-                "value": "Heat 88 \u25b2"
+                "title": "2. ATF Leider podcast \u2014 Day 2 public release",
+                "value": "Heat 84 \u25bc"
               },
               {
-                "title": "3. DOJ vs. Colorado AR-15/mag suits \u2014 wk 3 d2",
-                "value": "Heat 76 \u2192"
+                "title": "3. DOJ Colorado AR-15/magazine suits \u2014 Week 3 Day 2",
+                "value": "Heat 74 \u25bc"
               }
             ]
           },
@@ -67,8 +67,8 @@
           {
             "type": "TextBlock",
             "size": "Small",
-            "wrap": true,
-            "text": "\u2022 VA hardware-ban litigation day 5 \u2014 four-suit landscape holding; first scheduling/TRO activity the next data point\n\u2022 Leider podcast day 2 of public release \u2014 r/NFA + r/Firearms_Industry secondary explainer cycle\n\u2022 DOJ vs. Denver+CO AR-15/mag suits \u2014 week 3 day 2; no weekend docket activity\n\u2022 ATF Sec. 926A transport NPRM \u2014 comment day 13 of 90; brace+EITB Week 3 day 2 (T-77)"
+            "text": "\u2022 VA hardware bans Day 5 \u2014 first procedural docket entries this week's catalyst\n\u2022 Four-suit landscape unchanged; Court Listener watch\n\u2022 ATF Leider podcast Day 2 of full public release\n\u2022 ATF Sec. 926A transport NPRM \u2014 comment Day 13 of 90",
+            "wrap": true
           }
         ],
         "actions": [
