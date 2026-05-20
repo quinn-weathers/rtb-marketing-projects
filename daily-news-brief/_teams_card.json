@@ -14,20 +14,20 @@
             "size": "Small",
             "weight": "Bolder",
             "color": "Warning",
-            "text": "RTB \u00b7 2A DAILY INTEL \u00b7 Tuesday, May 19, 2026",
+            "text": "RTB \u00b7 2A DAILY INTEL \u00b7 Wednesday, May 20, 2026",
             "spacing": "None"
           },
           {
             "type": "TextBlock",
             "size": "Large",
             "weight": "Bolder",
-            "text": "Tuesday open: Virginia hardware bans now Day 5 as law; four-suit landscape awaits first procedural docket entries",
+            "text": "Wednesday open: Virginia hardware-ban litigation is day 6 \u2014 four-suit landscape holds. Leider podcast day 3 of public release; ATF transport NPRM comment day 14 of 90; brace + EITB Week 3 day 3.",
             "wrap": true,
             "spacing": "Small"
           },
           {
             "type": "TextBlock",
-            "text": "The signing storyline is in its Day-5 phase, with the news cycle settled around 'laws on the books, four lawsuits filed, first procedural docket entries pending.' Leider podcast public release is now in its second full day.",
+            "text": "The structural picture is intact for the sixth day running. Gov. Spanberger's May 14 signing remains the dominant 2A storyline of 2026, with all four lawsuits on file and awaiting first scheduling activity. The Reload has published no new gun-policy stories since May 17.",
             "wrap": true,
             "spacing": "Small"
           },
@@ -43,16 +43,16 @@
             "type": "FactSet",
             "facts": [
               {
-                "title": "1. VA hardware bans + four-suit landscape \u2014 Day 5",
-                "value": "Heat 96 \u25bc"
+                "title": "1. VA hardware bans \u2014 day 6; four-suit landscape",
+                "value": "Heat 92 \u25bc"
               },
               {
-                "title": "2. ATF Leider podcast \u2014 Day 2 public release",
-                "value": "Heat 84 \u25bc"
+                "title": "2. ATF Leider podcast \u2014 public release day 3",
+                "value": "Heat 80 \u25bc"
               },
               {
-                "title": "3. DOJ Colorado AR-15/magazine suits \u2014 Week 3 Day 2",
-                "value": "Heat 74 \u25bc"
+                "title": "3. ATF Sec. 926A transport NPRM \u2014 comment day 14 of 90",
+                "value": "Heat 72 \u2192"
               }
             ]
           },
@@ -67,7 +67,7 @@
           {
             "type": "TextBlock",
             "size": "Small",
-            "text": "\u2022 VA hardware bans Day 5 \u2014 first procedural docket entries this week's catalyst\n\u2022 Four-suit landscape unchanged; Court Listener watch\n\u2022 ATF Leider podcast Day 2 of full public release\n\u2022 ATF Sec. 926A transport NPRM \u2014 comment Day 13 of 90",
+            "text": "\u2022 VA litigation day 6 \u2014 four-suit landscape holding; first scheduling order awaited\n\u2022 Leider podcast day 3 of public release \u2014 settled into reference status\n\u2022 DOJ Colorado AR-15/magazine suits \u2014 week 3 day 3; no docket activity\n\u2022 CO Initiative 89 signature deadline T-10 (May 30) \u2014 rising attention",
             "wrap": true
           }
         ],
