@@ -281,6 +281,33 @@
           }
         ],
         "notes": ""
+      },
+      {
+        "id": "task-e8rfcab8",
+        "title": "BAIRD v. BONTA Amicus Brief - May 2026 Article",
+        "owner": "—",
+        "status": "review",
+        "tags": [],
+        "askDate": "2026-05-22",
+        "priority": "high",
+        "lift": "L",
+        "assignee": "Chase Holmes",
+        "approver": "Jeremy Osborn",
+        "pm": "Quinn Weathers",
+        "projects": [
+          "proj-upl4ik9z"
+        ],
+        "pipelines": [
+          {
+            "id": "blog-production",
+            "stage": "In Review"
+          },
+          {
+            "id": "social-content",
+            "stage": "Review/Approval"
+          }
+        ],
+        "notes": ""
       }
     ]
   },
@@ -7735,6 +7762,29 @@
       {
         "id": "task-gm86lzo0",
         "title": "Adamiak Amicus Brief Article - Hero Image",
+        "owner": "—",
+        "status": "complete",
+        "tags": [],
+        "askDate": "2026-05-14",
+        "priority": "med",
+        "lift": "S",
+        "assignee": "Quinn Weathers",
+        "approver": "Craig Fleck",
+        "pm": "Quinn Weathers",
+        "projects": [
+          "proj-upl4ik9z"
+        ],
+        "pipelines": [
+          {
+            "id": "blog-production",
+            "stage": "Complete"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": "task-mtvzofxk",
+        "title": "Baird Amicus Brief Article - Hero Image",
         "owner": "—",
         "status": "complete",
         "tags": [],
