@@ -14,20 +14,20 @@
             "size": "Small",
             "weight": "Bolder",
             "color": "Warning",
-            "text": "RTB \u00b7 2A DAILY INTEL \u00b7 Wednesday, May 20, 2026",
+            "text": "RTB · 2A DAILY INTEL · Thursday, May 21, 2026",
             "spacing": "None"
           },
           {
             "type": "TextBlock",
             "size": "Large",
             "weight": "Bolder",
-            "text": "Wednesday open: Virginia hardware-ban litigation is day 6 \u2014 four-suit landscape holds. Leider podcast day 3 of public release; ATF transport NPRM comment day 14 of 90; brace + EITB Week 3 day 3.",
+            "text": "Thursday open: 2nd Cir. strikes NY Vampire Rule (Christian v. James); VA hardware-ban litigation day 7",
             "wrap": true,
             "spacing": "Small"
           },
           {
             "type": "TextBlock",
-            "text": "The structural picture is intact for the sixth day running. Gov. Spanberger's May 14 signing remains the dominant 2A storyline of 2026, with all four lawsuits on file and awaiting first scheduling activity. The Reload has published no new gun-policy stories since May 17.",
+            "text": "A previously-missed development moves to the top of the cycle — the Second Circuit on Monday May 18 struck down NY's 'Vampire Rule' in Christian v. James, finding the presumptive ban on lawful carry into publicly-accessible private property fails Bruen. Same panel upheld NY pa...",
             "wrap": true,
             "spacing": "Small"
           },
@@ -43,16 +43,16 @@
             "type": "FactSet",
             "facts": [
               {
-                "title": "1. VA hardware bans \u2014 day 6; four-suit landscape",
-                "value": "Heat 92 \u25bc"
+                "title": "1. Virginia 'assault firearms' + magazine bans — day 7; four-s…",
+                "value": "Heat 90 ↓"
               },
               {
-                "title": "2. ATF Leider podcast \u2014 public release day 3",
-                "value": "Heat 80 \u25bc"
+                "title": "2. Christian v. James — 2nd Cir. strikes NY Vampire Rule; SCOT…",
+                "value": "Heat 84 ↑↑"
               },
               {
-                "title": "3. ATF Sec. 926A transport NPRM \u2014 comment day 14 of 90",
-                "value": "Heat 72 \u2192"
+                "title": "3. ATF Chief Counsel Leider podcast — public release day 4",
+                "value": "Heat 76 ↓"
               }
             ]
           },
@@ -67,14 +67,14 @@
           {
             "type": "TextBlock",
             "size": "Small",
-            "text": "\u2022 VA litigation day 6 \u2014 four-suit landscape holding; first scheduling order awaited\n\u2022 Leider podcast day 3 of public release \u2014 settled into reference status\n\u2022 DOJ Colorado AR-15/magazine suits \u2014 week 3 day 3; no docket activity\n\u2022 CO Initiative 89 signature deadline T-10 (May 30) \u2014 rising attention",
+            "text": "• 2nd Cir.: Christian v. James — strikes NY Vampire Rule (private prope…\n• Virginia: hardware-ban litigation day 7 — four-suit landscape holding…\n• ATF: Leider podcast day 4 of public release — settled into reference …\n• DOJ / CO: AR-15/magazine-ban suits — week 3 day 4; no Wednesday docke…",
             "wrap": true
           }
         ],
         "actions": [
           {
             "type": "Action.OpenUrl",
-            "title": "Read full brief \u2192",
+            "title": "Read full brief →",
             "url": "https://quinn-weathers.github.io/rtb-marketing-projects/daily-news-brief/"
           }
         ]
