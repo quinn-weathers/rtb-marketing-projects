@@ -208,7 +208,7 @@
         "id": "task-33313d9n",
         "title": "US v. Denver + CO Mag Ban - May 2026 Op-Ed",
         "owner": "—",
-        "status": "in-progress",
+        "status": "review",
         "tags": [],
         "askDate": "2026-05-18",
         "priority": "high",
@@ -223,7 +223,7 @@
         "pipelines": [
           {
             "id": "blog-production",
-            "stage": "In-Progress"
+            "stage": "In Review"
           }
         ],
         "notes": ""
@@ -232,7 +232,7 @@
         "id": "task-ug7qr3pg",
         "title": "What is an Amicus Brief? - May 2026 Article",
         "owner": "—",
-        "status": "review",
+        "status": "complete",
         "tags": [],
         "askDate": "2026-05-14",
         "priority": "high",
@@ -246,7 +246,7 @@
         "pipelines": [
           {
             "id": "blog-production",
-            "stage": "In Review"
+            "stage": "Complete"
           },
           {
             "id": "social-content",
@@ -259,7 +259,7 @@
         "id": "task-ekjufpzf",
         "title": "Adamiak v. US Amicus Brief - May 2026 Article",
         "owner": "—",
-        "status": "review",
+        "status": "complete",
         "tags": [],
         "askDate": "2026-05-19",
         "priority": "high",
@@ -273,7 +273,7 @@
         "pipelines": [
           {
             "id": "blog-production",
-            "stage": "In Review"
+            "stage": "Complete"
           },
           {
             "id": "social-content",
@@ -7736,7 +7736,7 @@
         "id": "task-gm86lzo0",
         "title": "Adamiak Amicus Brief Article - Hero Image",
         "owner": "—",
-        "status": "in-progress",
+        "status": "complete",
         "tags": [],
         "askDate": "2026-05-14",
         "priority": "med",
@@ -7750,7 +7750,53 @@
         "pipelines": [
           {
             "id": "blog-production",
-            "stage": "In-Progress"
+            "stage": "Complete"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": "task-rtqbu38b",
+        "title": "US vs. CO & Denver Article - Hero Image",
+        "owner": "—",
+        "status": "complete",
+        "tags": [],
+        "askDate": "2026-05-18",
+        "priority": "med",
+        "lift": "S",
+        "assignee": "Quinn Weathers",
+        "approver": "Craig Fleck",
+        "pm": "Quinn Weathers",
+        "projects": [
+          "proj-upl4ik9z"
+        ],
+        "pipelines": [
+          {
+            "id": "blog-production",
+            "stage": "Complete"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": "task-dp6bcntk",
+        "title": "VA Weapons Ban Bill Article - Hero Image",
+        "owner": "—",
+        "status": "complete",
+        "tags": [],
+        "askDate": "2026-05-18",
+        "priority": "med",
+        "lift": "S",
+        "assignee": "Quinn Weathers",
+        "approver": "Craig Fleck",
+        "pm": "Quinn Weathers",
+        "projects": [
+          "proj-upl4ik9z"
+        ],
+        "pipelines": [
+          {
+            "id": "blog-production",
+            "stage": "Complete"
           }
         ],
         "notes": ""
@@ -7773,7 +7819,7 @@
         "pipelines": [
           {
             "id": "blog-production",
-            "stage": "Complete"
+            "stage": "Published"
           }
         ],
         "notes": ""
@@ -7782,7 +7828,7 @@
         "id": "2t94ia4t",
         "title": "US v. Denver - Mag Ban Post",
         "owner": "",
-        "status": "in-progress",
+        "status": "complete",
         "tags": [],
         "projects": [
           "proj-upl4ik9z"
@@ -7796,7 +7842,7 @@
         "pipelines": [
           {
             "id": "blog-production",
-            "stage": "In-Progress"
+            "stage": "Published"
           },
           {
             "id": "social-content",
@@ -7809,7 +7855,7 @@
         "id": "task-xkpu04wd",
         "title": "US v. Colorado - Mag Ban Post",
         "owner": "",
-        "status": "in-progress",
+        "status": "complete",
         "tags": [],
         "projects": [
           "proj-upl4ik9z"
@@ -7823,7 +7869,7 @@
         "pipelines": [
           {
             "id": "blog-production",
-            "stage": "In-Progress"
+            "stage": "Published"
           },
           {
             "id": "social-content",
