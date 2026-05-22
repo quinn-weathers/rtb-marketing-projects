@@ -51,6 +51,12 @@
       "name": "News & Industry Updates",
       "bg": "#eaaa80",
       "fg": "#571e00"
+    },
+    {
+      "id": "proj-odwx3t35",
+      "name": "Benefits",
+      "bg": "#8affd2",
+      "fg": "#008055"
     }
   ],
   "pipelines": {
@@ -301,6 +307,50 @@
           {
             "id": "blog-production",
             "stage": "In-Progress"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": "n6360mlj",
+        "title": "CCW Licensing BY STATE (Pillar)",
+        "owner": "",
+        "status": "backlog",
+        "tags": [],
+        "projects": [],
+        "askDate": "2026-06-30",
+        "priority": "high",
+        "lift": "XL",
+        "assignee": "Jeremy Osborn",
+        "approver": "Richard Louise",
+        "pm": "Quinn Weathers",
+        "pipelines": [
+          {
+            "id": "blog-production",
+            "stage": "Ideation/Outline"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": "task-jq4d0nvu",
+        "title": "Member Benefits (Pillar)",
+        "owner": "",
+        "status": "backlog",
+        "tags": [],
+        "projects": [
+          "proj-odwx3t35"
+        ],
+        "askDate": "2026-06-30",
+        "priority": "high",
+        "lift": "XL",
+        "assignee": "Chase Holmes",
+        "approver": "Richard Louise",
+        "pm": "Quinn Weathers",
+        "pipelines": [
+          {
+            "id": "blog-production",
+            "stage": "Ideation/Outline"
           }
         ],
         "notes": ""
