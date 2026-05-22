@@ -14,20 +14,20 @@
             "size": "Small",
             "weight": "Bolder",
             "color": "Warning",
-            "text": "RTB · 2A DAILY INTEL · Thursday, May 21, 2026",
+            "text": "RTB · 2A DAILY INTEL · Friday, May 22, 2026",
             "spacing": "None"
           },
           {
             "type": "TextBlock",
             "size": "Large",
             "weight": "Bolder",
-            "text": "Thursday open: 2nd Cir. strikes NY Vampire Rule (Christian v. James); VA hardware-ban litigation day 7",
+            "text": "VA prosecutor refusals broaden the hardware-ban storyline; ATF gender-ID rule gets on-record Leider clarification",
             "wrap": true,
             "spacing": "Small"
           },
           {
             "type": "TextBlock",
-            "text": "A previously-missed development moves to the top of the cycle — the Second Circuit on Monday May 18 struck down NY's 'Vampire Rule' in Christian v. James, finding the presumptive ban on lawful carry into publicly-accessible private property fails Bruen. Same panel upheld NY pa...",
+            "text": "At least 4 Virginia Commonwealth's Attorneys (Spotsylvania, Smyth, Powhatan, Pulaski) publicly refuse to enforce new bans, citing Heller + Bruen. ATF Chief Counsel Leider on-record: gender-ID rule is not a backdoor trans gun ban; NPRM has drawn the most comments in the 32-rule package.",
             "wrap": true,
             "spacing": "Small"
           },
@@ -43,16 +43,16 @@
             "type": "FactSet",
             "facts": [
               {
-                "title": "1. Virginia 'assault firearms' + magazine bans — day 7; four-s…",
-                "value": "Heat 90 ↓"
+                "title": "1. Virginia hardware-ban storyline + prosecutor refusals (day 8)",
+                "value": "Heat 93 ▲▲"
               },
               {
-                "title": "2. Christian v. James — 2nd Cir. strikes NY Vampire Rule; SCOT…",
-                "value": "Heat 84 ↑↑"
+                "title": "2. ATF gender-ID rule — Leider on-record interview",
+                "value": "Heat 82 ▲▲"
               },
               {
-                "title": "3. ATF Chief Counsel Leider podcast — public release day 4",
-                "value": "Heat 76 ↓"
+                "title": "3. Christian v. James 2nd Cir. — reference status, Reload newsletter recap",
+                "value": "Heat 76 →"
               }
             ]
           },
@@ -67,7 +67,7 @@
           {
             "type": "TextBlock",
             "size": "Small",
-            "text": "• 2nd Cir.: Christian v. James — strikes NY Vampire Rule (private prope…\n• Virginia: hardware-ban litigation day 7 — four-suit landscape holding…\n• ATF: Leider podcast day 4 of public release — settled into reference …\n• DOJ / CO: AR-15/magazine-ban suits — week 3 day 4; no Wednesday docke…",
+            "text": "• VA: 4 Commonwealth's Attorneys (Spotsylvania, Smyth, Powhatan, Pulaski) refuse to enforce new bans\n• ATF: Leider on-record — gender-ID rule is not a trans gun ban; majority of comments critical\n• Polls: 3 May polls (Quinnipiac, YouGov, Echelon) show guns at 1–2% of voter top issues\n• VA litigation: four-suit landscape day 8; effective date July 1 unchanged",
             "wrap": true
           }
         ],
