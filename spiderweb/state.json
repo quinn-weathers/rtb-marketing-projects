@@ -8029,7 +8029,7 @@
         "id": "task-qbotl2c5",
         "title": "New York's \"Vampire Rule\" Struck Down - Hero Image",
         "owner": "—",
-        "status": "in-progress",
+        "status": "complete",
         "tags": [],
         "askDate": "2026-05-29",
         "priority": "high",
@@ -8044,7 +8044,7 @@
         "pipelines": [
           {
             "id": "blog-production",
-            "stage": "In-Progress"
+            "stage": "Complete"
           }
         ],
         "notes": ""
@@ -8053,7 +8053,7 @@
         "id": "task-643mls00",
         "title": "Memorial Day Blog 2026 - Hero image",
         "owner": "—",
-        "status": "in-progress",
+        "status": "complete",
         "tags": [],
         "askDate": "2026-05-22",
         "priority": "high",
@@ -8067,7 +8067,7 @@
         "pipelines": [
           {
             "id": "blog-production",
-            "stage": "In-Progress"
+            "stage": "Complete"
           }
         ],
         "notes": ""
