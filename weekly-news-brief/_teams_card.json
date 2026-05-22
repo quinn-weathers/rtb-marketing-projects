@@ -1,0 +1,89 @@
+{
+  "type": "message",
+  "attachments": [
+    {
+      "contentType": "application/vnd.microsoft.card.adaptive",
+      "contentUrl": null,
+      "content": {
+        "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+        "type": "AdaptiveCard",
+        "version": "1.5",
+        "body": [
+          {
+            "type": "TextBlock",
+            "size": "Small",
+            "weight": "Bolder",
+            "color": "Warning",
+            "text": "RTB · 2A WEEKLY INTEL · Week of May 18 – May 22, 2026",
+            "spacing": "None"
+          },
+          {
+            "type": "TextBlock",
+            "size": "Large",
+            "weight": "Bolder",
+            "text": "Virginia hardware bans held volcanic all week; 2nd Cir. strikes NY Vampire Rule late Thursday",
+            "wrap": true,
+            "spacing": "Small"
+          },
+          {
+            "type": "TextBlock",
+            "text": "Virginia (avg 94, 4/5 days) anchored the cycle; ATF Leider podcast (avg 84) was the runner-up. Christian v. James (2nd Cir.) broke late Thursday and now reads alongside SCOTUS pending in Wolford.",
+            "wrap": true,
+            "spacing": "Small"
+          },
+          {
+            "type": "TextBlock",
+            "size": "Small",
+            "weight": "Bolder",
+            "color": "Warning",
+            "text": "STAYED HOT ALL WEEK",
+            "spacing": "Medium"
+          },
+          {
+            "type": "FactSet",
+            "facts": [
+              {
+                "title": "1. Virginia hardware bans — day 7 four-suit landscape",
+                "value": "Avg 94 · 4/5 days · ↓"
+              },
+              {
+                "title": "2. ATF Chief Counsel Leider podcast — reference status",
+                "value": "Avg 84 · 4/5 days · ↓"
+              },
+              {
+                "title": "3. ATF Sec. 926A interstate-transport NPRM — day 15/90",
+                "value": "Avg 74 · 4/5 days · →"
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "size": "Small",
+            "weight": "Bolder",
+            "color": "Warning",
+            "text": "WATCH NEXT WEEK",
+            "spacing": "Medium"
+          },
+          {
+            "type": "TextBlock",
+            "size": "Small",
+            "wrap": true,
+            "text": "• [Calendar] Sat 5/30: CO Initiative 89 signature deadline\n• [Predicted] Wolford v. Lopez (Hawaii Vampire Rule) decision in next 4–6 weeks\n• [Carry-over] First VA state-court TRO motion likely 5/25–6/3 window\n• [Calendar] Wed 6/3: May NICS release — first post-VA-signing data"
+          }
+        ],
+        "actions": [
+          {
+            "type": "Action.OpenUrl",
+            "title": "Read the full weekly →",
+            "url": "https://quinn-weathers.github.io/rtb-marketing-projects/weekly-news-brief/"
+          },
+          {
+            "type": "Action.OpenUrl",
+            "title": "Today's daily →",
+            "url": "https://quinn-weathers.github.io/rtb-marketing-projects/daily-news-brief/"
+          }
+        ]
+      }
+    }
+  ]
+}
