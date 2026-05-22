@@ -7487,7 +7487,7 @@
         "id": "pqoezugn",
         "title": "ATF 34-Rule Package - Video #1",
         "owner": "—",
-        "status": "review",
+        "status": "complete",
         "tags": [],
         "askDate": "2026-05-27",
         "priority": "high",
@@ -7501,7 +7501,7 @@
         "pipelines": [
           {
             "id": "blog-production",
-            "stage": "In Review"
+            "stage": "Published"
           }
         ],
         "notes": ""
