@@ -8071,6 +8071,33 @@
           }
         ],
         "notes": ""
+      },
+      {
+        "id": "task-ze68urq9",
+        "title": "Memorial Day 2026 - Social post",
+        "owner": "—",
+        "status": "review",
+        "tags": [],
+        "askDate": "2026-05-25",
+        "priority": "high",
+        "lift": "L",
+        "assignee": "David",
+        "approver": "Craig Fleck",
+        "pm": "Quinn Weathers",
+        "projects": [
+          "memorial-special"
+        ],
+        "pipelines": [
+          {
+            "id": "blog-production",
+            "stage": "In Review"
+          },
+          {
+            "id": "social-content",
+            "stage": "Review/Approval"
+          }
+        ],
+        "notes": ""
       }
     ]
   },
