@@ -8112,5 +8112,8 @@
   "_cleanedSeedTasks": true,
   "_cleanedKatNick": true,
   "_cleanedSeedEvents": true,
-  "hubMeta": {}
+  "hubMeta": {},
+  "ui": {
+    "pipelineColWidth": 210
+  }
 }
