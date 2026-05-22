@@ -3911,6 +3911,10 @@ function migrateState(s) {
   if (!Array.isArray(s.events)) s.events = [];
   if (!s.hubMeta || typeof s.hubMeta !== 'object') s.hubMeta = {};
   if (typeof s.calMonth !== 'string') s.calMonth = new Date().toISOString().slice(0, 7);
+  // UI preferences — pipeline column width, etc. Defaults to 180px (current behavior).
+  if (!s.ui || typeof s.ui !== 'object') s.ui = {};
+  const _pcw = parseInt(s.ui.pipelineColWidth, 10);
+  if (!Number.isFinite(_pcw) || _pcw < 100 || _pcw > 500) s.ui.pipelineColWidth = 180;
   ['seo','social','email','affiliate','events','creative','video'].forEach(d => {
     if (!s[d] || typeof s[d] !== 'object') {
       s[d] = { members: [], goals: [], stakeholders: [], notes: [], projects: [] };
@@ -6952,7 +6956,10 @@ function renderPipelineBoard(pid) {
   // Build the grid container with dynamic column count
   const grid = document.createElement('div');
   grid.className = 'pipeline-swimlane-grid';
-  grid.style.gridTemplateColumns = `170px repeat(${pipeline.stages.length}, minmax(180px, 1fr))`;
+  const colW = (state.ui && parseInt(state.ui.pipelineColWidth, 10)) || 180;
+  // Use fixed pixel width (no 1fr) so the user-set width is honored exactly
+  // — overflow scrolls horizontally inside .pipeline-board.
+  grid.style.gridTemplateColumns = `170px repeat(${pipeline.stages.length}, ${colW}px)`;
 
   // Top-left corner cell
   const corner = document.createElement('div');
@@ -7466,11 +7473,41 @@ function renderPipelinesTab(body) {
       </div>
     `;
   }
+  const curW = (state.ui && parseInt(state.ui.pipelineColWidth, 10)) || 180;
   body.innerHTML = `
+    <div style="display:flex; align-items:center; gap:10px; padding:10px 12px; margin:0 0 12px; background:var(--paper-2); border:1px solid var(--rule); border-radius:var(--radius); flex-wrap:wrap;">
+      <span style="font-size:10px; font-weight:800; text-transform:uppercase; letter-spacing:0.08em; color:var(--blue-steel-deep);">Stage column width</span>
+      <input type="range" id="pipeColW" min="120" max="360" step="10" value="${curW}" style="flex:1; min-width:160px; max-width:320px; accent-color:var(--copper);" />
+      <input type="number" id="pipeColWNum" min="120" max="360" step="10" value="${curW}" style="width:70px; padding:4px 6px; border:1px solid var(--rule); border-radius:4px; font-size:12px; font-family:inherit;" />
+      <span style="font-size:11px; color:var(--ink-faint);">px</span>
+      <button id="pipeColWReset" class="btn-add" style="padding:4px 10px; font-size:11px;">Reset</button>
+      <span style="font-size:11px; color:var(--ink-soft); flex-basis:100%;">Applies to all pipeline swimlane stage columns. Narrower = more stages visible at once; wider = more room for long card titles.</span>
+    </div>
     <p style="font-size:12px; color:var(--ink-soft); margin:0 0 12px;">Each pipeline stage can map to a task status (Backlog / In Progress / Review / Complete) — when a task moves into the stage, its status auto-updates to match.</p>
     <div id="pipeBlocks">${Object.entries(state.pipelines).map(([k, p]) => pipelineRow(k, p)).join('')}</div>
     <button id="addPipeline" class="btn-add" style="margin-top:8px;">+ Add Pipeline</button>
   `;
+  // Width slider wiring
+  const wSlider = document.getElementById('pipeColW');
+  const wNum    = document.getElementById('pipeColWNum');
+  const wReset  = document.getElementById('pipeColWReset');
+  function applyW(val, fromSlider) {
+    let v = parseInt(val, 10);
+    if (!Number.isFinite(v)) v = 180;
+    v = Math.max(120, Math.min(360, v));
+    if (!state.ui) state.ui = {};
+    state.ui.pipelineColWidth = v;
+    if (fromSlider) wNum.value = v; else wSlider.value = v;
+    // Live re-render any open pipeline board (so user sees the change immediately)
+    document.querySelectorAll('.pipeline-board[data-pipeline-id]').forEach(b => {
+      const pid = b.getAttribute('data-pipeline-id');
+      if (pid) renderPipelineBoard(pid);
+    });
+    saveState();
+  }
+  wSlider.addEventListener('input', e => applyW(e.target.value, true));
+  wNum.addEventListener('input', e => applyW(e.target.value, false));
+  wReset.addEventListener('click', () => applyW(180, false));
   function refresh() {
     document.getElementById('pipeBlocks').innerHTML = Object.entries(state.pipelines).map(([k, p]) => pipelineRow(k, p)).join('');
     bind();
