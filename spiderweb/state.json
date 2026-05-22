@@ -205,30 +205,6 @@
         "notes": ""
       },
       {
-        "id": "task-33313d9n",
-        "title": "US v. Denver + CO Mag Ban - May 2026 Op-Ed",
-        "owner": "—",
-        "status": "review",
-        "tags": [],
-        "askDate": "2026-05-18",
-        "priority": "high",
-        "lift": "L",
-        "assignee": "Chase Holmes",
-        "approver": "Jeremy Osborn",
-        "pm": "Quinn Weathers",
-        "projects": [
-          "proj-upl4ik9z",
-          "state-of-the-union"
-        ],
-        "pipelines": [
-          {
-            "id": "blog-production",
-            "stage": "In Review"
-          }
-        ],
-        "notes": ""
-      },
-      {
         "id": "task-ug7qr3pg",
         "title": "What is an Amicus Brief? - May 2026 Article",
         "owner": "—",
@@ -283,28 +259,48 @@
         "notes": ""
       },
       {
-        "id": "task-e8rfcab8",
-        "title": "BAIRD v. BONTA Amicus Brief - May 2026 Article",
+        "id": "task-s3dz8hzo",
+        "title": "New York's \"Vampire Rule\" Struck Down - May 2026 Op-Ed",
         "owner": "—",
         "status": "review",
         "tags": [],
-        "askDate": "2026-05-22",
+        "askDate": "2026-05-29",
         "priority": "high",
         "lift": "L",
         "assignee": "Chase Holmes",
         "approver": "Jeremy Osborn",
         "pm": "Quinn Weathers",
         "projects": [
-          "proj-upl4ik9z"
+          "proj-upl4ik9z",
+          "state-of-the-union"
         ],
         "pipelines": [
           {
             "id": "blog-production",
             "stage": "In Review"
-          },
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": "task-rynutj1b",
+        "title": "Memorial Day 2026 - Blog",
+        "owner": "—",
+        "status": "in-progress",
+        "tags": [],
+        "askDate": "2026-05-25",
+        "priority": "high",
+        "lift": "L",
+        "assignee": "Chase Holmes",
+        "approver": "Jeremy Osborn",
+        "pm": "Quinn Weathers",
+        "projects": [
+          "memorial-special"
+        ],
+        "pipelines": [
           {
-            "id": "social-content",
-            "stage": "Review/Approval"
+            "id": "blog-production",
+            "stage": "In-Progress"
           }
         ],
         "notes": ""
@@ -7513,6 +7509,57 @@
           }
         ],
         "notes": ""
+      },
+      {
+        "id": "task-33313d9n",
+        "title": "US v. Denver + CO Mag Ban - May 2026 Op-Ed",
+        "owner": "—",
+        "status": "complete",
+        "tags": [],
+        "askDate": "2026-05-18",
+        "priority": "high",
+        "lift": "L",
+        "assignee": "Chase Holmes",
+        "approver": "Jeremy Osborn",
+        "pm": "Quinn Weathers",
+        "projects": [
+          "proj-upl4ik9z",
+          "state-of-the-union"
+        ],
+        "pipelines": [
+          {
+            "id": "blog-production",
+            "stage": "Complete"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": "task-e8rfcab8",
+        "title": "BAIRD v. BONTA Amicus Brief - May 2026 Article",
+        "owner": "—",
+        "status": "complete",
+        "tags": [],
+        "askDate": "2026-05-22",
+        "priority": "high",
+        "lift": "L",
+        "assignee": "Chase Holmes",
+        "approver": "Jeremy Osborn",
+        "pm": "Quinn Weathers",
+        "projects": [
+          "proj-upl4ik9z"
+        ],
+        "pipelines": [
+          {
+            "id": "blog-production",
+            "stage": "Complete"
+          },
+          {
+            "id": "social-content",
+            "stage": "Review/Approval"
+          }
+        ],
+        "notes": ""
       }
     ]
   },
@@ -7924,6 +7971,53 @@
           {
             "id": "social-content",
             "stage": "Creative"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": "task-qbotl2c5",
+        "title": "New York's \"Vampire Rule\" Struck Down - Hero Image",
+        "owner": "—",
+        "status": "in-progress",
+        "tags": [],
+        "askDate": "2026-05-29",
+        "priority": "high",
+        "lift": "L",
+        "assignee": "Quinn Weathers",
+        "approver": "Craig Fleck",
+        "pm": "Quinn Weathers",
+        "projects": [
+          "proj-upl4ik9z",
+          "state-of-the-union"
+        ],
+        "pipelines": [
+          {
+            "id": "blog-production",
+            "stage": "In-Progress"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": "task-643mls00",
+        "title": "Memorial Day Blog 2026 - Hero image",
+        "owner": "—",
+        "status": "in-progress",
+        "tags": [],
+        "askDate": "2026-05-22",
+        "priority": "high",
+        "lift": "S",
+        "assignee": "Quinn Weathers",
+        "approver": "Craig Fleck",
+        "pm": "Quinn Weathers",
+        "projects": [
+          "memorial-special"
+        ],
+        "pipelines": [
+          {
+            "id": "blog-production",
+            "stage": "In-Progress"
           }
         ],
         "notes": ""
