@@ -14,20 +14,20 @@
             "size": "Small",
             "weight": "Bolder",
             "color": "Warning",
-            "text": "RTB \u00b7 2A DAILY INTEL \u00b7 Tuesday, May 26, 2026",
+            "text": "RTB · 2A DAILY INTEL · Tuesday, May 26, 2026",
             "spacing": "None"
           },
           {
             "type": "TextBlock",
             "size": "Large",
             "weight": "Bolder",
-            "text": "Post-Memorial Day open: Colorado's 152-page draft 'Specified Semiautomatic Firearms' list (SB25-003) remains the lead \u2014 sweeps in Walther CCP, Ruger 10/22 variant, Mauser M1916, Desert Eagle.",
+            "text": "Post-Memorial Day open: Colorado's 152-page draft list of \"Specified Semiautomatic Firearms\" under SB25-003 is the major weekend development",
             "wrap": true,
             "spacing": "Small"
           },
           {
             "type": "TextBlock",
-            "text": "Reload Sunday analysis (Fogleman) documents the May 15 CO DOR draft sweeps far beyond AR/AK platforms. Federal courts reopen today; VA litigation now at day 12 (first scheduling-order-eligible business day). Two-week comment window closes ~June 1; final guidance July 1; Aug 1 effective.",
+            "text": "Reload contributing writer Jake Fogleman's Sunday member-exclusive shows the May 15 CO DOR draft sweeps in hundreds of AR/AK variants plus hunting rifles (Sauer 303, Mauser M1916), carve-out variants (Browning BAR MK 4, Springfield M1 Scout), an 8-round Walther CCP, and even a Ruger 10/22 variant. NSSF May 18 dealer alert: two-week feedback window before July 1 final guidance; effective August 1, 2026.",
             "wrap": true,
             "spacing": "Small"
           },
@@ -43,16 +43,16 @@
             "type": "FactSet",
             "facts": [
               {
-                "title": "1. Colorado SB25-003 draft list (152pp) \u2014 Day 2 ticker-lead",
-                "value": "Heat 94 \u25b2\u25b2\u25b2"
+                "title": "1. Colorado SB25-003 draft \"Specified Semiauto\" list (152pp)",
+                "value": "Heat 94 ▲▲▲"
               },
               {
-                "title": "2. VA hardware-ban storyline \u2014 courts reopen, day 12",
-                "value": "Heat 86 \u25bc"
+                "title": "2. Virginia hardware-ban storyline — prosecutor refusals + 4-suit landscape day 12",
+                "value": "Heat 86 ▼"
               },
               {
-                "title": "3. ATF gender-ID rule \u2014 Leider interview canonical reference",
-                "value": "Heat 78 \u2192"
+                "title": "3. ATF gender-ID rule — Leider Reload interview canonical reference",
+                "value": "Heat 78 →"
               }
             ]
           },
@@ -67,14 +67,14 @@
           {
             "type": "TextBlock",
             "size": "Small",
-            "text": "\u2022 CO DOR draft 'Specified Semiautomatic Firearms' list (152pp, May 15) sweeps in CCP/10-22 variant\n\u2022 NSSF May 18 compliance alert to CO dealers \u2014 two-week feedback window\n\u2022 Reload Q&A pod (Sun) \u2014 DOJ-CO suits, SCOTUS 2A appetite, NFA future, ATF recordkeeping\n\u2022 VA four-county prosecutor refusals hold at 4; four-suit landscape day 12, courts reopen",
+            "text": "• Colorado DOR draft list (May 15) sweeps AR/AK + Walther CCP, Ruger 10/22, Desert Eagle\n• NSSF May 18 alert: two-week dealer feedback window before July 1 final\n• VA four-county prosecutor refusals hold; courts reopen Tue—first scheduling-order eligible day\n• ATF Sec. 926A transport NPRM comment day 20 of 90; brace + EITB Week 4 day 2",
             "wrap": true
           }
         ],
         "actions": [
           {
             "type": "Action.OpenUrl",
-            "title": "Read full brief \u2192",
+            "title": "Read full brief →",
             "url": "https://quinn-weathers.github.io/rtb-marketing-projects/daily-news-brief/"
           }
         ]
