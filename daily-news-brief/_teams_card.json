@@ -14,20 +14,20 @@
             "size": "Small",
             "weight": "Bolder",
             "color": "Warning",
-            "text": "RTB \u00b7 2A DAILY INTEL \u00b7 Monday, May 25, 2026",
+            "text": "RTB \u00b7 2A DAILY INTEL \u00b7 Tuesday, May 26, 2026",
             "spacing": "None"
           },
           {
             "type": "TextBlock",
             "size": "Large",
             "weight": "Bolder",
-            "text": "Memorial Day open: Colorado's 152-page draft 'Specified Semiautomatic Firearms' list (SB25-003) is the major weekend development \u2014 sweeps in unexpected guns including Walther CCP, Ruger 10/22 variant, Mauser M1916, and Desert Eagle.",
+            "text": "Post-Memorial Day open: Colorado's 152-page draft 'Specified Semiautomatic Firearms' list (SB25-003) remains the lead \u2014 sweeps in Walther CCP, Ruger 10/22 variant, Mauser M1916, Desert Eagle.",
             "wrap": true,
             "spacing": "Small"
           },
           {
             "type": "TextBlock",
-            "text": "Reload Sunday analysis (Fogleman) documents the May 15 CO DOR draft sweeps far beyond AR/AK platforms into hunting rifles and an 8-round CCP pistol. Two-week comment window closes ~June 1; final guidance July 1; permit-to-purchase effective Aug 1, 2026.",
+            "text": "Reload Sunday analysis (Fogleman) documents the May 15 CO DOR draft sweeps far beyond AR/AK platforms. Federal courts reopen today; VA litigation now at day 12 (first scheduling-order-eligible business day). Two-week comment window closes ~June 1; final guidance July 1; Aug 1 effective.",
             "wrap": true,
             "spacing": "Small"
           },
@@ -43,11 +43,11 @@
             "type": "FactSet",
             "facts": [
               {
-                "title": "1. Colorado SB25-003 draft list (152pp) \u2014 surprise inclusions",
+                "title": "1. Colorado SB25-003 draft list (152pp) \u2014 Day 2 ticker-lead",
                 "value": "Heat 94 \u25b2\u25b2\u25b2"
               },
               {
-                "title": "2. VA hardware-ban storyline \u2014 prosecutor refusals hold at 4",
+                "title": "2. VA hardware-ban storyline \u2014 courts reopen, day 12",
                 "value": "Heat 86 \u25bc"
               },
               {
@@ -67,7 +67,7 @@
           {
             "type": "TextBlock",
             "size": "Small",
-            "text": "\u2022 CO DOR draft 'Specified Semiautomatic Firearms' list (152pp, May 15) sweeps in CCP/10-22 variant\n\u2022 NSSF May 18 compliance alert to CO dealers \u2014 two-week feedback window\n\u2022 Reload Q&A pod (Sun) \u2014 DOJ-CO suits, SCOTUS 2A appetite, NFA future, ATF recordkeeping\n\u2022 VA four-county prosecutor refusals hold; four-suit landscape day 11",
+            "text": "\u2022 CO DOR draft 'Specified Semiautomatic Firearms' list (152pp, May 15) sweeps in CCP/10-22 variant\n\u2022 NSSF May 18 compliance alert to CO dealers \u2014 two-week feedback window\n\u2022 Reload Q&A pod (Sun) \u2014 DOJ-CO suits, SCOTUS 2A appetite, NFA future, ATF recordkeeping\n\u2022 VA four-county prosecutor refusals hold at 4; four-suit landscape day 12, courts reopen",
             "wrap": true
           }
         ],
