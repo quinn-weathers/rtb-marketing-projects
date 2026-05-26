@@ -292,7 +292,7 @@
         "id": "task-rynutj1b",
         "title": "Memorial Day 2026 - Blog",
         "owner": "—",
-        "status": "in-progress",
+        "status": "complete",
         "tags": [],
         "askDate": "2026-05-25",
         "priority": "high",
@@ -306,7 +306,7 @@
         "pipelines": [
           {
             "id": "blog-production",
-            "stage": "In-Progress"
+            "stage": "Published"
           }
         ],
         "notes": ""
