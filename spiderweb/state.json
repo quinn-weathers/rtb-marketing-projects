@@ -313,21 +313,21 @@
       },
       {
         "id": "n6360mlj",
-        "title": "CCW Licensing BY STATE (Pillar)",
+        "title": "CCW Permit in TX",
         "owner": "",
-        "status": "backlog",
+        "status": "review",
         "tags": [],
         "projects": [],
-        "askDate": "2026-06-30",
+        "askDate": "2026-05-29",
         "priority": "high",
-        "lift": "XL",
+        "lift": "L",
         "assignee": "Jeremy Osborn",
         "approver": "Richard Louise",
         "pm": "Quinn Weathers",
         "pipelines": [
           {
             "id": "blog-production",
-            "stage": "Ideation/Outline"
+            "stage": "In Review"
           }
         ],
         "notes": ""
