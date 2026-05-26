@@ -354,6 +354,29 @@
           }
         ],
         "notes": ""
+      },
+      {
+        "id": "task-cpvy76az",
+        "title": "CCW Permits BY STATE (Pillar)",
+        "owner": "",
+        "status": "backlog",
+        "tags": [],
+        "projects": [
+          "proj-upl4ik9z"
+        ],
+        "askDate": "2026-06-30",
+        "priority": "high",
+        "lift": "XL",
+        "assignee": "Jeremy Osborn",
+        "approver": "Richard Louise",
+        "pm": "Quinn Weathers",
+        "pipelines": [
+          {
+            "id": "blog-production",
+            "stage": "Ideation/Outline"
+          }
+        ],
+        "notes": ""
       }
     ]
   },
