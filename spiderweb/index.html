@@ -3573,6 +3573,10 @@
   <div class="modal" id="modal"></div>
 </div>
 
+<!-- Export libraries (loaded from CDN; used only by pipeline snapshot export) -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
 <script>
 /* =================== STATE & PERSISTENCE =================== */
 const STORAGE_KEY = 'rtb-spiderweb-v1';
@@ -6908,6 +6912,14 @@ function renderPipelinesView() {
       <button class="add" id="pcAdd">+ New Card</button>
       <button class="add" id="pcExisting" style="background:transparent; color:var(--copper); border:1px solid var(--copper);">+ Existing Task</button>
       <button class="add" id="pcManage" style="background:transparent; color:var(--copper); border:1px solid var(--copper);">Manage</button>
+      <div class="export-wrap" style="position:relative; display:inline-block;">
+        <button class="add" id="pcExport" style="background:var(--blue-steel); color:#fff; border:1px solid var(--blue-steel);" title="Download a snapshot of this pipeline">📸 Export ▾</button>
+        <div id="pcExportMenu" style="display:none; position:absolute; top:calc(100% + 4px); right:0; background:#fff; border:1px solid var(--rule); border-radius:var(--radius); box-shadow:0 4px 16px rgba(0,0,0,0.12); z-index:200; min-width:180px; overflow:hidden;">
+          <button data-fmt="jpg" class="export-opt" style="display:block; width:100%; text-align:left; padding:9px 12px; background:transparent; border:none; font-family:inherit; font-size:12px; cursor:pointer; color:var(--ink); border-bottom:1px solid var(--rule);">🖼  Save as JPG</button>
+          <button data-fmt="png" class="export-opt" style="display:block; width:100%; text-align:left; padding:9px 12px; background:transparent; border:none; font-family:inherit; font-size:12px; cursor:pointer; color:var(--ink); border-bottom:1px solid var(--rule);">🖼  Save as PNG</button>
+          <button data-fmt="pdf" class="export-opt" style="display:block; width:100%; text-align:left; padding:9px 12px; background:transparent; border:none; font-family:inherit; font-size:12px; cursor:pointer; color:var(--ink);">📄  Save as PDF (landscape)</button>
+        </div>
+      </div>
     </div>
 
     <div class="pipeline-board" data-pipeline-id="${escapeHtml(pid)}"></div>
@@ -6925,7 +6937,149 @@ function renderPipelinesView() {
   document.getElementById('pcExisting').addEventListener('click', () => openExistingTaskPicker(pid));
   document.getElementById('pcManage').addEventListener('click', () => openSettings('pipelines'));
 
+  // Export menu toggle + actions
+  const expBtn = document.getElementById('pcExport');
+  const expMenu = document.getElementById('pcExportMenu');
+  if (expBtn && expMenu) {
+    expBtn.addEventListener('click', e => {
+      e.stopPropagation();
+      const open = expMenu.style.display === 'block';
+      expMenu.style.display = open ? 'none' : 'block';
+    });
+    // Close on outside click
+    document.addEventListener('click', () => { expMenu.style.display = 'none'; }, { once: true });
+    expMenu.querySelectorAll('.export-opt').forEach(b => {
+      b.addEventListener('click', e => {
+        e.stopPropagation();
+        expMenu.style.display = 'none';
+        exportPipelineSnapshot(pid, b.dataset.fmt);
+      });
+      b.addEventListener('mouseenter', () => b.style.background = 'var(--paper-2)');
+      b.addEventListener('mouseleave', () => b.style.background = 'transparent');
+    });
+  }
+
   renderPipelineBoard(pid);
+}
+
+/* =================== PIPELINE SNAPSHOT EXPORT =================== */
+async function exportPipelineSnapshot(pid, fmt) {
+  const pipeline = state.pipelines[pid];
+  if (!pipeline) return;
+  if (typeof html2canvas === 'undefined') {
+    if (typeof showToast === 'function') showToast({ type:'error', title:'Export library not loaded', message:'html2canvas failed to load — check your internet connection and try again.', timeout: 6000 });
+    return;
+  }
+  if (fmt === 'pdf' && (typeof window.jspdf === 'undefined' || !window.jspdf.jsPDF)) {
+    if (typeof showToast === 'function') showToast({ type:'error', title:'PDF library not loaded', message:'jsPDF failed to load — try JPG/PNG instead, or check your internet connection.', timeout: 6000 });
+    return;
+  }
+
+  const board = document.querySelector(`.pipeline-board[data-pipeline-id="${pid}"]`);
+  const grid  = board && board.querySelector('.pipeline-swimlane-grid');
+  if (!board || !grid) {
+    if (typeof showToast === 'function') showToast({ type:'warn', title:'Nothing to export', message:'This pipeline has no tasks yet.', timeout: 4000 });
+    return;
+  }
+
+  if (typeof showToast === 'function') showToast({ type:'info', title:'Generating snapshot…', message:'Capturing pipeline at full width. This takes a few seconds.', timeout: 3000 });
+
+  // Build a temporary off-screen wrapper that wraps a header + a clone of the
+  // grid sized to its full content width — so html2canvas captures the entire
+  // pipeline including columns that would normally be scrolled off-screen.
+  const headerHtml = `
+    <div style="font-family:'Oswald','Inter',system-ui,sans-serif; padding: 0 0 14px; display:flex; align-items:baseline; justify-content:space-between; border-bottom: 2px solid #234058; margin: 0 0 14px;">
+      <div>
+        <div style="font-size:11px; font-weight:700; text-transform:uppercase; letter-spacing:0.12em; color:#d46b01;">Right To Bear · Marketing Spiderweb</div>
+        <div style="font-size:24px; font-weight:700; color:#152a3b; margin-top:4px;">${escapeHtml(pipeline.name)} Pipeline</div>
+      </div>
+      <div style="text-align:right; font-size:11px; color:#5a6a78; font-family:'Inter',system-ui,sans-serif;">
+        <div>Stages <strong style="color:#152a3b;">${pipeline.stages.length}</strong></div>
+        <div>Snapshot <strong style="color:#152a3b;">${new Date().toLocaleDateString()} ${new Date().toLocaleTimeString([], {hour:'2-digit', minute:'2-digit'})}</strong></div>
+      </div>
+    </div>
+  `;
+
+  const wrapper = document.createElement('div');
+  wrapper.style.position = 'fixed';
+  wrapper.style.left = '-100000px';   // off-screen
+  wrapper.style.top = '0';
+  wrapper.style.background = '#f6efe4'; // matches --paper
+  wrapper.style.padding = '32px 28px';
+  wrapper.style.boxSizing = 'border-box';
+  // Compute full grid width: 170px (channel col) + N stages * stage width
+  const stageW = (state.ui && parseInt(state.ui.pipelineColWidth, 10)) || 180;
+  const fullGridWidth = 170 + pipeline.stages.length * stageW;
+  // Outer wrapper width = grid width + padding
+  wrapper.style.width = (fullGridWidth + 56) + 'px';
+  wrapper.innerHTML = headerHtml;
+
+  // Clone the grid so we don't disturb the live DOM
+  const gridClone = grid.cloneNode(true);
+  gridClone.style.width = fullGridWidth + 'px';
+  gridClone.style.minWidth = fullGridWidth + 'px';
+  // Make sticky elements behave normally in the snapshot
+  gridClone.querySelectorAll('.plg-corner, .plg-channel-head').forEach(el => {
+    el.style.position = 'static';
+  });
+  wrapper.appendChild(gridClone);
+  document.body.appendChild(wrapper);
+
+  let canvas;
+  try {
+    canvas = await html2canvas(wrapper, {
+      scale: 2,                  // crisp output
+      backgroundColor: '#f6efe4',
+      logging: false,
+      useCORS: true,
+      windowWidth: wrapper.offsetWidth,
+      windowHeight: wrapper.offsetHeight
+    });
+  } catch (err) {
+    if (typeof showToast === 'function') showToast({ type:'error', title:'Snapshot failed', message: err.message || String(err), timeout: 7000 });
+    document.body.removeChild(wrapper);
+    return;
+  } finally {
+    if (wrapper.parentNode) wrapper.parentNode.removeChild(wrapper);
+  }
+
+  const stamp = new Date().toISOString().slice(0, 10);
+  const safeName = (pipeline.name || 'pipeline').replace(/[^a-z0-9-_]+/gi, '-').toLowerCase();
+  const baseName = `${safeName}-${stamp}`;
+
+  if (fmt === 'jpg' || fmt === 'png') {
+    const mime = fmt === 'jpg' ? 'image/jpeg' : 'image/png';
+    const dataUrl = canvas.toDataURL(mime, fmt === 'jpg' ? 0.94 : undefined);
+    const a = document.createElement('a');
+    a.href = dataUrl;
+    a.download = `${baseName}.${fmt}`;
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    if (typeof showToast === 'function') showToast({ type:'success', title:'Snapshot saved', message:`${baseName}.${fmt} downloaded.`, timeout: 4500 });
+  } else if (fmt === 'pdf') {
+    // Landscape, fit canvas to page width
+    const { jsPDF } = window.jspdf;
+    const pdf = new jsPDF({ orientation: 'landscape', unit: 'pt', format: 'letter' });
+    const pageW = pdf.internal.pageSize.getWidth();   // 792
+    const pageH = pdf.internal.pageSize.getHeight();  // 612
+    const margin = 24;
+    const availW = pageW - margin * 2;
+    const availH = pageH - margin * 2;
+    const imgAspect = canvas.width / canvas.height;
+    let drawW = availW;
+    let drawH = drawW / imgAspect;
+    if (drawH > availH) {
+      drawH = availH;
+      drawW = drawH * imgAspect;
+    }
+    const x = (pageW - drawW) / 2;
+    const y = (pageH - drawH) / 2;
+    const imgData = canvas.toDataURL('image/jpeg', 0.92);
+    pdf.addImage(imgData, 'JPEG', x, y, drawW, drawH, undefined, 'FAST');
+    pdf.save(`${baseName}.pdf`);
+    if (typeof showToast === 'function') showToast({ type:'success', title:'Snapshot saved', message:`${baseName}.pdf downloaded.`, timeout: 4500 });
+  }
 }
 
 function renderPipelineBoard(pid) {
