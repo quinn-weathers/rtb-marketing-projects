@@ -14,20 +14,20 @@
             "size": "Small",
             "weight": "Bolder",
             "color": "Warning",
-            "text": "RTB · 2A DAILY INTEL · Tuesday, May 26, 2026",
+            "text": "RTB \u00b7 2A DAILY INTEL \u00b7 Wednesday, May 27, 2026",
             "spacing": "None"
           },
           {
             "type": "TextBlock",
             "size": "Large",
             "weight": "Bolder",
-            "text": "Post-Memorial Day open: Colorado's 152-page draft list of \"Specified Semiautomatic Firearms\" under SB25-003 is the major weekend development",
+            "text": "Wednesday open: 8th Cir. dismisses Minnesota reciprocity 2A challenge at Bruen step one",
             "wrap": true,
             "spacing": "Small"
           },
           {
             "type": "TextBlock",
-            "text": "Reload contributing writer Jake Fogleman's Sunday member-exclusive shows the May 15 CO DOR draft sweeps in hundreds of AR/AK variants plus hunting rifles (Sauer 303, Mauser M1916), carve-out variants (Browning BAR MK 4, Springfield M1 Scout), an 8-round Walther CCP, and even a Ruger 10/22 variant. NSSF May 18 dealer alert: two-week feedback window before July 1 final guidance; effective August 1, 2026.",
+            "text": "Unanimous 8th Cir. panel (Grasz, Erickson, Shepherd) ruled Tuesday 6:22pm ET in Johnson v. Jacobson that Minnesota's refusal to recognize GA/FL carry permits doesn't implicate 2A \u2014 reciprocity is 'interstate comity.' Liberty Justice Center weighing SCOTUS appeal. Lands alongside CO SB25-003 Day 3 and VA hardware-ban Day 13.",
             "wrap": true,
             "spacing": "Small"
           },
@@ -43,16 +43,16 @@
             "type": "FactSet",
             "facts": [
               {
-                "title": "1. Colorado SB25-003 draft \"Specified Semiauto\" list (152pp)",
-                "value": "Heat 94 ▲▲▲"
+                "title": "1. 8th Cir. Johnson v. Jacobson \u2014 MN reciprocity 2A dismissal",
+                "value": "Heat 92 \u25b2\u25b2\u25b2"
               },
               {
-                "title": "2. Virginia hardware-ban storyline — prosecutor refusals + 4-suit landscape day 12",
-                "value": "Heat 86 ▼"
+                "title": "2. Colorado SB25-003 draft list \u2014 Day 3 in circulation",
+                "value": "Heat 90 \u25bc"
               },
               {
-                "title": "3. ATF gender-ID rule — Leider Reload interview canonical reference",
-                "value": "Heat 78 →"
+                "title": "3. Virginia hardware-ban litigation \u2014 Day 13",
+                "value": "Heat 82 \u25bc"
               }
             ]
           },
@@ -67,14 +67,14 @@
           {
             "type": "TextBlock",
             "size": "Small",
-            "text": "• Colorado DOR draft list (May 15) sweeps AR/AK + Walther CCP, Ruger 10/22, Desert Eagle\n• NSSF May 18 alert: two-week dealer feedback window before July 1 final\n• VA four-county prosecutor refusals hold; courts reopen Tue—first scheduling-order eligible day\n• ATF Sec. 926A transport NPRM comment day 20 of 90; brace + EITB Week 4 day 2",
+            "text": "\u2022 8th Cir. unanimous: reciprocity statutes don't regulate arms-bearing conduct\n\u2022 CO SB25-003 comment window T-5; final guidance July 1; effective Aug 1\n\u2022 VA prosecutor-refusal count holds at four; no scheduling-order activity\n\u2022 ATF Sec. 926A transport NPRM comment day 21; pairs natively with new ruling",
             "wrap": true
           }
         ],
         "actions": [
           {
             "type": "Action.OpenUrl",
-            "title": "Read full brief →",
+            "title": "Read full brief \u2192",
             "url": "https://quinn-weathers.github.io/rtb-marketing-projects/daily-news-brief/"
           }
         ]
