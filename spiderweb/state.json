@@ -289,6 +289,30 @@
         "notes": ""
       },
       {
+        "id": "task-awcrzpgs",
+        "title": "Murder Rate Drop - June 2026 Op-Ed",
+        "owner": "—",
+        "status": "review",
+        "tags": [],
+        "askDate": "2026-06-05",
+        "priority": "high",
+        "lift": "L",
+        "assignee": "Chase Holmes",
+        "approver": "Jeremy Osborn",
+        "pm": "Quinn Weathers",
+        "projects": [
+          "proj-upl4ik9z",
+          "state-of-the-union"
+        ],
+        "pipelines": [
+          {
+            "id": "blog-production",
+            "stage": "In Review"
+          }
+        ],
+        "notes": ""
+      },
+      {
         "id": "task-rynutj1b",
         "title": "Memorial Day 2026 - Blog",
         "owner": "—",
@@ -7898,6 +7922,29 @@
           {
             "id": "blog-production",
             "stage": "Complete"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": "task-1k59kxza",
+        "title": "Murder Rate Drop Op-Ed - Hero Image",
+        "owner": "—",
+        "status": "in-progress",
+        "tags": [],
+        "askDate": "2026-06-04",
+        "priority": "med",
+        "lift": "S",
+        "assignee": "Quinn Weathers",
+        "approver": "Craig Fleck",
+        "pm": "Quinn Weathers",
+        "projects": [
+          "proj-upl4ik9z"
+        ],
+        "pipelines": [
+          {
+            "id": "blog-production",
+            "stage": "In-Progress"
           }
         ],
         "notes": ""
