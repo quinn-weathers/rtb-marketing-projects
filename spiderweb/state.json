@@ -401,33 +401,6 @@
           }
         ],
         "notes": ""
-      },
-      {
-        "id": "zof84l34",
-        "title": "ATF Rulings + CO News - Video",
-        "owner": "",
-        "status": "in-progress",
-        "tags": [],
-        "projects": [
-          "proj-upl4ik9z"
-        ],
-        "askDate": "",
-        "priority": "med",
-        "lift": "L",
-        "assignee": "Tre'Von Barber",
-        "approver": "Tre'Von Barber",
-        "pm": "Quinn Weathers",
-        "pipelines": [
-          {
-            "id": "blog-production",
-            "stage": "In-Progress"
-          },
-          {
-            "id": "social-content",
-            "stage": "Creative"
-          }
-        ],
-        "notes": ""
       }
     ]
   },
@@ -7762,6 +7735,33 @@
           {
             "id": "social-content",
             "stage": "Review/Approval"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": "zof84l34",
+        "title": "ATF Rulings + CO News - Video",
+        "owner": "",
+        "status": "in-progress",
+        "tags": [],
+        "projects": [
+          "proj-upl4ik9z"
+        ],
+        "askDate": "",
+        "priority": "med",
+        "lift": "L",
+        "assignee": "Tre'Von Barber",
+        "approver": "Tre'Von Barber",
+        "pm": "Quinn Weathers",
+        "pipelines": [
+          {
+            "id": "blog-production",
+            "stage": "In-Progress"
+          },
+          {
+            "id": "social-content",
+            "stage": "Creative"
           }
         ],
         "notes": ""
