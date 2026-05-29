@@ -401,6 +401,33 @@
           }
         ],
         "notes": ""
+      },
+      {
+        "id": "zof84l34",
+        "title": "ATF Rulings + CO News - Video",
+        "owner": "",
+        "status": "in-progress",
+        "tags": [],
+        "projects": [
+          "proj-upl4ik9z"
+        ],
+        "askDate": "",
+        "priority": "med",
+        "lift": "L",
+        "assignee": "Tre'Von Barber",
+        "approver": "Tre'Von Barber",
+        "pm": "Quinn Weathers",
+        "pipelines": [
+          {
+            "id": "blog-production",
+            "stage": "In-Progress"
+          },
+          {
+            "id": "social-content",
+            "stage": "Creative"
+          }
+        ],
+        "notes": ""
       }
     ]
   },
@@ -7657,6 +7684,87 @@
           }
         ],
         "notes": ""
+      },
+      {
+        "id": "2t94ia4t",
+        "title": "US v. Denver - Mag Ban Post",
+        "owner": "",
+        "status": "complete",
+        "tags": [],
+        "projects": [
+          "proj-upl4ik9z"
+        ],
+        "askDate": "2026-05-15",
+        "priority": "med",
+        "lift": "M",
+        "assignee": "David",
+        "approver": "Rey Banda",
+        "pm": "Quinn Weathers",
+        "pipelines": [
+          {
+            "id": "blog-production",
+            "stage": "Published"
+          },
+          {
+            "id": "social-content",
+            "stage": "Creative"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": "task-xkpu04wd",
+        "title": "US v. Colorado - Mag Ban Post",
+        "owner": "",
+        "status": "complete",
+        "tags": [],
+        "projects": [
+          "proj-upl4ik9z"
+        ],
+        "askDate": "2026-05-15",
+        "priority": "med",
+        "lift": "M",
+        "assignee": "David",
+        "approver": "Rey Banda",
+        "pm": "Quinn Weathers",
+        "pipelines": [
+          {
+            "id": "blog-production",
+            "stage": "Published"
+          },
+          {
+            "id": "social-content",
+            "stage": "Creative"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": "task-ze68urq9",
+        "title": "Memorial Day 2026 - Social post",
+        "owner": "—",
+        "status": "complete",
+        "tags": [],
+        "askDate": "2026-05-25",
+        "priority": "high",
+        "lift": "L",
+        "assignee": "David",
+        "approver": "Craig Fleck",
+        "pm": "Quinn Weathers",
+        "projects": [
+          "memorial-special"
+        ],
+        "pipelines": [
+          {
+            "id": "blog-production",
+            "stage": "Published"
+          },
+          {
+            "id": "social-content",
+            "stage": "Review/Approval"
+          }
+        ],
+        "notes": ""
       }
     ]
   },
@@ -7921,7 +8029,7 @@
         "pipelines": [
           {
             "id": "blog-production",
-            "stage": "Complete"
+            "stage": "Published"
           }
         ],
         "notes": ""
@@ -7930,7 +8038,7 @@
         "id": "task-1k59kxza",
         "title": "Murder Rate Drop Op-Ed - Hero Image",
         "owner": "—",
-        "status": "in-progress",
+        "status": "complete",
         "tags": [],
         "askDate": "2026-06-04",
         "priority": "med",
@@ -7944,7 +8052,7 @@
         "pipelines": [
           {
             "id": "blog-production",
-            "stage": "In-Progress"
+            "stage": "Complete"
           }
         ],
         "notes": ""
@@ -7967,7 +8075,7 @@
         "pipelines": [
           {
             "id": "blog-production",
-            "stage": "Complete"
+            "stage": "Published"
           }
         ],
         "notes": ""
@@ -7990,7 +8098,7 @@
         "pipelines": [
           {
             "id": "blog-production",
-            "stage": "Complete"
+            "stage": "Published"
           }
         ],
         "notes": ""
@@ -8013,7 +8121,7 @@
         "pipelines": [
           {
             "id": "blog-production",
-            "stage": "Complete"
+            "stage": "Published"
           }
         ],
         "notes": ""
@@ -8037,60 +8145,6 @@
           {
             "id": "blog-production",
             "stage": "Published"
-          }
-        ],
-        "notes": ""
-      },
-      {
-        "id": "2t94ia4t",
-        "title": "US v. Denver - Mag Ban Post",
-        "owner": "",
-        "status": "complete",
-        "tags": [],
-        "projects": [
-          "proj-upl4ik9z"
-        ],
-        "askDate": "2026-05-15",
-        "priority": "med",
-        "lift": "M",
-        "assignee": "David",
-        "approver": "Rey Banda",
-        "pm": "Quinn Weathers",
-        "pipelines": [
-          {
-            "id": "blog-production",
-            "stage": "Published"
-          },
-          {
-            "id": "social-content",
-            "stage": "Creative"
-          }
-        ],
-        "notes": ""
-      },
-      {
-        "id": "task-xkpu04wd",
-        "title": "US v. Colorado - Mag Ban Post",
-        "owner": "",
-        "status": "complete",
-        "tags": [],
-        "projects": [
-          "proj-upl4ik9z"
-        ],
-        "askDate": "2026-05-15",
-        "priority": "med",
-        "lift": "M",
-        "assignee": "David",
-        "approver": "Rey Banda",
-        "pm": "Quinn Weathers",
-        "pipelines": [
-          {
-            "id": "blog-production",
-            "stage": "Published"
-          },
-          {
-            "id": "social-content",
-            "stage": "Creative"
           }
         ],
         "notes": ""
@@ -8137,34 +8191,7 @@
         "pipelines": [
           {
             "id": "blog-production",
-            "stage": "Complete"
-          }
-        ],
-        "notes": ""
-      },
-      {
-        "id": "task-ze68urq9",
-        "title": "Memorial Day 2026 - Social post",
-        "owner": "—",
-        "status": "review",
-        "tags": [],
-        "askDate": "2026-05-25",
-        "priority": "high",
-        "lift": "L",
-        "assignee": "David",
-        "approver": "Craig Fleck",
-        "pm": "Quinn Weathers",
-        "projects": [
-          "memorial-special"
-        ],
-        "pipelines": [
-          {
-            "id": "blog-production",
-            "stage": "In Review"
-          },
-          {
-            "id": "social-content",
-            "stage": "Review/Approval"
+            "stage": "Published"
           }
         ],
         "notes": ""
