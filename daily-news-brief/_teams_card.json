@@ -14,20 +14,20 @@
             "size": "Small",
             "weight": "Bolder",
             "color": "Warning",
-            "text": "RTB \u00b7 2A DAILY INTEL \u00b7 Thursday, May 28, 2026",
+            "text": "RTB · 2A DAILY INTEL · Friday, May 29, 2026",
             "spacing": "None"
           },
           {
             "type": "TextBlock",
             "size": "Large",
             "weight": "Bolder",
-            "text": "America is on track for its lowest murder rate ever recorded",
+            "text": "DOJ's gun-rights-restoration rule is still missing — and a new four-person batch is quietly backdated to ex-AG Bondi",
             "wrap": true,
             "spacing": "Small"
           },
           {
             "type": "TextBlock",
-            "text": "AH Datalytics' Jeff Asher reported Monday \u2014 surfaced on The Reload at 5am Thursday \u2014 that 2026 is on pace for a record-low US murder rate (GVA -10.3% YoY, RTCI -19.9% Q1, MCCA -17.7% Q1). The cleanest empirical pair for the low voter-salience polling environment.",
+            "text": "The Reload reports DOJ posted only four Sec. 925(c) restorations Thursday, all granted back on March 30, with no update on the standardized process whose comment period (3,427 comments) closed seven months ago. NY also enacted a sweeping digital-file/3D-printer/Glock ban.",
             "wrap": true,
             "spacing": "Small"
           },
@@ -43,16 +43,16 @@
             "type": "FactSet",
             "facts": [
               {
-                "title": "1. 8th Cir. Johnson v. Jacobson \u2014 MN reciprocity dismissal Day 2",
-                "value": "Heat 87 \u25bc"
+                "title": "1. NY digital-file / 3D-printer / Glock ban",
+                "value": "Heat 88 ▲▲▲"
               },
               {
-                "title": "2. Colorado SB25-003 draft list \u2014 Day 4; comment T-4",
-                "value": "Heat 85 \u25bc"
+                "title": "2. CO SB25-003 draft list (comment T-3)",
+                "value": "Heat 83 ▼"
               },
               {
-                "title": "3. AH Datalytics/Reload murder-rate report \u2014 2026 record low",
-                "value": "Heat 78 \u25b2\u25b2\u25b2"
+                "title": "3. 8th Cir. Johnson v. Jacobson (Day 3)",
+                "value": "Heat 81 ▼"
               }
             ]
           },
@@ -67,14 +67,14 @@
           {
             "type": "TextBlock",
             "size": "Small",
-            "text": "\u2022 NEW: Asher / Reload \u2014 2026 on pace for lowest US murder rate ever recorded\n\u2022 8th Cir. Johnson v. Jacobson \u2014 Day 2 reference; Liberty Justice Center cert decision still pending\n\u2022 Colorado SB25-003 draft list Day 4 \u2014 comment window T-4 to close (~June 1)\n\u2022 VA hardware-ban litigation Day 14; prosecutor-refusal count holds at four",
+            "text": "• DOJ posts 4-person Sec. 925(c) rights-restoration batch; rule still missing\n• NY signs budget-bill digital-file/Glock/3D-printer ban (A10005c)\n• NRA/FPC/SAF announce Maryland Glock-ban suit; NY suit signaled\n• Murder-rate Day 2: 2026 on track for lowest US rate ever recorded",
             "wrap": true
           }
         ],
         "actions": [
           {
             "type": "Action.OpenUrl",
-            "title": "Read full brief \u2192",
+            "title": "Read full brief →",
             "url": "https://quinn-weathers.github.io/rtb-marketing-projects/daily-news-brief/"
           }
         ]
