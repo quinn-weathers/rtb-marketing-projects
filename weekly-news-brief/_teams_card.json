@@ -9,79 +9,21 @@
         "type": "AdaptiveCard",
         "version": "1.5",
         "body": [
-          {
-            "type": "TextBlock",
-            "size": "Small",
-            "weight": "Bolder",
-            "color": "Warning",
-            "text": "RTB · 2A WEEKLY INTEL · Week of May 18 – May 22, 2026",
-            "spacing": "None"
-          },
-          {
-            "type": "TextBlock",
-            "size": "Large",
-            "weight": "Bolder",
-            "text": "Virginia hardware bans held volcanic all week; 2nd Cir. strikes NY Vampire Rule late Thursday",
-            "wrap": true,
-            "spacing": "Small"
-          },
-          {
-            "type": "TextBlock",
-            "text": "Virginia (avg 94, 4/5 days) anchored the cycle; ATF Leider podcast (avg 84) was the runner-up. Christian v. James (2nd Cir.) broke late Thursday and now reads alongside SCOTUS pending in Wolford.",
-            "wrap": true,
-            "spacing": "Small"
-          },
-          {
-            "type": "TextBlock",
-            "size": "Small",
-            "weight": "Bolder",
-            "color": "Warning",
-            "text": "STAYED HOT ALL WEEK",
-            "spacing": "Medium"
-          },
-          {
-            "type": "FactSet",
-            "facts": [
-              {
-                "title": "1. Virginia hardware bans — day 7 four-suit landscape",
-                "value": "Avg 94 · 4/5 days · ↓"
-              },
-              {
-                "title": "2. ATF Chief Counsel Leider podcast — reference status",
-                "value": "Avg 84 · 4/5 days · ↓"
-              },
-              {
-                "title": "3. ATF Sec. 926A interstate-transport NPRM — day 15/90",
-                "value": "Avg 74 · 4/5 days · →"
-              }
-            ]
-          },
-          {
-            "type": "TextBlock",
-            "size": "Small",
-            "weight": "Bolder",
-            "color": "Warning",
-            "text": "WATCH NEXT WEEK",
-            "spacing": "Medium"
-          },
-          {
-            "type": "TextBlock",
-            "size": "Small",
-            "wrap": true,
-            "text": "• [Calendar] Sat 5/30: CO Initiative 89 signature deadline\n• [Predicted] Wolford v. Lopez (Hawaii Vampire Rule) decision in next 4–6 weeks\n• [Carry-over] First VA state-court TRO motion likely 5/25–6/3 window\n• [Calendar] Wed 6/3: May NICS release — first post-VA-signing data"
-          }
+          { "type": "TextBlock", "size": "Small", "weight": "Bolder", "color": "Warning", "text": "RTB · 2A WEEKLY INTEL · Week of May 25 – May 29, 2026", "spacing": "None" },
+          { "type": "TextBlock", "size": "Large", "weight": "Bolder", "text": "The week the data did the arguing", "wrap": true, "spacing": "Small" },
+          { "type": "TextBlock", "text": "A holiday-shortened week dominated not by Washington but by the courts, the states, and a remarkable crime-data story: America is on track for its lowest murder rate ever recorded. Colorado and the circuit courts carried the week.", "wrap": true, "spacing": "Small" },
+          { "type": "TextBlock", "size": "Small", "weight": "Bolder", "color": "Warning", "text": "STAYED HOT ALL WEEK", "spacing": "Medium" },
+          { "type": "FactSet", "facts": [
+            { "title": "1. NY 3D-printer / pistol-converter ban", "value": "Avg 88 · 1/5 days · ↑ (Fri debut; Unverified)" },
+            { "title": "2. Colorado SB25-003 draft list", "value": "Avg 87 · 4/5 days · ↓" },
+            { "title": "3. 8th Cir. Johnson v. Jacobson", "value": "Avg 85 · 3/5 days · ↓" }
+          ]},
+          { "type": "TextBlock", "size": "Small", "weight": "Bolder", "color": "Warning", "text": "WATCH NEXT WEEK", "spacing": "Medium" },
+          { "type": "TextBlock", "size": "Small", "text": "• [Calendar] Sat May 30 — CO Initiative 89 signature deadline\n• [Calendar] Mon Jun 1 — Congress returns; HPA + H.R. 4112 reciprocity\n• [Carry-over] First VA & DOJ-Colorado scheduling orders likely\n• [Predicted] NY 3D-printer ban spawns multi-state litigation cluster", "wrap": true }
         ],
         "actions": [
-          {
-            "type": "Action.OpenUrl",
-            "title": "Read the full weekly →",
-            "url": "https://quinn-weathers.github.io/rtb-marketing-projects/weekly-news-brief/"
-          },
-          {
-            "type": "Action.OpenUrl",
-            "title": "Today's daily →",
-            "url": "https://quinn-weathers.github.io/rtb-marketing-projects/daily-news-brief/"
-          }
+          { "type": "Action.OpenUrl", "title": "Read the full weekly →", "url": "https://quinn-weathers.github.io/rtb-marketing-projects/weekly-news-brief/" },
+          { "type": "Action.OpenUrl", "title": "Today's daily →", "url": "https://quinn-weathers.github.io/rtb-marketing-projects/daily-news-brief/" }
         ]
       }
     }
