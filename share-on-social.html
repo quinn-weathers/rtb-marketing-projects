@@ -57,7 +57,7 @@
   .toolbar h2 { margin: 0; font-family: var(--font-head); font-size: 16px; font-weight: 600; color: var(--orange); text-transform: uppercase; letter-spacing: 0.05em; }
   .post-count { font-size: 12px; color: var(--text-soft); font-weight: 500; }
 
-  .posts-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 16px; align-items: start; }
+  .posts-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 16px; align-items: stretch; grid-auto-rows: 1fr; }
   .post-card { background: var(--card); border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden; display: flex; flex-direction: column; transition: transform 0.15s, box-shadow 0.15s; }
   .post-card:hover { transform: translateY(-2px); box-shadow: var(--shadow-md); }
   .post-thumb { width: 100%; aspect-ratio: 5 / 4; object-fit: cover; background: var(--bg); display: block; }
@@ -147,7 +147,7 @@
     .logo-mark { width: 34px; height: 40px; }
     .header-meta { width: 100%; font-size: 11px; }
     .container { padding: 14px 14px 32px; }
-    .posts-grid { grid-template-columns: 1fr; gap: 14px; }
+    .posts-grid { grid-template-columns: 1fr; gap: 14px; grid-auto-rows: auto; }
     .post-actions { padding: 12px; }
     .btn-fb { padding: 12px; font-size: 13px; }
     .post-actions a.view-link { padding: 12px; font-size: 13px; }
