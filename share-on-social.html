@@ -335,13 +335,8 @@
     } catch (e) {}
     return null;
   }
-  async function shareToFacebook(url, title) {
-    if (navigator.share) {
-      try { await navigator.share({ title: title || "Right To Bear", url: url }); return; }
-      catch (e) { if (e && e.name === "AbortError") return; }
-    }
-    const shareUrl = "https://www.facebook.com/sharer/sharer.php?u=" + encodeURIComponent(url);
-    window.open(shareUrl, "_blank", "width=626,height=436,resizable=yes,scrollbars=yes");
+  function shareToFacebook(url) {
+    window.open(url, "_blank", "noopener");
   }
   function applyBestRatio(img) {
     const r = img.naturalWidth / img.naturalHeight;
@@ -392,7 +387,6 @@
       card.innerHTML = thumbHtml +
         '<div class="post-body">' + titleHtml + captionHtml + '<div class="post-meta">' + formatRelativeTime(p.addedAt) + '</div></div>' +
         '<div class="post-actions">' +
-          '<a class="view-link" href="' + escapeHtml(p.url) + '" target="_blank" rel="noopener noreferrer">View &#8599;</a>' +
           '<button class="btn btn-fb" data-action="share" data-url="' + escapeHtml(p.url) + '" data-title="' + escapeHtml(p.title || "") + '"><span>Share to Facebook</span></button>' +
         '</div>';
       grid.appendChild(card);
