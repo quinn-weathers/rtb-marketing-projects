@@ -14,20 +14,20 @@
             "size": "Small",
             "weight": "Bolder",
             "color": "Warning",
-            "text": "RTB \u00b7 2A DAILY INTEL \u00b7 Monday, June 1, 2026",
+            "text": "RTB \u00b7 2A DAILY INTEL \u00b7 Tuesday, June 2, 2026",
             "spacing": "None"
           },
           {
             "type": "TextBlock",
             "size": "Large",
             "weight": "Bolder",
-            "text": "National reciprocity won't come from the courts \u2014 it has to come from Congress, which returns today",
+            "text": "Reciprocity shifts from analysis to action as Congress hits Day 2 back in session",
             "wrap": true,
             "spacing": "Small"
           },
           {
             "type": "TextBlock",
-            "text": "The Reload's weekend analysis reads the 8th Cir.'s unanimous Johnson v. Jacobson ruling as foreclosing the judicial path to carry reciprocity: a reciprocity statute \"standing alone, does not regulate arms-bearing conduct.\" The realistic route now runs through H.R. 38 / H.R. 4112, both back on the calendar today.",
+            "text": "The weekend takeaway \u2014 that national carry reciprocity must come from Congress, not the courts, after the 8th Cir.\u2019s Johnson v. Jacobson \u2014 now meets a live legislative calendar. Watch for any floor signal on H.R. 38 / H.R. 4112 or the HPA (S. 218).",
             "wrap": true,
             "spacing": "Small"
           },
@@ -43,16 +43,16 @@
             "type": "FactSet",
             "facts": [
               {
-                "title": "1. National reciprocity by lawsuit (8th Cir.)",
-                "value": "Heat 84 \u25b2\u25b2\u25b2"
+                "title": "1. National reciprocity by lawsuit (8th Cir. Johnson)",
+                "value": "Heat 79 \u25bc"
               },
               {
-                "title": "2. NY 3D-printer / Glock ban",
-                "value": "Heat 81 \u25bc"
+                "title": "2. NJ permitting-discrimination podcast (Slate/Ismail)",
+                "value": "Heat 77 \u2192"
               },
               {
-                "title": "3. DOJ 925(c) rights-restoration rule missing",
-                "value": "Heat 80 \u2192"
+                "title": "3. DOJ Sec. 925(c) rights-restoration rule missing",
+                "value": "Heat 77 \u25bc"
               }
             ]
           },
@@ -67,7 +67,7 @@
           {
             "type": "TextBlock",
             "size": "Small",
-            "text": "\u2022 8th Cir. Johnson v. Jacobson reframes reciprocity as a legislative fight\n\u2022 House & Senate return from recess today (HPA, H.R. 38/4112, CJS approps)\n\u2022 DOJ rights-restoration rule still missing 7 months after comments closed\n\u2022 NJ permitting-discrimination podcast (Slate's Aymann Ismail) goes public",
+            "text": "\u2022 Congress Day 2 back \u2014 reciprocity & HPA floor-signal watch\n\u2022 CO SB25-003 draft-list comment window now closed (~Jun 1)\n\u2022 8th Cir. reciprocity: Liberty Justice Center cert decision next\n\u2022 NJ permitting podcast (Slate's Ismail) now fully public",
             "wrap": true
           }
         ],
