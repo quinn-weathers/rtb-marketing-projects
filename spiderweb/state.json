@@ -7626,7 +7626,7 @@
         "pipelines": [
           {
             "id": "blog-production",
-            "stage": "Complete"
+            "stage": "Published"
           }
         ],
         "notes": ""
@@ -7649,7 +7649,7 @@
         "pipelines": [
           {
             "id": "blog-production",
-            "stage": "Complete"
+            "stage": "Published"
           },
           {
             "id": "social-content",
@@ -7743,7 +7743,7 @@
         "id": "zof84l34",
         "title": "ATF Rulings + CO News - Video",
         "owner": "",
-        "status": "in-progress",
+        "status": "complete",
         "tags": [],
         "projects": [
           "proj-upl4ik9z"
@@ -7757,7 +7757,7 @@
         "pipelines": [
           {
             "id": "blog-production",
-            "stage": "In-Progress"
+            "stage": "Published"
           },
           {
             "id": "social-content",
