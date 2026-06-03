@@ -14,20 +14,20 @@
             "size": "Small",
             "weight": "Bolder",
             "color": "Warning",
-            "text": "RTB \u00b7 2A DAILY INTEL \u00b7 Tuesday, June 2, 2026",
+            "text": "RTB \u00b7 2A DAILY INTEL \u00b7 Wednesday, June 3, 2026",
             "spacing": "None"
           },
           {
             "type": "TextBlock",
             "size": "Large",
             "weight": "Bolder",
-            "text": "Reciprocity shifts from analysis to action as Congress hits Day 2 back in session",
+            "text": "Virginia background-check showdown in court TODAY \u2014 VCDL/GOA warn police of personal liability",
             "wrap": true,
             "spacing": "Small"
           },
           {
             "type": "TextBlock",
-            "text": "The weekend takeaway \u2014 that national carry reciprocity must come from Congress, not the courts, after the 8th Cir.\u2019s Johnson v. Jacobson \u2014 now meets a live legislative calendar. Watch for any floor signal on H.R. 38 / H.R. 4112 or the HPA (S. 218).",
+            "text": "VCDL and GOA warned Virginia officers and prosecutors they could face personal liability for enforcing the enjoined universal background-check law. Oral arguments on the competing contempt vs. dissolution motions are set for today before Judge Yeatts in Lynchburg Circuit Court.",
             "wrap": true,
             "spacing": "Small"
           },
@@ -43,16 +43,16 @@
             "type": "FactSet",
             "facts": [
               {
-                "title": "1. National reciprocity by lawsuit (8th Cir. Johnson)",
-                "value": "Heat 79 \u25bc"
+                "title": "1. VA background-check standoff \u2014 hearing TODAY",
+                "value": "Heat 88 \u25b2\u25b2\u25b2"
               },
               {
-                "title": "2. NJ permitting-discrimination podcast (Slate/Ismail)",
-                "value": "Heat 77 \u2192"
+                "title": "2. National reciprocity \u2014 legislative watch Day 3",
+                "value": "Heat 74 \u25bc"
               },
               {
-                "title": "3. DOJ Sec. 925(c) rights-restoration rule missing",
-                "value": "Heat 77 \u25bc"
+                "title": "3. DOJ Sec. 925(c) rights-restoration rule still missing",
+                "value": "Heat 74 \u25bc"
               }
             ]
           },
@@ -67,7 +67,7 @@
           {
             "type": "TextBlock",
             "size": "Small",
-            "text": "\u2022 Congress Day 2 back \u2014 reciprocity & HPA floor-signal watch\n\u2022 CO SB25-003 draft-list comment window now closed (~Jun 1)\n\u2022 8th Cir. reciprocity: Liberty Justice Center cert decision next\n\u2022 NJ permitting podcast (Slate's Ismail) now fully public",
+            "text": "\u2022 VA: VCDL/GOA liability letter; Lynchburg hearing on motions TODAY\n\u2022 SCOTUS: conference Jun 4; opinion day Jun 8 \u2014 Wolford first window\n\u2022 Congress Day 3 \u2014 no floor signal on H.R. 38 / H.R. 4112 / S. 218\n\u2022 NSSF Gun Storage Check Week Jun 1\u20137; May NICS due this week",
             "wrap": true
           }
         ],
