@@ -1,84 +1,84 @@
 {
-  "type": "message",
-  "attachments": [
-    {
-      "contentType": "application/vnd.microsoft.card.adaptive",
-      "contentUrl": null,
-      "content": {
-        "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
-        "type": "AdaptiveCard",
-        "version": "1.5",
-        "body": [
-          {
-            "type": "TextBlock",
-            "size": "Small",
-            "weight": "Bolder",
-            "color": "Warning",
-            "text": "RTB \u00b7 2A DAILY INTEL \u00b7 Wednesday, June 3, 2026",
-            "spacing": "None"
-          },
-          {
-            "type": "TextBlock",
-            "size": "Large",
-            "weight": "Bolder",
-            "text": "Virginia background-check showdown in court TODAY \u2014 VCDL/GOA warn police of personal liability",
-            "wrap": true,
-            "spacing": "Small"
-          },
-          {
-            "type": "TextBlock",
-            "text": "VCDL and GOA warned Virginia officers and prosecutors they could face personal liability for enforcing the enjoined universal background-check law. Oral arguments on the competing contempt vs. dissolution motions are set for today before Judge Yeatts in Lynchburg Circuit Court.",
-            "wrap": true,
-            "spacing": "Small"
-          },
-          {
-            "type": "TextBlock",
-            "size": "Small",
-            "weight": "Bolder",
-            "color": "Warning",
-            "text": "HOTTEST LEADS",
-            "spacing": "Medium"
-          },
-          {
-            "type": "FactSet",
-            "facts": [
-              {
-                "title": "1. VA background-check standoff \u2014 hearing TODAY",
-                "value": "Heat 88 \u25b2\u25b2\u25b2"
-              },
-              {
-                "title": "2. National reciprocity \u2014 legislative watch Day 3",
-                "value": "Heat 74 \u25bc"
-              },
-              {
-                "title": "3. DOJ Sec. 925(c) rights-restoration rule still missing",
-                "value": "Heat 74 \u25bc"
-              }
-            ]
-          },
-          {
-            "type": "TextBlock",
-            "size": "Small",
-            "weight": "Bolder",
-            "color": "Warning",
-            "text": "WHAT'S MOVING",
-            "spacing": "Medium"
-          },
-          {
-            "type": "TextBlock",
-            "size": "Small",
-            "text": "\u2022 VA: VCDL/GOA liability letter; Lynchburg hearing on motions TODAY\n\u2022 SCOTUS: conference Jun 4; opinion day Jun 8 \u2014 Wolford first window\n\u2022 Congress Day 3 \u2014 no floor signal on H.R. 38 / H.R. 4112 / S. 218\n\u2022 NSSF Gun Storage Check Week Jun 1\u20137; May NICS due this week",
-            "wrap": true
-          }
-        ],
-        "actions": [
-          {
-            "type": "Action.OpenUrl",
-            "title": "Read full brief \u2192",
-            "url": "https://quinn-weathers.github.io/rtb-marketing-projects/daily-news-brief/"
-          }
-        ]
-      }
-    }
-  ]
+ "type": "message",
+ "attachments": [
+  {
+   "contentType": "application/vnd.microsoft.card.adaptive",
+   "contentUrl": null,
+   "content": {
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "type": "AdaptiveCard",
+    "version": "1.5",
+    "body": [
+     {
+      "type": "TextBlock",
+      "size": "Small",
+      "weight": "Bolder",
+      "color": "Warning",
+      "text": "RTB · 2A DAILY INTEL · Thursday, June 4, 2026",
+      "spacing": "None"
+     },
+     {
+      "type": "TextBlock",
+      "size": "Large",
+      "weight": "Bolder",
+      "text": "SCOTUS double-header TODAY: opinions expected this morning — first live Wolford v. Lopez window — plus conference at 10am ET",
+      "wrap": true,
+      "spacing": "Small"
+     },
+     {
+      "type": "TextBlock",
+      "text": "SCOTUSblog's updated calendar moves the opinion window up from Monday: opinions are expected this morning, with the conference at 10am, orders Monday June 8, and another conference June 11. Virginia's Lynchburg court heard the background-check standoff Wednesday — no ruling publicly reported yet.",
+      "wrap": true,
+      "spacing": "Small"
+     },
+     {
+      "type": "TextBlock",
+      "size": "Small",
+      "weight": "Bolder",
+      "color": "Warning",
+      "text": "HOTTEST LEADS",
+      "spacing": "Medium"
+     },
+     {
+      "type": "FactSet",
+      "facts": [
+       {
+        "title": "1. Virginia background-check standoff — ruling awaited",
+        "value": "Heat 84 ▼"
+       },
+       {
+        "title": "2. SCOTUS opinion day TODAY — Wolford window",
+        "value": "Heat 80 ▲▲"
+       },
+       {
+        "title": "3. VA hardware-ban litigation — T-27",
+        "value": "Heat 73 ▲"
+       }
+      ]
+     },
+     {
+      "type": "TextBlock",
+      "size": "Small",
+      "weight": "Bolder",
+      "color": "Warning",
+      "text": "WHAT'S MOVING",
+      "spacing": "Medium"
+     },
+     {
+      "type": "TextBlock",
+      "size": "Small",
+      "text": "• SCOTUS: opinions expected this morning + conference 10am; orders Mon Jun 8\n• Virginia: Lynchburg arguments held Wed — no outcome reported (Unverified)\n• New Jersey: SAF expands 'guilty by association' confiscation suit\n• Tennessee: Gov. Lee signs SB1847 deadly-force property-defense law",
+      "wrap": true
+     }
+    ],
+    "actions": [
+     {
+      "type": "Action.OpenUrl",
+      "title": "Read full brief →",
+      "url": "https://quinn-weathers.github.io/rtb-marketing-projects/daily-news-brief/"
+     }
+    ]
+   }
+  }
+ ]
 }
