@@ -1,84 +1,30 @@
 {
- "type": "message",
- "attachments": [
-  {
-   "contentType": "application/vnd.microsoft.card.adaptive",
-   "contentUrl": null,
-   "content": {
-    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
-    "type": "AdaptiveCard",
-    "version": "1.5",
-    "body": [
-     {
-      "type": "TextBlock",
-      "size": "Small",
-      "weight": "Bolder",
-      "color": "Warning",
-      "text": "RTB · 2A DAILY INTEL · Thursday, June 4, 2026",
-      "spacing": "None"
-     },
-     {
-      "type": "TextBlock",
-      "size": "Large",
-      "weight": "Bolder",
-      "text": "SCOTUS double-header TODAY: opinions expected this morning — first live Wolford v. Lopez window — plus conference at 10am ET",
-      "wrap": true,
-      "spacing": "Small"
-     },
-     {
-      "type": "TextBlock",
-      "text": "SCOTUSblog's updated calendar moves the opinion window up from Monday: opinions are expected this morning, with the conference at 10am, orders Monday June 8, and another conference June 11. Virginia's Lynchburg court heard the background-check standoff Wednesday — no ruling publicly reported yet.",
-      "wrap": true,
-      "spacing": "Small"
-     },
-     {
-      "type": "TextBlock",
-      "size": "Small",
-      "weight": "Bolder",
-      "color": "Warning",
-      "text": "HOTTEST LEADS",
-      "spacing": "Medium"
-     },
-     {
-      "type": "FactSet",
-      "facts": [
-       {
-        "title": "1. Virginia background-check standoff — ruling awaited",
-        "value": "Heat 84 ▼"
-       },
-       {
-        "title": "2. SCOTUS opinion day TODAY — Wolford window",
-        "value": "Heat 80 ▲▲"
-       },
-       {
-        "title": "3. VA hardware-ban litigation — T-27",
-        "value": "Heat 73 ▲"
-       }
-      ]
-     },
-     {
-      "type": "TextBlock",
-      "size": "Small",
-      "weight": "Bolder",
-      "color": "Warning",
-      "text": "WHAT'S MOVING",
-      "spacing": "Medium"
-     },
-     {
-      "type": "TextBlock",
-      "size": "Small",
-      "text": "• SCOTUS: opinions expected this morning + conference 10am; orders Mon Jun 8\n• Virginia: Lynchburg arguments held Wed — no outcome reported (Unverified)\n• New Jersey: SAF expands 'guilty by association' confiscation suit\n• Tennessee: Gov. Lee signs SB1847 deadly-force property-defense law",
-      "wrap": true
-     }
-    ],
-    "actions": [
-     {
-      "type": "Action.OpenUrl",
-      "title": "Read full brief →",
-      "url": "https://quinn-weathers.github.io/rtb-marketing-projects/daily-news-brief/"
-     }
-    ]
-   }
-  }
- ]
+  "type": "message",
+  "attachments": [
+    {
+      "contentType": "application/vnd.microsoft.card.adaptive",
+      "contentUrl": null,
+      "content": {
+        "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+        "type": "AdaptiveCard",
+        "version": "1.5",
+        "body": [
+          { "type": "TextBlock", "size": "Small", "weight": "Bolder", "color": "Warning", "text": "RTB · 2A DAILY INTEL · Friday, June 5, 2026", "spacing": "None" },
+          { "type": "TextBlock", "size": "Large", "weight": "Bolder", "text": "Virginia standoff breaks: court keeps background-check injunction in place; State Police stand down", "wrap": true, "spacing": "Small" },
+          { "type": "TextBlock", "text": "The Lynchburg court rejected the AG's motion to dissolve the injunction against universal background checks on private sales, and the VSP agreed to stop the checks. Same cycle: May NICS posted with Virginia sales +103% and the prosecutor-refusal count verified at 14.", "wrap": true, "spacing": "Small" },
+          { "type": "TextBlock", "size": "Small", "weight": "Bolder", "color": "Warning", "text": "HOTTEST LEADS", "spacing": "Medium" },
+          { "type": "FactSet", "facts": [
+            { "title": "1. Virginia UBC injunction upheld - VSP stands down", "value": "Heat 88 ▲▲" },
+            { "title": "2. NRA: LaPierre loses appeal; Foundation splits as 1791", "value": "Heat 78 ▲▲▲" },
+            { "title": "3. VA hardware bans: 14 prosecutors refuse; sales double", "value": "Heat 77 ▲" }
+          ]},
+          { "type": "TextBlock", "size": "Small", "weight": "Bolder", "color": "Warning", "text": "WHAT'S MOVING", "spacing": "Medium" },
+          { "type": "TextBlock", "size": "Small", "text": "• VA: Lynchburg court keeps UBC injunction; State Police stand down\n• May NICS posted: 1.11M checks +3.2%; Virginia +103% YoY\n• 9th Cir. DeBorba: suppressors not 2A 'arms'; Sanchez overhang\n• NRA: LaPierre appeal lost; 1791 Foundation split takes ~$176M", "wrap": true }
+        ],
+        "actions": [
+          { "type": "Action.OpenUrl", "title": "Read full brief →", "url": "https://quinn-weathers.github.io/rtb-marketing-projects/daily-news-brief/" }
+        ]
+      }
+    }
+  ]
 }
