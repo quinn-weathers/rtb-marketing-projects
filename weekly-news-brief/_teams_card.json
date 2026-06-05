@@ -1,31 +1,89 @@
 {
-  "type": "message",
-  "attachments": [
-    {
-      "contentType": "application/vnd.microsoft.card.adaptive",
-      "contentUrl": null,
-      "content": {
-        "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
-        "type": "AdaptiveCard",
-        "version": "1.5",
-        "body": [
-          { "type": "TextBlock", "size": "Small", "weight": "Bolder", "color": "Warning", "text": "RTB · 2A WEEKLY INTEL · Week of May 25 – May 29, 2026", "spacing": "None" },
-          { "type": "TextBlock", "size": "Large", "weight": "Bolder", "text": "The week the data did the arguing", "wrap": true, "spacing": "Small" },
-          { "type": "TextBlock", "text": "A holiday-shortened week dominated not by Washington but by the courts, the states, and a remarkable crime-data story: America is on track for its lowest murder rate ever recorded. Colorado and the circuit courts carried the week.", "wrap": true, "spacing": "Small" },
-          { "type": "TextBlock", "size": "Small", "weight": "Bolder", "color": "Warning", "text": "STAYED HOT ALL WEEK", "spacing": "Medium" },
-          { "type": "FactSet", "facts": [
-            { "title": "1. NY 3D-printer / pistol-converter ban", "value": "Avg 88 · 1/5 days · ↑ (Fri debut; Unverified)" },
-            { "title": "2. Colorado SB25-003 draft list", "value": "Avg 87 · 4/5 days · ↓" },
-            { "title": "3. 8th Cir. Johnson v. Jacobson", "value": "Avg 85 · 3/5 days · ↓" }
-          ]},
-          { "type": "TextBlock", "size": "Small", "weight": "Bolder", "color": "Warning", "text": "WATCH NEXT WEEK", "spacing": "Medium" },
-          { "type": "TextBlock", "size": "Small", "text": "• [Calendar] Sat May 30 — CO Initiative 89 signature deadline\n• [Calendar] Mon Jun 1 — Congress returns; HPA + H.R. 4112 reciprocity\n• [Carry-over] First VA & DOJ-Colorado scheduling orders likely\n• [Predicted] NY 3D-printer ban spawns multi-state litigation cluster", "wrap": true }
-        ],
-        "actions": [
-          { "type": "Action.OpenUrl", "title": "Read the full weekly →", "url": "https://quinn-weathers.github.io/rtb-marketing-projects/weekly-news-brief/" },
-          { "type": "Action.OpenUrl", "title": "Today's daily →", "url": "https://quinn-weathers.github.io/rtb-marketing-projects/daily-news-brief/" }
-        ]
-      }
-    }
-  ]
+ "type": "message",
+ "attachments": [
+  {
+   "contentType": "application/vnd.microsoft.card.adaptive",
+   "contentUrl": null,
+   "content": {
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "type": "AdaptiveCard",
+    "version": "1.5",
+    "body": [
+     {
+      "type": "TextBlock",
+      "size": "Small",
+      "weight": "Bolder",
+      "color": "Warning",
+      "text": "RTB \u00b7 2A WEEKLY INTEL \u00b7 Week of Jun 1 \u2013 Jun 5, 2026",
+      "spacing": "None"
+     },
+     {
+      "type": "TextBlock",
+      "size": "Large",
+      "weight": "Bolder",
+      "text": "Four days of drift, then a Friday resolution wave: Virginia's standoff resolved, May NICS landed at +103% for VA \u2014 and Wolford didn't",
+      "wrap": true,
+      "spacing": "Small"
+     },
+     {
+      "type": "TextBlock",
+      "text": "Monday through Thursday nearly every storyline cooled while Congress produced zero floor signals; then Friday broke the week's two biggest cliffhangers at once. The Lynchburg court kept the injunction in place and the State Police agreed to stop private-sale checks \u2014 and SCOTUS's Thursday opinions came and went without Wolford v. Lopez.",
+      "wrap": true,
+      "spacing": "Small"
+     },
+     {
+      "type": "TextBlock",
+      "size": "Small",
+      "weight": "Bolder",
+      "color": "Warning",
+      "text": "STAYED HOT ALL WEEK",
+      "spacing": "Medium"
+     },
+     {
+      "type": "FactSet",
+      "facts": [
+       {
+        "title": "1. VA background-check standoff \u2014 RESOLVED",
+        "value": "Avg 87 \u00b7 3/5 days \u00b7 \u2192"
+       },
+       {
+        "title": "2. National reciprocity axis (8th Cir. + H.R. 38)",
+        "value": "Avg 74 \u00b7 5/5 days \u00b7 \u2193\u2193"
+       },
+       {
+        "title": "3. NJ permitting-discrimination (Reload/Slate)",
+        "value": "Avg 73 \u00b7 4/5 days \u00b7 \u2193"
+       }
+      ]
+     },
+     {
+      "type": "TextBlock",
+      "size": "Small",
+      "weight": "Bolder",
+      "color": "Warning",
+      "text": "WATCH NEXT WEEK",
+      "spacing": "Medium"
+     },
+     {
+      "type": "TextBlock",
+      "size": "Small",
+      "text": "\u2022 [Calendar] SCOTUS orders list Mon Jun 8 \u2014 Johnson v. Jacobson cert signal\n\u2022 [Calendar] SCOTUS opinions Thu Jun 11 \u2014 next live Wolford window (23 left)\n\u2022 [Carry-over] VA resolution \u2014 cross-confirm details + contempt disposition\n\u2022 [Predicted] Peer fear-wave on VA + TN SB1847 \u2014 RTB calm explainers first",
+      "wrap": true
+     }
+    ],
+    "actions": [
+     {
+      "type": "Action.OpenUrl",
+      "title": "Read the full weekly \u2192",
+      "url": "https://quinn-weathers.github.io/rtb-marketing-projects/weekly-news-brief/"
+     },
+     {
+      "type": "Action.OpenUrl",
+      "title": "Today's daily \u2192",
+      "url": "https://quinn-weathers.github.io/rtb-marketing-projects/daily-news-brief/"
+     }
+    ]
+   }
+  }
+ ]
 }
