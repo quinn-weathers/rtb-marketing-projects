@@ -9,17 +9,17 @@
         "type": "AdaptiveCard",
         "version": "1.5",
         "body": [
-          { "type": "TextBlock", "size": "Small", "weight": "Bolder", "color": "Warning", "text": "RTB · 2A DAILY INTEL · Friday, June 5, 2026", "spacing": "None" },
-          { "type": "TextBlock", "size": "Large", "weight": "Bolder", "text": "Virginia standoff breaks: court keeps background-check injunction in place; State Police stand down", "wrap": true, "spacing": "Small" },
-          { "type": "TextBlock", "text": "The Lynchburg court rejected the AG's motion to dissolve the injunction against universal background checks on private sales, and the VSP agreed to stop the checks. Same cycle: May NICS posted with Virginia sales +103% and the prosecutor-refusal count verified at 14.", "wrap": true, "spacing": "Small" },
+          { "type": "TextBlock", "size": "Small", "weight": "Bolder", "color": "Warning", "text": "RTB · 2A DAILY INTEL · Monday, June 8, 2026", "spacing": "None" },
+          { "type": "TextBlock", "size": "Large", "weight": "Bolder", "text": "Monday open: SCOTUS orders list is today's live event; NRA Foundation '1791' split raises a LaPierre-return scenario; murder down as gun suicides climb", "wrap": true, "spacing": "Small" },
+          { "type": "TextBlock", "text": "Today's checkpoint is judicial: the Supreme Court releases an orders list at 9:30am ET, the first processing of last Thursday's conference. Watch for any reciprocity cert action and any Wolford movement.", "wrap": true, "spacing": "Small" },
           { "type": "TextBlock", "size": "Small", "weight": "Bolder", "color": "Warning", "text": "HOTTEST LEADS", "spacing": "Medium" },
           { "type": "FactSet", "facts": [
-            { "title": "1. Virginia UBC injunction upheld - VSP stands down", "value": "Heat 88 ▲▲" },
-            { "title": "2. NRA: LaPierre loses appeal; Foundation splits as 1791", "value": "Heat 78 ▲▲▲" },
-            { "title": "3. VA hardware bans: 14 prosecutors refuse; sales double", "value": "Heat 77 ▲" }
+            { "title": "1. NRA Foundation '1791' split / LaPierre-return scenario", "value": "Heat 80 ▲▲▲" },
+            { "title": "2. VA hardware bans — 14 prosecutors; sales doubled; T-23", "value": "Heat 78 ▲" },
+            { "title": "3. SCOTUS Wolford watch — orders list today; opinions Jun 11", "value": "Heat 76 ▲▲" }
           ]},
           { "type": "TextBlock", "size": "Small", "weight": "Bolder", "color": "Warning", "text": "WHAT'S MOVING", "spacing": "Medium" },
-          { "type": "TextBlock", "size": "Small", "text": "• VA: Lynchburg court keeps UBC injunction; State Police stand down\n• May NICS posted: 1.11M checks +3.2%; Virginia +103% YoY\n• 9th Cir. DeBorba: suppressors not 2A 'arms'; Sanchez overhang\n• NRA: LaPierre appeal lost; 1791 Foundation split takes ~$176M", "wrap": true }
+          { "type": "TextBlock", "size": "Small", "text": "• SCOTUS orders list today 9:30am ET — Wolford pending, reciprocity cert watch\n• NRA: '1791 Foundation' split; appellate ban is 10 yrs (corrected), not four\n• New FBI/CDC read: murder near record lows; gun suicides climbing (Pew)\n• Virginia: sales doubled (#2 long-gun); UBC injunction reaffirmed; ban T-23", "wrap": true }
         ],
         "actions": [
           { "type": "Action.OpenUrl", "title": "Read full brief →", "url": "https://quinn-weathers.github.io/rtb-marketing-projects/daily-news-brief/" }
