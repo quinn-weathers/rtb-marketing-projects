@@ -21,13 +21,13 @@
             "type": "TextBlock",
             "size": "Large",
             "weight": "Bolder",
-            "text": "A short, quiet week with one clock ticking louder: the Supreme Court's Wolford v. Lopez carry case.",
+            "text": "A quiet open and a loud Friday: the courts and DOJ took the wheel.",
             "wrap": true,
             "spacing": "Small"
           },
           {
             "type": "TextBlock",
-            "text": "Nine of ten storylines drifted while the Wolford watch rose alone into its June 11 opinion window (outcome unconfirmed this cycle — verify against supremecourt.gov). The honest posture: armed and waiting, not 'it happened.'",
+            "text": "SCOTUS confirmed Wolford v. Lopez and Hemani will issue by end of June (Wolford NOT decided this week). DOJ opened a 2A probe of the Philadelphia Police, and Virginia's AG mounted a 'collective-right' defense of the hardware ban (now T-19 to July 1).",
             "wrap": true,
             "spacing": "Small"
           },
@@ -43,16 +43,16 @@
             "type": "FactSet",
             "facts": [
               {
-                "title": "1. SCOTUS Wolford v. Lopez watch",
-                "value": "Avg 79 · 2/5 days · ↑"
+                "title": "1. Virginia hardware ban (Crump v. Katz; T-19)",
+                "value": "Avg 80 · 3/5 days · ↑ (peak 85)"
               },
               {
-                "title": "2. Virginia hardware bans (T-19 to Jul 1)",
-                "value": "Avg 78 · 2/5 days · →"
+                "title": "2. SCOTUS — orders confirmed; Wolford/Hemani due",
+                "value": "Avg 80 · 3/5 days · ↑"
               },
               {
                 "title": "3. NRA '1791 Foundation' / LaPierre-return",
-                "value": "Avg 78 · 2/5 days · ↓"
+                "value": "Avg 75 · 3/5 days · ↓"
               }
             ]
           },
@@ -67,7 +67,7 @@
           {
             "type": "TextBlock",
             "size": "Small",
-            "text": "• [Calendar] SCOTUS opinion days through late June — live Wolford windows\n• [Calendar] Jul 1: VA hardware bans effect + CO DOR final semi-auto list\n• [Carry-over] VA contempt-motion disposition + The Reload's own ruling account\n• [Predicted] Peers run fear-forward VA Jul 1 content — ship the calm 'what changes' piece first",
+            "text": "• [Calendar] SCOTUS to hand down Wolford & Hemani by end of June\n• [Calendar] Jul 1: VA hardware bans effect + CO DOR final semi-auto list\n• [Carry-over] DOJ Philadelphia 2A probe — watch for a suit (after LA/Denver/DC)\n• [Predicted] Peers run fear-forward VA July 1 content — ship the calm 'what changes' piece first",
             "wrap": true
           }
         ],
