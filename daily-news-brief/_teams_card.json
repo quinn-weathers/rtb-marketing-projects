@@ -14,20 +14,20 @@
             "size": "Small",
             "weight": "Bolder",
             "color": "Warning",
-            "text": "RTB · 2A DAILY INTEL · Tuesday, June 9, 2026",
+            "text": "RTB · 2A DAILY INTEL · Friday, June 12, 2026",
             "spacing": "None"
           },
           {
             "type": "TextBlock",
             "size": "Large",
             "weight": "Bolder",
-            "text": "Quiet cycle — Thursday's SCOTUS opinion day (T-2) is the week's gravity",
+            "text": "Courts and DOJ now drive the story: SCOTUS denies Cockerham and teed up Wolford by end of June; DOJ probes Philadelphia PD; Virginia floats a 'collective-right' defense as the ban hits T-19.",
             "wrap": true,
             "spacing": "Small"
           },
           {
             "type": "TextBlock",
-            "text": "With no major story overnight, the week centers on Thursday's SCOTUS opinion session — the nearest live Wolford v. Lopez window among ~23 outstanding decisions. Virginia's hardware ban is now T-22 to July 1.",
+            "text": "The Supreme Court cleared its underbrush Monday — denying review in US v. Cockerham and relisting the Duncan magazine and Viramontes AR-15 cases a 19th time — while confirming it will hand down Hemani and Wolford v. Lopez by the end of June.",
             "wrap": true,
             "spacing": "Small"
           },
@@ -43,16 +43,16 @@
             "type": "FactSet",
             "facts": [
               {
-                "title": "1. SCOTUS Wolford watch — opinion day Thu Jun 11",
-                "value": "Heat 82 ▲▲"
+                "title": "1. Virginia ban: 'collective-right' defense; hearing stayed",
+                "value": "Heat 85 ▲"
               },
               {
-                "title": "2. VA hardware bans — 14 prosecutors refusing; T-22",
-                "value": "Heat 78 →"
+                "title": "2. SCOTUS: Cockerham denied; Hemani/Wolford by end-June",
+                "value": "Heat 83 ▲"
               },
               {
-                "title": "3. NRA '1791'/LaPierre-return analysis settling",
-                "value": "Heat 75 ▼"
+                "title": "3. DOJ opens 2A investigation into Philadelphia PD",
+                "value": "Heat 80 ▲▲"
               }
             ]
           },
@@ -67,7 +67,7 @@
           {
             "type": "TextBlock",
             "size": "Small",
-            "text": "• SCOTUS opinion day Thu Jun 11 (T-2) — Wolford still pending\n• Virginia hardware ban T-22; 14 prosecutors refusing; sales doubled\n• NRA '1791'/LaPierre analysis settling — no new Monday move\n• Murder-down/gun-suicides-up data still under-covered",
+            "text": "• SCOTUS: Cockerham denied, Duncan/Viramontes relisted 19th; Hemani+Wolford by end of June\n• DOJ Civil Rights Division opens 2A probe into Philadelphia PD over permit revocations\n• Virginia AG files 'collective-right' defense in Crump v. Katz; court postpones hearing (T-19)\n• Texas Senate: Talarico a 2A 'believer' but backs UBCs/storage/age limits; Paxton race a dead heat",
             "wrap": true
           }
         ],
