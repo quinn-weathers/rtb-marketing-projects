@@ -1,89 +1,89 @@
 {
- "type": "message",
- "attachments": [
-  {
-   "contentType": "application/vnd.microsoft.card.adaptive",
-   "contentUrl": null,
-   "content": {
-    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
-    "type": "AdaptiveCard",
-    "version": "1.5",
-    "body": [
-     {
-      "type": "TextBlock",
-      "size": "Small",
-      "weight": "Bolder",
-      "color": "Warning",
-      "text": "RTB \u00b7 2A WEEKLY INTEL \u00b7 Week of Jun 1 \u2013 Jun 5, 2026",
-      "spacing": "None"
-     },
-     {
-      "type": "TextBlock",
-      "size": "Large",
-      "weight": "Bolder",
-      "text": "Four days of drift, then a Friday resolution wave: Virginia's standoff resolved, May NICS landed at +103% for VA \u2014 and Wolford didn't",
-      "wrap": true,
-      "spacing": "Small"
-     },
-     {
-      "type": "TextBlock",
-      "text": "Monday through Thursday nearly every storyline cooled while Congress produced zero floor signals; then Friday broke the week's two biggest cliffhangers at once. The Lynchburg court kept the injunction in place and the State Police agreed to stop private-sale checks \u2014 and SCOTUS's Thursday opinions came and went without Wolford v. Lopez.",
-      "wrap": true,
-      "spacing": "Small"
-     },
-     {
-      "type": "TextBlock",
-      "size": "Small",
-      "weight": "Bolder",
-      "color": "Warning",
-      "text": "STAYED HOT ALL WEEK",
-      "spacing": "Medium"
-     },
-     {
-      "type": "FactSet",
-      "facts": [
-       {
-        "title": "1. VA background-check standoff \u2014 RESOLVED",
-        "value": "Avg 87 \u00b7 3/5 days \u00b7 \u2192"
-       },
-       {
-        "title": "2. National reciprocity axis (8th Cir. + H.R. 38)",
-        "value": "Avg 74 \u00b7 5/5 days \u00b7 \u2193\u2193"
-       },
-       {
-        "title": "3. NJ permitting-discrimination (Reload/Slate)",
-        "value": "Avg 73 \u00b7 4/5 days \u00b7 \u2193"
-       }
-      ]
-     },
-     {
-      "type": "TextBlock",
-      "size": "Small",
-      "weight": "Bolder",
-      "color": "Warning",
-      "text": "WATCH NEXT WEEK",
-      "spacing": "Medium"
-     },
-     {
-      "type": "TextBlock",
-      "size": "Small",
-      "text": "\u2022 [Calendar] SCOTUS orders list Mon Jun 8 \u2014 Johnson v. Jacobson cert signal\n\u2022 [Calendar] SCOTUS opinions Thu Jun 11 \u2014 next live Wolford window (23 left)\n\u2022 [Carry-over] VA resolution \u2014 cross-confirm details + contempt disposition\n\u2022 [Predicted] Peer fear-wave on VA + TN SB1847 \u2014 RTB calm explainers first",
-      "wrap": true
-     }
-    ],
-    "actions": [
-     {
-      "type": "Action.OpenUrl",
-      "title": "Read the full weekly \u2192",
-      "url": "https://quinn-weathers.github.io/rtb-marketing-projects/weekly-news-brief/"
-     },
-     {
-      "type": "Action.OpenUrl",
-      "title": "Today's daily \u2192",
-      "url": "https://quinn-weathers.github.io/rtb-marketing-projects/daily-news-brief/"
-     }
-    ]
-   }
-  }
- ]
+  "type": "message",
+  "attachments": [
+    {
+      "contentType": "application/vnd.microsoft.card.adaptive",
+      "contentUrl": null,
+      "content": {
+        "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+        "type": "AdaptiveCard",
+        "version": "1.5",
+        "body": [
+          {
+            "type": "TextBlock",
+            "size": "Small",
+            "weight": "Bolder",
+            "color": "Warning",
+            "text": "RTB · 2A WEEKLY INTEL · Week of June 8 – June 12, 2026",
+            "spacing": "None"
+          },
+          {
+            "type": "TextBlock",
+            "size": "Large",
+            "weight": "Bolder",
+            "text": "A short, quiet week with one clock ticking louder: the Supreme Court's Wolford v. Lopez carry case.",
+            "wrap": true,
+            "spacing": "Small"
+          },
+          {
+            "type": "TextBlock",
+            "text": "Nine of ten storylines drifted while the Wolford watch rose alone into its June 11 opinion window (outcome unconfirmed this cycle — verify against supremecourt.gov). The honest posture: armed and waiting, not 'it happened.'",
+            "wrap": true,
+            "spacing": "Small"
+          },
+          {
+            "type": "TextBlock",
+            "size": "Small",
+            "weight": "Bolder",
+            "color": "Warning",
+            "text": "STAYED HOT ALL WEEK",
+            "spacing": "Medium"
+          },
+          {
+            "type": "FactSet",
+            "facts": [
+              {
+                "title": "1. SCOTUS Wolford v. Lopez watch",
+                "value": "Avg 79 · 2/5 days · ↑"
+              },
+              {
+                "title": "2. Virginia hardware bans (T-19 to Jul 1)",
+                "value": "Avg 78 · 2/5 days · →"
+              },
+              {
+                "title": "3. NRA '1791 Foundation' / LaPierre-return",
+                "value": "Avg 78 · 2/5 days · ↓"
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "size": "Small",
+            "weight": "Bolder",
+            "color": "Warning",
+            "text": "WATCH NEXT WEEK",
+            "spacing": "Medium"
+          },
+          {
+            "type": "TextBlock",
+            "size": "Small",
+            "text": "• [Calendar] SCOTUS opinion days through late June — live Wolford windows\n• [Calendar] Jul 1: VA hardware bans effect + CO DOR final semi-auto list\n• [Carry-over] VA contempt-motion disposition + The Reload's own ruling account\n• [Predicted] Peers run fear-forward VA Jul 1 content — ship the calm 'what changes' piece first",
+            "wrap": true
+          }
+        ],
+        "actions": [
+          {
+            "type": "Action.OpenUrl",
+            "title": "Read the full weekly →",
+            "url": "https://quinn-weathers.github.io/rtb-marketing-projects/weekly-news-brief/"
+          },
+          {
+            "type": "Action.OpenUrl",
+            "title": "Today's daily →",
+            "url": "https://quinn-weathers.github.io/rtb-marketing-projects/daily-news-brief/"
+          }
+        ]
+      }
+    }
+  ]
 }
