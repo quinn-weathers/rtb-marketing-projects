@@ -14,20 +14,20 @@
             "size": "Small",
             "weight": "Bolder",
             "color": "Warning",
-            "text": "RTB · 2A DAILY INTEL · Friday, June 12, 2026",
+            "text": "RTB · 2A DAILY INTEL · Monday, June 15, 2026",
             "spacing": "None"
           },
           {
             "type": "TextBlock",
             "size": "Large",
             "weight": "Bolder",
-            "text": "Courts and DOJ now drive the story: SCOTUS denies Cockerham and teed up Wolford by end of June; DOJ probes Philadelphia PD; Virginia floats a 'collective-right' defense as the ban hits T-19.",
+            "text": "Courts cut both ways: Florida ends gun waiting periods; Washington upholds DUI disarmament; SCOTUS on the clock",
             "wrap": true,
             "spacing": "Small"
           },
           {
             "type": "TextBlock",
-            "text": "The Supreme Court cleared its underbrush Monday — denying review in US v. Cockerham and relisting the Duncan magazine and Viramontes AR-15 cases a 19th time — while confirming it will hand down Hemani and Wolford v. Lopez by the end of June.",
+            "text": "Florida's AG declined to defend the state's gun-purchase waiting periods and agreed to a judgment blocking them, while a divided Washington Supreme Court (5-4) upheld disarming repeat DUI offenders. SCOTUS is expected to hand down Hemani and Wolford v. Lopez in the coming days; Virginia's hardware ban is now T-16 to July 1.",
             "wrap": true,
             "spacing": "Small"
           },
@@ -43,16 +43,16 @@
             "type": "FactSet",
             "facts": [
               {
-                "title": "1. Virginia ban: 'collective-right' defense; hearing stayed",
+                "title": "1. SCOTUS: Hemani & Wolford expected in coming days",
                 "value": "Heat 85 ▲"
               },
               {
-                "title": "2. SCOTUS: Cockerham denied; Hemani/Wolford by end-June",
-                "value": "Heat 83 ▲"
+                "title": "2. Florida ends gun-purchase waiting periods (NEW)",
+                "value": "Heat 83 ▲▲"
               },
               {
-                "title": "3. DOJ opens 2A investigation into Philadelphia PD",
-                "value": "Heat 80 ▲▲"
+                "title": "3. Virginia hardware ban — T-16 to July 1",
+                "value": "Heat 81 →"
               }
             ]
           },
@@ -67,7 +67,7 @@
           {
             "type": "TextBlock",
             "size": "Small",
-            "text": "• SCOTUS: Cockerham denied, Duncan/Viramontes relisted 19th; Hemani+Wolford by end of June\n• DOJ Civil Rights Division opens 2A probe into Philadelphia PD over permit revocations\n• Virginia AG files 'collective-right' defense in Crump v. Katz; court postpones hearing (T-19)\n• Texas Senate: Talarico a 2A 'believer' but backs UBCs/storage/age limits; Paxton race a dead heat",
+            "text": "• Florida AG won't defend waiting periods; agrees to judgment blocking them\n• Washington Supreme Court (5-4) upholds disarming repeat DUI offenders\n• SCOTUS Hemani + Wolford v. Lopez expected in the coming days\n• Virginia hardware ban now T-16 to July 1; collective-right defense pending",
             "wrap": true
           }
         ],
