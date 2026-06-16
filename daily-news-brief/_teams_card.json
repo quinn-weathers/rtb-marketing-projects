@@ -14,20 +14,20 @@
             "size": "Small",
             "weight": "Bolder",
             "color": "Warning",
-            "text": "RTB · 2A DAILY INTEL · Monday, June 15, 2026",
+            "text": "RTB \u00b7 2A DAILY INTEL \u00b7 Tuesday, June 16, 2026",
             "spacing": "None"
           },
           {
             "type": "TextBlock",
             "size": "Large",
             "weight": "Bolder",
-            "text": "Courts cut both ways: Florida ends gun waiting periods; Washington upholds DUI disarmament; SCOTUS on the clock",
+            "text": "Courts driving: SCOTUS Hemani & Wolford could drop any day; Virginia ban at T-15",
             "wrap": true,
             "spacing": "Small"
           },
           {
             "type": "TextBlock",
-            "text": "Florida's AG declined to defend the state's gun-purchase waiting periods and agreed to a judgment blocking them, while a divided Washington Supreme Court (5-4) upheld disarming repeat DUI offenders. SCOTUS is expected to hand down Hemani and Wolford v. Lopez in the coming days; Virginia's hardware ban is now T-16 to July 1.",
+            "text": "Quiet on the wires overnight, but the calendar is the story. SCOTUS could hand down Hemani and Wolford v. Lopez on any remaining opinion day as the term closes; Virginia\u2019s hardware ban is now T-15 to July 1.",
             "wrap": true,
             "spacing": "Small"
           },
@@ -43,16 +43,16 @@
             "type": "FactSet",
             "facts": [
               {
-                "title": "1. SCOTUS: Hemani & Wolford expected in coming days",
-                "value": "Heat 85 ▲"
+                "title": "1. SCOTUS: Hemani & Wolford \u2014 opinions any day",
+                "value": "Heat 87 \u25b2"
               },
               {
-                "title": "2. Florida ends gun-purchase waiting periods (NEW)",
-                "value": "Heat 83 ▲▲"
+                "title": "2. Virginia hardware ban \u2014 T-15 to July 1",
+                "value": "Heat 82 \u25b2"
               },
               {
-                "title": "3. Virginia hardware ban — T-16 to July 1",
-                "value": "Heat 81 →"
+                "title": "3. Florida ends gun-purchase waiting periods",
+                "value": "Heat 80 \u25bc"
               }
             ]
           },
@@ -67,14 +67,14 @@
           {
             "type": "TextBlock",
             "size": "Small",
-            "text": "• Florida AG won't defend waiting periods; agrees to judgment blocking them\n• Washington Supreme Court (5-4) upholds disarming repeat DUI offenders\n• SCOTUS Hemani + Wolford v. Lopez expected in the coming days\n• Virginia hardware ban now T-16 to July 1; collective-right defense pending",
-            "wrap": true
+            "wrap": true,
+            "text": "\u2022 SCOTUS: Hemani & Wolford could drop any opinion day; none posted yet\n\u2022 Virginia: hardware ban T-15 to July 1; no new filing overnight\n\u2022 Florida: waiting-period agreed judgment awaiting court entry\n\u2022 Washington: 5-4 DUI-disarmament ruling settling; 3rd Cir. Williams to watch"
           }
         ],
         "actions": [
           {
             "type": "Action.OpenUrl",
-            "title": "Read full brief →",
+            "title": "Read full brief \u2192",
             "url": "https://quinn-weathers.github.io/rtb-marketing-projects/daily-news-brief/"
           }
         ]
