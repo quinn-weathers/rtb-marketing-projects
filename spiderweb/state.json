@@ -228,7 +228,7 @@
         "pipelines": [
           {
             "id": "blog-production",
-            "stage": "Complete"
+            "stage": "Published"
           },
           {
             "id": "social-content",
@@ -255,7 +255,7 @@
         "pipelines": [
           {
             "id": "blog-production",
-            "stage": "Complete"
+            "stage": "Published"
           },
           {
             "id": "social-content",
@@ -268,7 +268,7 @@
         "id": "task-s3dz8hzo",
         "title": "New York's \"Vampire Rule\" Struck Down - May 2026 Op-Ed",
         "owner": "—",
-        "status": "review",
+        "status": "complete",
         "tags": [],
         "askDate": "2026-05-29",
         "priority": "high",
@@ -283,7 +283,7 @@
         "pipelines": [
           {
             "id": "blog-production",
-            "stage": "In Review"
+            "stage": "Published"
           }
         ],
         "notes": ""
@@ -292,7 +292,7 @@
         "id": "task-awcrzpgs",
         "title": "Murder Rate Drop - June 2026 Op-Ed",
         "owner": "—",
-        "status": "review",
+        "status": "complete",
         "tags": [],
         "askDate": "2026-06-05",
         "priority": "high",
@@ -307,7 +307,7 @@
         "pipelines": [
           {
             "id": "blog-production",
-            "stage": "In Review"
+            "stage": "Published"
           }
         ],
         "notes": ""
@@ -339,7 +339,7 @@
         "id": "n6360mlj",
         "title": "CCW Permit in TX",
         "owner": "",
-        "status": "review",
+        "status": "complete",
         "tags": [],
         "projects": [],
         "askDate": "2026-05-29",
@@ -351,7 +351,7 @@
         "pipelines": [
           {
             "id": "blog-production",
-            "stage": "In Review"
+            "stage": "Published"
           }
         ],
         "notes": ""
