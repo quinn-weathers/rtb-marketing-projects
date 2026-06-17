@@ -57,6 +57,18 @@
       "name": "Benefits",
       "bg": "#8affd2",
       "fg": "#008055"
+    },
+    {
+      "id": "proj-5ubwag64",
+      "name": "LEO",
+      "bg": "#dde7f0",
+      "fg": "#1f456e"
+    },
+    {
+      "id": "proj-umgykxhp",
+      "name": "Family",
+      "bg": "#fcd1ff",
+      "fg": "#d400ff"
     }
   ],
   "pipelines": {
@@ -398,6 +410,98 @@
           {
             "id": "blog-production",
             "stage": "Ideation/Outline"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": "lof4ru61",
+        "title": "LEO Blog - Off-Duty Officer Legal Risk",
+        "owner": "—",
+        "status": "in-progress",
+        "tags": [],
+        "askDate": "2026-06-26",
+        "priority": "med",
+        "lift": "M",
+        "assignee": "Chase Holmes",
+        "approver": "Jeremy Osborn",
+        "pm": "Quinn Weathers",
+        "projects": [
+          "proj-5ubwag64"
+        ],
+        "pipelines": [
+          {
+            "id": "blog-production",
+            "stage": "In-Progress"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": "task-6jcvcp3f",
+        "title": "LEO Blog - Does Your Dept. Really Protect You?",
+        "owner": "—",
+        "status": "in-progress",
+        "tags": [],
+        "askDate": "2026-06-30",
+        "priority": "med",
+        "lift": "M",
+        "assignee": "Chase Holmes",
+        "approver": "Jeremy Osborn",
+        "pm": "Quinn Weathers",
+        "projects": [
+          "proj-5ubwag64"
+        ],
+        "pipelines": [
+          {
+            "id": "blog-production",
+            "stage": "In-Progress"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": "task-83hjqovf",
+        "title": "LEO Blog - What Happens After an Officer-Involved Shooting",
+        "owner": "—",
+        "status": "in-progress",
+        "tags": [],
+        "askDate": "2026-07-02",
+        "priority": "med",
+        "lift": "M",
+        "assignee": "Chase Holmes",
+        "approver": "Jeremy Osborn",
+        "pm": "Quinn Weathers",
+        "projects": [
+          "proj-5ubwag64"
+        ],
+        "pipelines": [
+          {
+            "id": "blog-production",
+            "stage": "In-Progress"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": "task-f56y8zd7",
+        "title": "Family Blog - What If Your Child is INvolved in a Self-Defense Incident?",
+        "owner": "—",
+        "status": "in-progress",
+        "tags": [],
+        "askDate": "2026-07-03",
+        "priority": "med",
+        "lift": "M",
+        "assignee": "Chase Holmes",
+        "approver": "Jeremy Osborn",
+        "pm": "Quinn Weathers",
+        "projects": [
+          "proj-umgykxhp"
+        ],
+        "pipelines": [
+          {
+            "id": "blog-production",
+            "stage": "In-Progress"
           }
         ],
         "notes": ""
