@@ -1,84 +1,84 @@
 {
-  "type": "message",
-  "attachments": [
-    {
-      "contentType": "application/vnd.microsoft.card.adaptive",
-      "contentUrl": null,
-      "content": {
-        "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
-        "type": "AdaptiveCard",
-        "version": "1.5",
-        "body": [
-          {
-            "type": "TextBlock",
-            "size": "Small",
-            "weight": "Bolder",
-            "color": "Warning",
-            "text": "RTB \u00b7 2A DAILY INTEL \u00b7 Tuesday, June 16, 2026",
-            "spacing": "None"
-          },
-          {
-            "type": "TextBlock",
-            "size": "Large",
-            "weight": "Bolder",
-            "text": "Courts driving: SCOTUS Hemani & Wolford could drop any day; Virginia ban at T-15",
-            "wrap": true,
-            "spacing": "Small"
-          },
-          {
-            "type": "TextBlock",
-            "text": "Quiet on the wires overnight, but the calendar is the story. SCOTUS could hand down Hemani and Wolford v. Lopez on any remaining opinion day as the term closes; Virginia\u2019s hardware ban is now T-15 to July 1.",
-            "wrap": true,
-            "spacing": "Small"
-          },
-          {
-            "type": "TextBlock",
-            "size": "Small",
-            "weight": "Bolder",
-            "color": "Warning",
-            "text": "HOTTEST LEADS",
-            "spacing": "Medium"
-          },
-          {
-            "type": "FactSet",
-            "facts": [
-              {
-                "title": "1. SCOTUS: Hemani & Wolford \u2014 opinions any day",
-                "value": "Heat 87 \u25b2"
-              },
-              {
-                "title": "2. Virginia hardware ban \u2014 T-15 to July 1",
-                "value": "Heat 82 \u25b2"
-              },
-              {
-                "title": "3. Florida ends gun-purchase waiting periods",
-                "value": "Heat 80 \u25bc"
-              }
-            ]
-          },
-          {
-            "type": "TextBlock",
-            "size": "Small",
-            "weight": "Bolder",
-            "color": "Warning",
-            "text": "WHAT'S MOVING",
-            "spacing": "Medium"
-          },
-          {
-            "type": "TextBlock",
-            "size": "Small",
-            "wrap": true,
-            "text": "\u2022 SCOTUS: Hemani & Wolford could drop any opinion day; none posted yet\n\u2022 Virginia: hardware ban T-15 to July 1; no new filing overnight\n\u2022 Florida: waiting-period agreed judgment awaiting court entry\n\u2022 Washington: 5-4 DUI-disarmament ruling settling; 3rd Cir. Williams to watch"
-          }
-        ],
-        "actions": [
-          {
-            "type": "Action.OpenUrl",
-            "title": "Read full brief \u2192",
-            "url": "https://quinn-weathers.github.io/rtb-marketing-projects/daily-news-brief/"
-          }
-        ]
-      }
-    }
-  ]
+ "type": "message",
+ "attachments": [
+  {
+   "contentType": "application/vnd.microsoft.card.adaptive",
+   "contentUrl": null,
+   "content": {
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "type": "AdaptiveCard",
+    "version": "1.5",
+    "body": [
+     {
+      "type": "TextBlock",
+      "size": "Small",
+      "weight": "Bolder",
+      "color": "Warning",
+      "text": "RTB · 2A DAILY INTEL · Thursday, June 18, 2026",
+      "spacing": "None"
+     },
+     {
+      "type": "TextBlock",
+      "size": "Large",
+      "weight": "Bolder",
+      "text": "Decision day: SCOTUS could hand down Hemani and Wolford v. Lopez this morning",
+      "wrap": true,
+      "spacing": "Small"
+     },
+     {
+      "type": "TextBlock",
+      "text": "The Court could issue its two pending 2A merits decisions as soon as Thursday morning (still undecided overnight). Monday's orders denied cert in two NY challenges — Corbett and NSSF v. James — while granting 4 new cases and relisting 25.",
+      "wrap": true,
+      "spacing": "Small"
+     },
+     {
+      "type": "TextBlock",
+      "size": "Small",
+      "weight": "Bolder",
+      "color": "Warning",
+      "text": "HOTTEST LEADS",
+      "spacing": "Medium"
+     },
+     {
+      "type": "FactSet",
+      "facts": [
+       {
+        "title": "1. SCOTUS Hemani & Wolford — opinions could land today",
+        "value": "Heat 90 ▲"
+       },
+       {
+        "title": "2. Virginia hardware ban — T-13 to July 1",
+        "value": "Heat 84 ▲"
+       },
+       {
+        "title": "3. Gun groups slam James Harden's TX arrest",
+        "value": "Heat 80 ▲"
+       }
+      ]
+     },
+     {
+      "type": "TextBlock",
+      "size": "Small",
+      "weight": "Bolder",
+      "color": "Warning",
+      "text": "WHAT'S MOVING",
+      "spacing": "Medium"
+     },
+     {
+      "type": "TextBlock",
+      "size": "Small",
+      "text": "• SCOTUS: Hemani & Wolford could issue as soon as this morning\n• SCOTUS Monday orders: Corbett & NSSF v. James denied; 4 granted, 25 relisted\n• NRA/CCRKBA/GOA/FPC slam James Harden's unholstered-carry arrest (court Jun 22)\n• Virginia hardware ban T-13 to July 1; no new filing",
+      "wrap": true
+     }
+    ],
+    "actions": [
+     {
+      "type": "Action.OpenUrl",
+      "title": "Read full brief →",
+      "url": "https://quinn-weathers.github.io/rtb-marketing-projects/daily-news-brief/"
+     }
+    ]
+   }
+  }
+ ]
 }
