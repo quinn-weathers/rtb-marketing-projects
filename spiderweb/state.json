@@ -69,6 +69,12 @@
       "name": "Family",
       "bg": "#fcd1ff",
       "fg": "#d400ff"
+    },
+    {
+      "id": "proj-10mk6853",
+      "name": "Individual",
+      "bg": "#ffd6d6",
+      "fg": "#ff0000"
     }
   ],
   "pipelines": {
@@ -325,6 +331,54 @@
         "notes": ""
       },
       {
+        "id": "task-c3mo3q6i",
+        "title": "FL Court Rules for 18-20 y/o Gun Ownership - June 2026 Op-Ed",
+        "owner": "—",
+        "status": "complete",
+        "tags": [],
+        "askDate": "2026-06-19",
+        "priority": "high",
+        "lift": "L",
+        "assignee": "Chase Holmes",
+        "approver": "Jeremy Osborn",
+        "pm": "Quinn Weathers",
+        "projects": [
+          "proj-upl4ik9z",
+          "state-of-the-union"
+        ],
+        "pipelines": [
+          {
+            "id": "blog-production",
+            "stage": "Complete"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": "task-cy5j2hc5",
+        "title": "SCOTUS Rules Drug Use Can't Stop Carrying - June 2026 Op-Ed",
+        "owner": "—",
+        "status": "complete",
+        "tags": [],
+        "askDate": "2026-06-19",
+        "priority": "high",
+        "lift": "L",
+        "assignee": "Chase Holmes",
+        "approver": "Jeremy Osborn",
+        "pm": "Quinn Weathers",
+        "projects": [
+          "proj-upl4ik9z",
+          "state-of-the-union"
+        ],
+        "pipelines": [
+          {
+            "id": "blog-production",
+            "stage": "Complete"
+          }
+        ],
+        "notes": ""
+      },
+      {
         "id": "task-rynutj1b",
         "title": "Memorial Day 2026 - Blog",
         "owner": "—",
@@ -485,7 +539,7 @@
       },
       {
         "id": "task-f56y8zd7",
-        "title": "Family Blog - What If Your Child is INvolved in a Self-Defense Incident?",
+        "title": "Family Blog - What If Your Child is Involved in a Self-Defense Incident?",
         "owner": "—",
         "status": "in-progress",
         "tags": [],
@@ -497,6 +551,144 @@
         "pm": "Quinn Weathers",
         "projects": [
           "proj-umgykxhp"
+        ],
+        "pipelines": [
+          {
+            "id": "blog-production",
+            "stage": "In-Progress"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": "task-shuz3nkl",
+        "title": "Family Blog - Should Your Spouse Have Separate Legal Protection?",
+        "owner": "—",
+        "status": "in-progress",
+        "tags": [],
+        "askDate": "2026-07-07",
+        "priority": "med",
+        "lift": "M",
+        "assignee": "Chase Holmes",
+        "approver": "Jeremy Osborn",
+        "pm": "Quinn Weathers",
+        "projects": [
+          "proj-umgykxhp"
+        ],
+        "pipelines": [
+          {
+            "id": "blog-production",
+            "stage": "In-Progress"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": "task-f5x9w2dt",
+        "title": "Family Blog - How to Prepare Your Family for a Self-Defense Emergency",
+        "owner": "—",
+        "status": "in-progress",
+        "tags": [],
+        "askDate": "2026-07-09",
+        "priority": "med",
+        "lift": "M",
+        "assignee": "Chase Holmes",
+        "approver": "Jeremy Osborn",
+        "pm": "Quinn Weathers",
+        "projects": [
+          "proj-umgykxhp"
+        ],
+        "pipelines": [
+          {
+            "id": "blog-production",
+            "stage": "In-Progress"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": "task-6qjmo5tc",
+        "title": "Indiv. Blog - How Much Does a Self-Defense Lawyer Cost",
+        "owner": "—",
+        "status": "in-progress",
+        "tags": [],
+        "askDate": "2026-07-10",
+        "priority": "med",
+        "lift": "M",
+        "assignee": "Chase Holmes",
+        "approver": "Jeremy Osborn",
+        "pm": "Quinn Weathers",
+        "projects": [
+          "proj-10mk6853"
+        ],
+        "pipelines": [
+          {
+            "id": "blog-production",
+            "stage": "In-Progress"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": "task-hhswf8wq",
+        "title": "Indiv. Blog - Can You Be Sued for Self-Defense",
+        "owner": "—",
+        "status": "in-progress",
+        "tags": [],
+        "askDate": "2026-07-14",
+        "priority": "med",
+        "lift": "M",
+        "assignee": "Chase Holmes",
+        "approver": "Jeremy Osborn",
+        "pm": "Quinn Weathers",
+        "projects": [
+          "proj-10mk6853"
+        ],
+        "pipelines": [
+          {
+            "id": "blog-production",
+            "stage": "In-Progress"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": "task-hidyqvdi",
+        "title": "Indiv. Blog - What to Do After a Self-Defense Incident",
+        "owner": "—",
+        "status": "in-progress",
+        "tags": [],
+        "askDate": "2026-07-15",
+        "priority": "med",
+        "lift": "M",
+        "assignee": "Chase Holmes",
+        "approver": "Jeremy Osborn",
+        "pm": "Quinn Weathers",
+        "projects": [
+          "proj-10mk6853"
+        ],
+        "pipelines": [
+          {
+            "id": "blog-production",
+            "stage": "In-Progress"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": "task-n7qzsv9f",
+        "title": "Indiv. Blog - What to Say to Police",
+        "owner": "—",
+        "status": "in-progress",
+        "tags": [],
+        "askDate": "2026-07-16",
+        "priority": "med",
+        "lift": "M",
+        "assignee": "Chase Holmes",
+        "approver": "Jeremy Osborn",
+        "pm": "Quinn Weathers",
+        "projects": [
+          "proj-10mk6853"
         ],
         "pipelines": [
           {
