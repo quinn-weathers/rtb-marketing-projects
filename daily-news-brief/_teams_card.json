@@ -1,84 +1,84 @@
 {
- "type": "message",
- "attachments": [
-  {
-   "contentType": "application/vnd.microsoft.card.adaptive",
-   "contentUrl": null,
-   "content": {
-    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
-    "type": "AdaptiveCard",
-    "version": "1.5",
-    "body": [
-     {
-      "type": "TextBlock",
-      "size": "Small",
-      "weight": "Bolder",
-      "color": "Warning",
-      "text": "RTB · 2A DAILY INTEL · Thursday, June 18, 2026",
-      "spacing": "None"
-     },
-     {
-      "type": "TextBlock",
-      "size": "Large",
-      "weight": "Bolder",
-      "text": "Decision day: SCOTUS could hand down Hemani and Wolford v. Lopez this morning",
-      "wrap": true,
-      "spacing": "Small"
-     },
-     {
-      "type": "TextBlock",
-      "text": "The Court could issue its two pending 2A merits decisions as soon as Thursday morning (still undecided overnight). Monday's orders denied cert in two NY challenges — Corbett and NSSF v. James — while granting 4 new cases and relisting 25.",
-      "wrap": true,
-      "spacing": "Small"
-     },
-     {
-      "type": "TextBlock",
-      "size": "Small",
-      "weight": "Bolder",
-      "color": "Warning",
-      "text": "HOTTEST LEADS",
-      "spacing": "Medium"
-     },
-     {
-      "type": "FactSet",
-      "facts": [
-       {
-        "title": "1. SCOTUS Hemani & Wolford — opinions could land today",
-        "value": "Heat 90 ▲"
-       },
-       {
-        "title": "2. Virginia hardware ban — T-13 to July 1",
-        "value": "Heat 84 ▲"
-       },
-       {
-        "title": "3. Gun groups slam James Harden's TX arrest",
-        "value": "Heat 80 ▲"
-       }
-      ]
-     },
-     {
-      "type": "TextBlock",
-      "size": "Small",
-      "weight": "Bolder",
-      "color": "Warning",
-      "text": "WHAT'S MOVING",
-      "spacing": "Medium"
-     },
-     {
-      "type": "TextBlock",
-      "size": "Small",
-      "text": "• SCOTUS: Hemani & Wolford could issue as soon as this morning\n• SCOTUS Monday orders: Corbett & NSSF v. James denied; 4 granted, 25 relisted\n• NRA/CCRKBA/GOA/FPC slam James Harden's unholstered-carry arrest (court Jun 22)\n• Virginia hardware ban T-13 to July 1; no new filing",
-      "wrap": true
-     }
-    ],
-    "actions": [
-     {
-      "type": "Action.OpenUrl",
-      "title": "Read full brief →",
-      "url": "https://quinn-weathers.github.io/rtb-marketing-projects/daily-news-brief/"
-     }
-    ]
-   }
-  }
- ]
+  "type": "message",
+  "attachments": [
+    {
+      "contentType": "application/vnd.microsoft.card.adaptive",
+      "contentUrl": null,
+      "content": {
+        "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+        "type": "AdaptiveCard",
+        "version": "1.5",
+        "body": [
+          {
+            "type": "TextBlock",
+            "size": "Small",
+            "weight": "Bolder",
+            "color": "Warning",
+            "text": "RTB · 2A DAILY INTEL · Friday, June 19, 2026",
+            "spacing": "None"
+          },
+          {
+            "type": "TextBlock",
+            "size": "Large",
+            "weight": "Bolder",
+            "text": "Still waiting on the Court — Hemani & Wolford undecided; VA ban T-12; Harden back Monday",
+            "wrap": true,
+            "spacing": "Small"
+          },
+          {
+            "type": "TextBlock",
+            "text": "A day after both SCOTUS 2A merits cases were flagged as possible any-morning drops, no opinion has surfaced in our sources (Unverified) — The Reload has posted nothing new since Wednesday, a soft signal they had not yet come down. Quiet cycle otherwise.",
+            "wrap": true,
+            "spacing": "Small"
+          },
+          {
+            "type": "TextBlock",
+            "size": "Small",
+            "weight": "Bolder",
+            "color": "Warning",
+            "text": "HOTTEST LEADS",
+            "spacing": "Medium"
+          },
+          {
+            "type": "FactSet",
+            "facts": [
+              {
+                "title": "1. SCOTUS: Hemani & Wolford still pending",
+                "value": "Heat 91 ▲"
+              },
+              {
+                "title": "2. Virginia hardware ban — T-12 to Jul 1",
+                "value": "Heat 86 ▲"
+              },
+              {
+                "title": "3. James Harden TX arrest — back in court Mon",
+                "value": "Heat 74 ▼"
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "size": "Small",
+            "weight": "Bolder",
+            "color": "Warning",
+            "text": "WHAT'S MOVING",
+            "spacing": "Medium"
+          },
+          {
+            "type": "TextBlock",
+            "size": "Small",
+            "text": "• SCOTUS Hemani/Wolford still undecided in our sources (Unverified)\n• Virginia hardware ban now T-12 to July 1; no new filing\n• James Harden back in court Monday (T-3) on unholstered-carry count\n• Florida waiting-period agreed judgment still awaiting court entry",
+            "wrap": true
+          }
+        ],
+        "actions": [
+          {
+            "type": "Action.OpenUrl",
+            "title": "Read full brief →",
+            "url": "https://quinn-weathers.github.io/rtb-marketing-projects/daily-news-brief/"
+          }
+        ]
+      }
+    }
+  ]
 }
