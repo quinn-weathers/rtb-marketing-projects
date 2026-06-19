@@ -1,5 +1,19 @@
 [
   {
+    "id": "utm_1781899478068_khks",
+    "date": "2026-06-19T20:04:38.068Z",
+    "author": "Quinn Weathers",
+    "objective": "membership-signup",
+    "source": "email-3",
+    "medium": "email",
+    "campaign": "usa250",
+    "content": "",
+    "term": "",
+    "base": "https://info.protectwithbear.com/usa250",
+    "url": "https://info.protectwithbear.com/usa250?utm_source=email-3&utm_medium=email&utm_campaign=usa250",
+    "notes": "4th of July (2026) Emails to Prospects - Membership Drive"
+  },
+  {
     "id": "utm_1781899411756_q33s",
     "date": "2026-06-19T20:03:31.756Z",
     "author": "Quinn Weathers",
