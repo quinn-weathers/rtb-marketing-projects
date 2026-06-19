@@ -14,20 +14,20 @@
             "size": "Small",
             "weight": "Bolder",
             "color": "Warning",
-            "text": "RTB · 2A WEEKLY INTEL · Week of June 8 – June 12, 2026",
+            "text": "RTB · 2A WEEKLY INTEL · Week of June 15 – 19, 2026",
             "spacing": "None"
           },
           {
             "type": "TextBlock",
             "size": "Large",
             "weight": "Bolder",
-            "text": "A quiet open and a loud Friday: the courts and DOJ took the wheel.",
+            "text": "The courts ran the week — Wolford still pending as the term closes",
             "wrap": true,
             "spacing": "Small"
           },
           {
             "type": "TextBlock",
-            "text": "SCOTUS confirmed Wolford v. Lopez and Hemani will issue by end of June (Wolford NOT decided this week). DOJ opened a 2A probe of the Philadelphia Police, and Virginia's AG mounted a 'collective-right' defense of the hardware ban (now T-19 to July 1).",
+            "text": "With Congress consumed by reconciliation and FISA, every story that stayed hot Mon–Fri lived at the Supreme Court, in the circuits, or in a state AG's office. The throughline for members: know the law that governs you today, and which rulings could change it in the next two weeks.",
             "wrap": true,
             "spacing": "Small"
           },
@@ -43,16 +43,16 @@
             "type": "FactSet",
             "facts": [
               {
-                "title": "1. Virginia hardware ban (Crump v. Katz; T-19)",
-                "value": "Avg 80 · 3/5 days · ↑ (peak 85)"
+                "title": "1. Wolford v. Lopez / Hemani (SCOTUS watch)",
+                "value": "Avg 88 · 4/5 days · ↑"
               },
               {
-                "title": "2. SCOTUS — orders confirmed; Wolford/Hemani due",
-                "value": "Avg 80 · 3/5 days · ↑"
+                "title": "2. Virginia hardware ban (July 1)",
+                "value": "Avg 83 · 4/5 days · ↑"
               },
               {
-                "title": "3. NRA '1791 Foundation' / LaPierre-return",
-                "value": "Avg 75 · 3/5 days · ↓"
+                "title": "3. James Harden TX carry arrest",
+                "value": "Avg 77 · 2/5 days · ↓"
               }
             ]
           },
@@ -67,7 +67,7 @@
           {
             "type": "TextBlock",
             "size": "Small",
-            "text": "• [Calendar] SCOTUS to hand down Wolford & Hemani by end of June\n• [Calendar] Jul 1: VA hardware bans effect + CO DOR final semi-auto list\n• [Carry-over] DOJ Philadelphia 2A probe — watch for a suit (after LA/Denver/DC)\n• [Predicted] Peers run fear-forward VA July 1 content — ship the calm 'what changes' piece first",
+            "text": "• [Calendar] Jun 22: James Harden back in court (TX carry case)\n• [Calendar] Jul 1: Virginia ban effective + Colorado DOR semi-auto list\n• [Carry-over] Wolford/Hemani opinions could drop any morning — decoders parked\n• [Predicted] Virginia heat re-spikes to volcanic the week of Jun 29–Jul 3",
             "wrap": true
           }
         ],
