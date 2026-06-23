@@ -14,20 +14,20 @@
             "size": "Small",
             "weight": "Bolder",
             "color": "Warning",
-            "text": "RTB · 2A DAILY INTEL · Friday, June 19, 2026",
+            "text": "RTB · 2A DAILY INTEL · Tuesday, June 23, 2026",
             "spacing": "None"
           },
           {
             "type": "TextBlock",
             "size": "Large",
             "weight": "Bolder",
-            "text": "Still waiting on the Court — Hemani & Wolford undecided; VA ban T-12; Harden back Monday",
+            "text": "The Court ruled: SCOTUS hands down Hemani — its first major 2A decision of the term",
             "wrap": true,
             "spacing": "Small"
           },
           {
             "type": "TextBlock",
-            "text": "A day after both SCOTUS 2A merits cases were flagged as possible any-morning drops, no opinion has surfaced in our sources (Unverified) — The Reload has posted nothing new since Wednesday, a soft signal they had not yet come down. Quiet cycle otherwise.",
+            "text": "SCOTUS handed down a unanimous, deliberately narrow win in US v. Hemani on June 18, striking the federal drug-user gun ban as applied to a marijuana user. Wolford v. Lopez is now the lone outstanding 2A merits case as the term closes.",
             "wrap": true,
             "spacing": "Small"
           },
@@ -43,16 +43,16 @@
             "type": "FactSet",
             "facts": [
               {
-                "title": "1. SCOTUS: Hemani & Wolford still pending",
-                "value": "Heat 91 ▲"
+                "title": "1. SCOTUS rules 9-0 for marijuana-using gun owner (Hemani)",
+                "value": "Heat 89 ▼"
               },
               {
-                "title": "2. Virginia hardware ban — T-12 to Jul 1",
+                "title": "2. Virginia hardware ban — T-8 to July 1",
                 "value": "Heat 86 ▲"
               },
               {
-                "title": "3. James Harden TX arrest — back in court Mon",
-                "value": "Heat 74 ▼"
+                "title": "3. SCOTUS Wolford v. Lopez — lone pending 2A case",
+                "value": "Heat 85 ▲"
               }
             ]
           },
@@ -67,7 +67,7 @@
           {
             "type": "TextBlock",
             "size": "Small",
-            "text": "• SCOTUS Hemani/Wolford still undecided in our sources (Unverified)\n• Virginia hardware ban now T-12 to July 1; no new filing\n• James Harden back in court Monday (T-3) on unholstered-carry count\n• Florida waiting-period agreed judgment still awaiting court entry",
+            "text": "• Hemani decided 9-0 — drug-user gun ban struck as applied\n• Wolford now the lone pending 2A case; term closes this week\n• 5th Cir. Comeaux: silencers ARE 'Arms' but NFA stands — circuit split\n• Virginia T-8; militia argument turned back against the state",
             "wrap": true
           }
         ],
