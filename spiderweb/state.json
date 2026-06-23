@@ -349,7 +349,7 @@
         "pipelines": [
           {
             "id": "blog-production",
-            "stage": "Complete"
+            "stage": "Published"
           }
         ],
         "notes": ""
@@ -373,7 +373,7 @@
         "pipelines": [
           {
             "id": "blog-production",
-            "stage": "Complete"
+            "stage": "Published"
           }
         ],
         "notes": ""
@@ -472,7 +472,7 @@
         "id": "lof4ru61",
         "title": "LEO Blog - Off-Duty Officer Legal Risk",
         "owner": "—",
-        "status": "in-progress",
+        "status": "complete",
         "tags": [],
         "askDate": "2026-06-26",
         "priority": "med",
@@ -486,7 +486,7 @@
         "pipelines": [
           {
             "id": "blog-production",
-            "stage": "In-Progress"
+            "stage": "Complete"
           }
         ],
         "notes": ""
@@ -495,7 +495,7 @@
         "id": "task-6jcvcp3f",
         "title": "LEO Blog - Does Your Dept. Really Protect You?",
         "owner": "—",
-        "status": "in-progress",
+        "status": "complete",
         "tags": [],
         "askDate": "2026-06-30",
         "priority": "med",
@@ -509,7 +509,7 @@
         "pipelines": [
           {
             "id": "blog-production",
-            "stage": "In-Progress"
+            "stage": "Complete"
           }
         ],
         "notes": ""
@@ -8050,6 +8050,62 @@
         "assignee": "Tre'Von Barber",
         "approver": "Tre'Von Barber",
         "pm": "Quinn Weathers",
+        "pipelines": [
+          {
+            "id": "blog-production",
+            "stage": "Published"
+          },
+          {
+            "id": "social-content",
+            "stage": "Creative"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": "task-jbr7aq51",
+        "title": "Social Post - FL Court Rules for 18-20 y/o Gun Ownership",
+        "owner": "—",
+        "status": "review",
+        "tags": [],
+        "askDate": "2026-06-19",
+        "priority": "high",
+        "lift": "L",
+        "assignee": "Tre'Von Barber",
+        "approver": "Jeremy Osborn",
+        "pm": "Quinn Weathers",
+        "projects": [
+          "proj-upl4ik9z",
+          "state-of-the-union"
+        ],
+        "pipelines": [
+          {
+            "id": "blog-production",
+            "stage": "In Review"
+          },
+          {
+            "id": "social-content",
+            "stage": "Creative"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": "task-q8lifi9n",
+        "title": "Social post - SCOTUS Rules Drug Use Can't Stop Carrying",
+        "owner": "—",
+        "status": "complete",
+        "tags": [],
+        "askDate": "2026-06-19",
+        "priority": "high",
+        "lift": "L",
+        "assignee": "Tre'Von Barber",
+        "approver": "—",
+        "pm": "Quinn Weathers",
+        "projects": [
+          "proj-upl4ik9z",
+          "state-of-the-union"
+        ],
         "pipelines": [
           {
             "id": "blog-production",
