@@ -14,20 +14,20 @@
             "size": "Small",
             "weight": "Bolder",
             "color": "Warning",
-            "text": "RTB · 2A DAILY INTEL · Tuesday, June 23, 2026",
+            "text": "RTB \u00b7 2A DAILY INTEL \u00b7 Wednesday, June 24, 2026",
             "spacing": "None"
           },
           {
             "type": "TextBlock",
             "size": "Large",
             "weight": "Bolder",
-            "text": "The Court ruled: SCOTUS hands down Hemani — its first major 2A decision of the term",
+            "text": "Term's-end stretch: Wolford still pending, Duncan cert at the brink, Virginia T-7",
             "wrap": true,
             "spacing": "Small"
           },
           {
             "type": "TextBlock",
-            "text": "SCOTUS handed down a unanimous, deliberately narrow win in US v. Hemani on June 18, striking the federal drug-user gun ban as applied to a marijuana user. Wolford v. Lopez is now the lone outstanding 2A merits case as the term closes.",
+            "text": "The Supreme Court is in its final week. Wolford v. Lopez remains the lone pending 2A merits case \u2014 a decision could drop any opinion morning. Thursday June 26 is the term's final conference, where the Court could finally act on the Duncan v. Bonta magazine ban.",
             "wrap": true,
             "spacing": "Small"
           },
@@ -43,16 +43,16 @@
             "type": "FactSet",
             "facts": [
               {
-                "title": "1. SCOTUS rules 9-0 for marijuana-using gun owner (Hemani)",
-                "value": "Heat 89 ▼"
+                "title": "1. Virginia hardware ban \u2014 T-7 to July 1",
+                "value": "Heat 87 \u25b2"
               },
               {
-                "title": "2. Virginia hardware ban — T-8 to July 1",
-                "value": "Heat 86 ▲"
+                "title": "2. SCOTUS Wolford v. Lopez \u2014 lone pending 2A case",
+                "value": "Heat 86 \u25b2"
               },
               {
-                "title": "3. SCOTUS Wolford v. Lopez — lone pending 2A case",
-                "value": "Heat 85 ▲"
+                "title": "3. Silencers are 'Arms' (Comeaux) \u2014 AWB split read",
+                "value": "Heat 84 \u25b2"
               }
             ]
           },
@@ -67,14 +67,14 @@
           {
             "type": "TextBlock",
             "size": "Small",
-            "text": "• Hemani decided 9-0 — drug-user gun ban struck as applied\n• Wolford now the lone pending 2A case; term closes this week\n• 5th Cir. Comeaux: silencers ARE 'Arms' but NFA stands — circuit split\n• Virginia T-8; militia argument turned back against the state",
+            "text": "\u2022 Silencer ruling (Comeaux) may have created the long-sought hardware-ban split\n\u2022 Duncan v. Bonta at ~20th conference; Thursday 06/26 is the term's final conference\n\u2022 Wolford still the lone pending 2A merits case \u2014 imminent, not decided\n\u2022 Virginia hardware ban T-7 to July 1; Colorado July 1 list T-7",
             "wrap": true
           }
         ],
         "actions": [
           {
             "type": "Action.OpenUrl",
-            "title": "Read full brief →",
+            "title": "Read full brief \u2192",
             "url": "https://quinn-weathers.github.io/rtb-marketing-projects/daily-news-brief/"
           }
         ]
