@@ -14,20 +14,20 @@
             "size": "Small",
             "weight": "Bolder",
             "color": "Warning",
-            "text": "RTB \u00b7 2A DAILY INTEL \u00b7 Wednesday, June 24, 2026",
+            "text": "RTB · 2A DAILY INTEL · Thursday, June 25, 2026",
             "spacing": "None"
           },
           {
             "type": "TextBlock",
             "size": "Large",
             "weight": "Bolder",
-            "text": "Term's-end stretch: Wolford still pending, Duncan cert at the brink, Virginia T-7",
+            "text": "The Court's final week and a new federal front open at once",
             "wrap": true,
             "spacing": "Small"
           },
           {
             "type": "TextBlock",
-            "text": "The Supreme Court is in its final week. Wolford v. Lopez remains the lone pending 2A merits case \u2014 a decision could drop any opinion morning. Thursday June 26 is the term's final conference, where the Court could finally act on the Duncan v. Bonta magazine ban.",
+            "text": "The DOJ has put California on a one-week clock — settle over the “Glock ban” and handgun roster or face suit. Two hard deadlines now sit days apart: June 30 (DOJ–California) and July 1 (Virginia, Colorado).",
             "wrap": true,
             "spacing": "Small"
           },
@@ -43,16 +43,16 @@
             "type": "FactSet",
             "facts": [
               {
-                "title": "1. Virginia hardware ban \u2014 T-7 to July 1",
-                "value": "Heat 87 \u25b2"
+                "title": "1. DOJ threatens to sue California over the 'Glock ban' & roster",
+                "value": "Heat 89 ▲"
               },
               {
-                "title": "2. SCOTUS Wolford v. Lopez \u2014 lone pending 2A case",
-                "value": "Heat 86 \u25b2"
+                "title": "2. Virginia hardware ban — T-6 to July 1",
+                "value": "Heat 87 ▲"
               },
               {
-                "title": "3. Silencers are 'Arms' (Comeaux) \u2014 AWB split read",
-                "value": "Heat 84 \u25b2"
+                "title": "3. SCOTUS Wolford v. Lopez — lone pending 2A case",
+                "value": "Heat 86 ▲"
               }
             ]
           },
@@ -67,14 +67,14 @@
           {
             "type": "TextBlock",
             "size": "Small",
-            "text": "\u2022 Silencer ruling (Comeaux) may have created the long-sought hardware-ban split\n\u2022 Duncan v. Bonta at ~20th conference; Thursday 06/26 is the term's final conference\n\u2022 Wolford still the lone pending 2A merits case \u2014 imminent, not decided\n\u2022 Virginia hardware ban T-7 to July 1; Colorado July 1 list T-7",
+            "text": "• DOJ threatens suit over CA Glock ban (AB 1127) & roster — 5pm ET June 30 deadline\n• Judge lets NRA trademark suit vs. its Foundation proceed; control/funds to DC courts\n• Wolford v. Lopez still the lone pending 2A merits case — imminent, not decided\n• Duncan v. Bonta at ~20th relist — term's final conference is this week",
             "wrap": true
           }
         ],
         "actions": [
           {
             "type": "Action.OpenUrl",
-            "title": "Read full brief \u2192",
+            "title": "Read full brief →",
             "url": "https://quinn-weathers.github.io/rtb-marketing-projects/daily-news-brief/"
           }
         ]
