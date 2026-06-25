@@ -518,7 +518,7 @@
         "id": "task-83hjqovf",
         "title": "LEO Blog - What Happens After an Officer-Involved Shooting",
         "owner": "—",
-        "status": "in-progress",
+        "status": "complete",
         "tags": [],
         "askDate": "2026-07-02",
         "priority": "med",
@@ -532,7 +532,7 @@
         "pipelines": [
           {
             "id": "blog-production",
-            "stage": "In-Progress"
+            "stage": "Complete"
           }
         ],
         "notes": ""
