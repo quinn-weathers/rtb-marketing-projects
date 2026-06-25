@@ -697,6 +697,29 @@
           }
         ],
         "notes": ""
+      },
+      {
+        "id": "task-4q3ua3qr",
+        "title": "Wolford SCOTUS RULING - June 2026 Op-Ed",
+        "owner": "—",
+        "status": "in-progress",
+        "tags": [],
+        "askDate": "2026-07-17",
+        "priority": "med",
+        "lift": "M",
+        "assignee": "Chase Holmes",
+        "approver": "Jeremy Osborn",
+        "pm": "Quinn Weathers",
+        "projects": [
+          "state-of-the-union"
+        ],
+        "pipelines": [
+          {
+            "id": "blog-production",
+            "stage": "In-Progress"
+          }
+        ],
+        "notes": ""
       }
     ]
   },
