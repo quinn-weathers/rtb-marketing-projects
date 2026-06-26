@@ -817,7 +817,7 @@
         "id": "task-4q3ua3qr",
         "title": "Wolford SCOTUS RULING - June 2026 Op-Ed",
         "owner": "—",
-        "status": "in-progress",
+        "status": "complete",
         "tags": [],
         "askDate": "2026-07-17",
         "priority": "med",
@@ -831,7 +831,7 @@
         "pipelines": [
           {
             "id": "blog-production",
-            "stage": "In-Progress"
+            "stage": "Complete"
           }
         ],
         "notes": ""
