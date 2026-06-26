@@ -9,74 +9,20 @@
         "type": "AdaptiveCard",
         "version": "1.5",
         "body": [
-          {
-            "type": "TextBlock",
-            "size": "Small",
-            "weight": "Bolder",
-            "color": "Warning",
-            "text": "RTB · 2A DAILY INTEL · Thursday, June 25, 2026",
-            "spacing": "None"
-          },
-          {
-            "type": "TextBlock",
-            "size": "Large",
-            "weight": "Bolder",
-            "text": "The Court's final week and a new federal front open at once",
-            "wrap": true,
-            "spacing": "Small"
-          },
-          {
-            "type": "TextBlock",
-            "text": "The DOJ has put California on a one-week clock — settle over the “Glock ban” and handgun roster or face suit. Two hard deadlines now sit days apart: June 30 (DOJ–California) and July 1 (Virginia, Colorado).",
-            "wrap": true,
-            "spacing": "Small"
-          },
-          {
-            "type": "TextBlock",
-            "size": "Small",
-            "weight": "Bolder",
-            "color": "Warning",
-            "text": "HOTTEST LEADS",
-            "spacing": "Medium"
-          },
-          {
-            "type": "FactSet",
-            "facts": [
-              {
-                "title": "1. DOJ threatens to sue California over the 'Glock ban' & roster",
-                "value": "Heat 89 ▲"
-              },
-              {
-                "title": "2. Virginia hardware ban — T-6 to July 1",
-                "value": "Heat 87 ▲"
-              },
-              {
-                "title": "3. SCOTUS Wolford v. Lopez — lone pending 2A case",
-                "value": "Heat 86 ▲"
-              }
-            ]
-          },
-          {
-            "type": "TextBlock",
-            "size": "Small",
-            "weight": "Bolder",
-            "color": "Warning",
-            "text": "WHAT'S MOVING",
-            "spacing": "Medium"
-          },
-          {
-            "type": "TextBlock",
-            "size": "Small",
-            "text": "• DOJ threatens suit over CA Glock ban (AB 1127) & roster — 5pm ET June 30 deadline\n• Judge lets NRA trademark suit vs. its Foundation proceed; control/funds to DC courts\n• Wolford v. Lopez still the lone pending 2A merits case — imminent, not decided\n• Duncan v. Bonta at ~20th relist — term's final conference is this week",
-            "wrap": true
-          }
+          { "type": "TextBlock", "size": "Small", "weight": "Bolder", "color": "Warning", "text": "RTB · 2A DAILY INTEL · Friday, June 26, 2026", "spacing": "None" },
+          { "type": "TextBlock", "size": "Large", "weight": "Bolder", "text": "The lone pending 2A case is decided — and it's a win.", "wrap": true, "spacing": "Small" },
+          { "type": "TextBlock", "text": "SCOTUS struck Hawaii's \"carry only with consent\" default 6–3, with ripple effects in CA, MD, NY and NJ. The same week, Virginia's \"assault firearms\" ban was blocked statewide through Dec. 31 — while the state's universal-background-check mandate is set to return July 1.", "wrap": true, "spacing": "Small" },
+          { "type": "TextBlock", "size": "Small", "weight": "Bolder", "color": "Warning", "text": "HOTTEST LEADS", "spacing": "Medium" },
+          { "type": "FactSet", "facts": [
+            { "title": "1. Wolford v. Lopez decided 6–3 (Hawaii carry struck)", "value": "Heat 96 ▲" },
+            { "title": "2. VA \"assault firearms\" ban blocked statewide (Crump)", "value": "Heat 90 ▲" },
+            { "title": "3. 2A cert cluster at final conference (Duncan/Gator's)", "value": "Heat 87 ▲" }
+          ]},
+          { "type": "TextBlock", "size": "Small", "weight": "Bolder", "color": "Warning", "text": "WHAT'S MOVING", "spacing": "Medium" },
+          { "type": "TextBlock", "size": "Small", "text": "• Wolford v. Lopez decided 6–3 — Hawaii private-property carry default struck (Alito)\n• VA assault-firearms ban blocked statewide through Dec. 31 (Crump v. Katz)\n• VA universal background checks return July 1 (Wilson v. Katz); GOF vows appeal\n• SCOTUS 2A cert cluster — orders expected Mon Jun 29; DOJ–CA deadline T-4 (Jun 30)", "wrap": true }
         ],
         "actions": [
-          {
-            "type": "Action.OpenUrl",
-            "title": "Read full brief →",
-            "url": "https://quinn-weathers.github.io/rtb-marketing-projects/daily-news-brief/"
-          }
+          { "type": "Action.OpenUrl", "title": "Read full brief →", "url": "https://quinn-weathers.github.io/rtb-marketing-projects/daily-news-brief/" }
         ]
       }
     }
