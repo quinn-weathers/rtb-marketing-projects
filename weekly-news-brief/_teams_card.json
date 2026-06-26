@@ -14,20 +14,20 @@
             "size": "Small",
             "weight": "Bolder",
             "color": "Warning",
-            "text": "RTB · 2A WEEKLY INTEL · Week of June 15 – 19, 2026",
+            "text": "RTB · 2A WEEKLY INTEL · Week of June 22 – 26, 2026",
             "spacing": "None"
           },
           {
             "type": "TextBlock",
             "size": "Large",
             "weight": "Bolder",
-            "text": "The courts ran the week — Wolford still pending as the term closes",
+            "text": "The term ended with a carry win and Virginia’s ban frozen — and the 2A action ran entirely through the courts, not the House floor.",
             "wrap": true,
             "spacing": "Small"
           },
           {
             "type": "TextBlock",
-            "text": "With Congress consumed by reconciliation and FISA, every story that stayed hot Mon–Fri lived at the Supreme Court, in the circuits, or in a state AG's office. The throughline for members: know the law that governs you today, and which rulings could change it in the next two weeks.",
+            "text": "For five days the action sat with judges and the executive branch. Wolford was the term’s lone pending 2A merits case and it landed as a win reaching four more states (CA, MD, NY, NJ).",
             "wrap": true,
             "spacing": "Small"
           },
@@ -43,16 +43,16 @@
             "type": "FactSet",
             "facts": [
               {
-                "title": "1. Wolford v. Lopez / Hemani (SCOTUS watch)",
+                "title": "1. Wolford v. Lopez — decided 6–3",
                 "value": "Avg 88 · 4/5 days · ↑"
               },
               {
-                "title": "2. Virginia hardware ban (July 1)",
-                "value": "Avg 83 · 4/5 days · ↑"
+                "title": "2. Virginia ‘assault firearms’ ban BLOCKED",
+                "value": "Avg 88 · 4/5 days · ↑"
               },
               {
-                "title": "3. James Harden TX carry arrest",
-                "value": "Avg 77 · 2/5 days · ↓"
+                "title": "3. DOJ vs. California ‘Glock ban’ (AB 1127)",
+                "value": "Avg 86 · 2/5 days · ↓"
               }
             ]
           },
@@ -67,8 +67,8 @@
           {
             "type": "TextBlock",
             "size": "Small",
-            "text": "• [Calendar] Jun 22: James Harden back in court (TX carry case)\n• [Calendar] Jul 1: Virginia ban effective + Colorado DOR semi-auto list\n• [Carry-over] Wolford/Hemani opinions could drop any morning — decoders parked\n• [Predicted] Virginia heat re-spikes to volcanic the week of Jun 29–Jul 3",
-            "wrap": true
+            "wrap": true,
+            "text": "• [Calendar] Mon Jun 29 — SCOTUS orders on the Duncan / Gator’s / AR-15 cert cluster\n• [Calendar] Mon Jun 30 (5pm ET) — DOJ–California negotiate-or-file deadline\n• [Calendar] Tue Jul 1 — VA background checks return; CO final regulated-firearms list\n• [Predicted] Cert cluster likely held/relisted rather than granted outright"
           }
         ],
         "actions": [
