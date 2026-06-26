@@ -486,7 +486,7 @@
         "pipelines": [
           {
             "id": "blog-production",
-            "stage": "Complete"
+            "stage": "Published"
           }
         ],
         "notes": ""
@@ -689,6 +689,121 @@
         "pm": "Quinn Weathers",
         "projects": [
           "proj-10mk6853"
+        ],
+        "pipelines": [
+          {
+            "id": "blog-production",
+            "stage": "In-Progress"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": "task-ef6zhows",
+        "title": "Criminal vs. Civil Court in Self-Defense Cases",
+        "owner": "—",
+        "status": "in-progress",
+        "tags": [],
+        "askDate": "2026-07-21",
+        "priority": "med",
+        "lift": "M",
+        "assignee": "Chase Holmes",
+        "approver": "Jeremy Osborn",
+        "pm": "Quinn Weathers",
+        "projects": [
+          "proj-odwx3t35"
+        ],
+        "pipelines": [
+          {
+            "id": "blog-production",
+            "stage": "In-Progress"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": "task-km5ahb8l",
+        "title": "How do Bail Bonds Work?",
+        "owner": "—",
+        "status": "in-progress",
+        "tags": [],
+        "askDate": "2026-07-22",
+        "priority": "med",
+        "lift": "M",
+        "assignee": "Chase Holmes",
+        "approver": "Jeremy Osborn",
+        "pm": "Quinn Weathers",
+        "projects": [
+          "proj-odwx3t35"
+        ],
+        "pipelines": [
+          {
+            "id": "blog-production",
+            "stage": "In-Progress"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": "task-7w2rml6n",
+        "title": "Up to $100,000 Bail Bond Coverage",
+        "owner": "—",
+        "status": "in-progress",
+        "tags": [],
+        "askDate": "2026-07-23",
+        "priority": "med",
+        "lift": "M",
+        "assignee": "Chase Holmes",
+        "approver": "Jeremy Osborn",
+        "pm": "Quinn Weathers",
+        "projects": [
+          "proj-odwx3t35"
+        ],
+        "pipelines": [
+          {
+            "id": "blog-production",
+            "stage": "In-Progress"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": "task-bk2qr7er",
+        "title": "Red Flag Laws and ERPOs Explained",
+        "owner": "—",
+        "status": "in-progress",
+        "tags": [],
+        "askDate": "2026-07-24",
+        "priority": "med",
+        "lift": "M",
+        "assignee": "Chase Holmes",
+        "approver": "Jeremy Osborn",
+        "pm": "Quinn Weathers",
+        "projects": [
+          "proj-odwx3t35"
+        ],
+        "pipelines": [
+          {
+            "id": "blog-production",
+            "stage": "In-Progress"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": "task-lm4tbjtr",
+        "title": "How and ERPO Hearing Works",
+        "owner": "—",
+        "status": "in-progress",
+        "tags": [],
+        "askDate": "2026-07-27",
+        "priority": "med",
+        "lift": "M",
+        "assignee": "Chase Holmes",
+        "approver": "Jeremy Osborn",
+        "pm": "Quinn Weathers",
+        "projects": [
+          "proj-odwx3t35"
         ],
         "pipelines": [
           {
