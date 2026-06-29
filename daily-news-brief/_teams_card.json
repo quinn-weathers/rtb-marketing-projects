@@ -9,20 +9,74 @@
         "type": "AdaptiveCard",
         "version": "1.5",
         "body": [
-          { "type": "TextBlock", "size": "Small", "weight": "Bolder", "color": "Warning", "text": "RTB · 2A DAILY INTEL · Friday, June 26, 2026", "spacing": "None" },
-          { "type": "TextBlock", "size": "Large", "weight": "Bolder", "text": "The lone pending 2A case is decided — and it's a win.", "wrap": true, "spacing": "Small" },
-          { "type": "TextBlock", "text": "SCOTUS struck Hawaii's \"carry only with consent\" default 6–3, with ripple effects in CA, MD, NY and NJ. The same week, Virginia's \"assault firearms\" ban was blocked statewide through Dec. 31 — while the state's universal-background-check mandate is set to return July 1.", "wrap": true, "spacing": "Small" },
-          { "type": "TextBlock", "size": "Small", "weight": "Bolder", "color": "Warning", "text": "HOTTEST LEADS", "spacing": "Medium" },
-          { "type": "FactSet", "facts": [
-            { "title": "1. Wolford v. Lopez decided 6–3 (Hawaii carry struck)", "value": "Heat 96 ▲" },
-            { "title": "2. VA \"assault firearms\" ban blocked statewide (Crump)", "value": "Heat 90 ▲" },
-            { "title": "3. 2A cert cluster at final conference (Duncan/Gator's)", "value": "Heat 87 ▲" }
-          ]},
-          { "type": "TextBlock", "size": "Small", "weight": "Bolder", "color": "Warning", "text": "WHAT'S MOVING", "spacing": "Medium" },
-          { "type": "TextBlock", "size": "Small", "text": "• Wolford v. Lopez decided 6–3 — Hawaii private-property carry default struck (Alito)\n• VA assault-firearms ban blocked statewide through Dec. 31 (Crump v. Katz)\n• VA universal background checks return July 1 (Wilson v. Katz); GOF vows appeal\n• SCOTUS 2A cert cluster — orders expected Mon Jun 29; DOJ–CA deadline T-4 (Jun 30)", "wrap": true }
+          {
+            "type": "TextBlock",
+            "size": "Small",
+            "weight": "Bolder",
+            "color": "Warning",
+            "text": "RTB \u00b7 2A DAILY INTEL \u00b7 Monday, June 29, 2026",
+            "spacing": "None"
+          },
+          {
+            "type": "TextBlock",
+            "size": "Large",
+            "weight": "Bolder",
+            "text": "Decision day: SCOTUS could act on the 2A cert cluster this morning",
+            "wrap": true,
+            "spacing": "Small"
+          },
+          {
+            "type": "TextBlock",
+            "text": "It's the term's last decision day (orders 9:30 / opinions 10am ET). The long-relisted petitions \u2014 Duncan, Gator's, Viramontes, NAGR v. Lamont, Grant \u2014 were still undecided as of the 6:00 ET refresh; outcome pending (Unverified).",
+            "wrap": true,
+            "spacing": "Small"
+          },
+          {
+            "type": "TextBlock",
+            "size": "Small",
+            "weight": "Bolder",
+            "color": "Warning",
+            "text": "HOTTEST LEADS",
+            "spacing": "Medium"
+          },
+          {
+            "type": "FactSet",
+            "facts": [
+              {
+                "title": "1. 2A cert cluster \u2014 orders expected TODAY",
+                "value": "Heat 94 \u25b2"
+              },
+              {
+                "title": "2. DOJ vs. California \u201cGlock ban\u201d \u2014 T-1",
+                "value": "Heat 87 \u25b2"
+              },
+              {
+                "title": "3. VA \u201cassault firearms\u201d ban blocked (Crump)",
+                "value": "Heat 84 \u2192"
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "size": "Small",
+            "weight": "Bolder",
+            "color": "Warning",
+            "text": "WHAT'S MOVING",
+            "spacing": "Medium"
+          },
+          {
+            "type": "TextBlock",
+            "size": "Small",
+            "text": "\u2022 Decision day \u2014 orders 9:30 / opinions 10am ET; cert cluster pending\n\u2022 DOJ\u2013California \u201cGlock ban\u201d deadline now T-1 (June 30)\n\u2022 Term-wrap: SCOTUS gave \u201clittle new guidance\u201d; Wolford/Hemani narrow\n\u2022 NJ AR-15 plaintiffs invoke Wolford in a 28(j) letter",
+            "wrap": true
+          }
         ],
         "actions": [
-          { "type": "Action.OpenUrl", "title": "Read full brief →", "url": "https://quinn-weathers.github.io/rtb-marketing-projects/daily-news-brief/" }
+          {
+            "type": "Action.OpenUrl",
+            "title": "Read full brief \u2192",
+            "url": "https://quinn-weathers.github.io/rtb-marketing-projects/daily-news-brief/"
+          }
         ]
       }
     }
