@@ -14,20 +14,20 @@
             "size": "Small",
             "weight": "Bolder",
             "color": "Warning",
-            "text": "RTB \u00b7 2A DAILY INTEL \u00b7 Monday, June 29, 2026",
+            "text": "RTB \u00b7 2A DAILY INTEL \u00b7 Tuesday, June 30, 2026",
             "spacing": "None"
           },
           {
             "type": "TextBlock",
             "size": "Large",
             "weight": "Bolder",
-            "text": "Decision day: SCOTUS could act on the 2A cert cluster this morning",
+            "text": "Deadline day: DOJ\u2013California \u201cGlock ban\u201d window closes 5pm ET today",
             "wrap": true,
             "spacing": "Small"
           },
           {
             "type": "TextBlock",
-            "text": "It's the term's last decision day (orders 9:30 / opinions 10am ET). The long-relisted petitions \u2014 Duncan, Gator's, Viramontes, NAGR v. Lamont, Grant \u2014 were still undecided as of the 6:00 ET refresh; outcome pending (Unverified).",
+            "text": "California has until 5pm ET today (Jun 30) to open talks over AB 1127 and the handgun roster or face a federal complaint. Two July 1 dates land tomorrow (T-1): Virginia\u2019s two-track and Colorado\u2019s regulated-firearms list. The June 29 SCOTUS cert-cluster disposition could not be confirmed this run (Unverified).",
             "wrap": true,
             "spacing": "Small"
           },
@@ -43,16 +43,16 @@
             "type": "FactSet",
             "facts": [
               {
-                "title": "1. 2A cert cluster \u2014 orders expected TODAY",
-                "value": "Heat 94 \u25b2"
+                "title": "1. DOJ vs. California \u201cGlock ban\u201d (AB 1127) \u2014 deadline TODAY",
+                "value": "Heat 92 \u25b2"
               },
               {
-                "title": "2. DOJ vs. California \u201cGlock ban\u201d \u2014 T-1",
-                "value": "Heat 87 \u25b2"
+                "title": "2. 2A cert cluster \u2014 Jun 29 orders posted; disposition Unverified",
+                "value": "Heat 89 \u25b2"
               },
               {
-                "title": "3. VA \u201cassault firearms\u201d ban blocked (Crump)",
-                "value": "Heat 84 \u2192"
+                "title": "3. Virginia \u201cassault firearms\u201d ban blocked (Crump) \u2014 T-1",
+                "value": "Heat 85 \u25b2"
               }
             ]
           },
@@ -67,7 +67,7 @@
           {
             "type": "TextBlock",
             "size": "Small",
-            "text": "\u2022 Decision day \u2014 orders 9:30 / opinions 10am ET; cert cluster pending\n\u2022 DOJ\u2013California \u201cGlock ban\u201d deadline now T-1 (June 30)\n\u2022 Term-wrap: SCOTUS gave \u201clittle new guidance\u201d; Wolford/Hemani narrow\n\u2022 NJ AR-15 plaintiffs invoke Wolford in a 28(j) letter",
+            "text": "\u2022 DOJ\u2013California deadline TODAY 5pm ET \u2014 negotiate or DOJ may file\n\u2022 SCOTUS Jun 29 orders posted \u2014 cert-cluster outcome Unverified this run\n\u2022 Virginia two-track now T-1 to July 1 (Crump blocked; Wilson UBC returns)\n\u2022 Colorado SB25-003 final firearms list due July 1 (T-1)",
             "wrap": true
           }
         ],
