@@ -8286,6 +8286,29 @@
           }
         ],
         "notes": ""
+      },
+      {
+        "id": "task-e0tseeqj",
+        "title": "Wolford SCOTUS RULING - Social post",
+        "owner": "—",
+        "status": "complete",
+        "tags": [],
+        "askDate": "2026-06-29",
+        "priority": "med",
+        "lift": "M",
+        "assignee": "Tre'Von Barber",
+        "approver": "—",
+        "pm": "Quinn Weathers",
+        "projects": [
+          "state-of-the-union"
+        ],
+        "pipelines": [
+          {
+            "id": "blog-production",
+            "stage": "Published"
+          }
+        ],
+        "notes": ""
       }
     ]
   },
