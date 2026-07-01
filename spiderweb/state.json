@@ -13,6 +13,12 @@
       "name": "SME",
       "bg": "#d6e2ef",
       "fg": "#1f456e"
+    },
+    {
+      "id": "tag-730845cb",
+      "name": "Newsletter",
+      "bg": "#00ff33",
+      "fg": "#000000"
     }
   ],
   "projectDefs": [
@@ -801,6 +807,31 @@
         "lift": "M",
         "assignee": "Chase Holmes",
         "approver": "Jeremy Osborn",
+        "pm": "Quinn Weathers",
+        "projects": [
+          "proj-odwx3t35"
+        ],
+        "pipelines": [
+          {
+            "id": "blog-production",
+            "stage": "In-Progress"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": "task-9mracssb",
+        "title": "What to Do After an Incident",
+        "owner": "—",
+        "status": "in-progress",
+        "tags": [
+          "tag-730845cb"
+        ],
+        "askDate": "2026-07-02",
+        "priority": "critical",
+        "lift": "S",
+        "assignee": "Katherine Rupp",
+        "approver": "Richard Louise",
         "pm": "Quinn Weathers",
         "projects": [
           "proj-odwx3t35"
