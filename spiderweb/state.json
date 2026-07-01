@@ -547,7 +547,7 @@
         "id": "task-f56y8zd7",
         "title": "Family Blog - What If Your Child is Involved in a Self-Defense Incident?",
         "owner": "—",
-        "status": "in-progress",
+        "status": "complete",
         "tags": [],
         "askDate": "2026-07-03",
         "priority": "med",
@@ -561,7 +561,7 @@
         "pipelines": [
           {
             "id": "blog-production",
-            "stage": "In-Progress"
+            "stage": "Complete"
           }
         ],
         "notes": ""
@@ -662,7 +662,7 @@
         "id": "task-hidyqvdi",
         "title": "Indiv. Blog - What to Do After a Self-Defense Incident",
         "owner": "—",
-        "status": "in-progress",
+        "status": "complete",
         "tags": [],
         "askDate": "2026-07-15",
         "priority": "med",
@@ -676,7 +676,7 @@
         "pipelines": [
           {
             "id": "blog-production",
-            "stage": "In-Progress"
+            "stage": "Complete"
           }
         ],
         "notes": ""
@@ -807,31 +807,6 @@
         "lift": "M",
         "assignee": "Chase Holmes",
         "approver": "Jeremy Osborn",
-        "pm": "Quinn Weathers",
-        "projects": [
-          "proj-odwx3t35"
-        ],
-        "pipelines": [
-          {
-            "id": "blog-production",
-            "stage": "In-Progress"
-          }
-        ],
-        "notes": ""
-      },
-      {
-        "id": "task-9mracssb",
-        "title": "What to Do After an Incident",
-        "owner": "—",
-        "status": "in-progress",
-        "tags": [
-          "tag-730845cb"
-        ],
-        "askDate": "2026-07-02",
-        "priority": "critical",
-        "lift": "S",
-        "assignee": "Katherine Rupp",
-        "approver": "Richard Louise",
         "pm": "Quinn Weathers",
         "projects": [
           "proj-odwx3t35"
