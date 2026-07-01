@@ -147,7 +147,7 @@
       }
     }
   },
-  "activePipeline": "social-content",
+  "activePipeline": "blog-production",
   "events": [],
   "seo": {
     "members": [
@@ -8232,34 +8232,6 @@
         "notes": ""
       },
       {
-        "id": "task-jbr7aq51",
-        "title": "Social Post - FL Court Rules for 18-20 y/o Gun Ownership",
-        "owner": "—",
-        "status": "review",
-        "tags": [],
-        "askDate": "2026-06-19",
-        "priority": "high",
-        "lift": "L",
-        "assignee": "Tre'Von Barber",
-        "approver": "Jeremy Osborn",
-        "pm": "Quinn Weathers",
-        "projects": [
-          "proj-upl4ik9z",
-          "state-of-the-union"
-        ],
-        "pipelines": [
-          {
-            "id": "blog-production",
-            "stage": "In Review"
-          },
-          {
-            "id": "social-content",
-            "stage": "Review/Approval"
-          }
-        ],
-        "notes": ""
-      },
-      {
         "id": "task-q8lifi9n",
         "title": "Social post - SCOTUS Rules Drug Use Can't Stop Carrying",
         "owner": "—",
@@ -8755,6 +8727,10 @@
   "_cleanedSeedEvents": true,
   "hubMeta": {},
   "ui": {
-    "pipelineColWidth": 210
+    "pipelineColWidth": 210,
+    "pipelineRowH": {
+      "blog-production|seo": 370,
+      "blog-production|social": 267
+    }
   }
 }
