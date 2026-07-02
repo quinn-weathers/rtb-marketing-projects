@@ -14,20 +14,20 @@
             "size": "Small",
             "weight": "Bolder",
             "color": "Warning",
-            "text": "RTB \u00b7 2A DAILY INTEL \u00b7 Wednesday, July 1, 2026",
+            "text": "RTB \u00b7 2A DAILY INTEL \u00b7 Thursday, July 2, 2026",
             "spacing": "None"
           },
           {
             "type": "TextBlock",
             "size": "Large",
             "weight": "Bolder",
-            "text": "July 1 is here \u2014 Virginia & Colorado effective dates land; DOJ\u2013CA deadline passed (outcome Unverified)",
+            "text": "SCOTUS grants cert on AR-15 bans; Virginia\u2019s ban takes effect into a \u201cmuddled mess\u201d",
             "wrap": true,
             "spacing": "Small"
           },
           {
             "type": "TextBlock",
-            "text": "Virginia's July 1 arrives split: the SB749 'assault firearms' ban stays blocked statewide through Dec 31 (Crump v. Katz), while universal background checks return today (Wilson v. Katz). Colorado SB25-003 takes effect.",
+            "text": "The biggest items we\u2019d carried as Unverified all broke. SCOTUS granted cert in the AR-15 ban cases (Viramontes + Grant, consolidated) to decide whether the 2A protects AR-15-platform rifles; the same orders held the magazine cases and denied the young-adult cases.",
             "wrap": true,
             "spacing": "Small"
           },
@@ -43,16 +43,16 @@
             "type": "FactSet",
             "facts": [
               {
-                "title": "1. DOJ vs. California 'Glock ban' (AB 1127) \u2014 deadline passed",
-                "value": "Heat 90 \u25b2"
+                "title": "1. SCOTUS GRANTS cert on AR-15 bans (Viramontes + Grant)",
+                "value": "Heat 95 \u25b2"
               },
               {
-                "title": "2. SCOTUS 2A cert cluster \u2014 disposition still Unverified",
-                "value": "Heat 88 \u2192"
+                "title": "2. Virginia AWB takes effect into a \u2018muddled mess\u2019",
+                "value": "Heat 91 \u25b2"
               },
               {
-                "title": "3. VA 'assault firearms' ban blocked \u2014 effective date today",
-                "value": "Heat 87 \u25b2"
+                "title": "3. DOJ sues Virginia \u2014 3rd AR-15 jurisdiction",
+                "value": "Heat 83 \u25b2"
               }
             ]
           },
@@ -61,13 +61,13 @@
             "size": "Small",
             "weight": "Bolder",
             "color": "Warning",
-            "text": "WHAT'S MOVING",
+            "text": "WHAT\u2019S MOVING",
             "spacing": "Medium"
           },
           {
             "type": "TextBlock",
             "size": "Small",
-            "text": "\u2022 VA July 1 split: hardware ban blocked (Crump); background checks return (Wilson)\n\u2022 CO SB25-003 takes effect; DOR list gates Aug 1 permit regime (contents Unverified)\n\u2022 DOJ\u2013CA deadline passed 5pm ET Jun 30 \u2014 filing/talks Unverified\n\u2022 SCOTUS June 29 2A cert-cluster disposition still Unverified this run",
+            "text": "\u2022 SCOTUS GRANTS cert on AR-15 bans \u2014 Viramontes + Grant consolidated\n\u2022 Virginia \u2018assault firearms\u2019 ban takes effect Jul 1 amid partial injunctions\n\u2022 DOJ sues Virginia over its AR-15 ban (after DC & Colorado)\n\u2022 June NICS: Virginia long-gun checks hit a record 43,553, most in nation",
             "wrap": true
           }
         ],
