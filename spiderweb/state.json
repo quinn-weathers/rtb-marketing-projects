@@ -515,7 +515,7 @@
         "pipelines": [
           {
             "id": "blog-production",
-            "stage": "Complete"
+            "stage": "Published"
           }
         ],
         "notes": ""
@@ -538,7 +538,7 @@
         "pipelines": [
           {
             "id": "blog-production",
-            "stage": "Complete"
+            "stage": "Published"
           }
         ],
         "notes": ""
@@ -561,7 +561,7 @@
         "pipelines": [
           {
             "id": "blog-production",
-            "stage": "Complete"
+            "stage": "Published"
           }
         ],
         "notes": ""
@@ -676,7 +676,7 @@
         "pipelines": [
           {
             "id": "blog-production",
-            "stage": "Complete"
+            "stage": "Published"
           }
         ],
         "notes": ""
@@ -685,7 +685,7 @@
         "id": "task-n7qzsv9f",
         "title": "Indiv. Blog - What to Say to Police",
         "owner": "—",
-        "status": "in-progress",
+        "status": "complete",
         "tags": [],
         "askDate": "2026-07-16",
         "priority": "med",
@@ -699,7 +699,7 @@
         "pipelines": [
           {
             "id": "blog-production",
-            "stage": "In-Progress"
+            "stage": "Complete"
           }
         ],
         "notes": ""
@@ -837,7 +837,7 @@
         "pipelines": [
           {
             "id": "blog-production",
-            "stage": "Complete"
+            "stage": "Published"
           }
         ],
         "notes": ""
@@ -8704,7 +8704,7 @@
   "ui": {
     "pipelineColWidth": 210,
     "pipelineRowH": {
-      "blog-production|seo": 370,
+      "blog-production|seo": 447,
       "blog-production|social": 267
     }
   }
