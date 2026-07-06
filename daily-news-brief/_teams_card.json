@@ -14,20 +14,20 @@
             "size": "Small",
             "weight": "Bolder",
             "color": "Warning",
-            "text": "RTB \u00b7 2A DAILY INTEL \u00b7 Thursday, July 2, 2026",
+            "text": "RTB · 2A DAILY INTEL · Monday, July 6, 2026",
             "spacing": "None"
           },
           {
             "type": "TextBlock",
             "size": "Large",
             "weight": "Bolder",
-            "text": "SCOTUS grants cert on AR-15 bans; Virginia\u2019s ban takes effect into a \u201cmuddled mess\u201d",
+            "text": "Scholars expect SCOTUS to strike the AR-15 bans — the debate is now how broadly",
             "wrap": true,
             "spacing": "Small"
           },
           {
             "type": "TextBlock",
-            "text": "The biggest items we\u2019d carried as Unverified all broke. SCOTUS granted cert in the AR-15 ban cases (Viramontes + Grant, consolidated) to decide whether the 2A protects AR-15-platform rifles; the same orders held the magazine cases and denied the young-adult cases.",
+            "text": "Over the holiday weekend the firearms-policy world turned to Viramontes v. Cook County. A cross-ideological group of seven Second Amendment scholars told The Reload they expect the Court to strike down the AR-15 bans; the live question is how broadly.",
             "wrap": true,
             "spacing": "Small"
           },
@@ -43,16 +43,16 @@
             "type": "FactSet",
             "facts": [
               {
-                "title": "1. SCOTUS GRANTS cert on AR-15 bans (Viramontes + Grant)",
-                "value": "Heat 95 \u25b2"
+                "title": "1. SCOTUS AR-15 case — experts expect bans struck",
+                "value": "Heat 95 →"
               },
               {
-                "title": "2. Virginia AWB takes effect into a \u2018muddled mess\u2019",
-                "value": "Heat 91 \u25b2"
+                "title": "2. Virginia AWB — consolidation hearing today (Jul 6)",
+                "value": "Heat 86 →"
               },
               {
-                "title": "3. DOJ sues Virginia \u2014 3rd AR-15 jurisdiction",
-                "value": "Heat 83 \u25b2"
+                "title": "3. 'Common use' test / breadth debate (Barrett & Roberts)",
+                "value": "Heat 78 ▲"
               }
             ]
           },
@@ -61,20 +61,20 @@
             "size": "Small",
             "weight": "Bolder",
             "color": "Warning",
-            "text": "WHAT\u2019S MOVING",
+            "text": "WHAT'S MOVING",
             "spacing": "Medium"
           },
           {
             "type": "TextBlock",
             "size": "Small",
-            "text": "\u2022 SCOTUS GRANTS cert on AR-15 bans \u2014 Viramontes + Grant consolidated\n\u2022 Virginia \u2018assault firearms\u2019 ban takes effect Jul 1 amid partial injunctions\n\u2022 DOJ sues Virginia over its AR-15 ban (after DC & Colorado)\n\u2022 June NICS: Virginia long-gun checks hit a record 43,553, most in nation",
-            "wrap": true
+            "wrap": true,
+            "text": "• Scholars expect SCOTUS to strike the AR-15 bans (Reload survey)\n• Fall oral-arg tells: 'common use' test; Barrett & Roberts the votes\n• Virginia AWB consolidation hearing is TODAY (Jul 6); still muddled\n• Court took a firearms-only case; magazine bans a live subplot"
           }
         ],
         "actions": [
           {
             "type": "Action.OpenUrl",
-            "title": "Read full brief \u2192",
+            "title": "Read full brief →",
             "url": "https://quinn-weathers.github.io/rtb-marketing-projects/daily-news-brief/"
           }
         ]
