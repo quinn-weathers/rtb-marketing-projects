@@ -14,20 +14,20 @@
             "size": "Small",
             "weight": "Bolder",
             "color": "Warning",
-            "text": "RTB · 2A WEEKLY INTEL · Week of June 22 – 26, 2026",
+            "text": "RTB · 2A WEEKLY INTEL · Week of Jun 29 – Jul 3, 2026",
             "spacing": "None"
           },
           {
             "type": "TextBlock",
             "size": "Large",
             "weight": "Bolder",
-            "text": "The term ended with a carry win and Virginia’s ban frozen — and the 2A action ran entirely through the courts, not the House floor.",
+            "text": "The summer’s 2A story went fully judicial — SCOTUS granted cert on the AR-15 “assault weapon” ban question (Viramontes v. Cook County + Grant v. Higgins, consolidated).",
             "wrap": true,
             "spacing": "Small"
           },
           {
             "type": "TextBlock",
-            "text": "For five days the action sat with judges and the executive branch. Wolford was the term’s lone pending 2A merits case and it landed as a win reaching four more states (CA, MD, NY, NJ).",
+            "text": "For the first time the Court will decide whether the Second Amendment protects AR-15-platform rifles; the same order list held the magazine cases and denied the 18-to-20 cases. In the states, Virginia’s AWB took effect July 1 into a “muddled” enforcement picture.",
             "wrap": true,
             "spacing": "Small"
           },
@@ -43,16 +43,16 @@
             "type": "FactSet",
             "facts": [
               {
-                "title": "1. Wolford v. Lopez — decided 6–3",
-                "value": "Avg 88 · 4/5 days · ↑"
+                "title": "1. SCOTUS AR-15 cert (Viramontes + Grant)",
+                "value": "Avg 92 · 4/5 days · ↑"
               },
               {
-                "title": "2. Virginia ‘assault firearms’ ban BLOCKED",
-                "value": "Avg 88 · 4/5 days · ↑"
+                "title": "2. Virginia “assault firearms” ban — effective Jul 1",
+                "value": "Avg 87 · 4/5 days · ↑"
               },
               {
-                "title": "3. DOJ vs. California ‘Glock ban’ (AB 1127)",
-                "value": "Avg 86 · 2/5 days · ↓"
+                "title": "3. DOJ AR-15 enforcement (VA suit; CA Unverified)",
+                "value": "Avg 84 · 4/5 days · ↓"
               }
             ]
           },
@@ -68,7 +68,7 @@
             "type": "TextBlock",
             "size": "Small",
             "wrap": true,
-            "text": "• [Calendar] Mon Jun 29 — SCOTUS orders on the Duncan / Gator’s / AR-15 cert cluster\n• [Calendar] Mon Jun 30 (5pm ET) — DOJ–California negotiate-or-file deadline\n• [Calendar] Tue Jul 1 — VA background checks return; CO final regulated-firearms list\n• [Predicted] Cert cluster likely held/relisted rather than granted outright"
+            "text": "• [Calendar] Mon Jul 6: Virginia AWB consolidation / venue hearing\n• [Calendar] Aug 1: Colorado SB25-003 permit step (DOR list predicate)\n• [Carry-over] DOJ v. California (AB 1127 / roster) — still Unverified; watch justice.gov\n• [Predicted] SCOTUS sets AR-15 argument for the Nov–Dec 2026 sitting"
           }
         ],
         "actions": [
@@ -79,7 +79,7 @@
           },
           {
             "type": "Action.OpenUrl",
-            "title": "Today's daily →",
+            "title": "Today’s daily →",
             "url": "https://quinn-weathers.github.io/rtb-marketing-projects/daily-news-brief/"
           }
         ]
