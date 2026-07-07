@@ -14,20 +14,20 @@
             "size": "Small",
             "weight": "Bolder",
             "color": "Warning",
-            "text": "RTB · 2A DAILY INTEL · Monday, July 6, 2026",
+            "text": "RTB · 2A DAILY INTEL · Tuesday, July 7, 2026",
             "spacing": "None"
           },
           {
             "type": "TextBlock",
             "size": "Large",
             "weight": "Bolder",
-            "text": "Scholars expect SCOTUS to strike the AR-15 bans — the debate is now how broadly",
+            "text": "Virginia panel DENIES consolidation of the four gun-ban suits — a procedural win for challengers",
             "wrap": true,
             "spacing": "Small"
           },
           {
             "type": "TextBlock",
-            "text": "Over the holiday weekend the firearms-policy world turned to Viramontes v. Cook County. A cross-ideological group of seven Second Amendment scholars told The Reload they expect the Court to strike down the AR-15 bans; the live question is how broadly.",
+            "text": "A three-judge panel refused to combine the four Virginia “assault firearms” ban lawsuits, so each proceeds in its own court. It’s a setback for AG Jay Jones’s defense — not a merits ruling — and the “muddled” enforcement picture is unchanged.",
             "wrap": true,
             "spacing": "Small"
           },
@@ -43,16 +43,16 @@
             "type": "FactSet",
             "facts": [
               {
-                "title": "1. SCOTUS AR-15 case — experts expect bans struck",
-                "value": "Heat 95 →"
+                "title": "1. SCOTUS AR-15 case (Viramontes) analysis",
+                "value": "Heat 92 ▼"
               },
               {
-                "title": "2. Virginia AWB — consolidation hearing today (Jul 6)",
-                "value": "Heat 86 →"
+                "title": "2. Virginia — consolidation DENIED",
+                "value": "Heat 89 ▲"
               },
               {
-                "title": "3. 'Common use' test / breadth debate (Barrett & Roberts)",
-                "value": "Heat 78 ▲"
+                "title": "3. DOJ v. California ‘Glock ban’ (AB 1127)",
+                "value": "Heat 76 ▲"
               }
             ]
           },
@@ -68,7 +68,7 @@
             "type": "TextBlock",
             "size": "Small",
             "wrap": true,
-            "text": "• Scholars expect SCOTUS to strike the AR-15 bans (Reload survey)\n• Fall oral-arg tells: 'common use' test; Barrett & Roberts the votes\n• Virginia AWB consolidation hearing is TODAY (Jul 6); still muddled\n• Court took a firearms-only case; magazine bans a live subplot"
+            "text": "• Virginia: panel DENIES consolidation; four suits proceed separately\n• California: DOJ’s AB 1127 ‘Glock ban’ suit confirmed; CA opposes TRO\n• Courts: 7th Cir (Easterbrook) — lifetime mental-health ban may need present-danger\n• SCOTUS: AR-15 analysis continues; ‘beginning of the end’ for AR bans"
           }
         ],
         "actions": [
