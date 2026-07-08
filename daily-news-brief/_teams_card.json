@@ -14,20 +14,20 @@
             "size": "Small",
             "weight": "Bolder",
             "color": "Warning",
-            "text": "RTB · 2A DAILY INTEL · Tuesday, July 7, 2026",
+            "text": "RTB · 2A DAILY INTEL · Wednesday, July 8, 2026",
             "spacing": "None"
           },
           {
             "type": "TextBlock",
             "size": "Large",
             "weight": "Bolder",
-            "text": "Virginia panel DENIES consolidation of the four gun-ban suits — a procedural win for challengers",
+            "text": "Mental-health gun-ban ruling cross-confirmed — and narrower than it first read",
             "wrap": true,
             "spacing": "Small"
           },
           {
             "type": "TextBlock",
-            "text": "A three-judge panel refused to combine the four Virginia “assault firearms” ban lawsuits, so each proceeds in its own court. It’s a setback for AG Jay Jones’s defense — not a merits ruling — and the “muddled” enforcement picture is unchanged.",
+            "text": "The Reload's July 7 report confirms U.S. v. Rose: the 7th Circuit upheld the lifetime ban §922(g)(4) as facially constitutional but open to as-applied challenges, and vacated the dismissal that had favored the defendant. A quiet SCOTUS-recess day otherwise.",
             "wrap": true,
             "spacing": "Small"
           },
@@ -43,16 +43,16 @@
             "type": "FactSet",
             "facts": [
               {
-                "title": "1. SCOTUS AR-15 case (Viramontes) analysis",
-                "value": "Heat 92 ▼"
+                "title": "1. SCOTUS AR-15 case (Viramontes)",
+                "value": "Heat 90 ▼"
               },
               {
-                "title": "2. Virginia — consolidation DENIED",
-                "value": "Heat 89 ▲"
+                "title": "2. Virginia — four gun-ban suits proceed separately",
+                "value": "Heat 83 ▼"
               },
               {
-                "title": "3. DOJ v. California ‘Glock ban’ (AB 1127)",
-                "value": "Heat 76 ▲"
+                "title": "3. U.S. v. Rose — mental-health ban (cross-confirmed)",
+                "value": "Heat 75 ▲"
               }
             ]
           },
@@ -67,8 +67,8 @@
           {
             "type": "TextBlock",
             "size": "Small",
-            "wrap": true,
-            "text": "• Virginia: panel DENIES consolidation; four suits proceed separately\n• California: DOJ’s AB 1127 ‘Glock ban’ suit confirmed; CA opposes TRO\n• Courts: 7th Cir (Easterbrook) — lifetime mental-health ban may need present-danger\n• SCOTUS: AR-15 analysis continues; ‘beginning of the end’ for AR bans"
+            "text": "• Reload cross-confirms U.S. v. Rose — §922(g)(4) facially upheld, as-applied vulnerable, dismissal vacated\n• AR-15 case (Viramontes) stays in analysis phase; fall argument ahead\n• Virginia: four suits proceed separately; AG stay/appeal still pending (Unverified)\n• California: DOJ AB 1127 Glock-ban TRO ruling awaited (Unverified)",
+            "wrap": true
           }
         ],
         "actions": [
