@@ -593,7 +593,7 @@
         "id": "task-f5x9w2dt",
         "title": "Family Blog - How to Prepare Your Family for a Self-Defense Emergency",
         "owner": "—",
-        "status": "in-progress",
+        "status": "complete",
         "tags": [],
         "askDate": "2026-07-09",
         "priority": "med",
@@ -607,7 +607,7 @@
         "pipelines": [
           {
             "id": "blog-production",
-            "stage": "In-Progress"
+            "stage": "Complete"
           }
         ],
         "notes": ""
