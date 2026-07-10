@@ -14,20 +14,20 @@
       "size": "Small",
       "weight": "Bolder",
       "color": "Warning",
-      "text": "RTB · 2A DAILY INTEL · Thursday, July 9, 2026",
+      "text": "RTB \u00b7 2A DAILY INTEL \u00b7 Friday, July 10, 2026",
       "spacing": "None"
      },
      {
       "type": "TextBlock",
       "size": "Large",
       "weight": "Bolder",
-      "text": "Virginia's gun ban blocked statewide — universal injunction effective July 21, in force through July 2027",
+      "text": "The Seventh Circuit just upheld Illinois' AR-15 ban -- days after SCOTUS agreed to decide the exact same question",
       "wrap": true,
       "spacing": "Small"
      },
      {
       "type": "TextBlock",
-      "text": "A Washington County judge expanded the Santolla v. Katz injunction to bar every Virginia law-enforcement agency and Commonwealth's Attorney from enforcing the AWB/mag ban, effective July 21. AG Jones's bid to keep the order narrow was rejected (\"treacherous patchwork\").",
+      "text": "In Barnett v. Raoul, a divided panel reversed the trial-court injunction and doubled down on Bevis, with Chief Judge Brennan dissenting that Illinois has banned 'the best-selling rifle in America and its standard magazine.' Meanwhile, Virginia's statewide injunction is cross-conf",
       "wrap": true,
       "spacing": "Small"
      },
@@ -43,16 +43,16 @@
       "type": "FactSet",
       "facts": [
        {
-        "title": "1. Virginia — statewide injunction (eff. 7/21)",
-        "value": "Heat 91 ▲"
+        "title": "1. Virginia statewide injunction cross-confirmed; PSA 'back ope",
+        "value": "Heat 91 \u2192"
        },
        {
-        "title": "2. SCOTUS AR-15 case (Viramontes)",
-        "value": "Heat 88 ▼"
+        "title": "2. Barnett v. Raoul: 7th Cir. upholds Illinois AR-15 ban",
+        "value": "Heat 87 \u25b2\u25b2"
        },
        {
-        "title": "3. 3rd Cir. orders Wolford/Hemani briefing (NJ)",
-        "value": "Heat 69 ▲"
+        "title": "3. SCOTUS AR-15 case (Viramontes/Grant) re-fueled by Barnett",
+        "value": "Heat 85 \u2192"
        }
       ]
      },
@@ -67,14 +67,14 @@
      {
       "type": "TextBlock",
       "size": "Small",
-      "text": "• VA: statewide injunction in Santolla v. Katz — every agency barred, eff. July 21\n• 3rd Cir.: en banc briefs on Wolford/Hemani due July 10 noon (NJ AWB case)\n• CO: Elliott v. Denver — FPC/CSSA sue over Denver AWB + 15-round mag caps\n• June NICS: adjusted +11.7%; NFA checks +177% on the $0 tax stamp",
+      "text": "\u2022 7th Cir: divided panel upholds IL AR-15/mag ban, doubling down on Bevis\n\u2022 VA: statewide injunction cross-confirmed; PSA takes orders for Jul 21\n\u2022 3rd Cir: Wolford/Hemani supplemental briefs due today at noon\n\u2022 TX: Reload surfaces Talarico 2020 assault-weapon-ban video; $30M haul",
       "wrap": true
      }
     ],
     "actions": [
      {
       "type": "Action.OpenUrl",
-      "title": "Read full brief →",
+      "title": "Read full brief \u2192",
       "url": "https://quinn-weathers.github.io/rtb-marketing-projects/daily-news-brief/"
      }
     ]
