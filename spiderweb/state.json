@@ -19,6 +19,12 @@
       "name": "Newsletter",
       "bg": "#00ff33",
       "fg": "#000000"
+    },
+    {
+      "id": "tag-6txch1bz",
+      "name": "Member Portal",
+      "bg": "#f88fff",
+      "fg": "#640066"
     }
   ],
   "projectDefs": [
@@ -447,6 +453,33 @@
           {
             "id": "blog-production",
             "stage": "In-Progress"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": "task-h2640lyr",
+        "title": "Industry Comparison (Strategy and Pillar)",
+        "owner": "",
+        "status": "backlog",
+        "tags": [
+          "tag-730845cb"
+        ],
+        "projects": [
+          "proj-upl4ik9z",
+          "proj-odwx3t35",
+          "counselor-spotlight"
+        ],
+        "askDate": "2026-07-31",
+        "priority": "high",
+        "lift": "XL",
+        "assignee": "Jeremy Osborn",
+        "approver": "Richard Louise",
+        "pm": "Quinn Weathers",
+        "pipelines": [
+          {
+            "id": "blog-production",
+            "stage": "Ideation/Outline"
           }
         ],
         "notes": ""
