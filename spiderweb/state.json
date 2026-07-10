@@ -570,7 +570,7 @@
         "id": "task-shuz3nkl",
         "title": "Family Blog - Should Your Spouse Have Separate Legal Protection?",
         "owner": "—",
-        "status": "in-progress",
+        "status": "complete",
         "tags": [],
         "askDate": "2026-07-07",
         "priority": "med",
@@ -584,7 +584,7 @@
         "pipelines": [
           {
             "id": "blog-production",
-            "stage": "In-Progress"
+            "stage": "Complete"
           }
         ],
         "notes": ""
@@ -616,7 +616,7 @@
         "id": "task-6qjmo5tc",
         "title": "Indiv. Blog - How Much Does a Self-Defense Lawyer Cost",
         "owner": "—",
-        "status": "in-progress",
+        "status": "complete",
         "tags": [],
         "askDate": "2026-07-10",
         "priority": "med",
@@ -630,7 +630,7 @@
         "pipelines": [
           {
             "id": "blog-production",
-            "stage": "In-Progress"
+            "stage": "Complete"
           }
         ],
         "notes": ""
@@ -699,7 +699,7 @@
         "pipelines": [
           {
             "id": "blog-production",
-            "stage": "Complete"
+            "stage": "Published"
           }
         ],
         "notes": ""
@@ -8543,7 +8543,7 @@
         "pipelines": [
           {
             "id": "blog-production",
-            "stage": "Complete"
+            "stage": "Published"
           }
         ],
         "notes": ""
@@ -8659,7 +8659,7 @@
         "pipelines": [
           {
             "id": "blog-production",
-            "stage": "Complete"
+            "stage": "Published"
           }
         ],
         "notes": ""
