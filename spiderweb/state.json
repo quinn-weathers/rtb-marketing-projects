@@ -429,33 +429,10 @@
         "notes": ""
       },
       {
-        "id": "task-jq4d0nvu",
-        "title": "Member Benefits (Pillar)",
-        "owner": "",
-        "status": "backlog",
-        "tags": [],
-        "projects": [
-          "proj-odwx3t35"
-        ],
-        "askDate": "2026-06-30",
-        "priority": "high",
-        "lift": "XL",
-        "assignee": "Chase Holmes",
-        "approver": "Richard Louise",
-        "pm": "Quinn Weathers",
-        "pipelines": [
-          {
-            "id": "blog-production",
-            "stage": "Ideation/Outline"
-          }
-        ],
-        "notes": ""
-      },
-      {
         "id": "task-cpvy76az",
         "title": "CCW Permits BY STATE (Pillar)",
         "owner": "",
-        "status": "backlog",
+        "status": "in-progress",
         "tags": [],
         "projects": [
           "proj-upl4ik9z"
@@ -469,7 +446,7 @@
         "pipelines": [
           {
             "id": "blog-production",
-            "stage": "Ideation/Outline"
+            "stage": "In-Progress"
           }
         ],
         "notes": ""
