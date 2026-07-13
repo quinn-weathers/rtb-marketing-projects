@@ -14,20 +14,20 @@
       "size": "Small",
       "weight": "Bolder",
       "color": "Warning",
-      "text": "RTB \u00b7 2A DAILY INTEL \u00b7 Friday, July 10, 2026",
+      "text": "RTB · 2A DAILY INTEL · Monday, July 13, 2026",
       "spacing": "None"
      },
      {
       "type": "TextBlock",
       "size": "Large",
       "weight": "Bolder",
-      "text": "The Seventh Circuit just upheld Illinois' AR-15 ban -- days after SCOTUS agreed to decide the exact same question",
+      "text": "The weekend rewrote what Barnett actually held: the Seventh Circuit dropped its “AR-15s aren’t arms” rationale — and upheld Illinois’ ban anyway on a “particularly dangerous weapons” tradition.",
       "wrap": true,
       "spacing": "Small"
      },
      {
       "type": "TextBlock",
-      "text": "In Barnett v. Raoul, a divided panel reversed the trial-court injunction and doubled down on Bevis, with Chief Judge Brennan dissenting that Illinois has banned 'the best-selling rifle in America and its standard magazine.' Meanwhile, Virginia's statewide injunction is cross-conf",
+      "text": "The Reload’s opinion analysis shows the majority assumed AR-15s and 30-round magazines are protected arms, then upheld the ban at Bruen step two — with a 50-page common-use dissent. Also: DOJ’s TRO against California’s “Glock ban” denied with no 2A analysis; GOA sues Pennsylvania.",
       "wrap": true,
       "spacing": "Small"
      },
@@ -43,16 +43,16 @@
       "type": "FactSet",
       "facts": [
        {
-        "title": "1. Virginia statewide injunction cross-confirmed; PSA 'back ope",
-        "value": "Heat 91 \u2192"
+        "title": "1. Barnett v. Raoul — 7th Cir. ruling cross-confirmed & reframed",
+        "value": "Heat 89 ▲"
        },
        {
-        "title": "2. Barnett v. Raoul: 7th Cir. upholds Illinois AR-15 ban",
-        "value": "Heat 87 \u25b2\u25b2"
+        "title": "2. Virginia AWB — 8 days to the July 21 statewide injunction",
+        "value": "Heat 88 ▼"
        },
        {
-        "title": "3. SCOTUS AR-15 case (Viramontes/Grant) re-fueled by Barnett",
-        "value": "Heat 85 \u2192"
+        "title": "3. SCOTUS AR-15 case (Viramontes/Grant) — fall argument",
+        "value": "Heat 85 →"
        }
       ]
      },
@@ -67,14 +67,14 @@
      {
       "type": "TextBlock",
       "size": "Small",
-      "text": "\u2022 7th Cir: divided panel upholds IL AR-15/mag ban, doubling down on Bevis\n\u2022 VA: statewide injunction cross-confirmed; PSA takes orders for Jul 21\n\u2022 3rd Cir: Wolford/Hemani supplemental briefs due today at noon\n\u2022 TX: Reload surfaces Talarico 2020 assault-weapon-ban video; $30M haul",
+      "text": "• Barnett cross-confirmed: Bevis rationale dropped; ban upheld at step two\n• DOJ’s California Glock-ban TRO denied — no 2A analysis; ban in force\n• GOA sues PA over lifetime carry ban for 1994 marijuana conviction\n• Virginia quiet; injunction official Jul 21; SCOTUS order list Jul 20",
       "wrap": true
      }
     ],
     "actions": [
      {
       "type": "Action.OpenUrl",
-      "title": "Read full brief \u2192",
+      "title": "Read full brief →",
       "url": "https://quinn-weathers.github.io/rtb-marketing-projects/daily-news-brief/"
      }
     ]
