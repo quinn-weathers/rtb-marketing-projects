@@ -14,20 +14,20 @@
       "size": "Small",
       "weight": "Bolder",
       "color": "Warning",
-      "text": "RTB · 2A DAILY INTEL · Monday, July 13, 2026",
+      "text": "RTB · 2A DAILY INTEL · Wednesday, July 15, 2026",
       "spacing": "None"
      },
      {
       "type": "TextBlock",
       "size": "Large",
       "weight": "Bolder",
-      "text": "The weekend rewrote what Barnett actually held: the Seventh Circuit dropped its “AR-15s aren’t arms” rationale — and upheld Illinois’ ban anyway on a “particularly dangerous weapons” tradition.",
+      "text": "Four gun-rights groups ask the Sixth Circuit to strike the NFA's SBR registry — the litigation map quietly widens",
       "wrap": true,
       "spacing": "Small"
      },
      {
       "type": "TextBlock",
-      "text": "The Reload’s opinion analysis shows the majority assumed AR-15s and 30-round magazines are protected arms, then upheld the ban at Bruen step two — with a 50-page common-use dissent. Also: DOJ’s TRO against California’s “Glock ban” denied with no 2A analysis; GOA sues Pennsylvania.",
+      "text": "NRA, FPC, SAF and the American Suppressor Association filed a July 13 amicus in U.S. v. Machamer: 1.18M registered SBRs are protected arms and the 1934 barrel-length line was a \"historical accident.\" Same day: Maryland defended its Glock ban and Delaware moved to keep the under-21 case frozen.",
       "wrap": true,
       "spacing": "Small"
      },
@@ -43,16 +43,16 @@
       "type": "FactSet",
       "facts": [
        {
-        "title": "1. Barnett v. Raoul — 7th Cir. ruling cross-confirmed & reframed",
-        "value": "Heat 89 ▲"
+        "title": "1. Virginia — six days to the July 21 statewide injunction",
+        "value": "Heat 87 ▲"
        },
        {
-        "title": "2. Virginia AWB — 8 days to the July 21 statewide injunction",
-        "value": "Heat 88 ▼"
+        "title": "2. SCOTUS AR-15 case (Viramontes/Grant) — Jul 20 order list",
+        "value": "Heat 83 →"
        },
        {
-        "title": "3. SCOTUS AR-15 case (Viramontes/Grant) — fall argument",
-        "value": "Heat 85 →"
+        "title": "3. Barnett v. Raoul — cools into reference status",
+        "value": "Heat 76 ▼"
        }
       ]
      },
@@ -67,7 +67,7 @@
      {
       "type": "TextBlock",
       "size": "Small",
-      "text": "• Barnett cross-confirmed: Bevis rationale dropped; ban upheld at step two\n• DOJ’s California Glock-ban TRO denied — no 2A analysis; ban in force\n• GOA sues PA over lifetime carry ban for 1994 marijuana conviction\n• Virginia quiet; injunction official Jul 21; SCOTUS order list Jul 20",
+      "text": "• NEW: NRA+FPC+SAF+ASA amicus — NFA SBR registry fails Bruen (single-source)\n• NEW: Maryland answers in Bathras — Glocks \"capable of being fully automatic\"\n• NEW: Delaware moves to keep Birney under-21 challenge stayed\n• MOVED: GOA opposes ATF EITB replacement rule; comments close Aug 4",
       "wrap": true
      }
     ],
@@ -80,6 +80,5 @@
     ]
    }
   }
- ],
- "_refire": "2026-07-13T2"
+ ]
 }
