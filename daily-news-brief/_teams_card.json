@@ -1,84 +1,84 @@
 {
- "type": "message",
- "attachments": [
-  {
-   "contentType": "application/vnd.microsoft.card.adaptive",
-   "contentUrl": null,
-   "content": {
-    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
-    "type": "AdaptiveCard",
-    "version": "1.5",
-    "body": [
-     {
-      "type": "TextBlock",
-      "size": "Small",
-      "weight": "Bolder",
-      "color": "Warning",
-      "text": "RTB · 2A DAILY INTEL · Wednesday, July 15, 2026",
-      "spacing": "None"
-     },
-     {
-      "type": "TextBlock",
-      "size": "Large",
-      "weight": "Bolder",
-      "text": "Four gun-rights groups ask the Sixth Circuit to strike the NFA's SBR registry — the litigation map quietly widens",
-      "wrap": true,
-      "spacing": "Small"
-     },
-     {
-      "type": "TextBlock",
-      "text": "NRA, FPC, SAF and the American Suppressor Association filed a July 13 amicus in U.S. v. Machamer: 1.18M registered SBRs are protected arms and the 1934 barrel-length line was a \"historical accident.\" Same day: Maryland defended its Glock ban and Delaware moved to keep the under-21 case frozen.",
-      "wrap": true,
-      "spacing": "Small"
-     },
-     {
-      "type": "TextBlock",
-      "size": "Small",
-      "weight": "Bolder",
-      "color": "Warning",
-      "text": "HOTTEST LEADS",
-      "spacing": "Medium"
-     },
-     {
-      "type": "FactSet",
-      "facts": [
-       {
-        "title": "1. Virginia — six days to the July 21 statewide injunction",
-        "value": "Heat 87 ▲"
-       },
-       {
-        "title": "2. SCOTUS AR-15 case (Viramontes/Grant) — Jul 20 order list",
-        "value": "Heat 83 →"
-       },
-       {
-        "title": "3. Barnett v. Raoul — cools into reference status",
-        "value": "Heat 76 ▼"
-       }
-      ]
-     },
-     {
-      "type": "TextBlock",
-      "size": "Small",
-      "weight": "Bolder",
-      "color": "Warning",
-      "text": "WHAT'S MOVING",
-      "spacing": "Medium"
-     },
-     {
-      "type": "TextBlock",
-      "size": "Small",
-      "text": "• NEW: NRA+FPC+SAF+ASA amicus — NFA SBR registry fails Bruen (single-source)\n• NEW: Maryland answers in Bathras — Glocks \"capable of being fully automatic\"\n• NEW: Delaware moves to keep Birney under-21 challenge stayed\n• MOVED: GOA opposes ATF EITB replacement rule; comments close Aug 4",
-      "wrap": true
-     }
-    ],
-    "actions": [
-     {
-      "type": "Action.OpenUrl",
-      "title": "Read full brief →",
-      "url": "https://quinn-weathers.github.io/rtb-marketing-projects/daily-news-brief/"
-     }
-    ]
-   }
-  }
- ]
+  "type": "message",
+  "attachments": [
+    {
+      "contentType": "application/vnd.microsoft.card.adaptive",
+      "contentUrl": null,
+      "content": {
+        "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+        "type": "AdaptiveCard",
+        "version": "1.5",
+        "body": [
+          {
+            "type": "TextBlock",
+            "size": "Small",
+            "weight": "Bolder",
+            "color": "Warning",
+            "text": "RTB · 2A DAILY INTEL · Thursday, July 16, 2026",
+            "spacing": "None"
+          },
+          {
+            "type": "TextBlock",
+            "size": "Large",
+            "weight": "Bolder",
+            "text": "House passes H.R. 1181 merchant-code ban 221-201 — the first federal gun-bill floor win of the summer heads to the Senate",
+            "wrap": true,
+            "spacing": "Small"
+          },
+          {
+            "type": "TextBlock",
+            "text": "Five Democrats and Kevin Kiley (I) joined 215 Republicans; Fitzpatrick was the lone GOP no. The bill would bar gun-retailer merchant category codes nationwide, pre-empting the CA/CO/NY mandates behind MCC 5723. Also: Sen. Lindsey Graham's death is confirmed via senate.gov.",
+            "wrap": true,
+            "spacing": "Small"
+          },
+          {
+            "type": "TextBlock",
+            "size": "Small",
+            "weight": "Bolder",
+            "color": "Warning",
+            "text": "HOTTEST LEADS",
+            "spacing": "Medium"
+          },
+          {
+            "type": "FactSet",
+            "facts": [
+              {
+                "title": "1. Virginia — five days to the July 21 injunction",
+                "value": "Heat 89 ▲"
+              },
+              {
+                "title": "2. SCOTUS AR-15 case (Viramontes/Grant)",
+                "value": "Heat 82 →"
+              },
+              {
+                "title": "3. NFA registry offensive (Machamer + SAF suits)",
+                "value": "Heat 78 ▲▲"
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "size": "Small",
+            "weight": "Bolder",
+            "color": "Warning",
+            "text": "WHAT'S MOVING",
+            "spacing": "Medium"
+          },
+          {
+            "type": "TextBlock",
+            "size": "Small",
+            "text": "• House passes H.R. 1181 (PPPA) 221-201; S. 1715 waits in Senate Banking\n• Graham death confirmed via senate.gov; S. 4671 sponsorship now open\n• SAF files NFA registry briefs in Brown, Jensen and Roberts v. ATF\n• 8th Cir. Baxter upholds 922(g)(3) conviction post-Hemani",
+            "wrap": true
+          }
+        ],
+        "actions": [
+          {
+            "type": "Action.OpenUrl",
+            "title": "Read full brief →",
+            "url": "https://quinn-weathers.github.io/rtb-marketing-projects/daily-news-brief/"
+          }
+        ]
+      }
+    }
+  ]
 }
