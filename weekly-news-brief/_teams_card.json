@@ -14,20 +14,20 @@
       "size": "Small",
       "weight": "Bolder",
       "color": "Warning",
-      "text": "RTB · 2A WEEKLY INTEL · Week of Jul 6 – Jul 10, 2026",
+      "text": "RTB · 2A WEEKLY INTEL · Week of July 13 – July 17, 2026",
       "spacing": "None"
      },
      {
       "type": "TextBlock",
       "size": "Large",
       "weight": "Bolder",
-      "text": "Virginia goes from 'muddled' to blocked statewide — on a schedule: the Santolla injunction goes universal July 21",
+      "text": "Countdown week: Virginia holds its July 21 date, Congress finally scores — the House passes H.R. 1181, 221–201 — and the NFA registry fight opens a civil flank in four courts at once.",
       "wrap": true,
       "spacing": "Small"
      },
      {
       "type": "TextBlock",
-      "text": "Monday a three-judge panel denied consolidation of the four VA ban suits; Thursday a statewide injunction (reported eff. Jul 21, through July 2027) scheduled the end of the patchwork era. DOJ's confirmed California Glock-ban suit sits fully briefed awaiting a TRO ruling.",
+      "text": "The week's defining feature was a calendar, not a crisis. Virginia's statewide injunction held toward July 21 as dealers queued held orders, while the courts kept producing: Barnett reframed, DOJ's California TRO denied on §12601 standing, and the NFA registry attack went four-court.",
       "wrap": true,
       "spacing": "Small"
      },
@@ -43,16 +43,16 @@
       "type": "FactSet",
       "facts": [
        {
-        "title": "1. SCOTUS AR-15 case (Viramontes) — analysis phase",
-        "value": "Avg 91 · 4/5 days · ↓"
+        "title": "1. Virginia — the July 21 countdown",
+        "value": "Avg 88 · 3/5 days · ↑"
        },
        {
-        "title": "2. Virginia AWB — statewide injunction, eff. Jul 21",
-        "value": "Avg 87 · 4/5 days · ↑"
+        "title": "2. SCOTUS AR-15 case (Viramontes/Grant)",
+        "value": "Avg 83 · 3/5 days · ↓"
        },
        {
-        "title": "3. The 'common use' test — the week's doctrinal thread",
-        "value": "Avg 72 · 4/5 days · ↓"
+        "title": "3. Barnett v. Raoul — reframed, then cooled",
+        "value": "Avg 78 · 3/5 days · ↓↓"
        }
       ]
      },
@@ -67,7 +67,7 @@
      {
       "type": "TextBlock",
       "size": "Small",
-      "text": "• [Calendar] Jul 21 — VA statewide injunction takes effect (confirm v. order)\n• [Carry-over] DOJ v. California 'Glock ban' TRO ruling — imminent\n• [Calendar] Aug 4–5 — ATF comment windows close (EITB; 926A transport)\n• [Predicted] VA seeks emergency stay/narrowing before Jul 21",
+      "text": "• [Calendar] Jul 21 — Virginia statewide injunction takes effect\n• [Calendar] Aug 4 — ATF EITB comment window closes\n• [Carry-over] H.R. 1181 heads to the Senate — S. 1715 hearing watch\n• [Predicted] July NICS shows a VA long-gun spike; NFA surge holds",
       "wrap": true
      }
     ],
