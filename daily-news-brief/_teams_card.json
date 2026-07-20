@@ -14,20 +14,20 @@
             "size": "Small",
             "weight": "Bolder",
             "color": "Warning",
-            "text": "RTB · 2A DAILY INTEL · Thursday, July 16, 2026",
+            "text": "RTB · 2A DAILY INTEL · Monday, July 20, 2026",
             "spacing": "None"
           },
           {
             "type": "TextBlock",
             "size": "Large",
             "weight": "Bolder",
-            "text": "House passes H.R. 1181 merchant-code ban 221-201 — the first federal gun-bill floor win of the summer heads to the Senate",
+            "text": "The dam breaks: en banc Third Circuit strikes down New Jersey's AR-15 and magazine bans 10–5 — the first circuit ever to invalidate a state \"assault weapon\" law",
             "wrap": true,
             "spacing": "Small"
           },
           {
             "type": "TextBlock",
-            "text": "Five Democrats and Kevin Kiley (I) joined 215 Republicans; Fitzpatrick was the lone GOP no. The bill would bar gun-retailer merchant category codes nationwide, pre-empting the CA/CO/NY mandates behind MCC 5723. Also: Sen. Lindsey Graham's death is confirmed via senate.gov.",
+            "text": "In ANJRPC v. AG of New Jersey (192 pp., cross-party majority), the court held AR-15s and 10+ round magazines are \"plainly in common use\" and constitutionally protected. The ruling creates a direct circuit split just weeks before SCOTUS hears Viramontes in October.",
             "wrap": true,
             "spacing": "Small"
           },
@@ -43,16 +43,16 @@
             "type": "FactSet",
             "facts": [
               {
-                "title": "1. Virginia — five days to the July 21 injunction",
-                "value": "Heat 89 ▲"
+                "title": "1. Third Circuit strikes down NJ AR-15 & magazine bans",
+                "value": "Heat 93 ▲▲▲"
               },
               {
-                "title": "2. SCOTUS AR-15 case (Viramontes/Grant)",
-                "value": "Heat 82 →"
+                "title": "2. Virginia — T-1: injunction takes effect July 21",
+                "value": "Heat 91 ▲"
               },
               {
-                "title": "3. NFA registry offensive (Machamer + SAF suits)",
-                "value": "Heat 78 ▲▲"
+                "title": "3. SCOTUS AR-15 case — summer order list today",
+                "value": "Heat 85 ▲"
               }
             ]
           },
@@ -67,7 +67,7 @@
           {
             "type": "TextBlock",
             "size": "Small",
-            "text": "• House passes H.R. 1181 (PPPA) 221-201; S. 1715 waits in Senate Banking\n• Graham death confirmed via senate.gov; S. 4671 sponsorship now open\n• SAF files NFA registry briefs in Brown, Jensen and Roberts v. ATF\n• 8th Cir. Baxter upholds 922(g)(3) conviction post-Hemani",
+            "text": "• VA files Crump v. Katz motion: \"AR-15s aren't protected arms\" + interest balancing\n• DOJ abandons post-office carry-ban appeal; SAF/FPC injunction stands\n• SCOTUS summer order list releases 9:30 AM ET today — check held petitions\n• NJ sues JSD Supply founder personally under public-nuisance law",
             "wrap": true
           }
         ],
