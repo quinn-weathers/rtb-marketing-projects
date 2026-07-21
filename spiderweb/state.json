@@ -663,7 +663,7 @@
         "pipelines": [
           {
             "id": "blog-production",
-            "stage": "Complete"
+            "stage": "Published"
           }
         ],
         "notes": ""
@@ -733,6 +733,30 @@
           {
             "id": "blog-production",
             "stage": "In-Progress"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": "task-17qifw6w",
+        "title": "NJ AR Ban Struck Down - July 2026 Op-Ed",
+        "owner": "—",
+        "status": "complete",
+        "tags": [],
+        "askDate": "2026-07-22",
+        "priority": "high",
+        "lift": "M",
+        "assignee": "Chase Holmes",
+        "approver": "Jeremy Osborn",
+        "pm": "Quinn Weathers",
+        "projects": [
+          "state-of-the-union",
+          "proj-upl4ik9z"
+        ],
+        "pipelines": [
+          {
+            "id": "blog-production",
+            "stage": "Complete"
           }
         ],
         "notes": ""
@@ -8263,6 +8287,34 @@
           {
             "id": "blog-production",
             "stage": "Published"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": "task-f5c41qut",
+        "title": "NJ AR Ban Struck Down - Static Post",
+        "owner": "—",
+        "status": "review",
+        "tags": [],
+        "askDate": "2026-07-22",
+        "priority": "high",
+        "lift": "M",
+        "assignee": "—",
+        "approver": "Craig Fleck",
+        "pm": "Quinn Weathers",
+        "projects": [
+          "state-of-the-union",
+          "proj-upl4ik9z"
+        ],
+        "pipelines": [
+          {
+            "id": "blog-production",
+            "stage": "In Review"
+          },
+          {
+            "id": "social-content",
+            "stage": "Creative"
           }
         ],
         "notes": ""
