@@ -1,84 +1,84 @@
 {
-  "type": "message",
-  "attachments": [
-    {
-      "contentType": "application/vnd.microsoft.card.adaptive",
-      "contentUrl": null,
-      "content": {
-        "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
-        "type": "AdaptiveCard",
-        "version": "1.5",
-        "body": [
-          {
-            "type": "TextBlock",
-            "size": "Small",
-            "weight": "Bolder",
-            "color": "Warning",
-            "text": "RTB · 2A DAILY INTEL · Monday, July 20, 2026",
-            "spacing": "None"
-          },
-          {
-            "type": "TextBlock",
-            "size": "Large",
-            "weight": "Bolder",
-            "text": "The dam breaks: en banc Third Circuit strikes down New Jersey's AR-15 and magazine bans 10–5 — the first circuit ever to invalidate a state \"assault weapon\" law",
-            "wrap": true,
-            "spacing": "Small"
-          },
-          {
-            "type": "TextBlock",
-            "text": "In ANJRPC v. AG of New Jersey (192 pp., cross-party majority), the court held AR-15s and 10+ round magazines are \"plainly in common use\" and constitutionally protected. The ruling creates a direct circuit split just weeks before SCOTUS hears Viramontes in October.",
-            "wrap": true,
-            "spacing": "Small"
-          },
-          {
-            "type": "TextBlock",
-            "size": "Small",
-            "weight": "Bolder",
-            "color": "Warning",
-            "text": "HOTTEST LEADS",
-            "spacing": "Medium"
-          },
-          {
-            "type": "FactSet",
-            "facts": [
-              {
-                "title": "1. Third Circuit strikes down NJ AR-15 & magazine bans",
-                "value": "Heat 93 ▲▲▲"
-              },
-              {
-                "title": "2. Virginia — T-1: injunction takes effect July 21",
-                "value": "Heat 91 ▲"
-              },
-              {
-                "title": "3. SCOTUS AR-15 case — summer order list today",
-                "value": "Heat 85 ▲"
-              }
-            ]
-          },
-          {
-            "type": "TextBlock",
-            "size": "Small",
-            "weight": "Bolder",
-            "color": "Warning",
-            "text": "WHAT'S MOVING",
-            "spacing": "Medium"
-          },
-          {
-            "type": "TextBlock",
-            "size": "Small",
-            "text": "• VA files Crump v. Katz motion: \"AR-15s aren't protected arms\" + interest balancing\n• DOJ abandons post-office carry-ban appeal; SAF/FPC injunction stands\n• SCOTUS summer order list releases 9:30 AM ET today — check held petitions\n• NJ sues JSD Supply founder personally under public-nuisance law",
-            "wrap": true
-          }
-        ],
-        "actions": [
-          {
-            "type": "Action.OpenUrl",
-            "title": "Read full brief →",
-            "url": "https://quinn-weathers.github.io/rtb-marketing-projects/daily-news-brief/"
-          }
-        ]
-      }
-    }
-  ]
+ "type": "message",
+ "attachments": [
+  {
+   "contentType": "application/vnd.microsoft.card.adaptive",
+   "contentUrl": null,
+   "content": {
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "type": "AdaptiveCard",
+    "version": "1.5",
+    "body": [
+     {
+      "type": "TextBlock",
+      "size": "Small",
+      "weight": "Bolder",
+      "color": "Warning",
+      "text": "RTB \u00b7 2A DAILY INTEL \u00b7 Tuesday, July 21, 2026",
+      "spacing": "None"
+     },
+     {
+      "type": "TextBlock",
+      "size": "Large",
+      "weight": "Bolder",
+      "text": "Day Zero in Virginia: the hardware bans are unenforceable as of this morning \u2014 and the Fifth Circuit opened a second front on \u00a7922(g)",
+      "wrap": true,
+      "spacing": "Small"
+     },
+     {
+      "type": "TextBlock",
+      "text": "The Santolla v. Katz statewide injunction is operative today: covered-rifle and magazine sales resume while the Commonwealth's appeal hangs over everything. And the en banc Fifth Circuit vacated U.S. v. Squire \u2014 \u00a7922(g)(1) will be reheard as a facial Commerce Clause challenge.",
+      "wrap": true,
+      "spacing": "Small"
+     },
+     {
+      "type": "TextBlock",
+      "size": "Small",
+      "weight": "Bolder",
+      "color": "Warning",
+      "text": "HOTTEST LEADS",
+      "spacing": "Medium"
+     },
+     {
+      "type": "FactSet",
+      "facts": [
+       {
+        "title": "1. Virginia Day 0 \u2014 statewide injunction operative",
+        "value": "Heat 90 \u25b2"
+       },
+       {
+        "title": "2. 5th Cir. Squire en banc \u2014 922(g) Commerce Clause",
+        "value": "Heat 83 \u25b2\u25b2\u25b2"
+       },
+       {
+        "title": "3. 3rd Cir. NJ strikedown, Day 4 \u2014 response pending",
+        "value": "Heat 77 \u25bc\u25bc"
+       }
+      ]
+     },
+     {
+      "type": "TextBlock",
+      "size": "Small",
+      "weight": "Bolder",
+      "color": "Warning",
+      "text": "WHAT'S MOVING",
+      "spacing": "Medium"
+     },
+     {
+      "type": "TextBlock",
+      "size": "Small",
+      "text": "\u2022 Virginia Day 0: injunction operative; held orders ship today\n\u2022 5th Cir. grants en banc rehearing in Squire \u2014 \u00a7922(g) on the line\n\u2022 SCOTUS order list: no 2A action; next list Aug 17\n\u2022 CRS hands Congress its Hemani roadmap for \u00a7922(g) review",
+      "wrap": true
+     }
+    ],
+    "actions": [
+     {
+      "type": "Action.OpenUrl",
+      "title": "Read full brief \u2192",
+      "url": "https://quinn-weathers.github.io/rtb-marketing-projects/daily-news-brief/"
+     }
+    ]
+   }
+  }
+ ]
 }
