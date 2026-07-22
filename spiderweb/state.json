@@ -718,7 +718,7 @@
         "id": "task-ef6zhows",
         "title": "Criminal vs. Civil Court in Self-Defense Cases",
         "owner": "—",
-        "status": "in-progress",
+        "status": "complete",
         "tags": [],
         "askDate": "2026-07-21",
         "priority": "med",
@@ -732,7 +732,7 @@
         "pipelines": [
           {
             "id": "blog-production",
-            "stage": "In-Progress"
+            "stage": "Published"
           }
         ],
         "notes": ""
@@ -765,7 +765,7 @@
         "id": "task-km5ahb8l",
         "title": "How do Bail Bonds Work?",
         "owner": "—",
-        "status": "in-progress",
+        "status": "complete",
         "tags": [],
         "askDate": "2026-07-22",
         "priority": "med",
@@ -779,7 +779,7 @@
         "pipelines": [
           {
             "id": "blog-production",
-            "stage": "In-Progress"
+            "stage": "Complete"
           }
         ],
         "notes": ""
@@ -788,7 +788,7 @@
         "id": "task-7w2rml6n",
         "title": "Up to $100,000 Bail Bond Coverage",
         "owner": "—",
-        "status": "in-progress",
+        "status": "complete",
         "tags": [],
         "askDate": "2026-07-23",
         "priority": "med",
@@ -802,7 +802,7 @@
         "pipelines": [
           {
             "id": "blog-production",
-            "stage": "In-Progress"
+            "stage": "Complete"
           }
         ],
         "notes": ""
