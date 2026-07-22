@@ -1,84 +1,84 @@
 {
- "type": "message",
- "attachments": [
-  {
-   "contentType": "application/vnd.microsoft.card.adaptive",
-   "contentUrl": null,
-   "content": {
-    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
-    "type": "AdaptiveCard",
-    "version": "1.5",
-    "body": [
-     {
-      "type": "TextBlock",
-      "size": "Small",
-      "weight": "Bolder",
-      "color": "Warning",
-      "text": "RTB \u00b7 2A DAILY INTEL \u00b7 Tuesday, July 21, 2026",
-      "spacing": "None"
-     },
-     {
-      "type": "TextBlock",
-      "size": "Large",
-      "weight": "Bolder",
-      "text": "Day Zero in Virginia: the hardware bans are unenforceable as of this morning \u2014 and the Fifth Circuit opened a second front on \u00a7922(g)",
-      "wrap": true,
-      "spacing": "Small"
-     },
-     {
-      "type": "TextBlock",
-      "text": "The Santolla v. Katz statewide injunction is operative today: covered-rifle and magazine sales resume while the Commonwealth's appeal hangs over everything. And the en banc Fifth Circuit vacated U.S. v. Squire \u2014 \u00a7922(g)(1) will be reheard as a facial Commerce Clause challenge.",
-      "wrap": true,
-      "spacing": "Small"
-     },
-     {
-      "type": "TextBlock",
-      "size": "Small",
-      "weight": "Bolder",
-      "color": "Warning",
-      "text": "HOTTEST LEADS",
-      "spacing": "Medium"
-     },
-     {
-      "type": "FactSet",
-      "facts": [
-       {
-        "title": "1. Virginia Day 0 \u2014 statewide injunction operative",
-        "value": "Heat 90 \u25b2"
-       },
-       {
-        "title": "2. 5th Cir. Squire en banc \u2014 922(g) Commerce Clause",
-        "value": "Heat 83 \u25b2\u25b2\u25b2"
-       },
-       {
-        "title": "3. 3rd Cir. NJ strikedown, Day 4 \u2014 response pending",
-        "value": "Heat 77 \u25bc\u25bc"
-       }
-      ]
-     },
-     {
-      "type": "TextBlock",
-      "size": "Small",
-      "weight": "Bolder",
-      "color": "Warning",
-      "text": "WHAT'S MOVING",
-      "spacing": "Medium"
-     },
-     {
-      "type": "TextBlock",
-      "size": "Small",
-      "text": "\u2022 Virginia Day 0: injunction operative; held orders ship today\n\u2022 5th Cir. grants en banc rehearing in Squire \u2014 \u00a7922(g) on the line\n\u2022 SCOTUS order list: no 2A action; next list Aug 17\n\u2022 CRS hands Congress its Hemani roadmap for \u00a7922(g) review",
-      "wrap": true
-     }
-    ],
-    "actions": [
-     {
-      "type": "Action.OpenUrl",
-      "title": "Read full brief \u2192",
-      "url": "https://quinn-weathers.github.io/rtb-marketing-projects/daily-news-brief/"
-     }
-    ]
-   }
-  }
- ]
+  "type": "message",
+  "attachments": [
+    {
+      "contentType": "application/vnd.microsoft.card.adaptive",
+      "contentUrl": null,
+      "content": {
+        "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+        "type": "AdaptiveCard",
+        "version": "1.5",
+        "body": [
+          {
+            "type": "TextBlock",
+            "size": "Small",
+            "weight": "Bolder",
+            "color": "Warning",
+            "text": "RTB · 2A DAILY INTEL · Wednesday, July 22, 2026",
+            "spacing": "None"
+          },
+          {
+            "type": "TextBlock",
+            "size": "Large",
+            "weight": "Bolder",
+            "text": "The state hardware-ban map is being redrawn — with dates attached",
+            "wrap": true,
+            "spacing": "Small"
+          },
+          {
+            "type": "TextBlock",
+            "text": "New Jersey’s own State Police now tell dealers the Third Circuit ruling takes effect July 31 — a week after Virginia’s injunction went live, and the same week a gun-rights coalition moved to block Maryland’s Glock ban before it can start.",
+            "wrap": true,
+            "spacing": "Small"
+          },
+          {
+            "type": "TextBlock",
+            "size": "Small",
+            "weight": "Bolder",
+            "color": "Warning",
+            "text": "HOTTEST LEADS",
+            "spacing": "Medium"
+          },
+          {
+            "type": "FactSet",
+            "facts": [
+              {
+                "title": "1. NJ 3rd Cir — effective July 31",
+                "value": "Heat 85 ▲▲▲"
+              },
+              {
+                "title": "2. Virginia — Day 1, sales underway",
+                "value": "Heat 80 ▼▼"
+              },
+              {
+                "title": "3. 5th Cir Squire en banc — §922(g)",
+                "value": "Heat 77 ▼"
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "size": "Small",
+            "weight": "Bolder",
+            "color": "Warning",
+            "text": "WHAT'S MOVING",
+            "spacing": "Medium"
+          },
+          {
+            "type": "TextBlock",
+            "size": "Small",
+            "text": "• New Jersey: State Police set July 31 effective date for the 3rd Cir ruling\n• Maryland: SAF/NRA/FPC move to block SB 334 Glock ban (Bathras v. Moore)\n• Virginia: Day 1 — covered-rifle & magazine sales underway\n• Virgin Islands: GOA sues over nonresident carry ban (Henry v. Brooks)",
+            "wrap": true
+          }
+        ],
+        "actions": [
+          {
+            "type": "Action.OpenUrl",
+            "title": "Read full brief →",
+            "url": "https://quinn-weathers.github.io/rtb-marketing-projects/daily-news-brief/"
+          }
+        ]
+      }
+    }
+  ]
 }
