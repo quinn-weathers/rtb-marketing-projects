@@ -1,89 +1,89 @@
 {
- "type": "message",
- "attachments": [
-  {
-   "contentType": "application/vnd.microsoft.card.adaptive",
-   "contentUrl": null,
-   "content": {
-    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
-    "type": "AdaptiveCard",
-    "version": "1.5",
-    "body": [
-     {
-      "type": "TextBlock",
-      "size": "Small",
-      "weight": "Bolder",
-      "color": "Warning",
-      "text": "RTB · 2A WEEKLY INTEL · Week of July 13 – July 17, 2026",
-      "spacing": "None"
-     },
-     {
-      "type": "TextBlock",
-      "size": "Large",
-      "weight": "Bolder",
-      "text": "Countdown week: Virginia holds its July 21 date, Congress finally scores — the House passes H.R. 1181, 221–201 — and the NFA registry fight opens a civil flank in four courts at once.",
-      "wrap": true,
-      "spacing": "Small"
-     },
-     {
-      "type": "TextBlock",
-      "text": "The week's defining feature was a calendar, not a crisis. Virginia's statewide injunction held toward July 21 as dealers queued held orders, while the courts kept producing: Barnett reframed, DOJ's California TRO denied on §12601 standing, and the NFA registry attack went four-court.",
-      "wrap": true,
-      "spacing": "Small"
-     },
-     {
-      "type": "TextBlock",
-      "size": "Small",
-      "weight": "Bolder",
-      "color": "Warning",
-      "text": "STAYED HOT ALL WEEK",
-      "spacing": "Medium"
-     },
-     {
-      "type": "FactSet",
-      "facts": [
-       {
-        "title": "1. Virginia — the July 21 countdown",
-        "value": "Avg 88 · 3/5 days · ↑"
-       },
-       {
-        "title": "2. SCOTUS AR-15 case (Viramontes/Grant)",
-        "value": "Avg 83 · 3/5 days · ↓"
-       },
-       {
-        "title": "3. Barnett v. Raoul — reframed, then cooled",
-        "value": "Avg 78 · 3/5 days · ↓↓"
-       }
-      ]
-     },
-     {
-      "type": "TextBlock",
-      "size": "Small",
-      "weight": "Bolder",
-      "color": "Warning",
-      "text": "WATCH NEXT WEEK",
-      "spacing": "Medium"
-     },
-     {
-      "type": "TextBlock",
-      "size": "Small",
-      "text": "• [Calendar] Jul 21 — Virginia statewide injunction takes effect\n• [Calendar] Aug 4 — ATF EITB comment window closes\n• [Carry-over] H.R. 1181 heads to the Senate — S. 1715 hearing watch\n• [Predicted] July NICS shows a VA long-gun spike; NFA surge holds",
-      "wrap": true
-     }
-    ],
-    "actions": [
-     {
-      "type": "Action.OpenUrl",
-      "title": "Read the full weekly →",
-      "url": "https://quinn-weathers.github.io/rtb-marketing-projects/weekly-news-brief/"
-     },
-     {
-      "type": "Action.OpenUrl",
-      "title": "Today's daily →",
-      "url": "https://quinn-weathers.github.io/rtb-marketing-projects/daily-news-brief/"
-     }
-    ]
-   }
-  }
- ]
+  "type": "message",
+  "attachments": [
+    {
+      "contentType": "application/vnd.microsoft.card.adaptive",
+      "contentUrl": null,
+      "content": {
+        "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+        "type": "AdaptiveCard",
+        "version": "1.5",
+        "body": [
+          {
+            "type": "TextBlock",
+            "size": "Small",
+            "weight": "Bolder",
+            "color": "Warning",
+            "text": "RTB · 2A WEEKLY INTEL · Week of July 20 – July 24, 2026",
+            "spacing": "None"
+          },
+          {
+            "type": "TextBlock",
+            "size": "Large",
+            "weight": "Bolder",
+            "text": "Three circuits, three answers in one month — the AR-15 question heads to the Supreme Court this fall",
+            "wrap": true,
+            "spacing": "Small"
+          },
+          {
+            "type": "TextBlock",
+            "text": "This was the week the AR-15 question stopped being abstract. Members don’t need to be frightened by it — they need the map: what the law says today in each state, what’s pending, and what to plan around.",
+            "wrap": true,
+            "spacing": "Small"
+          },
+          {
+            "type": "TextBlock",
+            "size": "Small",
+            "weight": "Bolder",
+            "color": "Warning",
+            "text": "STAYED HOT ALL WEEK",
+            "spacing": "Medium"
+          },
+          {
+            "type": "FactSet",
+            "facts": [
+              {
+                "title": "1. First Circuit upholds Massachusetts’ AR-15 ban",
+                "value": "Avg 86 · 1/5 days · → (Fri catalyst — completes the split)"
+              },
+              {
+                "title": "2. New Jersey ban struck — effective July 31",
+                "value": "Avg 84 · 5/5 days · ↓"
+              },
+              {
+                "title": "3. Virginia — sales confirmed live",
+                "value": "Avg 82 · 5/5 days · ↓↓"
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "size": "Small",
+            "weight": "Bolder",
+            "color": "Warning",
+            "text": "WATCH NEXT WEEK",
+            "spacing": "Medium"
+          },
+          {
+            "type": "TextBlock",
+            "size": "Small",
+            "wrap": true,
+            "text": "• [Calendar] New Jersey ban takes effect July 31 (T-7) — NJSP dealer guidance\n• [Calendar] SCOTUS Viramontes/Grant AR-15 argument — October term\n• [Carry-over] Virginia injunction live; Crump “not arms” appeal briefing next\n• [Predicted] Cert-stage filing citing the fresh 1st/3rd/7th split lands within weeks"
+          }
+        ],
+        "actions": [
+          {
+            "type": "Action.OpenUrl",
+            "title": "Read the full weekly →",
+            "url": "https://quinn-weathers.github.io/rtb-marketing-projects/weekly-news-brief/"
+          },
+          {
+            "type": "Action.OpenUrl",
+            "title": "Today’s daily →",
+            "url": "https://quinn-weathers.github.io/rtb-marketing-projects/daily-news-brief/"
+          }
+        ]
+      }
+    }
+  ]
 }
