@@ -14,20 +14,20 @@
             "size": "Small",
             "weight": "Bolder",
             "color": "Warning",
-            "text": "RTB \u00b7 2A DAILY INTEL \u00b7 Thursday, July 23, 2026",
+            "text": "RTB · 2A DAILY INTEL · Friday, July 24, 2026",
             "spacing": "None"
           },
           {
             "type": "TextBlock",
             "size": "Large",
             "weight": "Bolder",
-            "text": "Quiet Thursday on the wires \u2014 three state hardware-ban clocks keep ticking: Virginia Day 2, New Jersey T-8 to July 31, Maryland\u2019s Glock-ban challenge awaiting the state\u2019s response.",
+            "text": "Three circuits, three answers in a single month: the First Circuit’s ruling upholding Massachusetts’ AR-15 ban completes the appellate split the Supreme Court will resolve this fall — and DOJ has opened a second front in the Virgin Islands.",
             "wrap": true,
             "spacing": "Small"
           },
           {
             "type": "TextBlock",
-            "text": "Generated without live web access \u2014 WebSearch unavailable and no outlet or docket reachable this run. Nothing here is newly confirmed: every item is rolled forward from the last verified state (July 22) with its calendar advanced one day. Re-confirm before member-facing use.",
+            "text": "A unanimous First Circuit upheld Massachusetts’ AR-15 ban (Recchia v. Campbell, 7/21) — the third appellate ‘assault weapon’ ruling this month, after the 3rd Circuit struck New Jersey’s and the 7th upheld Illinois’. It completes the split SCOTUS resolves in Viramontes this fall.",
             "wrap": true,
             "spacing": "Small"
           },
@@ -43,16 +43,16 @@
             "type": "FactSet",
             "facts": [
               {
-                "title": "1. NJ 3rd Cir \u2014 T-8 to July 31 effective date",
-                "value": "Heat 82 \u25bc"
+                "title": "1. First Circuit upholds Massachusetts AR-15 ban",
+                "value": "Heat 86 ▲▲"
               },
               {
-                "title": "2. Virginia \u2014 Day 2, sales underway",
-                "value": "Heat 76 \u25bc\u25bc"
+                "title": "2. New Jersey — T-7 to July 31 effective date",
+                "value": "Heat 83 ▲"
               },
               {
-                "title": "3. 5th Cir Squire en banc Day 3 \u2014 \u00a7922(g)",
-                "value": "Heat 72 \u25bc\u25bc"
+                "title": "3. Virginia — sales confirmed live (PSA)",
+                "value": "Heat 74 →"
               }
             ]
           },
@@ -61,20 +61,20 @@
             "size": "Small",
             "weight": "Bolder",
             "color": "Warning",
-            "text": "ON THE CLOCK",
+            "text": "WHAT’S MOVING",
             "spacing": "Medium"
           },
           {
             "type": "TextBlock",
             "size": "Small",
-            "text": "\u2022 New Jersey \u2014 T-8 to the July 31 effective date; AG guidance still pending\n\u2022 Virginia \u2014 Day 2 of live sales; no disruption as last reported\n\u2022 Maryland \u2014 Day 3 on the Bathras Glock-ban PI; awaiting state response\n\u2022 Colorado \u2014 T-9 to the Aug 1 permit-to-purchase start",
-            "wrap": true
+            "wrap": true,
+            "text": "• 1st Cir. upholds Massachusetts’ AR-15 ban (Recchia, 7/21)\n• DOJ moves to block USVI Act 9113 — hearing Aug 19\n• Virginia sales confirmed live — PSA resumes shipments\n• New Jersey T-7 to the July 31 effective date"
           }
         ],
         "actions": [
           {
             "type": "Action.OpenUrl",
-            "title": "Read full brief \u2192",
+            "title": "Read full brief →",
             "url": "https://quinn-weathers.github.io/rtb-marketing-projects/daily-news-brief/"
           }
         ]
