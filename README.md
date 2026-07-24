@@ -1,85 +1,33 @@
-# RTB Marketing Projects Dashboard
+# RTB Marketing Projects
 
-Daily-updating team dashboard for Right To Bear, showing task assignments and workload across the marketing team.
+Internal tools and dashboards for the Right To Bear marketing team, hosted as a static site on GitHub Pages.
 
-## 🚀 Quick Setup (GitHub Pages)
+**Live:** https://quinn-weathers.github.io/rtb-marketing-projects/
 
-### 1. Create Repository
-1. Create a new **public** repository on GitHub
-2. Name it `rtb-marketing-projects`
-3. Upload all files from this folder
+The home page (`index.html`) is a simple hub that links out to each tool below.
 
-### 2. Enable GitHub Pages
-1. Go to repository Settings → Pages
-2. Under "Source", select `main` branch
-3. Click Save
-4. Your site will be live at: `https://[your-username].github.io/rtb-marketing-projects/`
+## Pages
 
-### 3. Add Monday.com API Token
-1. In your repository, go to Settings → Secrets and variables → Actions
-2. Click "New repository secret"
-3. Name: `MONDAY_API_TOKEN`
-4. Value: Paste your Monday.com API token
-5. Click "Add secret"
+| Page | URL | What it is |
+|------|-----|------------|
+| Spiderweb | `/spiderweb/` | Marketing org command center — pipelines in play, departments and leads, flagged/overdue items, and the weekly view. |
+| Daily brief | `/daily-news-brief/` | 2A and firearm-industry daily news brief. Auto-generated each weekday around 6:00 AM ET. |
+| Weekly brief | `/weekly-news-brief/` | Friday 2A weekly recap and forward-look. |
+| UTM builder | `/social-media-utm.html` | Builds UTM-tagged campaign links for the team and logs them to `utm-log.json`. |
+| Share on social | `/share-on-social.html` | Ready-to-post social copy feed. |
 
-### 4. Update Board IDs (if needed)
-Edit `fetch_data.py` and update the `BOARD_IDS` array with your actual board IDs:
+> `RTB Social Media UTM Dashboard.html` is an older duplicate of the UTM builder, kept in case its link was shared previously. `social-media-utm.html` is the current one.
 
-```python
-BOARD_IDS = [
-    "9533201616",    # Marketing Requests
-    "18004001679",   # Blog Content Creative Requests
-    "17945827124"    # Social Media Creative Requests
-]
-```
+## Automation
 
-### 5. Test the Workflow
-1. Go to Actions tab in your repository
-2. Click "Update Dashboard Data" workflow
-3. Click "Run workflow" → "Run workflow"
-4. Wait ~1 minute, then refresh your GitHub Pages site
+`.github/workflows/post-rtb-brief-to-teams.yml` relays the daily brief to the marketing Teams channel. It fires when the brief generator pushes `daily-news-brief/_teams_card.json`, then POSTs that adaptive card to a Teams webhook. It needs a `TEAMS_WEBHOOK_URL` repository secret (Settings → Secrets and variables → Actions) and can be re-fired manually from the Actions tab.
 
-## ⏰ Automatic Updates
+The daily and weekly briefs themselves are generated outside this repo by scheduled Cowork tasks that commit and push their results here. GitHub Pages redeploys within about a minute of any push.
 
-The dashboard automatically updates **daily at 6 AM UTC** (1 AM EST / 10 PM PST).
+## Editing
 
-You can also trigger manual updates:
-1. Go to Actions tab
-2. Select "Update Dashboard Data"
-3. Click "Run workflow"
+Everything here is static HTML. Edit a file, commit to `main`, and GitHub Pages redeploys automatically. To add a new tool, drop its page in the repo and add a matching card to `index.html`.
 
-## 🔗 Sharing Personal Links
+## Legacy (no longer active)
 
-1. Open the dashboard at your GitHub Pages URL
-2. Scroll to bottom → "Admin Tools" section
-3. Click any team member's name to copy their personal link
-4. Share that link with them
-
-When they open it, they'll see ONLY their tasks with no ability to switch views.
-
-## 📁 Files Explanation
-
-- `index.html` - The dashboard (loads data from data.json)
-- `data.json` - Task and team data (auto-updated daily)
-- `fetch_data.py` - Python script that pulls from Monday.com
-- `.github/workflows/update-data.yml` - GitHub Action for daily updates
-
-## 🔧 Troubleshooting
-
-**Dashboard shows error**: Check that `data.json` exists in the repository
-
-**Data not updating**: 
-1. Check Actions tab for errors
-2. Verify your `MONDAY_API_TOKEN` secret is set correctly
-3. Make sure the workflow has permission to commit (Settings → Actions → General → Workflow permissions → "Read and write")
-
-**Links don't work**: Make sure you're using the full GitHub Pages URL, not a local file path
-
-## 📊 Data Source
-
-Pulls from 3 Monday.com boards:
-- Marketing Requests
-- Blog Content Creative Requests  
-- Social Media Creative Requests
-
-Only shows incomplete items (status ≠ Done/Complete).
+This repo originally served a Monday.com-powered task dashboard on the home page, refreshed daily by an `update-data.yml` workflow. That workflow was removed on 2026-07-24 after its Monday.com API token stopped authenticating (HTTP 401 Unauthorized), and the home page was replaced with the hub above. Two leftover files from that setup — `fetch_data.py` and `data.json` — are no longer used and can be deleted whenever you like.
