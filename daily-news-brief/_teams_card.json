@@ -14,20 +14,20 @@
             "size": "Small",
             "weight": "Bolder",
             "color": "Warning",
-            "text": "RTB · 2A DAILY INTEL · Friday, July 24, 2026",
+            "text": "RTB · 2A DAILY INTEL · Tuesday, July 28, 2026",
             "spacing": "None"
           },
           {
             "type": "TextBlock",
             "size": "Large",
             "weight": "Bolder",
-            "text": "Three circuits, three answers in a single month: the First Circuit’s ruling upholding Massachusetts’ AR-15 ban completes the appellate split the Supreme Court will resolve this fall — and DOJ has opened a second front in the Virgin Islands.",
+            "text": "Fifth Circuit reopens the constitutional foundation of federal gun control — and civilian suppressors leave the military export system",
             "wrap": true,
             "spacing": "Small"
           },
           {
             "type": "TextBlock",
-            "text": "A unanimous First Circuit upheld Massachusetts’ AR-15 ban (Recchia v. Campbell, 7/21) — the third appellate ‘assault weapon’ ruling this month, after the 3rd Circuit struck New Jersey’s and the 7th upheld Illinois’. It completes the split SCOTUS resolves in Viramontes this fall.",
+            "text": "On July 20 the Fifth Circuit voted to rehear U.S. v. Squire en banc — not as a Second Amendment case but as a Commerce Clause challenge to the federal felon-in-possession ban, following Justice Thomas's Hemani concurrence. Separately, two interim final rules move suppressor exports from State/ITAR to Commerce, effective Nov 20.",
             "wrap": true,
             "spacing": "Small"
           },
@@ -43,16 +43,16 @@
             "type": "FactSet",
             "facts": [
               {
-                "title": "1. First Circuit upholds Massachusetts AR-15 ban",
-                "value": "Heat 86 ▲▲"
+                "title": "1. Fifth Circuit takes Squire en banc (Commerce Clause)",
+                "value": "Heat 88 ▲▲"
               },
               {
-                "title": "2. New Jersey — T-7 to July 31 effective date",
-                "value": "Heat 83 ▲"
+                "title": "2. Suppressor exports move State → Commerce",
+                "value": "Heat 87 ▲▲▲"
               },
               {
-                "title": "3. Virginia — sales confirmed live (PSA)",
-                "value": "Heat 74 →"
+                "title": "3. New Jersey T-3 to the July 31 effective date",
+                "value": "Heat 84 ▲▲"
               }
             ]
           },
@@ -61,14 +61,14 @@
             "size": "Small",
             "weight": "Bolder",
             "color": "Warning",
-            "text": "WHAT’S MOVING",
+            "text": "WHAT'S MOVING",
             "spacing": "Medium"
           },
           {
             "type": "TextBlock",
             "size": "Small",
-            "wrap": true,
-            "text": "• 1st Cir. upholds Massachusetts’ AR-15 ban (Recchia, 7/21)\n• DOJ moves to block USVI Act 9113 — hearing Aug 19\n• Virginia sales confirmed live — PSA resumes shipments\n• New Jersey T-7 to the July 31 effective date"
+            "text": "• 5th Cir. grants en banc in U.S. v. Squire — Higginson dissents, no argument date\n• Suppressors off the Munitions List — most provisions effective Nov 20, 2026\n• New Jersey T-3 — AG dealer/owner guidance still unposted\n• Colorado T-4 — DOR covered-firearms list still unpublished",
+            "wrap": true
           }
         ],
         "actions": [
