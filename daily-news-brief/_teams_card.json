@@ -14,20 +14,20 @@
             "size": "Small",
             "weight": "Bolder",
             "color": "Warning",
-            "text": "RTB · 2A DAILY INTEL · Tuesday, July 28, 2026",
+            "text": "RTB · 2A DAILY INTEL · Wednesday, July 29, 2026",
             "spacing": "None"
           },
           {
             "type": "TextBlock",
             "size": "Large",
             "weight": "Bolder",
-            "text": "Fifth Circuit reopens the constitutional foundation of federal gun control — and civilian suppressors leave the military export system",
+            "text": "Maryland's largest county rebuilt its 100-yard carry ban and was sued the same day it took effect — while New Jersey's rifle and magazine bans come down Friday with still no Attorney General guidance.",
             "wrap": true,
             "spacing": "Small"
           },
           {
             "type": "TextBlock",
-            "text": "On July 20 the Fifth Circuit voted to rehear U.S. v. Squire en banc — not as a Second Amendment case but as a Commerce Clause challenge to the federal felon-in-possession ban, following Justice Thomas's Hemani concurrence. Separately, two interim final rules move suppressor exports from State/ITAR to Commerce, effective Nov 20.",
+            "text": "Montgomery County's Emergency Bill 23-26E was signed and took effect July 27; Maryland Shall Issue and five permit holders filed Barreto v. Montgomery County the same day, mapping 100-yard zones over more than 26% of the county. New Jersey is at T-2 with the AG's compliance guidance still unposted.",
             "wrap": true,
             "spacing": "Small"
           },
@@ -43,16 +43,16 @@
             "type": "FactSet",
             "facts": [
               {
-                "title": "1. Fifth Circuit takes Squire en banc (Commerce Clause)",
+                "title": "1. New Jersey at T-2 — bans fall Friday, no AG guidance",
                 "value": "Heat 88 ▲▲"
               },
               {
-                "title": "2. Suppressor exports move State → Commerce",
-                "value": "Heat 87 ▲▲▲"
+                "title": "2. Fifth Circuit Squire en banc — Commerce Clause",
+                "value": "Heat 84 ▼"
               },
               {
-                "title": "3. New Jersey T-3 to the July 31 effective date",
-                "value": "Heat 84 ▲▲"
+                "title": "3. Suppressors off the Munitions List — Nov 20",
+                "value": "Heat 82 →"
               }
             ]
           },
@@ -67,7 +67,7 @@
           {
             "type": "TextBlock",
             "size": "Small",
-            "text": "• 5th Cir. grants en banc in U.S. v. Squire — Higginson dissents, no argument date\n• Suppressors off the Munitions List — most provisions effective Nov 20, 2026\n• New Jersey T-3 — AG dealer/owner guidance still unposted\n• Colorado T-4 — DOR covered-firearms list still unpublished",
+            "text": "• Maryland: MSI files Barreto v. Montgomery County (7/27)\n• New Jersey: T-2 to the July 31 effective date, AG silent\n• Colorado: T-3 to Aug 1, DOR firearms list unpublished\n• Virginia: AG argues Art. I §13 is a collective right",
             "wrap": true
           }
         ],
