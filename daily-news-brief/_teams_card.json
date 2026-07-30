@@ -14,20 +14,20 @@
             "size": "Small",
             "weight": "Bolder",
             "color": "Warning",
-            "text": "RTB · 2A DAILY INTEL · Wednesday, July 29, 2026",
+            "text": "RTB · 2A DAILY INTEL · Thursday, July 30, 2026",
             "spacing": "None"
           },
           {
             "type": "TextBlock",
             "size": "Large",
             "weight": "Bolder",
-            "text": "Maryland's largest county rebuilt its 100-yard carry ban and was sued the same day it took effect — while New Jersey's rifle and magazine bans come down Friday with still no Attorney General guidance.",
+            "text": "Virginia's AR-15 sales ban is now on hold until the Supreme Court rules — while New Jersey's rifle and magazine bans come down tomorrow.",
             "wrap": true,
             "spacing": "Small"
           },
           {
             "type": "TextBlock",
-            "text": "Montgomery County's Emergency Bill 23-26E was signed and took effect July 27; Maryland Shall Issue and five permit holders filed Barreto v. Montgomery County the same day, mapping 100-yard zones over more than 26% of the county. New Jersey is at T-2 with the AG's compliance guidance still unposted.",
+            "text": "New stays in Santolla (7/29, state) and McDonald v. Katz (7/24, federal) hold Virginia's bans unenforceable until 60 days after SCOTUS decides Viramontes/Grant — sales continue statewide. NJ hits T-1 with AG guidance still unposted.",
             "wrap": true,
             "spacing": "Small"
           },
@@ -43,16 +43,16 @@
             "type": "FactSet",
             "facts": [
               {
-                "title": "1. New Jersey at T-2 — bans fall Friday, no AG guidance",
-                "value": "Heat 88 ▲▲"
+                "title": "1. New Jersey T-1 — bans fall tomorrow, still no AG guidance",
+                "value": "Heat 92 ▲▲"
               },
               {
-                "title": "2. Fifth Circuit Squire en banc — Commerce Clause",
-                "value": "Heat 84 ▼"
+                "title": "2. Virginia stays — ban on hold until SCOTUS rules",
+                "value": "Heat 80 ▲▲▲"
               },
               {
-                "title": "3. Suppressors off the Munitions List — Nov 20",
-                "value": "Heat 82 →"
+                "title": "3. Squire en banc — Commerce Clause challenge, Day 10",
+                "value": "Heat 79 ▼"
               }
             ]
           },
@@ -67,7 +67,7 @@
           {
             "type": "TextBlock",
             "size": "Small",
-            "text": "• Maryland: MSI files Barreto v. Montgomery County (7/27)\n• New Jersey: T-2 to the July 31 effective date, AG silent\n• Colorado: T-3 to Aug 1, DOR firearms list unpublished\n• Virginia: AG argues Art. I §13 is a collective right",
+            "text": "• VA: new stays freeze AR fight until Viramontes mandate\n• NJ: T-1 — rifle/mag bans fall tomorrow, no AG guidance\n• CT: Succow ruling upholds under-21 handgun restrictions\n• CO: waiting period already closed ordinary purchases 7/28",
             "wrap": true
           }
         ],
