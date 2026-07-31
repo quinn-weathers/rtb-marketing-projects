@@ -458,6 +458,52 @@
         "notes": ""
       },
       {
+        "id": "task-c1dtcwfg",
+        "title": "USE OF FORCE CONTINUUM - Blog",
+        "owner": "",
+        "status": "complete",
+        "tags": [],
+        "projects": [
+          "proj-upl4ik9z"
+        ],
+        "askDate": "2026-07-29",
+        "priority": "high",
+        "lift": "S",
+        "assignee": "Jeremy Osborn",
+        "approver": "Richard Louise",
+        "pm": "Quinn Weathers",
+        "pipelines": [
+          {
+            "id": "blog-production",
+            "stage": "Published"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": "task-x1fdfcmh",
+        "title": "DUTY TO RETREAT - Blog",
+        "owner": "",
+        "status": "complete",
+        "tags": [],
+        "projects": [
+          "proj-upl4ik9z"
+        ],
+        "askDate": "2026-07-30",
+        "priority": "high",
+        "lift": "S",
+        "assignee": "Jeremy Osborn",
+        "approver": "Richard Louise",
+        "pm": "Quinn Weathers",
+        "pipelines": [
+          {
+            "id": "blog-production",
+            "stage": "Published"
+          }
+        ],
+        "notes": ""
+      },
+      {
         "id": "task-h2640lyr",
         "title": "Industry Comparison (Strategy and Pillar)",
         "owner": "",
@@ -8295,7 +8341,7 @@
         "id": "task-f5c41qut",
         "title": "NJ AR Ban Struck Down - Static Post",
         "owner": "—",
-        "status": "review",
+        "status": "complete",
         "tags": [],
         "askDate": "2026-07-22",
         "priority": "high",
@@ -8310,7 +8356,7 @@
         "pipelines": [
           {
             "id": "blog-production",
-            "stage": "In Review"
+            "stage": "Published"
           },
           {
             "id": "social-content",
