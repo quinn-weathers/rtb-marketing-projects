@@ -14,20 +14,20 @@
             "size": "Small",
             "weight": "Bolder",
             "color": "Warning",
-            "text": "RTB · 2A DAILY INTEL · Thursday, July 30, 2026",
+            "text": "RTB · 2A DAILY INTEL · Friday, July 31, 2026",
             "spacing": "None"
           },
           {
             "type": "TextBlock",
             "size": "Large",
             "weight": "Bolder",
-            "text": "Virginia's AR-15 sales ban is now on hold until the Supreme Court rules — while New Jersey's rifle and magazine bans come down tomorrow.",
+            "text": "New Jersey's effective date arrives — and slips: the AG's office now calls July 31 the rehearing deadline, with the bans expected to fall in August.",
             "wrap": true,
             "spacing": "Small"
           },
           {
             "type": "TextBlock",
-            "text": "New stays in Santolla (7/29, state) and McDonald v. Katz (7/24, federal) hold Virginia's bans unenforceable until 60 days after SCOTUS decides Viramontes/Grant — sales continue statewide. NJ hits T-1 with AG guidance still unposted.",
+            "text": "Today was supposed to be the day NJ's rifle and magazine bans came down — NJSP told dealers July 31 in writing. The AG's office now says July 31 is the rehearing-petition deadline, with the ruling expected effective in August; compliance guidance still has not posted.",
             "wrap": true,
             "spacing": "Small"
           },
@@ -43,16 +43,16 @@
             "type": "FactSet",
             "facts": [
               {
-                "title": "1. New Jersey T-1 — bans fall tomorrow, still no AG guidance",
-                "value": "Heat 92 ▲▲"
+                "title": "1. NJ on the day itself — effective-date recharacterization",
+                "value": "Heat 95 ▲▲"
               },
               {
-                "title": "2. Virginia stays — ban on hold until SCOTUS rules",
-                "value": "Heat 80 ▲▲▲"
+                "title": "2. Colorado T-1 — permit-to-purchase attaches tomorrow",
+                "value": "Heat 83 ▲▲"
               },
               {
-                "title": "3. Squire en banc — Commerce Clause challenge, Day 10",
-                "value": "Heat 79 ▼"
+                "title": "3. Virginia stays settle in — now two-outlet corroborated",
+                "value": "Heat 77 ▼"
               }
             ]
           },
@@ -67,7 +67,7 @@
           {
             "type": "TextBlock",
             "size": "Small",
-            "text": "• VA: new stays freeze AR fight until Viramontes mandate\n• NJ: T-1 — rifle/mag bans fall tomorrow, no AG guidance\n• CT: Succow ruling upholds under-21 handgun restrictions\n• CO: waiting period already closed ordinary purchases 7/28",
+            "text": "• NJ: AG calls today the rehearing deadline; bans expected to fall in August\n• Colorado SB25-003 attaches tomorrow; DOR covered-firearms list unpublished\n• DOJ's 7/29 USVI filing: Act 9113 can't moot the suit; argument Aug 19\n• ATF EITB comments close Monday — last working day to file is today",
             "wrap": true
           }
         ],
