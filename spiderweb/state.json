@@ -507,7 +507,7 @@
         "id": "task-h2640lyr",
         "title": "Industry Comparison (Strategy and Pillar)",
         "owner": "",
-        "status": "backlog",
+        "status": "in-progress",
         "tags": [
           "tag-730845cb"
         ],
@@ -525,7 +525,7 @@
         "pipelines": [
           {
             "id": "blog-production",
-            "stage": "Ideation/Outline"
+            "stage": "In-Progress"
           }
         ],
         "notes": ""
@@ -825,7 +825,7 @@
         "pipelines": [
           {
             "id": "blog-production",
-            "stage": "Complete"
+            "stage": "Published"
           }
         ],
         "notes": ""
@@ -848,7 +848,7 @@
         "pipelines": [
           {
             "id": "blog-production",
-            "stage": "Complete"
+            "stage": "Published"
           }
         ],
         "notes": ""
@@ -871,7 +871,7 @@
         "pipelines": [
           {
             "id": "blog-production",
-            "stage": "Complete"
+            "stage": "Published"
           }
         ],
         "notes": ""
@@ -880,7 +880,7 @@
         "id": "task-lm4tbjtr",
         "title": "How and ERPO Hearing Works",
         "owner": "—",
-        "status": "in-progress",
+        "status": "complete",
         "tags": [],
         "askDate": "2026-07-27",
         "priority": "med",
@@ -894,7 +894,7 @@
         "pipelines": [
           {
             "id": "blog-production",
-            "stage": "In-Progress"
+            "stage": "Published"
           }
         ],
         "notes": ""
