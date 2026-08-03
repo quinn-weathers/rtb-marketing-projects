@@ -14,20 +14,20 @@
             "size": "Small",
             "weight": "Bolder",
             "color": "Warning",
-            "text": "RTB · 2A DAILY INTEL · Friday, July 31, 2026",
+            "text": "RTB · 2A DAILY INTEL · Monday, August 3, 2026",
             "spacing": "None"
           },
           {
             "type": "TextBlock",
             "size": "Large",
             "weight": "Bolder",
-            "text": "New Jersey's effective date arrives — and slips: the AG's office now calls July 31 the rehearing deadline, with the bans expected to fall in August.",
+            "text": "Virginia quietly ended its own AR-15 ban fight: the Attorney General's office told plaintiffs in writing it will not appeal the statewide injunction.",
             "wrap": true,
             "spacing": "Small"
           },
           {
             "type": "TextBlock",
-            "text": "Today was supposed to be the day NJ's rifle and magazine bans came down — NJSP told dealers July 31 in writing. The AG's office now says July 31 is the rehearing-petition deadline, with the ruling expected effective in August; compliance guidance still has not posted.",
+            "text": "A July 20 filing in Crump v. Katz reproduces an email from Virginia's Deputy AG for civil litigation stating the Commonwealth \"will not be appealing the Washington County injunction during the pendency of any stay.\" Paired with Wednesday's stay order, AR-15s stay on Virginia shelves until 60 days after SCOTUS decides Viramontes.",
             "wrap": true,
             "spacing": "Small"
           },
@@ -43,16 +43,16 @@
             "type": "FactSet",
             "facts": [
               {
-                "title": "1. NJ on the day itself — effective-date recharacterization",
-                "value": "Heat 95 ▲▲"
+                "title": "1. Virginia will not appeal — ban fight practically over",
+                "value": "Heat 88 ▲▲"
               },
               {
-                "title": "2. Colorado T-1 — permit-to-purchase attaches tomorrow",
-                "value": "Heat 83 ▲▲"
+                "title": "2. New Jersey: rehearing deadline passed, unconfirmed",
+                "value": "Heat 83 ▼▼"
               },
               {
-                "title": "3. Virginia stays settle in — now two-outlet corroborated",
-                "value": "Heat 77 ▼"
+                "title": "3. ATF \"engaged in the business\" comments close Aug 4",
+                "value": "Heat 79 ▲▲"
               }
             ]
           },
@@ -67,7 +67,7 @@
           {
             "type": "TextBlock",
             "size": "Small",
-            "text": "• NJ: AG calls today the rehearing deadline; bans expected to fall in August\n• Colorado SB25-003 attaches tomorrow; DOR covered-firearms list unpublished\n• DOJ's 7/29 USVI filing: Act 9113 can't moot the suit; argument Aug 19\n• ATF EITB comments close Monday — last working day to file is today",
+            "text": "• Virginia: state said in writing it will not appeal the injunction\n• Federal/ATF: T-1 — comment record closes tomorrow, Aug 4\n• Courts: under-21 circuit split mapped end to end (Succow)\n• Politics: GOP 35–32 on guns; only 2% call guns their top issue",
             "wrap": true
           }
         ],
