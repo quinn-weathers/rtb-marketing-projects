@@ -1,5 +1,19 @@
 [
   {
+    "id": "utm_1785863549707_usd4",
+    "date": "2026-08-04T17:12:29.707Z",
+    "author": "Katherine Rupp",
+    "objective": "membership-signup",
+    "source": "newsletter-signup-email-from-blogs-ad",
+    "medium": "email",
+    "campaign": "blog-cta",
+    "content": "button",
+    "term": "",
+    "base": "https://protectwithbear.com/benefits",
+    "url": "https://protectwithbear.com/benefits?utm_source=newsletter-signup-email-from-blogs-ad&utm_medium=email&utm_campaign=blog-cta&utm_content=button",
+    "notes": "For Auto reply email from filling out join newsletter form on blog ads"
+  },
+  {
     "id": "utm_1782934643819_xs0c",
     "date": "2026-07-01T19:37:23.819Z",
     "author": "Quinn Weathers",
