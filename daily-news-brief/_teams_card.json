@@ -14,20 +14,20 @@
             "size": "Small",
             "weight": "Bolder",
             "color": "Warning",
-            "text": "RTB · 2A DAILY INTEL · Monday, August 3, 2026",
+            "text": "RTB · 2A DAILY INTEL · Tuesday, August 4, 2026",
             "spacing": "None"
           },
           {
             "type": "TextBlock",
             "size": "Large",
             "weight": "Bolder",
-            "text": "Virginia quietly ended its own AR-15 ban fight: the Attorney General's office told plaintiffs in writing it will not appeal the statewide injunction.",
+            "text": "Two clocks run out today: the ATF comment record closes and the suppressor-export conference opens — while Virginia stays settled and New Jersey stays unanswered.",
             "wrap": true,
             "spacing": "Small"
           },
           {
             "type": "TextBlock",
-            "text": "A July 20 filing in Crump v. Katz reproduces an email from Virginia's Deputy AG for civil litigation stating the Commonwealth \"will not be appealing the Washington County injunction during the pendency of any stay.\" Paired with Wednesday's stay order, AR-15s stay on Virginia shelves until 60 days after SCOTUS decides Viramontes.",
+            "text": "The lead is a deadline, not a development. Today is the last day of the ATF “engaged in the business” comment period — after close of business the record shuts and every “how to file a comment” asset becomes a retrospective. Simultaneously, NSSF's Import/Export Conference opens today (Aug 4–6).",
             "wrap": true,
             "spacing": "Small"
           },
@@ -43,16 +43,16 @@
             "type": "FactSet",
             "facts": [
               {
-                "title": "1. Virginia will not appeal — ban fight practically over",
-                "value": "Heat 88 ▲▲"
+                "title": "1. ATF “engaged in the business” comment window closes today",
+                "value": "Heat 82 ▲▲"
               },
               {
-                "title": "2. New Jersey: rehearing deadline passed, unconfirmed",
-                "value": "Heat 83 ▼▼"
+                "title": "2. Virginia AR-15 ban fight stays practically over",
+                "value": "Heat 80 ▼"
               },
               {
-                "title": "3. ATF \"engaged in the business\" comments close Aug 4",
-                "value": "Heat 79 ▲▲"
+                "title": "3. Viramontes/Grant — the clock other cases run to",
+                "value": "Heat 78 →"
               }
             ]
           },
@@ -67,7 +67,7 @@
           {
             "type": "TextBlock",
             "size": "Small",
-            "text": "• Virginia: state said in writing it will not appeal the injunction\n• Federal/ATF: T-1 — comment record closes tomorrow, Aug 4\n• Courts: under-21 circuit split mapped end to end (Succow)\n• Politics: GOP 35–32 on guns; only 2% call guns their top issue",
+            "text": "• T-0 — ATF “engaged in the business” comment record closes today\n• NSSF Import/Export Conference opens today (Aug 4–6)\n• USCCA published a defensive-gun-use statistics explainer dated Aug 3\n• Crump plaintiffs have two live motions, not one",
             "wrap": true
           }
         ],
