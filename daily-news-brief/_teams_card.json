@@ -14,20 +14,20 @@
             "size": "Small",
             "weight": "Bolder",
             "color": "Warning",
-            "text": "RTB · 2A DAILY INTEL · Tuesday, August 4, 2026",
+            "text": "RTB · 2A DAILY INTEL · Thursday, August 6, 2026",
             "spacing": "None"
           },
           {
             "type": "TextBlock",
             "size": "Large",
             "weight": "Bolder",
-            "text": "Two clocks run out today: the ATF comment record closes and the suppressor-export conference opens — while Virginia stays settled and New Jersey stays unanswered.",
+            "text": "A federal judge just struck down most of the National Firearms Act — and gave the Justice Department one week to appeal.",
             "wrap": true,
             "spacing": "Small"
           },
           {
             "type": "TextBlock",
-            "text": "The lead is a deadline, not a development. Today is the last day of the ATF “engaged in the business” comment period — after close of business the record shuts and every “how to file a comment” asset becomes a retrospective. Simultaneously, NSSF's Import/Export Conference opens today (Aug 4–6).",
+            "text": "No Aug 5 edition, so this covers 48 hours. On Aug 5, Judge James Wesley Hendrix (N.D. Tex.) permanently enjoined the NFA's regulatory provisions for untaxed firearms in Silencer Shop v. ATF, on taxing-power grounds only. He stayed it one week for DOJ to appeal, and relief runs only to the plaintiffs and their members and customers.",
             "wrap": true,
             "spacing": "Small"
           },
@@ -43,15 +43,15 @@
             "type": "FactSet",
             "facts": [
               {
-                "title": "1. ATF “engaged in the business” comment window closes today",
-                "value": "Heat 82 ▲▲"
+                "title": "1. Silencer Shop v. ATF — most of the NFA enjoined, stayed",
+                "value": "Heat 95 ▲▲▲"
               },
               {
-                "title": "2. Virginia AR-15 ban fight stays practically over",
-                "value": "Heat 80 ▼"
+                "title": "2. Suppressor export transfer — NSSF conference final day",
+                "value": "Heat 79 ▲▲"
               },
               {
-                "title": "3. Viramontes/Grant — the clock other cases run to",
+                "title": "3. Viramontes/Grant — the reference clock",
                 "value": "Heat 78 →"
               }
             ]
@@ -67,7 +67,7 @@
           {
             "type": "TextBlock",
             "size": "Small",
-            "text": "• T-0 — ATF “engaged in the business” comment record closes today\n• NSSF Import/Export Conference opens today (Aug 4–6)\n• USCCA published a defensive-gun-use statistics explainer dated Aug 3\n• Crump plaintiffs have two live motions, not one",
+            "text": "• NFA enjoined as to plaintiffs — DOJ appeal window closes ~Aug 12 (T-6)\n• DOJ sued Montgomery County, MD Aug 3 over 100-yard carry exclusion zones\n• NSSF Import/Export Conference final day — suppressor asymmetry sharpened\n• ATF \"engaged in the business\" comment record closed Tuesday",
             "wrap": true
           }
         ],
