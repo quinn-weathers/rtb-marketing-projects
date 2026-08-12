@@ -14,20 +14,20 @@
             "size": "Small",
             "weight": "Bolder",
             "color": "Warning",
-            "text": "RTB · 2A DAILY INTEL · Thursday, August 6, 2026",
+            "text": "RTB · 2A DAILY INTEL · Wednesday, August 12, 2026",
             "spacing": "None"
           },
           {
             "type": "TextBlock",
             "size": "Large",
             "weight": "Bolder",
-            "text": "A federal judge just struck down most of the National Firearms Act — and gave the Justice Department one week to appeal.",
+            "text": "The one-week stay on the NFA ruling runs out today — and as of this morning there is no confirmation that DOJ has appealed.",
             "wrap": true,
             "spacing": "Small"
           },
           {
             "type": "TextBlock",
-            "text": "No Aug 5 edition, so this covers 48 hours. On Aug 5, Judge James Wesley Hendrix (N.D. Tex.) permanently enjoined the NFA's regulatory provisions for untaxed firearms in Silencer Shop v. ATF, on taxing-power grounds only. He stayed it one week for DOJ to appeal, and relief runs only to the plaintiffs and their members and customers.",
+            "text": "Partial-access run covering six days (no Aug 7, 10 or 11 editions). The Reload published five new pieces; all four competitor sites were checked directly. Google News RSS returned empty for the ninth straight run, and justice.gov, CourtListener and the Federal Register were unreachable — so the appeal status is unresolved, not “no appeal.” Verify the N.D. Tex. docket before publishing.",
             "wrap": true,
             "spacing": "Small"
           },
@@ -43,16 +43,16 @@
             "type": "FactSet",
             "facts": [
               {
-                "title": "1. Silencer Shop v. ATF — most of the NFA enjoined, stayed",
-                "value": "Heat 95 ▲▲▲"
+                "title": "1. Silencer Shop v. ATF — stay expires today, appeal unconfirmed",
+                "value": "Heat 90 ▼"
               },
               {
-                "title": "2. Suppressor export transfer — NSSF conference final day",
-                "value": "Heat 79 ▲▲"
+                "title": "2. ATF “New Era of Reform” transport rules — comments closed",
+                "value": "Heat 78 ▲▲▲"
               },
               {
-                "title": "3. Viramontes/Grant — the reference clock",
-                "value": "Heat 78 →"
+                "title": "3. July NICS — 1,061,883 checks, Colorado +264%",
+                "value": "Heat 78 ▲▲"
               }
             ]
           },
@@ -67,7 +67,7 @@
           {
             "type": "TextBlock",
             "size": "Small",
-            "text": "• NFA enjoined as to plaintiffs — DOJ appeal window closes ~Aug 12 (T-6)\n• DOJ sued Montgomery County, MD Aug 3 over 100-yard carry exclusion zones\n• NSSF Import/Export Conference final day — suppressor asymmetry sharpened\n• ATF \"engaged in the business\" comment record closed Tuesday",
+            "text": "• Silencer Shop stay expires today (T-0); DOJ appeal status unconfirmed\n• ATF comment period closed on two interstate-travel rules\n• July NICS: NFA checks 130,013, more than double a year ago\n• Illinois and Wisconsin courts split on foster-parent gun storage",
             "wrap": true
           }
         ],
