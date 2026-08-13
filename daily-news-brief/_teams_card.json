@@ -14,20 +14,20 @@
             "size": "Small",
             "weight": "Bolder",
             "color": "Warning",
-            "text": "RTB · 2A DAILY INTEL · Wednesday, August 12, 2026",
+            "text": "RTB · 2A DAILY INTEL · Thursday, August 13, 2026",
             "spacing": "None"
           },
           {
             "type": "TextBlock",
             "size": "Large",
             "weight": "Bolder",
-            "text": "The one-week stay on the NFA ruling runs out today — and as of this morning there is no confirmation that DOJ has appealed.",
+            "text": "DOJ let the deadline pass. At 12:01 this morning in Texas, a silencer changed hands with no federal registration for the first time since 1934.",
             "wrap": true,
             "spacing": "Small"
           },
           {
             "type": "TextBlock",
-            "text": "Partial-access run covering six days (no Aug 7, 10 or 11 editions). The Reload published five new pieces; all four competitor sites were checked directly. Google News RSS returned empty for the ninth straight run, and justice.gov, CourtListener and the Federal Register were unreachable — so the appeal status is unresolved, not “no appeal.” Verify the N.D. Tex. docket before publishing.",
+            "text": "DOJ did not appeal within Judge Hendrix's seven-day stay, so the NFA injunction took effect at midnight Central and GOA, Silencer Shop, Brandon Herrera and Rep. Wes Virdell completed two suppressor transfers with no Form 4. Critical caveat: missing the stay deadline is not declining to appeal — DOJ has roughly seven weeks left to file.",
             "wrap": true,
             "spacing": "Small"
           },
@@ -43,15 +43,15 @@
             "type": "FactSet",
             "facts": [
               {
-                "title": "1. Silencer Shop v. ATF — stay expires today, appeal unconfirmed",
-                "value": "Heat 90 ▼"
+                "title": "1. Silencer Shop v. ATF — stay lapsed, injunction live",
+                "value": "Heat 98 ▲▲▲"
               },
               {
-                "title": "2. ATF “New Era of Reform” transport rules — comments closed",
-                "value": "Heat 78 ▲▲▲"
+                "title": "2. Scope: 27 states clear, 15 still require registration",
+                "value": "Heat 81 ▲▲▲"
               },
               {
-                "title": "3. July NICS — 1,061,883 checks, Colorado +264%",
+                "title": "3. 47 GOP lawmakers ask DOJ to apply ruling nationwide",
                 "value": "Heat 78 ▲▲"
               }
             ]
@@ -67,7 +67,7 @@
           {
             "type": "TextBlock",
             "size": "Small",
-            "text": "• Silencer Shop stay expires today (T-0); DOJ appeal status unconfirmed\n• ATF comment period closed on two interstate-travel rules\n• July NICS: NFA checks 130,013, more than double a year ago\n• Illinois and Wisconsin courts split on foster-parent gun storage",
+            "text": "• Stay lapsed without appeal — unregistered suppressor transfers done at 12:01am CT\n• Silencer Shop's own caveats: 27 states clear, 15 not, SBR/SBS still need Form 4\n• 9th Cir. reinstates injunction v. Hawaii private-property \"vampire rule\"\n• Day 8 and no coverage peer has published a word on the NFA ruling",
             "wrap": true
           }
         ],
