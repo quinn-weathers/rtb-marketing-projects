@@ -14,20 +14,20 @@
             "size": "Small",
             "weight": "Bolder",
             "color": "Warning",
-            "text": "RTB · 2A DAILY INTEL · Thursday, August 13, 2026",
+            "text": "RTB · 2A DAILY INTEL · Friday, August 14, 2026",
             "spacing": "None"
           },
           {
             "type": "TextBlock",
             "size": "Large",
             "weight": "Bolder",
-            "text": "DOJ let the deadline pass. At 12:01 this morning in Texas, a silencer changed hands with no federal registration for the first time since 1934.",
+            "text": "Day two. The suppressors changed hands, ATF has said nothing about who is actually covered, and the plaintiffs are now formally demanding answers. Nine days in, not one coverage peer has published a word about any of it.",
             "wrap": true,
             "spacing": "Small"
           },
           {
             "type": "TextBlock",
-            "text": "DOJ did not appeal within Judge Hendrix's seven-day stay, so the NFA injunction took effect at midnight Central and GOA, Silencer Shop, Brandon Herrera and Rep. Wes Virdell completed two suppressor transfers with no Form 4. Critical caveat: missing the stay deadline is not declining to appeal — DOJ has roughly seven weeks left to file.",
+            "text": "Strong-access run, second in a row — Reload, AmmoLand, NSSF, SCOTUSblog and all four peers read directly. The overnight story is verified from the primary report: DOJ let the seven-day stay lapse and Silencer Shop transferred suppressors to Brandon Herrera and Rep. Wes Virdell at 12:01 a.m. CT with no Form 4.",
             "wrap": true,
             "spacing": "Small"
           },
@@ -43,16 +43,16 @@
             "type": "FactSet",
             "facts": [
               {
-                "title": "1. Silencer Shop v. ATF — stay lapsed, injunction live",
-                "value": "Heat 98 ▲▲▲"
+                "title": "1. Silencer Shop v. ATF — day two of a live injunction",
+                "value": "Heat 93 ▼"
               },
               {
-                "title": "2. Scope: 27 states clear, 15 still require registration",
-                "value": "Heat 81 ▲▲▲"
+                "title": "2. \"Who is actually covered?\" — plaintiffs demand ATF answer",
+                "value": "Heat 88 ▲▲▲"
               },
               {
-                "title": "3. 47 GOP lawmakers ask DOJ to apply ruling nationwide",
-                "value": "Heat 78 ▲▲"
+                "title": "3. 27 states clear, 15 require registration, SBRs excluded",
+                "value": "Heat 86 ▲▲"
               }
             ]
           },
@@ -67,7 +67,7 @@
           {
             "type": "TextBlock",
             "size": "Small",
-            "text": "• Stay lapsed without appeal — unregistered suppressor transfers done at 12:01am CT\n• Silencer Shop's own caveats: 27 states clear, 15 not, SBR/SBS still need Form 4\n• 9th Cir. reinstates injunction v. Hawaii private-property \"vampire rule\"\n• Day 8 and no coverage peer has published a word on the NFA ruling",
+            "text": "• Plaintiffs press ATF on who's protected and how dealers proceed\n• DOJ: lawful carry permitted in post offices open to the public\n• Ohio gets nothing — SB 214 never left committee\n• Day 9, zero peer coverage; USCCA posted a CCW-permit guide instead",
             "wrap": true
           }
         ],
