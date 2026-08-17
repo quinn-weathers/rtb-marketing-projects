@@ -1,84 +1,84 @@
 {
-  "type": "message",
-  "attachments": [
-    {
-      "contentType": "application/vnd.microsoft.card.adaptive",
-      "contentUrl": null,
-      "content": {
-        "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
-        "type": "AdaptiveCard",
-        "version": "1.5",
-        "body": [
-          {
-            "type": "TextBlock",
-            "size": "Small",
-            "weight": "Bolder",
-            "color": "Warning",
-            "text": "RTB · 2A DAILY INTEL · Friday, August 14, 2026",
-            "spacing": "None"
-          },
-          {
-            "type": "TextBlock",
-            "size": "Large",
-            "weight": "Bolder",
-            "text": "Day two. The suppressors changed hands, ATF has said nothing about who is actually covered, and the plaintiffs are now formally demanding answers. Nine days in, not one coverage peer has published a word about any of it.",
-            "wrap": true,
-            "spacing": "Small"
-          },
-          {
-            "type": "TextBlock",
-            "text": "Strong-access run, second in a row — Reload, AmmoLand, NSSF, SCOTUSblog and all four peers read directly. The overnight story is verified from the primary report: DOJ let the seven-day stay lapse and Silencer Shop transferred suppressors to Brandon Herrera and Rep. Wes Virdell at 12:01 a.m. CT with no Form 4.",
-            "wrap": true,
-            "spacing": "Small"
-          },
-          {
-            "type": "TextBlock",
-            "size": "Small",
-            "weight": "Bolder",
-            "color": "Warning",
-            "text": "HOTTEST LEADS",
-            "spacing": "Medium"
-          },
-          {
-            "type": "FactSet",
-            "facts": [
-              {
-                "title": "1. Silencer Shop v. ATF — day two of a live injunction",
-                "value": "Heat 93 ▼"
-              },
-              {
-                "title": "2. \"Who is actually covered?\" — plaintiffs demand ATF answer",
-                "value": "Heat 88 ▲▲▲"
-              },
-              {
-                "title": "3. 27 states clear, 15 require registration, SBRs excluded",
-                "value": "Heat 86 ▲▲"
-              }
-            ]
-          },
-          {
-            "type": "TextBlock",
-            "size": "Small",
-            "weight": "Bolder",
-            "color": "Warning",
-            "text": "WHAT'S MOVING",
-            "spacing": "Medium"
-          },
-          {
-            "type": "TextBlock",
-            "size": "Small",
-            "text": "• Plaintiffs press ATF on who's protected and how dealers proceed\n• DOJ: lawful carry permitted in post offices open to the public\n• Ohio gets nothing — SB 214 never left committee\n• Day 9, zero peer coverage; USCCA posted a CCW-permit guide instead",
-            "wrap": true
-          }
-        ],
-        "actions": [
-          {
-            "type": "Action.OpenUrl",
-            "title": "Read full brief →",
-            "url": "https://quinn-weathers.github.io/rtb-marketing-projects/daily-news-brief/"
-          }
-        ]
-      }
-    }
-  ]
+ "type": "message",
+ "attachments": [
+  {
+   "contentType": "application/vnd.microsoft.card.adaptive",
+   "contentUrl": null,
+   "content": {
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "type": "AdaptiveCard",
+    "version": "1.5",
+    "body": [
+     {
+      "type": "TextBlock",
+      "size": "Small",
+      "weight": "Bolder",
+      "color": "Warning",
+      "text": "RTB · 2A DAILY INTEL · Monday, August 17, 2026",
+      "spacing": "None"
+     },
+     {
+      "type": "TextBlock",
+      "size": "Large",
+      "weight": "Bolder",
+      "text": "The \"DOJ is not appealing\" story was wrong — and the injunction's scope is finally mapped",
+      "wrap": true,
+      "spacing": "Small"
+     },
+     {
+      "type": "TextBlock",
+      "text": "A DOJ spokesperson told the New York Times the department merely will not request a STAY if and when it appeals — not that it won't appeal. Roughly five weeks of filing window remain and nothing has been filed. Separately, the covered-parties list is now documented from Judge Hendrix's order.",
+      "wrap": true,
+      "spacing": "Small"
+     },
+     {
+      "type": "TextBlock",
+      "size": "Small",
+      "weight": "Bolder",
+      "color": "Warning",
+      "text": "HOTTEST LEADS",
+      "spacing": "Medium"
+     },
+     {
+      "type": "FactSet",
+      "facts": [
+       {
+        "title": "1. DOJ's real appeal posture — no stay, not no appeal",
+        "value": "Heat 92 ▲"
+       },
+       {
+        "title": "2. Who and what the injunction actually covers",
+        "value": "Heat 91 ▲"
+       },
+       {
+        "title": "3. Silencer Shop v. ATF — the parent item",
+        "value": "Heat 86 ▼"
+       }
+      ]
+     },
+     {
+      "type": "TextBlock",
+      "size": "Small",
+      "weight": "Bolder",
+      "color": "Warning",
+      "text": "WHAT'S MOVING",
+      "spacing": "Medium"
+     },
+     {
+      "type": "TextBlock",
+      "size": "Small",
+      "text": "• Correction: DOJ did not say it is dropping the appeal\n• Covered-parties list now public: 7 groups, 4 businesses, 15 states\n• Customers covered only for transactions WITH a plaintiff\n• Machine guns, destructive devices, dealer taxes: untouched",
+      "wrap": true
+     }
+    ],
+    "actions": [
+     {
+      "type": "Action.OpenUrl",
+      "title": "Read full brief →",
+      "url": "https://quinn-weathers.github.io/rtb-marketing-projects/daily-news-brief/"
+     }
+    ]
+   }
+  }
+ ]
 }
