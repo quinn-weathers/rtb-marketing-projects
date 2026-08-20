@@ -14,20 +14,20 @@
             "size": "Small",
             "weight": "Bolder",
             "color": "Warning",
-            "text": "RTB · 2A DAILY INTEL · Wednesday, August 19, 2026",
+            "text": "RTB · 2A DAILY INTEL · Thursday, August 20, 2026",
             "spacing": "None"
           },
           {
             "type": "TextBlock",
             "size": "Large",
             "weight": "Bolder",
-            "text": "The peer content gap is now measurable: USCCA's own monthly news round-up has not been updated since July 30, so the biggest firearms legal story of 2026 appears nowhere on it.",
+            "text": "No new events, but a materially more accurate board — the appeal window is about six weeks, not four and a half, and resident family members were never covered at all.",
             "wrap": true,
             "spacing": "Small"
           },
           {
             "type": "TextBlock",
-            "text": "Thin-access run, two-day edition. The Reload has published nothing since 08/16 and AmmoLand, NSSF and SCOTUSblog were unreachable for a second run, so there is no new national NFA reporting to relay and every legal item is carried at Sunday's reading. Nothing scores volcanic for the first time in weeks.",
+            "text": "Narrow but deep run. The Reload's 08/13 and 08/14 articles were retrieved in full text for the first time and correct this brief in three places. The appeal window runs to roughly October 1, not mid-September. Judge Hendrix was asked to extend the injunction to resident family members and declined.",
             "wrap": true,
             "spacing": "Small"
           },
@@ -43,16 +43,16 @@
             "type": "FactSet",
             "facts": [
               {
-                "title": "1. DOJ's appeal posture — ~4.5 weeks left, nothing filed",
-                "value": "Heat 85 ▼▼"
+                "title": "1. DOJ appeal posture — ~6 weeks left, not 4.5",
+                "value": "Heat 88 ▲▲"
               },
               {
-                "title": "2. Who and what the injunction covers",
-                "value": "Heat 84 ▼▼"
+                "title": "2. Injunction scope — family members not covered",
+                "value": "Heat 87 ▲"
               },
               {
-                "title": "3. Silencer Shop v. ATF — information vacuum",
-                "value": "Heat 81 ▼"
+                "title": "3. Silencer Shop v. ATF — opinion PDF located",
+                "value": "Heat 83 ▲"
               }
             ]
           },
@@ -67,7 +67,7 @@
           {
             "type": "TextBlock",
             "size": "Small",
-            "text": "• USCCA 'Guns in the News 2026' bylined 7/30/26 — no August section at all\n• USCCA's newest post is a Taurus RPC carbine review (08/18) — day 14\n• The Reload silent since 08/16; no new national reporting to relay\n• Day 6 of a live injunction with still zero ATF or DOJ guidance",
+            "text": "• CORRECTION: appeal window ~6 weeks, outside date ~Oct 1\n• Resident family members of covered people are NOT covered\n• Hendrix opinion PDF is publicly posted — primary doc in hand\n• CORRECTION: CCW Safe is publishing (08/10 and 08/13) — peer gap day 15",
             "wrap": true
           }
         ],
