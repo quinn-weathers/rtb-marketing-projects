@@ -14,20 +14,20 @@
             "size": "Small",
             "weight": "Bolder",
             "color": "Warning",
-            "text": "RTB · 2A DAILY INTEL · Thursday, August 20, 2026",
+            "text": "RTB · 2A DAILY INTEL · Friday, August 21, 2026",
             "spacing": "None"
           },
           {
             "type": "TextBlock",
             "size": "Large",
             "weight": "Bolder",
-            "text": "No new events, but a materially more accurate board — the appeal window is about six weeks, not four and a half, and resident family members were never covered at all.",
+            "text": "Two federal stories displaced the NFA injunction overnight — DOJ finalised the gun-rights restoration rule, and the FBI reported the lowest murder rate ever recorded. No coverage peer has touched either.",
             "wrap": true,
             "spacing": "Small"
           },
           {
             "type": "TextBlock",
-            "text": "Narrow but deep run. The Reload's 08/13 and 08/14 articles were retrieved in full text for the first time and correct this brief in three places. The appeal window runs to roughly October 1, not mid-September. Judge Hendrix was asked to extend the injunction to resident family members and declined.",
+            "text": "DOJ released its final firearm-rights restoration rule on Monday and expects upwards of 330,000 applications in the first year; the rule states “at least 20 million adults” could be covered. Separately, the FBI reported violent crime down 9.7 percent and a 2025 murder rate of 4.1 per 100,000 — tied with 1955 and 1956 for the lowest ever measured.",
             "wrap": true,
             "spacing": "Small"
           },
@@ -43,16 +43,16 @@
             "type": "FactSet",
             "facts": [
               {
-                "title": "1. DOJ appeal posture — ~6 weeks left, not 4.5",
-                "value": "Heat 88 ▲▲"
+                "title": "1. DOJ finalises federal firearm-rights restoration process",
+                "value": "Heat 92 ▲▲▲"
               },
               {
-                "title": "2. Injunction scope — family members not covered",
-                "value": "Heat 87 ▲"
+                "title": "2. DOJ appeal posture in Silencer Shop — day 8, ~5.5 weeks left",
+                "value": "Heat 83 ▼"
               },
               {
-                "title": "3. Silencer Shop v. ATF — opinion PDF located",
-                "value": "Heat 83 ▲"
+                "title": "3. FBI 2025: murder rate 4.1/100k ties all-time low",
+                "value": "Heat 80 ▲▲"
               }
             ]
           },
@@ -67,7 +67,7 @@
           {
             "type": "TextBlock",
             "size": "Small",
-            "text": "• CORRECTION: appeal window ~6 weeks, outside date ~Oct 1\n• Resident family members of covered people are NOT covered\n• Hendrix opinion PDF is publicly posted — primary doc in hand\n• CORRECTION: CCW Safe is publishing (08/10 and 08/13) — peer gap day 15",
+            "text": "• DOJ restoration rule final: fingerprints, 3 references, $30 fee, live within a month\n• Guardrail: the rule does NOT restore rights under state law — quote it verbatim\n• Marijuana-only drug use no longer carries a presumption against restoration\n• Correction: USCCA is publishing at full cadence — just not on either legal story",
             "wrap": true
           }
         ],
