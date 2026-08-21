@@ -1,5 +1,19 @@
 [
   {
+    "id": "utm_1787331474022_4rxo",
+    "date": "2026-08-21T16:57:54.022Z",
+    "author": "Quinn Weathers",
+    "objective": "",
+    "source": "organic",
+    "medium": "homepage-hero",
+    "campaign": "homepage-a-b-testing-2026",
+    "content": "without-pricing",
+    "term": "test-a",
+    "base": "https://protectwithbear.com/plans",
+    "url": "https://protectwithbear.com/plans?utm_source=organic&utm_medium=homepage-hero&utm_campaign=homepage-a-b-testing-2026&utm_term=test-a&utm_content=without-pricing",
+    "notes": "Homepage Hero A|B Testing - With/Without Pricing Graphic"
+  },
+  {
     "id": "utm_1785863579370_x0mb",
     "date": "2026-08-04T17:12:59.370Z",
     "author": "Katherine Rupp",
