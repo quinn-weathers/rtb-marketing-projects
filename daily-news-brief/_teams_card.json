@@ -14,20 +14,20 @@
             "size": "Small",
             "weight": "Bolder",
             "color": "Warning",
-            "text": "RTB · 2A DAILY INTEL · Friday, August 21, 2026",
+            "text": "RTB · 2A DAILY INTEL · Monday, August 24, 2026",
             "spacing": "None"
           },
           {
             "type": "TextBlock",
             "size": "Large",
             "weight": "Bolder",
-            "text": "Two federal stories displaced the NFA injunction overnight — DOJ finalised the gun-rights restoration rule, and the FBI reported the lowest murder rate ever recorded. No coverage peer has touched either.",
+            "text": "A federal judge struck down the ATF “ghost gun” kit rule the Supreme Court upheld 7–2 fifteen months ago — same rule, same judge, same case, different constitutional claims.",
             "wrap": true,
             "spacing": "Small"
           },
           {
             "type": "TextBlock",
-            "text": "DOJ released its final firearm-rights restoration rule on Monday and expects upwards of 330,000 applications in the first year; the rule states “at least 20 million adults” could be covered. Separately, the FBI reported violent crime down 9.7 percent and a 2025 murder rate of 4.1 per 100,000 — tied with 1955 and 1956 for the lowest ever measured.",
+            "text": "Judge Reed O’Connor vacated the ATF rule classifying unfinished frames and receivers sold with jigs and tools as firearms, in Defense Distributed v. Blanche — a continuation of Bondi v. VanDerStok. What changed is the claims, not the rule: VanDerStok was an APA case, while O’Connor decided Fifth Amendment vagueness and Second Amendment history-and-tradition.",
             "wrap": true,
             "spacing": "Small"
           },
@@ -43,16 +43,16 @@
             "type": "FactSet",
             "facts": [
               {
-                "title": "1. DOJ finalises federal firearm-rights restoration process",
-                "value": "Heat 92 ▲▲▲"
+                "title": "1. ATF “ghost gun” kit rule struck down (Def. Distributed)",
+                "value": "Heat 91 ▲▲▲"
               },
               {
-                "title": "2. DOJ appeal posture in Silencer Shop — day 8, ~5.5 weeks left",
-                "value": "Heat 83 ▼"
+                "title": "2. DOJ final firearm-rights restoration rule",
+                "value": "Heat 88 ▼"
               },
               {
-                "title": "3. FBI 2025: murder rate 4.1/100k ties all-time low",
-                "value": "Heat 80 ▲▲"
+                "title": "3. FFLs pass ATF inspections on Form 4473 suppressor transfers",
+                "value": "Heat 74 ▲▲"
               }
             ]
           },
@@ -67,7 +67,7 @@
           {
             "type": "TextBlock",
             "size": "Small",
-            "text": "• DOJ restoration rule final: fingerprints, 3 references, $30 fee, live within a month\n• Guardrail: the rule does NOT restore rights under state law — quote it verbatim\n• Marijuana-only drug use no longer carries a presumption against restoration\n• Correction: USCCA is publishing at full cadence — just not on either legal story",
+            "text": "• Ghost-gun kit rule vacated on 5A vagueness + 2A history — SCOTUS did NOT reverse itself\n• AmmoLand reachable after 5 runs; multi-outlet proxy fires for the first time in 16\n• ATF’s 2024 “Engaged in the Business” rule now fully vacated\n• USCCA is publishing SAF content under a named content partnership",
             "wrap": true
           }
         ],
