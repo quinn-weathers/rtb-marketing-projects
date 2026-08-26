@@ -14,20 +14,20 @@
             "size": "Small",
             "weight": "Bolder",
             "color": "Warning",
-            "text": "RTB · 2A DAILY INTEL · Monday, August 24, 2026",
+            "text": "RTB · 2A DAILY INTEL · Wednesday, August 26, 2026",
             "spacing": "None"
           },
           {
             "type": "TextBlock",
             "size": "Large",
             "weight": "Bolder",
-            "text": "A federal judge struck down the ATF “ghost gun” kit rule the Supreme Court upheld 7–2 fifteen months ago — same rule, same judge, same case, different constitutional claims.",
+            "text": "The “ghost gun” ruling is as-applied relief — not a nationwide vacatur",
             "wrap": true,
             "spacing": "Small"
           },
           {
             "type": "TextBlock",
-            "text": "Judge Reed O’Connor vacated the ATF rule classifying unfinished frames and receivers sold with jigs and tools as firearms, in Defense Distributed v. Blanche — a continuation of Bondi v. VanDerStok. What changed is the claims, not the rule: VanDerStok was an APA case, while O’Connor decided Fifth Amendment vagueness and Second Amendment history-and-tradition.",
+            "text": "AmmoLand, readable in full for the first time in weeks, says the court held ATF’s frame-and-receiver rule unconstitutional “as applied to Defense Distributed, SAF, and covered members” — “significant, but it is not nationwide.” Monday’s edition described a universal vacatur.",
             "wrap": true,
             "spacing": "Small"
           },
@@ -43,16 +43,16 @@
             "type": "FactSet",
             "facts": [
               {
-                "title": "1. ATF “ghost gun” kit rule struck down (Def. Distributed)",
-                "value": "Heat 91 ▲▲▲"
+                "title": "1. Ghost-gun rule held unconstitutional — as-applied, not nationwide",
+                "value": "Heat 87 ▼"
               },
               {
-                "title": "2. DOJ final firearm-rights restoration rule",
-                "value": "Heat 88 ▼"
+                "title": "2. DOJ restoration rule — architecture named (Hemani marijuana exception)",
+                "value": "Heat 85 ▼"
               },
               {
-                "title": "3. FFLs pass ATF inspections on Form 4473 suppressor transfers",
-                "value": "Heat 74 ▲▲"
+                "title": "3. CDC restores defensive-gun-use estimates (~60k–2.5M/yr)",
+                "value": "Heat 73 ▲"
               }
             ]
           },
@@ -67,7 +67,7 @@
           {
             "type": "TextBlock",
             "size": "Small",
-            "text": "• Ghost-gun kit rule vacated on 5A vagueness + 2A history — SCOTUS did NOT reverse itself\n• AmmoLand reachable after 5 runs; multi-outlet proxy fires for the first time in 16\n• ATF’s 2024 “Engaged in the Business” rule now fully vacated\n• USCCA is publishing SAF content under a named content partnership",
+            "text": "• CORRECTION: ghost-gun relief is party-scoped; Ninth Circuit item turned on standing\n• NIST: “significant disagreement” whether microstamping works; CA conditional 2028 mandate\n• CDC restored DGU estimates after 2022 removal under advocacy pressure\n• Restoration rule: presumptive disqualifications, judicial review, Hemani marijuana carve-out",
             "wrap": true
           }
         ],
