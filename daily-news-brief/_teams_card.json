@@ -14,20 +14,20 @@
             "size": "Small",
             "weight": "Bolder",
             "color": "Warning",
-            "text": "RTB · 2A DAILY INTEL · Wednesday, August 26, 2026",
+            "text": "RTB · 2A DAILY INTEL · Thursday, August 27, 2026",
             "spacing": "None"
           },
           {
             "type": "TextBlock",
             "size": "Large",
             "weight": "Bolder",
-            "text": "The “ghost gun” ruling is as-applied relief — not a nationwide vacatur",
+            "text": "USCCA Law verified from primary source after 15 runs — and both peer price ladders captured in one pass",
             "wrap": true,
             "spacing": "Small"
           },
           {
             "type": "TextBlock",
-            "text": "AmmoLand, readable in full for the first time in weeks, says the court held ATF’s frame-and-receiver rule unconstitutional “as applied to Defense Distributed, SAF, and covered members” — “significant, but it is not nationwide.” Monday’s edition described a universal vacatur.",
+            "text": "USCCA's own membership page now credits \"Tom Grieve · USCCA Law® Attorney,\" closing fifteen consecutive runs marked unverified. The same sweep read both peer price ladders directly: USCCA $39/$49/$59 a month against FLP $16.95/$27.95/$44.95.",
             "wrap": true,
             "spacing": "Small"
           },
@@ -43,16 +43,16 @@
             "type": "FactSet",
             "facts": [
               {
-                "title": "1. Ghost-gun rule held unconstitutional — as-applied, not nationwide",
-                "value": "Heat 87 ▼"
+                "title": "1. CDC restores defensive-gun-use estimates — now three-outlet, read in full",
+                "value": "Heat 86 ▲"
               },
               {
-                "title": "2. DOJ restoration rule — architecture named (Hemani marijuana exception)",
-                "value": "Heat 85 ▼"
+                "title": "2. Defense Distributed — as-applied correction holds, no appeal filed",
+                "value": "Heat 83 ▼"
               },
               {
-                "title": "3. CDC restores defensive-gun-use estimates (~60k–2.5M/yr)",
-                "value": "Heat 73 ▲"
+                "title": "3. DOJ restoration rule — four features named, rule text still unread",
+                "value": "Heat 82 ▼"
               }
             ]
           },
@@ -67,7 +67,7 @@
           {
             "type": "TextBlock",
             "size": "Small",
-            "text": "• CORRECTION: ghost-gun relief is party-scoped; Ninth Circuit item turned on standing\n• NIST: “significant disagreement” whether microstamping works; CA conditional 2028 mandate\n• CDC restored DGU estimates after 2022 removal under advocacy pressure\n• Restoration rule: presumptive disqualifications, judicial review, Hemani marijuana carve-out",
+            "text": "• USCCA Law® verified from USCCA's own membership page — 15 runs of \"unverified\" close today\n• Peer price ladders read directly: USCCA $39–59/mo vs FLP $16.95–44.95/mo (~3:1 at entry)\n• CDC defensive-gun-use story matures to three outlets; cites 2013 IOM report for 60,000–2.5m range\n• Viramontes question presented now quotable verbatim — magazine cases still neither granted nor denied",
             "wrap": true
           }
         ],
