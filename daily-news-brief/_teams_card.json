@@ -14,20 +14,20 @@
             "size": "Small",
             "weight": "Bolder",
             "color": "Warning",
-            "text": "RTB · 2A DAILY INTEL · Thursday, August 27, 2026",
+            "text": "RTB · 2A DAILY INTEL · Friday, August 28, 2026",
             "spacing": "None"
           },
           {
             "type": "TextBlock",
             "size": "Large",
             "weight": "Bolder",
-            "text": "USCCA Law verified from primary source after 15 runs — and both peer price ladders captured in one pass",
+            "text": "The Friday ballot sweep reached Ballotpedia on its eleventh attempt — and found a firearm ballot measure this board had never carried. ATF also confirmed a ransomware breach, and the SCOTUS AR-15 case picked up two amicus briefs.",
             "wrap": true,
             "spacing": "Small"
           },
           {
             "type": "TextBlock",
-            "text": "USCCA's own membership page now credits \"Tom Grieve · USCCA Law® Attorney,\" closing fifteen consecutive runs marked unverified. The same sweep read both peer price ladders directly: USCCA $39/$49/$59 a month against FLP $16.95/$27.95/$44.95.",
+            "text": "Ballotpedia was reachable and read: Massachusetts carries a veto referendum on An Act Modernizing Firearm Laws (H. 4885) — a vote to keep the 2024 law is a YES, and the repeal side is NO. Arkansas carries a certified Right to Keep and Bear Arms Amendment covering ammunition, accessories and components.",
             "wrap": true,
             "spacing": "Small"
           },
@@ -43,15 +43,15 @@
             "type": "FactSet",
             "facts": [
               {
-                "title": "1. CDC restores defensive-gun-use estimates — now three-outlet, read in full",
-                "value": "Heat 86 ▲"
+                "title": "1. Militia-clause amicus wave in Viramontes / Grant",
+                "value": "Heat 87 ▲"
               },
               {
-                "title": "2. Defense Distributed — as-applied correction holds, no appeal filed",
-                "value": "Heat 83 ▼"
+                "title": "2. ATF confirms ransomware breach after Qilin claim",
+                "value": "Heat 84 ▲"
               },
               {
-                "title": "3. DOJ restoration rule — four features named, rule text still unread",
+                "title": "3. CDC defensive-gun-use record now has named actors",
                 "value": "Heat 82 ▼"
               }
             ]
@@ -67,7 +67,7 @@
           {
             "type": "TextBlock",
             "size": "Small",
-            "text": "• USCCA Law® verified from USCCA's own membership page — 15 runs of \"unverified\" close today\n• Peer price ladders read directly: USCCA $39–59/mo vs FLP $16.95–44.95/mo (~3:1 at entry)\n• CDC defensive-gun-use story matures to three outlets; cites 2013 IOM report for 60,000–2.5m range\n• Viramontes question presented now quotable verbatim — magazine cases still neither granted nor denied",
+            "text": "• Massachusetts firearm measure confirmed — it's a veto referendum, YES keeps the law\n• Arkansas RKBA amendment certified — ammunition, accessories, components\n• ATF: breach hit a standalone system; agency says eForms untouched\n• Cheeseman v. NJ won 10–5 en banc — but the mandate is stayed, bans still enforceable",
             "wrap": true
           }
         ],
