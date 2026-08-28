@@ -14,20 +14,20 @@
             "size": "Small",
             "weight": "Bolder",
             "color": "Warning",
-            "text": "RTB · 2A WEEKLY INTEL · Week of July 20 – July 24, 2026",
+            "text": "RTB · 2A WEEKLY INTEL · Week of Aug 24 – Aug 28, 2026",
             "spacing": "None"
           },
           {
             "type": "TextBlock",
             "size": "Large",
             "weight": "Bolder",
-            "text": "Three circuits, three answers in one month — the AR-15 question heads to the Supreme Court this fall",
+            "text": "Nothing moved in Congress this week — and federal firearm law still shifted three times. Every durable story came from a court or an agency.",
             "wrap": true,
             "spacing": "Small"
           },
           {
             "type": "TextBlock",
-            "text": "This was the week the AR-15 question stopped being abstract. Members don’t need to be frightened by it — they need the map: what the law says today in each state, what’s pending, and what to plan around.",
+            "text": "Three items stayed hot every day the board ran: Defense Distributed v. Blanche peaked at 91 after a judge held ATF's frame-and-receiver rule unconstitutional — as-applied to the parties, not nationwide. DOJ's final rights-restoration rule held an 85 average with its text still unread from primary source.",
             "wrap": true,
             "spacing": "Small"
           },
@@ -43,16 +43,16 @@
             "type": "FactSet",
             "facts": [
               {
-                "title": "1. First Circuit upholds Massachusetts’ AR-15 ban",
-                "value": "Avg 86 · 1/5 days · → (Fri catalyst — completes the split)"
+                "title": "1. Defense Distributed v. Blanche — ATF kit rule struck",
+                "value": "Avg 87 · 3/5 days · ▼"
               },
               {
-                "title": "2. New Jersey ban struck — effective July 31",
-                "value": "Avg 84 · 5/5 days · ↓"
+                "title": "2. DOJ final firearm-rights restoration rule",
+                "value": "Avg 85 · 3/5 days · ▼"
               },
               {
-                "title": "3. Virginia — sales confirmed live",
-                "value": "Avg 82 · 5/5 days · ↓↓"
+                "title": "3. CDC restores defensive-gun-use estimates",
+                "value": "Avg 80 · 2/5 days · ▲"
               }
             ]
           },
@@ -67,8 +67,8 @@
           {
             "type": "TextBlock",
             "size": "Small",
-            "wrap": true,
-            "text": "• [Calendar] New Jersey ban takes effect July 31 (T-7) — NJSP dealer guidance\n• [Calendar] SCOTUS Viramontes/Grant AR-15 argument — October term\n• [Carry-over] Virginia injunction live; Crump “not arms” appeal briefing next\n• [Predicted] Cert-stage filing citing the fresh 1st/3rd/7th split lands within weeks"
+            "text": "• [Calendar] Sep 4 — Renna v. Bonta PI hearing, Judge Sabraw\n• [Calendar] Sep 4 — SCOTUS summer order list; Duncan, Gator's pending\n• [Carry-over] Silencer Shop — no appeal filed, ~34 days left\n• [Predicted] DOJ files no notice of appeal next week either",
+            "wrap": true
           }
         ],
         "actions": [
@@ -79,7 +79,7 @@
           },
           {
             "type": "Action.OpenUrl",
-            "title": "Today’s daily →",
+            "title": "Today's daily →",
             "url": "https://quinn-weathers.github.io/rtb-marketing-projects/daily-news-brief/"
           }
         ]
