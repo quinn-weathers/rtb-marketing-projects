@@ -14,20 +14,20 @@
             "size": "Small",
             "weight": "Bolder",
             "color": "Warning",
-            "text": "RTB · 2A DAILY INTEL · Friday, August 28, 2026",
+            "text": "RTB · 2A DAILY INTEL · Monday, August 31, 2026",
             "spacing": "None"
           },
           {
             "type": "TextBlock",
             "size": "Large",
             "weight": "Bolder",
-            "text": "The Friday ballot sweep reached Ballotpedia on its eleventh attempt — and found a firearm ballot measure this board had never carried. ATF also confirmed a ransomware breach, and the SCOTUS AR-15 case picked up two amicus briefs.",
+            "text": "The Reload published all weekend and handed this board two documents it did not have: a federal under-21 ruling nobody had carried, and a named explanation of the one thing that could still sink the NFA win.",
             "wrap": true,
             "spacing": "Small"
           },
           {
             "type": "TextBlock",
-            "text": "Ballotpedia was reachable and read: Massachusetts carries a veto referendum on An Act Modernizing Firearm Laws (H. 4885) — a vote to keep the 2024 law is a YES, and the repeal side is NO. Arkansas carries a certified Right to Keep and Bear Arms Amendment covering ammunition, accessories and components.",
+            "text": "On Friday 08/21, Judge George O'Toole (D. Mass., Clinton appointee) upheld Massachusetts' under-21 handgun and semi-auto possession ban in Escher v. Noble, rejecting an NRA-backed challenge on the founding-era \"infancy doctrine.\" Two Reagan appointees have now reached opposite results on the identical federal statute — and ATF never appealed the loss.",
             "wrap": true,
             "spacing": "Small"
           },
@@ -43,16 +43,16 @@
             "type": "FactSet",
             "facts": [
               {
-                "title": "1. Militia-clause amicus wave in Viramontes / Grant",
+                "title": "1. ATF ransomware breach — second outlet, named reporter",
                 "value": "Heat 87 ▲"
               },
               {
-                "title": "2. ATF confirms ransomware breach after Qilin claim",
-                "value": "Heat 84 ▲"
+                "title": "2. Militia-clause amicus wave in Viramontes / Grant",
+                "value": "Heat 83 →"
               },
               {
-                "title": "3. CDC defensive-gun-use record now has named actors",
-                "value": "Heat 82 ▼"
+                "title": "3. Escher v. Noble — MA under-21 ban upheld",
+                "value": "Heat 81 ▲"
               }
             ]
           },
@@ -67,7 +67,7 @@
           {
             "type": "TextBlock",
             "size": "Small",
-            "text": "• Massachusetts firearm measure confirmed — it's a veto referendum, YES keeps the law\n• Arkansas RKBA amendment certified — ammunition, accessories, components\n• ATF: breach hit a standalone system; agency says eForms untouched\n• Cheeseman v. NJ won 10–5 en banc — but the mandate is stayed, bans still enforceable",
+            "text": "• Escher v. Noble: MA under-21 semi-auto ban upheld on the infancy doctrine\n• The threat to the NFA injunction is standing, not the merits (California v. Texas)\n• ATF NFA processing fell to eight days in July — good for owners, awkward for the case\n• Michigan Senate nominee declined 3x to disavow replacing the Second Amendment",
             "wrap": true
           }
         ],
