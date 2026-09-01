@@ -14,20 +14,20 @@
             "size": "Small",
             "weight": "Bolder",
             "color": "Warning",
-            "text": "RTB · 2A DAILY INTEL · Monday, August 31, 2026",
+            "text": "RTB · 2A DAILY INTEL · Tuesday, September 1, 2026",
             "spacing": "None"
           },
           {
             "type": "TextBlock",
             "size": "Large",
             "weight": "Bolder",
-            "text": "The Reload published all weekend and handed this board two documents it did not have: a federal under-21 ruling nobody had carried, and a named explanation of the one thing that could still sink the NFA win.",
+            "text": "The news layer went quiet and the competitive layer did not",
             "wrap": true,
             "spacing": "Small"
           },
           {
             "type": "TextBlock",
-            "text": "On Friday 08/21, Judge George O'Toole (D. Mass., Clinton appointee) upheld Massachusetts' under-21 handgun and semi-auto possession ban in Escher v. Noble, rejecting an NRA-backed challenge on the founding-era \"infancy doctrine.\" Two Reagan appointees have now reached opposite results on the identical federal statute — and ATF never appealed the loss.",
+            "text": "All four coverage peers were read at primary-source level this morning, and three of the facts that came back are new to this board — including the lowest entry price it has ever recorded, and the first complete capture of CCW Safe's nine-plan ladder.",
             "wrap": true,
             "spacing": "Small"
           },
@@ -43,16 +43,16 @@
             "type": "FactSet",
             "facts": [
               {
-                "title": "1. ATF ransomware breach — second outlet, named reporter",
-                "value": "Heat 87 ▲"
+                "title": "1. Militia-clause amicus wave — Viramontes / Grant, T-3",
+                "value": "Heat 83 ▲"
               },
               {
-                "title": "2. Militia-clause amicus wave in Viramontes / Grant",
-                "value": "Heat 83 →"
+                "title": "2. ATF ransomware breach — day 6, no third outlet",
+                "value": "Heat 80 ▼"
               },
               {
-                "title": "3. Escher v. Noble — MA under-21 ban upheld",
-                "value": "Heat 81 ▲"
+                "title": "3. Renna v. Bonta — CA hearing Sep 4, statute in force",
+                "value": "Heat 79 ▲"
               }
             ]
           },
@@ -67,7 +67,7 @@
           {
             "type": "TextBlock",
             "size": "Small",
-            "text": "• Escher v. Noble: MA under-21 semi-auto ban upheld on the infancy doctrine\n• The threat to the NFA injunction is standing, not the merits (California v. Texas)\n• ATF NFA processing fell to eight days in July — good for owners, awkward for the case\n• Michigan Senate nominee declined 3x to disavow replacing the Second Amendment",
+            "text": "• FLP sells through Active Self Protection at $9.95/mo — code ASPNOW, lowest entry price on the board\n• CCW Safe's full nine-plan ladder captured: $179–$609/yr, restricted in NJ, NY and WA\n• FLP is unavailable in AK, HI, MA, NJ, NY and OR — the cheapest ladder misses the hardest states\n• USCCA's FAQ now argues directly against the retainer model, the category RTB sits in",
             "wrap": true
           }
         ],
