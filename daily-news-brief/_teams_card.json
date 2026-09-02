@@ -1,84 +1,84 @@
 {
-  "type": "message",
-  "attachments": [
-    {
-      "contentType": "application/vnd.microsoft.card.adaptive",
-      "contentUrl": null,
-      "content": {
-        "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
-        "type": "AdaptiveCard",
-        "version": "1.5",
-        "body": [
-          {
-            "type": "TextBlock",
-            "size": "Small",
-            "weight": "Bolder",
-            "color": "Warning",
-            "text": "RTB · 2A DAILY INTEL · Tuesday, September 1, 2026",
-            "spacing": "None"
-          },
-          {
-            "type": "TextBlock",
-            "size": "Large",
-            "weight": "Bolder",
-            "text": "The news layer went quiet and the competitive layer did not",
-            "wrap": true,
-            "spacing": "Small"
-          },
-          {
-            "type": "TextBlock",
-            "text": "All four coverage peers were read at primary-source level this morning, and three of the facts that came back are new to this board — including the lowest entry price it has ever recorded, and the first complete capture of CCW Safe's nine-plan ladder.",
-            "wrap": true,
-            "spacing": "Small"
-          },
-          {
-            "type": "TextBlock",
-            "size": "Small",
-            "weight": "Bolder",
-            "color": "Warning",
-            "text": "HOTTEST LEADS",
-            "spacing": "Medium"
-          },
-          {
-            "type": "FactSet",
-            "facts": [
-              {
-                "title": "1. Militia-clause amicus wave — Viramontes / Grant, T-3",
-                "value": "Heat 83 ▲"
-              },
-              {
-                "title": "2. ATF ransomware breach — day 6, no third outlet",
-                "value": "Heat 80 ▼"
-              },
-              {
-                "title": "3. Renna v. Bonta — CA hearing Sep 4, statute in force",
-                "value": "Heat 79 ▲"
-              }
-            ]
-          },
-          {
-            "type": "TextBlock",
-            "size": "Small",
-            "weight": "Bolder",
-            "color": "Warning",
-            "text": "WHAT'S MOVING",
-            "spacing": "Medium"
-          },
-          {
-            "type": "TextBlock",
-            "size": "Small",
-            "text": "• FLP sells through Active Self Protection at $9.95/mo — code ASPNOW, lowest entry price on the board\n• CCW Safe's full nine-plan ladder captured: $179–$609/yr, restricted in NJ, NY and WA\n• FLP is unavailable in AK, HI, MA, NJ, NY and OR — the cheapest ladder misses the hardest states\n• USCCA's FAQ now argues directly against the retainer model, the category RTB sits in",
-            "wrap": true
-          }
-        ],
-        "actions": [
-          {
-            "type": "Action.OpenUrl",
-            "title": "Read full brief →",
-            "url": "https://quinn-weathers.github.io/rtb-marketing-projects/daily-news-brief/"
-          }
-        ]
-      }
-    }
-  ]
+ "type": "message",
+ "attachments": [
+  {
+   "contentType": "application/vnd.microsoft.card.adaptive",
+   "contentUrl": null,
+   "content": {
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "type": "AdaptiveCard",
+    "version": "1.5",
+    "body": [
+     {
+      "type": "TextBlock",
+      "size": "Small",
+      "weight": "Bolder",
+      "color": "Warning",
+      "text": "RTB · 2A DAILY INTEL · Wednesday, September 2, 2026",
+      "spacing": "None"
+     },
+     {
+      "type": "TextBlock",
+      "size": "Large",
+      "weight": "Bolder",
+      "text": "The ATF breach stopped being a claim and became a document",
+      "wrap": true,
+      "spacing": "Small"
+     },
+     {
+      "type": "TextBlock",
+      "text": "Qilin's 72-hour timer expired Monday and the group briefly published ~6.3GB before pulling it; the breached environment is the ATF's legacy CALEA intercept store. ATF says the system \"was not connected to any other ATF systems, including any case management systems, laboratory systems, or eForms systems\" — so gun-owner records were not the system that broke.",
+      "wrap": true,
+      "spacing": "Small"
+     },
+     {
+      "type": "TextBlock",
+      "size": "Small",
+      "weight": "Bolder",
+      "color": "Warning",
+      "text": "HOTTEST LEADS",
+      "spacing": "Medium"
+     },
+     {
+      "type": "FactSet",
+      "facts": [
+       {
+        "title": "1. ATF breach — 6.3GB leaked, CALEA named, eForms clear",
+        "value": "Heat 95 ▲▲▲"
+       },
+       {
+        "title": "2. Viramontes merits brief — 60m rifles, 83% defensive",
+        "value": "Heat 89 ▲▲"
+       },
+       {
+        "title": "3. Roache v. Lopez — Hawaii under-21 upheld, 2nd in 12 days",
+        "value": "Heat 85 ▲▲▲"
+       }
+      ]
+     },
+     {
+      "type": "TextBlock",
+      "size": "Small",
+      "weight": "Bolder",
+      "color": "Warning",
+      "text": "WHAT'S MOVING",
+      "spacing": "Medium"
+     },
+     {
+      "type": "TextBlock",
+      "size": "Small",
+      "text": "• ATF: Qilin published ~6.3GB then pulled it — eForms NOT accessed\n• HI: 2nd infancy-doctrine under-21 ruling in 12 days (43pp order)\n• SCOTUS: Viramontes merits brief filed — 83% cite defensive purpose\n• NM: 7-day wait lost on merits — injunction covers two people",
+      "wrap": true
+     }
+    ],
+    "actions": [
+     {
+      "type": "Action.OpenUrl",
+      "title": "Read full brief →",
+      "url": "https://quinn-weathers.github.io/rtb-marketing-projects/daily-news-brief/"
+     }
+    ]
+   }
+  }
+ ]
 }
