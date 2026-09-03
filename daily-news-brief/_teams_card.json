@@ -1,84 +1,84 @@
 {
- "type": "message",
- "attachments": [
-  {
-   "contentType": "application/vnd.microsoft.card.adaptive",
-   "contentUrl": null,
-   "content": {
-    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
-    "type": "AdaptiveCard",
-    "version": "1.5",
-    "body": [
-     {
-      "type": "TextBlock",
-      "size": "Small",
-      "weight": "Bolder",
-      "color": "Warning",
-      "text": "RTB · 2A DAILY INTEL · Wednesday, September 2, 2026",
-      "spacing": "None"
-     },
-     {
-      "type": "TextBlock",
-      "size": "Large",
-      "weight": "Bolder",
-      "text": "The ATF breach stopped being a claim and became a document",
-      "wrap": true,
-      "spacing": "Small"
-     },
-     {
-      "type": "TextBlock",
-      "text": "Qilin's 72-hour timer expired Monday and the group briefly published ~6.3GB before pulling it; the breached environment is the ATF's legacy CALEA intercept store. ATF says the system \"was not connected to any other ATF systems, including any case management systems, laboratory systems, or eForms systems\" — so gun-owner records were not the system that broke.",
-      "wrap": true,
-      "spacing": "Small"
-     },
-     {
-      "type": "TextBlock",
-      "size": "Small",
-      "weight": "Bolder",
-      "color": "Warning",
-      "text": "HOTTEST LEADS",
-      "spacing": "Medium"
-     },
-     {
-      "type": "FactSet",
-      "facts": [
-       {
-        "title": "1. ATF breach — 6.3GB leaked, CALEA named, eForms clear",
-        "value": "Heat 95 ▲▲▲"
-       },
-       {
-        "title": "2. Viramontes merits brief — 60m rifles, 83% defensive",
-        "value": "Heat 89 ▲▲"
-       },
-       {
-        "title": "3. Roache v. Lopez — Hawaii under-21 upheld, 2nd in 12 days",
-        "value": "Heat 85 ▲▲▲"
-       }
-      ]
-     },
-     {
-      "type": "TextBlock",
-      "size": "Small",
-      "weight": "Bolder",
-      "color": "Warning",
-      "text": "WHAT'S MOVING",
-      "spacing": "Medium"
-     },
-     {
-      "type": "TextBlock",
-      "size": "Small",
-      "text": "• ATF: Qilin published ~6.3GB then pulled it — eForms NOT accessed\n• HI: 2nd infancy-doctrine under-21 ruling in 12 days (43pp order)\n• SCOTUS: Viramontes merits brief filed — 83% cite defensive purpose\n• NM: 7-day wait lost on merits — injunction covers two people",
-      "wrap": true
-     }
-    ],
-    "actions": [
-     {
-      "type": "Action.OpenUrl",
-      "title": "Read full brief →",
-      "url": "https://quinn-weathers.github.io/rtb-marketing-projects/daily-news-brief/"
-     }
-    ]
-   }
-  }
- ]
+  "type": "message",
+  "attachments": [
+    {
+      "contentType": "application/vnd.microsoft.card.adaptive",
+      "contentUrl": null,
+      "content": {
+        "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+        "type": "AdaptiveCard",
+        "version": "1.5",
+        "body": [
+          {
+            "type": "TextBlock",
+            "size": "Small",
+            "weight": "Bolder",
+            "color": "Warning",
+            "text": "RTB · 2A DAILY INTEL · Thursday, September 3, 2026",
+            "spacing": "None"
+          },
+          {
+            "type": "TextBlock",
+            "size": "Large",
+            "weight": "Bolder",
+            "text": "Registration got argued from both ends in the same twenty-four hours.",
+            "wrap": true,
+            "spacing": "Small"
+          },
+          {
+            "type": "TextBlock",
+            "text": "A federal appeals court held that gun registration it considers \"minimal\" does not implicate the Second Amendment at all. Meanwhile a manufacturer, not the ATF, published the first plain-language instructions for buying a suppressor without registering it.",
+            "wrap": true,
+            "spacing": "Small"
+          },
+          {
+            "type": "TextBlock",
+            "size": "Small",
+            "weight": "Bolder",
+            "color": "Warning",
+            "text": "HOTTEST LEADS",
+            "spacing": "Medium"
+          },
+          {
+            "type": "FactSet",
+            "facts": [
+              {
+                "title": "1. United States v. Berger - a federal appeals court just held…",
+                "value": "Heat 80 ^"
+              },
+              {
+                "title": "2. SilencerCo publishes the first plain-language buyer guidanc…",
+                "value": "Heat 80 ^"
+              },
+              {
+                "title": "3. The ATF breach cools - no new disclosure in twenty-four hou…",
+                "value": "Heat 75 v"
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "size": "Small",
+            "weight": "Bolder",
+            "color": "Warning",
+            "text": "WHAT'S MOVING",
+            "spacing": "Medium"
+          },
+          {
+            "type": "TextBlock",
+            "size": "Small",
+            "text": "• 3D CIR - Berger: registration held not to 'infringe' at all; Chung re…\n• NFA - SilencerCo names 27 states, warns not to cross a state line (26…\n• CA - AB 2047 on Newsom's desk: printers would have to refuse firearm…\n• DOJ - Statement of Interest backs Rare Breed patent case over a non-m…",
+            "wrap": true
+          }
+        ],
+        "actions": [
+          {
+            "type": "Action.OpenUrl",
+            "title": "Read full brief →",
+            "url": "https://quinn-weathers.github.io/rtb-marketing-projects/daily-news-brief/"
+          }
+        ]
+      }
+    }
+  ]
 }
