@@ -14,20 +14,20 @@
             "size": "Small",
             "weight": "Bolder",
             "color": "Warning",
-            "text": "RTB · 2A DAILY INTEL · Thursday, September 3, 2026",
+            "text": "RTB · 2A DAILY INTEL · Friday, September 4, 2026",
             "spacing": "None"
           },
           {
             "type": "TextBlock",
             "size": "Large",
             "weight": "Bolder",
-            "text": "Registration got argued from both ends in the same twenty-four hours.",
+            "text": "Two courthouse doors opened on the same question in one afternoon: whether a permit — or a right — survives the drive across a state line.",
             "wrap": true,
             "spacing": "Small"
           },
           {
             "type": "TextBlock",
-            "text": "A federal appeals court held that gun registration it considers \"minimal\" does not implicate the Second Amendment at all. Meanwhile a manufacturer, not the ATF, published the first plain-language instructions for buying a suppressor without registering it.",
+            "text": "A Georgia trucker's petition reached the Supreme Court in Johnson v. Jacobson (No. 26-255), asking whether Minnesota may switch his carry right off at the border. In Lawson v. Campbell, a federal judge in Boston refused to let Massachusetts moot a nonresident carry-delay case by issuing the permits late.",
             "wrap": true,
             "spacing": "Small"
           },
@@ -43,16 +43,16 @@
             "type": "FactSet",
             "facts": [
               {
-                "title": "1. United States v. Berger - a federal appeals court just held…",
-                "value": "Heat 80 ^"
+                "title": "1. Johnson v. Jacobson — carry reciprocity reaches SCOTUS",
+                "value": "Heat 82 ▲"
               },
               {
-                "title": "2. SilencerCo publishes the first plain-language buyer guidanc…",
-                "value": "Heat 80 ^"
+                "title": "2. United States v. Berger — \"minimal registration is not an infringement\"",
+                "value": "Heat 77 ▶"
               },
               {
-                "title": "3. The ATF breach cools - no new disclosure in twenty-four hou…",
-                "value": "Heat 75 v"
+                "title": "3. Lawson v. Campbell — late permits do not moot the injury",
+                "value": "Heat 76 ▲"
               }
             ]
           },
@@ -67,7 +67,7 @@
           {
             "type": "TextBlock",
             "size": "Small",
-            "text": "• 3D CIR - Berger: registration held not to 'infringe' at all; Chung re…\n• NFA - SilencerCo names 27 states, warns not to cross a state line (26…\n• CA - AB 2047 on Newsom's desk: printers would have to refuse firearm…\n• DOJ - Statement of Interest backs Rare Breed patent case over a non-m…",
+            "text": "• NEW — Massachusetts loses bid to dismiss Lawson v. Campbell (as-applied 2A + equal protection survive)\n• NEW — Johnson v. Jacobson cert petition, SCOTUS No. 26-255, filed 08/24\n• MOVED — Novotny v. Moore distributed for the September 28 long conference\n• NEW — Aero Precision, Ballistic Advantage, Stag Arms, VG6 leave private equity",
             "wrap": true
           }
         ],
