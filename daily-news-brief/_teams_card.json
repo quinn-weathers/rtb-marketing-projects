@@ -14,20 +14,20 @@
             "size": "Small",
             "weight": "Bolder",
             "color": "Warning",
-            "text": "RTB · 2A DAILY INTEL · Friday, September 4, 2026",
+            "text": "RTB · 2A DAILY INTEL · Monday, September 7, 2026",
             "spacing": "None"
           },
           {
             "type": "TextBlock",
             "size": "Large",
             "weight": "Bolder",
-            "text": "Two courthouse doors opened on the same question in one afternoon: whether a permit — or a right — survives the drive across a state line.",
+            "text": "The AR-15 case now has a date, and the United States has taken a side.",
             "wrap": true,
             "spacing": "Small"
           },
           {
             "type": "TextBlock",
-            "text": "A Georgia trucker's petition reached the Supreme Court in Johnson v. Jacobson (No. 26-255), asking whether Minnesota may switch his carry right off at the border. In Lawson v. Campbell, a federal judge in Boston refused to let Massachusetts moot a nonresident carry-delay case by issuing the permits late.",
+            "text": "The Supreme Court will hear the consolidated “assault weapon” ban cases on Wednesday, December 2. On Friday the Justice Department filed a brief telling the justices those bans are unconstitutional — using a common-use test that would protect the rifle and leave the NFA largely where it sits.",
             "wrap": true,
             "spacing": "Small"
           },
@@ -43,16 +43,16 @@
             "type": "FactSet",
             "facts": [
               {
-                "title": "1. Johnson v. Jacobson — carry reciprocity reaches SCOTUS",
-                "value": "Heat 82 ▲"
+                "title": "1. Dec 2 argument date set + DOJ files for gun owners",
+                "value": "Heat 92 ▲▲▲ (volcanic)"
               },
               {
-                "title": "2. United States v. Berger — \"minimal registration is not an infringement\"",
-                "value": "Heat 77 ▶"
+                "title": "2. Full pardons in two NFA prosecutions",
+                "value": "Heat 84 ▲▲▲"
               },
               {
-                "title": "3. Lawson v. Campbell — late permits do not moot the injury",
-                "value": "Heat 76 ▲"
+                "title": "3. 2026 National Firearms Survey, figures reconciled",
+                "value": "Heat 78 ▲▲"
               }
             ]
           },
@@ -67,7 +67,7 @@
           {
             "type": "TextBlock",
             "size": "Small",
-            "text": "• NEW — Massachusetts loses bid to dismiss Lawson v. Campbell (as-applied 2A + equal protection survive)\n• NEW — Johnson v. Jacobson cert petition, SCOTUS No. 26-255, filed 08/24\n• MOVED — Novotny v. Moore distributed for the September 28 long conference\n• NEW — Aero Precision, Ballistic Advantage, Stag Arms, VG6 leave private equity",
+            "text": "• SCOTUS sets Viramontes/Grant for argument Wed Dec 2, 10am, one hour\n• DOJ amicus: AR-15 bans unconstitutional — but read its common-use test\n• Full, unconditional pardons for Adamiak and Peterson; precedent untouched\n• 27 state AGs file for the petitioners; TN and KS leading the coalition",
             "wrap": true
           }
         ],
