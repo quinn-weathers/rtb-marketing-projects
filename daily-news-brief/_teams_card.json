@@ -14,20 +14,20 @@
             "size": "Small",
             "weight": "Bolder",
             "color": "Warning",
-            "text": "RTB · 2A DAILY INTEL · Monday, September 7, 2026",
+            "text": "RTB · 2A DAILY INTEL · Tuesday, September 8, 2026",
             "spacing": "None"
           },
           {
             "type": "TextBlock",
             "size": "Large",
             "weight": "Bolder",
-            "text": "The AR-15 case now has a date, and the United States has taken a side.",
+            "text": "Congress is back, and the first full month of federal data from the post-tax NFA market arrived with it.",
             "wrap": true,
             "spacing": "Small"
           },
           {
             "type": "TextBlock",
-            "text": "The Supreme Court will hear the consolidated “assault weapon” ban cases on Wednesday, December 2. On Friday the Justice Department filed a brief telling the justices those bans are unconstitutional — using a common-use test that would protect the rifle and leave the NFA largely where it sits.",
+            "text": "August firearm background checks cleared 1.1 million while NFA-related checks roughly tripled, and NSSF separately reports ATF processing times collapsing even as applications hit record levels. Two independent outlets, one underlying shift.",
             "wrap": true,
             "spacing": "Small"
           },
@@ -43,16 +43,16 @@
             "type": "FactSet",
             "facts": [
               {
-                "title": "1. Dec 2 argument date set + DOJ files for gun owners",
-                "value": "Heat 92 ▲▲▲ (volcanic)"
+                "title": "1. AR-15 ban cases - Dec. 2 argument, DOJ brief, 4th outlet",
+                "value": "Heat 90 v"
               },
               {
-                "title": "2. Full pardons in two NFA prosecutions",
-                "value": "Heat 84 ▲▲▲"
+                "title": "2. August NFA volume surge - 1.1M checks, NFA checks tripled",
+                "value": "Heat 80 ^^"
               },
               {
-                "title": "3. 2026 National Firearms Survey, figures reconciled",
-                "value": "Heat 78 ▲▲"
+                "title": "3. 2026 National Firearms Survey - figure discipline",
+                "value": "Heat 74 v"
               }
             ]
           },
@@ -67,7 +67,7 @@
           {
             "type": "TextBlock",
             "size": "Small",
-            "text": "• SCOTUS sets Viramontes/Grant for argument Wed Dec 2, 10am, one hour\n• DOJ amicus: AR-15 bans unconstitutional — but read its common-use test\n• Full, unconditional pardons for Adamiak and Peterson; precedent untouched\n• 27 state AGs file for the petitioners; TN and KS leading the coalition",
+            "text": "• NEW: August checks top 1.1M, NFA checks ~tripled; NSSF reports wait times collapsing\n• WATCH: Congress returns from recess - carried, not verified (congress.gov down 17 runs)\n• MOVED: The Reload is a 4th outlet on the DOJ brief - what the common-use test would cost\n• NEW: ATF says squeezing out rival triggers via a private patent suit serves the public interest",
             "wrap": true
           }
         ],
