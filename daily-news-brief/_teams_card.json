@@ -9,74 +9,21 @@
         "type": "AdaptiveCard",
         "version": "1.5",
         "body": [
-          {
-            "type": "TextBlock",
-            "size": "Small",
-            "weight": "Bolder",
-            "color": "Warning",
-            "text": "RTB · 2A DAILY INTEL · Tuesday, September 8, 2026",
-            "spacing": "None"
-          },
-          {
-            "type": "TextBlock",
-            "size": "Large",
-            "weight": "Bolder",
-            "text": "Congress is back, and the first full month of federal data from the post-tax NFA market arrived with it.",
-            "wrap": true,
-            "spacing": "Small"
-          },
-          {
-            "type": "TextBlock",
-            "text": "August firearm background checks cleared 1.1 million while NFA-related checks roughly tripled, and NSSF separately reports ATF processing times collapsing even as applications hit record levels. Two independent outlets, one underlying shift.",
-            "wrap": true,
-            "spacing": "Small"
-          },
-          {
-            "type": "TextBlock",
-            "size": "Small",
-            "weight": "Bolder",
-            "color": "Warning",
-            "text": "HOTTEST LEADS",
-            "spacing": "Medium"
-          },
-          {
-            "type": "FactSet",
-            "facts": [
-              {
-                "title": "1. AR-15 ban cases - Dec. 2 argument, DOJ brief, 4th outlet",
-                "value": "Heat 90 v"
-              },
-              {
-                "title": "2. August NFA volume surge - 1.1M checks, NFA checks tripled",
-                "value": "Heat 80 ^^"
-              },
-              {
-                "title": "3. 2026 National Firearms Survey - figure discipline",
-                "value": "Heat 74 v"
-              }
-            ]
-          },
-          {
-            "type": "TextBlock",
-            "size": "Small",
-            "weight": "Bolder",
-            "color": "Warning",
-            "text": "WHAT'S MOVING",
-            "spacing": "Medium"
-          },
-          {
-            "type": "TextBlock",
-            "size": "Small",
-            "text": "• NEW: August checks top 1.1M, NFA checks ~tripled; NSSF reports wait times collapsing\n• WATCH: Congress returns from recess - carried, not verified (congress.gov down 17 runs)\n• MOVED: The Reload is a 4th outlet on the DOJ brief - what the common-use test would cost\n• NEW: ATF says squeezing out rival triggers via a private patent suit serves the public interest",
-            "wrap": true
-          }
+          { "type": "TextBlock", "size": "Small", "weight": "Bolder", "color": "Warning", "text": "RTB · 2A DAILY INTEL · Friday, September 18, 2026", "spacing": "None" },
+          { "type": "TextBlock", "size": "Large", "weight": "Bolder", "text": "In a single day, the federal executive branch gave up two long-held positions against gun owners.", "wrap": true, "spacing": "Small" },
+          { "type": "TextBlock", "text": "DOJ's Office of Legal Counsel concluded the federal ban on handgun sales to 18-to-20-year-olds is unconstitutional, and the President ordered DOJ not to appeal the ruling gutting the NFA's registration scheme. Neither is a statute and neither is a Supreme Court decision — both are the government declining to defend its own law.", "wrap": true, "spacing": "Small" },
+          { "type": "TextBlock", "size": "Small", "weight": "Bolder", "color": "Warning", "text": "HOTTEST LEADS", "spacing": "Medium" },
+          { "type": "FactSet", "facts": [
+            { "title": "1. DOJ OLC: under-21 handgun-sale ban unconstitutional", "value": "Heat 88 ▲▲▲" },
+            { "title": "2. No appeal ordered in Silencer Shop Fdn v. ATF (NFA)", "value": "Heat 87 ▲▲▲" },
+            { "title": "3. NICS Monitoring — day 3, advocacy analysis only", "value": "Heat 80 ▼" }
+          ]},
+          { "type": "TextBlock", "size": "Small", "weight": "Bolder", "color": "Warning", "text": "WHAT'S MOVING", "spacing": "Medium" },
+          { "type": "TextBlock", "size": "Small", "text": "• OLC opinion: §§ 922(b)(1)/(c)(1) unenforceable vs dealers. Opinion, not law.\n• NFA non-appeal confirmed by CBS + Congress. Relief is party-scoped, not nationwide.\n• Maryland judge enjoins place-of-worship ban — one synagogue, one rabbi only.\n• DOJ sues San Jose over ~$1,600 carry-permit fees. Nothing enjoined.", "wrap": true },
+          { "type": "TextBlock", "size": "Small", "isSubtle": true, "text": "No item reached the volcanic tier for a 5th run: in both lead cases the government declined to defend a law rather than a court striking one down, and nothing a member may lawfully do changed today. Friday ballot sweep ran and returned nothing new. No peer move, day 18.", "wrap": true, "spacing": "Medium" }
         ],
         "actions": [
-          {
-            "type": "Action.OpenUrl",
-            "title": "Read full brief →",
-            "url": "https://quinn-weathers.github.io/rtb-marketing-projects/daily-news-brief/"
-          }
+          { "type": "Action.OpenUrl", "title": "Read full brief →", "url": "https://quinn-weathers.github.io/rtb-marketing-projects/daily-news-brief/" }
         ]
       }
     }
