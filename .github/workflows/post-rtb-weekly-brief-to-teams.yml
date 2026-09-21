@@ -1,26 +1,25 @@
-name: Post RTB brief to Teams
+name: Post RTB weekly brief to Teams
 
-# Triggered by the scheduled brief generator each morning when the user pushes
-# a fresh daily-news-brief/_teams_card.json. The scheduled task can't POST
-# the webhook directly because its Cowork sandbox blocks outbound HTTPS to
-# Power Automate. GitHub Actions can.
+# Sibling of post-rtb-brief-to-teams.yml, for the Friday weekly edition.
 #
-# DUPLICATE GUARD (added 2026-09-21): on 2026-09-21 GitHub delivered the push
-# event for commit afb957d twice, about three minutes apart. Runs #88 and #89
-# both POSTed and the channel received the same card twice. The guard below
-# fingerprints the card's contents and uses the Actions cache as a
-# "already posted" marker, so a repeated delivery of identical content is a
-# no-op. A genuinely new card has a new fingerprint and posts normally.
+# Created 2026-09-21. Before this date no weekly workflow existed, so the
+# weekly Teams card had NEVER been posted — the weekly skill wrote
+# weekly-news-brief/_teams_card.json faithfully and nothing ever read it.
+# Separately, the weekly publish step itself was broken from 2026-09-09
+# (it used the sandbox shell), so editions 09/04, 09/11 and 09/18 were
+# generated and never reached the repo at all.
+#
+# Uses the same TEAMS_WEBHOOK_URL repo secret as the daily workflow, and the
+# same content-fingerprint duplicate guard.
 
 on:
   push:
     paths:
-      - 'daily-news-brief/_teams_card.json'
+      - 'weekly-news-brief/_teams_card.json'
   workflow_dispatch: {}  # allow manual re-fire from the Actions tab
 
-# Serialise runs so two near-simultaneous deliveries can't race past the guard.
 concurrency:
-  group: post-rtb-daily-brief-to-teams
+  group: post-rtb-weekly-brief-to-teams
   cancel-in-progress: false
 
 jobs:
@@ -31,16 +30,16 @@ jobs:
 
       - name: Verify card payload exists
         run: |
-          if [ ! -f daily-news-brief/_teams_card.json ]; then
-            echo "::error::daily-news-brief/_teams_card.json not found"
+          if [ ! -f weekly-news-brief/_teams_card.json ]; then
+            echo "::error::weekly-news-brief/_teams_card.json not found"
             exit 1
           fi
-          echo "Card payload found, size: $(wc -c < daily-news-brief/_teams_card.json) bytes"
+          echo "Card payload found, size: $(wc -c < weekly-news-brief/_teams_card.json) bytes"
 
       - name: Fingerprint the card
         id: fp
         run: |
-          HASH=$(sha256sum daily-news-brief/_teams_card.json | cut -c1-32)
+          HASH=$(sha256sum weekly-news-brief/_teams_card.json | cut -c1-32)
           echo "hash=$HASH" >> "$GITHUB_OUTPUT"
           echo "Card fingerprint: $HASH"
 
@@ -49,12 +48,12 @@ jobs:
         uses: actions/cache@v4
         with:
           path: .teams-posted-marker
-          key: teams-posted-daily-${{ steps.fp.outputs.hash }}
+          key: teams-posted-weekly-${{ steps.fp.outputs.hash }}
 
       - name: Skip — this exact card was already posted
         if: steps.guard.outputs.cache-hit == 'true'
         run: |
-          echo "::notice::Duplicate suppressed. A card with fingerprint ${{ steps.fp.outputs.hash }} has already been posted to Teams. Nothing sent."
+          echo "::notice::Duplicate suppressed. A weekly card with fingerprint ${{ steps.fp.outputs.hash }} has already been posted to Teams. Nothing sent."
 
       - name: POST adaptive card to Teams webhook
         if: steps.guard.outputs.cache-hit != 'true'
@@ -69,7 +68,7 @@ jobs:
           HTTP_CODE=$(curl -sS -o /tmp/response.txt -w "%{http_code}" \
             -X POST \
             -H "Content-Type: application/json" \
-            --data-binary @daily-news-brief/_teams_card.json \
+            --data-binary @weekly-news-brief/_teams_card.json \
             "$TEAMS_URL")
 
           echo "HTTP $HTTP_CODE"
@@ -77,16 +76,13 @@ jobs:
           cat /tmp/response.txt
           echo ""
 
-          # Power Automate returns 200 or 202 on success
           if [ "$HTTP_CODE" -ne 200 ] && [ "$HTTP_CODE" -ne 202 ]; then
             echo "::error::Teams webhook returned HTTP $HTTP_CODE"
             exit 1
           fi
 
-          echo "::notice::Teams card posted successfully"
+          echo "::notice::Weekly Teams card posted successfully"
 
-      # Written only after a successful POST. actions/cache saves it at job end,
-      # so the next delivery of an identical card finds a cache hit and skips.
       - name: Write posted-marker
         if: steps.guard.outputs.cache-hit != 'true'
         run: date -u +"%Y-%m-%dT%H:%M:%SZ posted ${{ steps.fp.outputs.hash }}" > .teams-posted-marker
