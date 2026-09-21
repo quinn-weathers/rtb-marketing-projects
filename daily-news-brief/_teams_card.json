@@ -9,18 +9,17 @@
         "type": "AdaptiveCard",
         "version": "1.5",
         "body": [
-          { "type": "TextBlock", "size": "Small", "weight": "Bolder", "color": "Warning", "text": "RTB · 2A DAILY INTEL · Friday, September 18, 2026", "spacing": "None" },
-          { "type": "TextBlock", "size": "Large", "weight": "Bolder", "text": "In a single day, the federal executive branch gave up two long-held positions against gun owners.", "wrap": true, "spacing": "Small" },
-          { "type": "TextBlock", "text": "DOJ's Office of Legal Counsel concluded the federal ban on handgun sales to 18-to-20-year-olds is unconstitutional, and the President ordered DOJ not to appeal the ruling gutting the NFA's registration scheme. Neither is a statute and neither is a Supreme Court decision — both are the government declining to defend its own law.", "wrap": true, "spacing": "Small" },
+          { "type": "TextBlock", "size": "Small", "weight": "Bolder", "color": "Warning", "text": "RTB · 2A DAILY INTEL · Monday, September 21, 2026", "spacing": "None" },
+          { "type": "TextBlock", "size": "Large", "weight": "Bolder", "text": "DOJ threatens to sue Minnesota over its permit-to-purchase law — and wants an answer by Wednesday", "wrap": true, "spacing": "Small" },
+          { "type": "TextBlock", "text": "On Thursday 17 September the Assistant Attorney General for Civil Rights sent a pre-suit letter to Minnesota's governor and the Minneapolis and St. Paul mayors, saying the state's licensing scheme \"imposes unreasonable barriers\" to acquiring arms. It attacks processing delay, not the permit requirement — nothing is filed, nothing is enjoined, and the law is in force.", "wrap": true, "spacing": "Small" },
           { "type": "TextBlock", "size": "Small", "weight": "Bolder", "color": "Warning", "text": "HOTTEST LEADS", "spacing": "Medium" },
           { "type": "FactSet", "facts": [
-            { "title": "1. DOJ OLC: under-21 handgun-sale ban unconstitutional", "value": "Heat 88 ▲▲▲" },
-            { "title": "2. No appeal ordered in Silencer Shop Fdn v. ATF (NFA)", "value": "Heat 87 ▲▲▲" },
-            { "title": "3. NICS Monitoring — day 3, advocacy analysis only", "value": "Heat 80 ▼" }
+            { "title": "1. DOJ OLC opinion on the under-21 dealer handgun ban", "value": "Heat 83 ▼▼" },
+            { "title": "2. NFA non-appeal — still no ATF guidance, day 3", "value": "Heat 82 ▼▼" },
+            { "title": "3. DOJ threatens Minnesota over permit-to-purchase", "value": "Heat 79 ▲▲▲" }
           ]},
           { "type": "TextBlock", "size": "Small", "weight": "Bolder", "color": "Warning", "text": "WHAT'S MOVING", "spacing": "Medium" },
-          { "type": "TextBlock", "size": "Small", "text": "• OLC opinion: §§ 922(b)(1)/(c)(1) unenforceable vs dealers. Opinion, not law.\n• NFA non-appeal confirmed by CBS + Congress. Relief is party-scoped, not nationwide.\n• Maryland judge enjoins place-of-worship ban — one synagogue, one rabbi only.\n• DOJ sues San Jose over ~$1,600 carry-permit fees. Nothing enjoined.", "wrap": true },
-          { "type": "TextBlock", "size": "Small", "isSubtle": true, "text": "No item reached the volcanic tier for a 5th run: in both lead cases the government declined to defend a law rather than a court striking one down, and nothing a member may lawfully do changed today. Friday ballot sweep ran and returned nothing new. No peer move, day 18.", "wrap": true, "spacing": "Medium" }
+          { "type": "TextBlock", "size": "Small", "text": "• NEW: DOJ pre-suit letter to Minnesota on permit-to-purchase; T−2 to deadline\n• MOVED: subpoenaed gun reviewer gives first-person account in Highland Park suit\n• No second outlet or ATF response on the under-21 opinion — the check could not be run\n• Peer watch day 21: no product, pricing or coverage move; USCCA blog readable again", "wrap": true }
         ],
         "actions": [
           { "type": "Action.OpenUrl", "title": "Read full brief →", "url": "https://quinn-weathers.github.io/rtb-marketing-projects/daily-news-brief/" }
