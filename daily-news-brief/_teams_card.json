@@ -9,22 +9,74 @@
         "type": "AdaptiveCard",
         "version": "1.5",
         "body": [
-          { "type": "TextBlock", "size": "Small", "weight": "Bolder", "color": "Warning", "text": "RTB · 2A DAILY INTEL · Wednesday, September 23, 2026", "spacing": "None" },
-          { "type": "TextBlock", "size": "Large", "weight": "Bolder", "text": "The country is split 52–48 on the AR-15 case — inside the margin of error, which makes it a tie.", "wrap": true, "spacing": "Small" },
-          { "type": "TextBlock", "text": "Marquette Law School's new Supreme Court poll is the first citable public-opinion measurement on the December cases: 52% want the Court to find no right to own an AR-15, 48% the opposite, on a 3.3-point margin of error. It tightens to 50–49 among likely voters. Report it as a tie — never as majority support for either side, and never as a prediction of the ruling.", "wrap": true, "spacing": "Small" },
-          { "type": "TextBlock", "size": "Small", "weight": "Bolder", "color": "Warning", "text": "HOTTEST LEADS", "spacing": "Medium" },
-          { "type": "FactSet", "facts": [
-            { "title": "1. Marquette poll — AR-15 case split 52–48 (NEW)", "value": "Heat 77 ▲▲▲" },
-            { "title": "2. Minnesota deadline passed, nothing filed", "value": "Heat 76 ▼▼" },
-            { "title": "3. AR-15 cases — up on the poll, not the docket", "value": "Heat 76 ▲▲" }
-          ]},
-          { "type": "TextBlock", "size": "Small", "weight": "Bolder", "color": "Warning", "text": "WHAT'S MOVING", "spacing": "Medium" },
-          { "type": "TextBlock", "size": "Small", "text": "• DOJ's Minnesota deadline passed today with no filing, no docket entry, no announcement — expected, and not a result.\n• This is NOT the AP-NORC poll (held unverified, run 7). Marquette's numbers are citable; AP-NORC's are not.\n• Third consecutive run in which the OLC and ATF standing checks could not be executed. Decay, not doubt.\n• Peer watch day 23: no structural move, and no peer has written on the poll, the OLC opinion or the NFA non-appeal.", "wrap": true },
-          { "type": "TextBlock", "size": "Small", "weight": "Bolder", "color": "Attention", "text": "DELIVERY NOTE", "spacing": "Medium" },
-          { "type": "TextBlock", "size": "Small", "text": "This edition was produced by a manual run. No brief has reached Teams since 09/21 — the generation task was fine, but the Windows push task has not run, so 09/22 is staged and unpublished. Both editions publish on the next push; 09/22 will be in the archive but will not post its own card.", "wrap": true }
+          {
+            "type": "TextBlock",
+            "size": "Small",
+            "weight": "Bolder",
+            "color": "Warning",
+            "text": "RTB · 2A DAILY INTEL · Thursday, September 24, 2026",
+            "spacing": "None"
+          },
+          {
+            "type": "TextBlock",
+            "size": "Large",
+            "weight": "Bolder",
+            "text": "The under-21 handgun opinion finally has its second outlet, its primary document and a named official on the record.",
+            "wrap": true,
+            "spacing": "Small"
+          },
+          {
+            "type": "TextBlock",
+            "text": "The Reload independently confirmed DOJ's Office of Legal Counsel opinion that the federal ban on dealer handgun sales to 18-to-20-year-olds is unconstitutional as applied. FPC says DOJ then sought an extension in Reese v. ATF; the opinion is non-binding and the statute is unchanged.",
+            "wrap": true,
+            "spacing": "Small"
+          },
+          {
+            "type": "TextBlock",
+            "size": "Small",
+            "weight": "Bolder",
+            "color": "Warning",
+            "text": "HOTTEST LEADS",
+            "spacing": "Medium"
+          },
+          {
+            "type": "FactSet",
+            "facts": [
+              {
+                "title": "1. Under-21 OLC opinion confirmed, Reese extension",
+                "value": "Heat 84 ▲▲▲"
+              },
+              {
+                "title": "2. AR-15 ban cases (Dec 2 argument)",
+                "value": "Heat 76 ●"
+              },
+              {
+                "title": "3. Marquette poll: AR-15 case tied 52–48",
+                "value": "Heat 73 ▼"
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "size": "Small",
+            "weight": "Bolder",
+            "color": "Warning",
+            "text": "WHAT'S MOVING",
+            "spacing": "Medium"
+          },
+          {
+            "type": "TextBlock",
+            "size": "Small",
+            "text": "• OLC under-21 opinion confirmed by 2nd outlet; still non-binding\n• FPC: DOJ sought extension in Reese v. ATF (docket not reached)\n• Minnesota: day 1 past DOJ deadline, nothing filed\n• AR-15 cases steady at 76; T-69 to Dec 2 argument",
+            "wrap": true
+          }
         ],
         "actions": [
-          { "type": "Action.OpenUrl", "title": "Read full brief →", "url": "https://quinn-weathers.github.io/rtb-marketing-projects/daily-news-brief/" }
+          {
+            "type": "Action.OpenUrl",
+            "title": "Read full brief →",
+            "url": "https://quinn-weathers.github.io/rtb-marketing-projects/daily-news-brief/"
+          }
         ]
       }
     }
