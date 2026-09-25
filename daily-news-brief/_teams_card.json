@@ -14,20 +14,20 @@
             "size": "Small",
             "weight": "Bolder",
             "color": "Warning",
-            "text": "RTB · 2A DAILY INTEL · Thursday, September 24, 2026",
+            "text": "RTB · 2A DAILY INTEL · Friday, September 25, 2026",
             "spacing": "None"
           },
           {
             "type": "TextBlock",
             "size": "Large",
             "weight": "Bolder",
-            "text": "The under-21 handgun opinion finally has its second outlet, its primary document and a named official on the record.",
+            "text": "The full Ninth Circuit, 6–5, upheld Hawaii’s 30-day purchase-permit limit and its pre-possession police inspection.",
             "wrap": true,
             "spacing": "Small"
           },
           {
             "type": "TextBlock",
-            "text": "The Reload independently confirmed DOJ's Office of Legal Counsel opinion that the federal ban on dealer handgun sales to 18-to-20-year-olds is unconstitutional as applied. FPC says DOJ then sought an extension in Reese v. ATF; the opinion is non-binding and the statute is unchanged.",
+            "text": "In Yukutake v. Lopez, the en banc court read Bruen’s footnote nine as making objective, non-abusive shall-issue permit systems presumptively constitutional, reversing a 2025 panel. The ruling binds federal courts in nine western states, including Washington and California, and changes no law.",
             "wrap": true,
             "spacing": "Small"
           },
@@ -43,16 +43,16 @@
             "type": "FactSet",
             "facts": [
               {
-                "title": "1. Under-21 OLC opinion confirmed, Reese extension",
-                "value": "Heat 84 ▲▲▲"
+                "title": "1. Ninth Circuit upholds Hawaii permit limits (Yukutake)",
+                "value": "Heat 81 ▲▲▲"
               },
               {
-                "title": "2. AR-15 ban cases (Dec 2 argument)",
-                "value": "Heat 76 ●"
+                "title": "2. DOJ OLC under-21 opinion — ATF check unexecuted",
+                "value": "Heat 80 ▼▼"
               },
               {
-                "title": "3. Marquette poll: AR-15 case tied 52–48",
-                "value": "Heat 73 ▼"
+                "title": "3. AR-15 ban cases — argument Dec 2, T-68",
+                "value": "Heat 74 ▼"
               }
             ]
           },
@@ -67,7 +67,7 @@
           {
             "type": "TextBlock",
             "size": "Small",
-            "text": "• OLC under-21 opinion confirmed by 2nd outlet; still non-binding\n• FPC: DOJ sought extension in Reese v. ATF (docket not reached)\n• Minnesota: day 1 past DOJ deadline, nothing filed\n• AR-15 cases steady at 76; T-69 to Dec 2 argument",
+            "text": "• NEW: En banc 9th Cir. upholds Hawaii 30-day permit + inspection, 6–5\n• Friday ballot sweep: Ballotpedia back, but a year-old snapshot\n• Under-21 OLC opinion: quiet day 2; no ATF guidance reached\n• Washington permit law back to t-hot on Ninth Circuit context",
             "wrap": true
           }
         ],
