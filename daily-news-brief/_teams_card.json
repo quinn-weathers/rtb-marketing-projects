@@ -14,20 +14,20 @@
             "size": "Small",
             "weight": "Bolder",
             "color": "Warning",
-            "text": "RTB · 2A DAILY INTEL · Friday, September 25, 2026",
+            "text": "RTB · 2A DAILY INTEL · Monday, September 28, 2026",
             "spacing": "None"
           },
           {
             "type": "TextBlock",
             "size": "Large",
             "weight": "Bolder",
-            "text": "The full Ninth Circuit, 6–5, upheld Hawaii’s 30-day purchase-permit limit and its pre-possession police inspection.",
+            "text": "The Supreme Court's long conference is today, and the Ninth Circuit majority that upheld Hawaii's permit rules said it hopes the Justices will settle the footnote-nine question.",
             "wrap": true,
             "spacing": "Small"
           },
           {
             "type": "TextBlock",
-            "text": "In Yukutake v. Lopez, the en banc court read Bruen’s footnote nine as making objective, non-abusive shall-issue permit systems presumptively constitutional, reversing a 2025 panel. The ruling binds federal courts in nine western states, including Washington and California, and changes no law.",
+            "text": "The full Yukutake opinions are now readable: the majority treats non-abusive shall-issue rules as presumptively valid; five dissenters say footnote nine created no such test. No orders released and no petition reported; the ruling binds nine western states and changes no law.",
             "wrap": true,
             "spacing": "Small"
           },
@@ -43,16 +43,16 @@
             "type": "FactSet",
             "facts": [
               {
-                "title": "1. Ninth Circuit upholds Hawaii permit limits (Yukutake)",
-                "value": "Heat 81 ▲▲▲"
+                "title": "1. Ninth Circuit Yukutake ruling — dissents read in full",
+                "value": "Heat 79 ▼"
               },
               {
-                "title": "2. DOJ OLC under-21 opinion — ATF check unexecuted",
-                "value": "Heat 80 ▼▼"
+                "title": "2. Under-21 OLC opinion — ATF check unexecuted",
+                "value": "Heat 77 ▼"
               },
               {
-                "title": "3. AR-15 ban cases — argument Dec 2, T-68",
-                "value": "Heat 74 ▼"
+                "title": "3. AR-15 ban cases — Dec 2 argument, T-65",
+                "value": "Heat 74 ●"
               }
             ]
           },
@@ -67,7 +67,7 @@
           {
             "type": "TextBlock",
             "size": "Small",
-            "text": "• NEW: En banc 9th Cir. upholds Hawaii 30-day permit + inspection, 6–5\n• Friday ballot sweep: Ballotpedia back, but a year-old snapshot\n• Under-21 OLC opinion: quiet day 2; no ATF guidance reached\n• Washington permit law back to t-hot on Ninth Circuit context",
+            "text": "• SCOTUS long conference today; no orders yet, first list expected Oct 5\n• Yukutake dissents now read in full; no rehearing or cert filing reported\n• Delaware Supreme Court reportedly reinstated under-21 limits (unverified)\n• DOJ rights-restoration intake opening to invited applicants first",
             "wrap": true
           }
         ],
