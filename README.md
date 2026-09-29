@@ -15,6 +15,7 @@ The home page (`index.html`) is a simple hub that links out to each tool below.
 | Weekly brief | `/weekly-news-brief/` | Friday 2A weekly recap and forward-look. |
 | UTM builder | `/social-media-utm.html` | Builds UTM-tagged campaign links for the team and logs them to `utm-log.json`. |
 | Share on social | `/share-on-social.html` | Ready-to-post social copy feed. |
+| HubSpot Academy | `/hubspot-academy.html` | 26-week team HubSpot Academy curriculum. Team progress is saved to `hubspot-academy-progress.json`. |
 
 > `RTB Social Media UTM Dashboard.html` is an older duplicate of the UTM builder, kept in case its link was shared previously. `social-media-utm.html` is the current one.
 
