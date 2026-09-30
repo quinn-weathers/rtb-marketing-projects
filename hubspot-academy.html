@@ -60,6 +60,16 @@ h1,h2,h3,h4{font-family:var(--head);font-weight:600;text-transform:uppercase;let
 .eyebrow{font-family:var(--head);font-size:13px;letter-spacing:1.6px;text-transform:uppercase;color:var(--copper);font-weight:600}
 .chip{display:inline-flex;align-items:center;gap:6px;font-size:12px;font-weight:500;padding:3px 10px;border-radius:999px;background:var(--steel-tint);color:var(--steel)}
 .chip .sw{width:9px;height:9px;border-radius:2px;background:var(--ucolor)}
+.chip.ai,.st-ai{background:linear-gradient(90deg,#d46b01,#e98a2b);color:#fff}
+.chip.ai svg,.st-ai svg{width:11px;height:11px;fill:#fff}
+.st-ai{display:inline-flex;align-items:center;gap:3px;font-size:10.5px;font-weight:700;letter-spacing:.5px;padding:2px 6px;border-radius:99px}
+.wk .tags{display:flex;gap:4px;align-items:center}
+.ul .aitag{margin-left:4px}
+.filters{display:flex;gap:6px;margin-bottom:14px;flex-wrap:wrap}
+.fbtn{border:1px solid var(--line);background:#fff;color:var(--steel);padding:6px 12px;border-radius:99px;font-size:13px;font-weight:500}
+.fbtn.on{background:var(--steel);color:#fff;border-color:var(--steel)}
+.wk.dim{opacity:.28}
+.ai-note{font-size:12.5px;color:var(--copper-dark);margin-top:-6px;margin-bottom:12px}
 .chip.done{background:var(--ok-tint);color:var(--ok)}
 .chip.preview{background:var(--copper-tint);color:var(--copper-dark)}
 .spot h2{font-size:30px;line-height:1.15;margin:2px 0 10px}
@@ -280,7 +290,7 @@ footer b{font-weight:700}
     <div class="ttl">
       <div class="kick">Marketing Team · Weekly Learning</div>
       <h1>HubSpot Academy Curriculum</h1>
-      <div class="tag">26 weeks · 8 units · 15–30 minutes a week, learning together</div>
+      <div class="tag" id="tagline">15–30 minutes a week, learning together</div>
     </div>
     <div class="top-actions">
       <span class="pill" title="Sync status"><span class="dot" id="syncDot"></span><span id="syncText">Loading…</span></span>
@@ -302,6 +312,7 @@ footer b{font-weight:700}
   </nav>
 
   <section class="view on" id="v-roadmap">
+    <div class="filters" id="filters"></div>
     <div class="legend" id="legend"></div>
     <div class="grid" id="grid"></div>
   </section>
@@ -317,6 +328,7 @@ footer b{font-weight:700}
       <div class="card step"><div class="sn">03</div><h3>Bring one takeaway</h3><p>Come to the next team meeting with one idea from the lesson we could try in our own HubSpot portal.</p></div>
       <div class="card step"><div class="sn">04</div><h3>We move forward together</h3><p>Once the team wraps a week, it’s marked complete and the next lesson shows up here for everyone. No names or individual tracking.</p></div>
     </div>
+    <div class="note" style="margin-bottom:12px"><b>✦ AI in every unit.</b> Each unit ends with an AI-focused lesson on that unit’s topic (Breeze content tools and AEO in the SEO unit, AI lead scoring in automation, and so on). Use the <b>AI-focused weeks</b> filter on the Roadmap to see them all.</div>
     <div class="note"><b>Want more?</b> Each unit has optional <b>stretch lessons</b> (see the Units tab). Great for a slow week, or if a topic is central to your role.</div>
   </section>
 </main>
@@ -358,60 +370,76 @@ footer b{font-weight:700}
 <script>
 const BASE = 'https://academy.hubspot.com/lessons/';
 const UNITS = [
-  { n:1, name:'Foundations', sub:'Inbound & the HubSpot toolkit', color:'#234058',
-    goal:'Get everyone speaking the same language about inbound marketing, and on the same map of the Marketing Hub tools RTB already uses.',
-    bonus:[ ['Developing the Buyer’s Journey','buyers-journey',19], ['Getting Started with HubSpot','setting-up-your-crm',18] ] },
-  { n:2, name:'CRM Data & Segmentation', sub:'Contacts, properties, lists', color:'#d46b01',
-    goal:'Understand how our member and prospect data lives in the CRM, and how to slice it into segments we can actually market to.',
-    bonus:[ ['Customizing Views and Records for Your Team','hubspot-crm-customization',31], ['Measuring the Growth of Your Contacts Database','measuring-growth-contacts-database',26] ] },
-  { n:3, name:'Email Marketing', sub:'Strategy, building, deliverability, testing', color:'#3e6b8f',
-    goal:'Sharpen our newsletter and member emails, from strategy and build through inbox placement and A/B testing.',
-    bonus:[ ['Maximizing the Impact of Copy in Email Marketing','maximizing-the-impact-of-copy',34], ['Engaging Your Email Deliverability in HubSpot','engaging-your-email-deliverability-in-hubspot',32] ] },
-  { n:4, name:'Forms, Landing Pages & CTAs', sub:'Content Hub conversion tools', color:'#9a6a3a',
-    goal:'Build the conversion points (forms, landing pages, and CTAs) that turn blog and campaign traffic into leads and members.',
-    bonus:[ ['Creating Pages in the HubSpot Content Hub','creating-pages-in-the-hubspot-cms',22], ['Tailoring Your Website To Your Leads','tailoring-your-website-to-your-leads',32] ] },
-  { n:5, name:'Content, Blog & SEO', sub:'Topic clusters, on-page SEO, reporting', color:'#1a1a1a',
-    goal:'Connect our blog calendar to a real SEO strategy inside HubSpot, and learn how to measure what’s working.',
-    bonus:[ ['How to Generate Content Ideas','generating-content-ideas',23], ['Building a Content Creation Framework','building-a-content-creation-framework',31] ] },
-  { n:6, name:'Social & Paid Media', sub:'Reach, ad strategy, ad copy', color:'#b8860b',
-    goal:'Grow reach organically and through partners, then get the fundamentals right on paid ads and ad creative.',
+  { n:1, name:'Foundations', sub:'Inbound, the HubSpot toolkit & AI readiness', color:'#234058',
+    goal:'Get everyone speaking the same language about inbound marketing, on the same map of the Marketing Hub tools RTB already uses, and clear on where HubSpot’s AI (Breeze) fits in.',
+    bonus:[ ['Developing the Buyer’s Journey','buyers-journey',19], ['Getting Started with HubSpot','setting-up-your-crm',18], ['How to Use AI in Marketing','how-to-use-ai-in-marketing',37] ] },
+  { n:2, name:'CRM Data & Segmentation', sub:'Contacts, properties, lists & AI insights', color:'#d46b01',
+    goal:'Understand how our member and prospect data lives in the CRM, how to slice it into segments we can market to, and how AI turns that data into predictions and personalization.',
+    bonus:[ ['Customizing Views and Records for Your Team','hubspot-crm-customization',31], ['Measuring the Growth of Your Contacts Database','measuring-growth-contacts-database',26], ['Building an AI-Ready Data Foundation in HubSpot','building-an-ai-ready-data-foundation-in-hubspot-en',51] ] },
+  { n:3, name:'Email Marketing', sub:'Strategy, AI-assisted building, deliverability, testing', color:'#3e6b8f',
+    goal:'Sharpen our newsletter and member emails, from strategy and an AI-assisted build through inbox placement and A/B testing.',
+    bonus:[ ['Maximizing the Impact of Copy in Email Marketing','maximizing-the-impact-of-copy',34], ['Engaging Your Email Deliverability in HubSpot','engaging-your-email-deliverability-in-hubspot',32], ['AI Prompt Engineering for Marketing','AI-Prompting-for-Marketers',56] ] },
+  { n:4, name:'Forms, Landing Pages & CTAs', sub:'Content Hub conversion tools & personalization', color:'#9a6a3a',
+    goal:'Build the conversion points (forms, landing pages, and CTAs) that turn blog and campaign traffic into leads and members, then personalize them by segment.',
+    bonus:[ ['Creating Pages in the HubSpot Content Hub','creating-pages-in-the-hubspot-cms',22], ['Creating Free Landing Pages With HubSpot','creating-free-landing-pages-with-hubspot-en',14] ] },
+  { n:5, name:'Content, Blog, SEO & AEO', sub:'Topic clusters, SEO, Breeze content tools, AI search', color:'#1a1a1a',
+    goal:'Connect our blog calendar to a real SEO strategy inside HubSpot, use Breeze to speed up content creation, and make sure our content shows up in AI answers (ChatGPT, Perplexity, Gemini), not just Google.',
+    bonus:[ ['How to Generate Content Ideas','generating-content-ideas',23], ['Planning Content for Search and AI Visibility','planning-content-for-search-and-ai-visibility',17], ['Measuring What Matters in AEO','measuring-what-matters-in-aeo-en',35], ['Optimizing Video for AI Discovery','optimizing-video-for-ai-discovery',12] ] },
+  { n:6, name:'Social & Paid Media', sub:'Reach, ad strategy, ad copy & AI', color:'#b8860b',
+    goal:'Grow reach organically and through partners, get the fundamentals right on paid ads and ad creative, and use AI for post ideas, timing, and ad personalization.',
     bonus:[ ['Building a Social Media Engagement Strategy','using-social-media-to-build-one-to-one-relationships',34], ['Automating Your Ads in HubSpot','automating-ads',16], ['Create Instagram Ads','creating-instagram-ads',24] ] },
-  { n:7, name:'Automation & Nurturing', sub:'Workflows, nurture, lead scoring', color:'#5a7d96',
-    goal:'Let HubSpot do the repetitive work: workflows that nurture prospects toward membership and scoring that flags who’s ready.',
+  { n:7, name:'Automation & Nurturing', sub:'Workflows, nurture, AI lead scoring', color:'#5a7d96',
+    goal:'Let HubSpot do the repetitive work: workflows that nurture prospects toward membership, and AI-powered scoring that flags who’s ready.',
     bonus:[ ['Business Process Automation','business-process-automation',12], ['Measuring Lead Management Success With HubSpot','measuring-lead-management-success-hubspot',25] ] },
-  { n:8, name:'Campaigns, Reporting & AI', sub:'Campaigns tool, reports, Breeze AI', color:'#7a2e1f',
-    goal:'Tie it all together: organize work into campaigns, report on results, and use HubSpot’s AI tools responsibly.',
-    bonus:[ ['Attribution Reporting in HubSpot (Enterprise feature)','hubspot-attribution-reports',34], ['Designing Compelling HubSpot Dashboards','hubspot-dashboards',45] ] },
+  { n:8, name:'Campaigns, Reporting & AI', sub:'Campaigns tool, reports, AI across the funnel', color:'#7a2e1f',
+    goal:'Tie it all together: organize work into campaigns, report on results, apply AI from planning through analytics, and plan how our team keeps growing its AI use.',
+    bonus:[ ['Attribution Reporting in HubSpot (Enterprise feature)','hubspot-attribution-reports',34], ['Designing Compelling HubSpot Dashboards','hubspot-dashboards',45], ['AI as a Strategic Advantage in Digital Marketing','ai-as-a-strategic-advantage-in-digital-marketing',37] ] },
 ];
 
-// week: [unit, [[title, slug, minutes], ...], focus line]
+// week: [unit, [[title, slug, minutes], ...], focus line, isAI]
 const WEEKS = [
   [1, [['Introduction to Marketing Hub','introduction-to-marketing-hub',23]], 'A tour of the Marketing Hub tools, so we all know what’s in the toolbox before we start using it more deeply.'],
   [1, [['Growing Your Business With a Flywheel Model','flywheel',19]], 'Why inbound thinks in a flywheel, not a funnel. Useful framing for how happy members drive referrals and renewals.'],
   [1, [['Creating a Buyer Persona','buyer-personas',24]], 'How to build personas from real data and interviews. Think about the different people who join RTB and why.'],
+  [1, [['Assessing Your AI Maturity','assessing-your-ai-maturity',21]], 'Where are we on AI today? A maturity framework plus a look at HubSpot’s Breeze Assistant and Breeze agents, so we know what the AI toolkit can do before we use it in later units.', true],
+
   [2, [['Managing Your Contacts With the HubSpot CRM','managing-your-contacts-with-the-hubspot-crm',20]], 'Contact records, active vs. static lists, and saved views: the everyday mechanics of our database.'],
   [2, [['Exploring the Contacts Database in HubSpot','exploring-the-contacts-database-in-hubspot',27]], 'Imports, custom properties, and keeping the database clean so every list and report we build is trustworthy.'],
   [2, [['Understanding Behavioral Marketing and Customer Segmentation','understanding-behavioral-marketing-and-customer-segmentation',32]], 'Segmenting by what people do, not just who they are, to send the right message at the right time.'],
+  [2, [['AI Marketing Insights for Strategic Decision Making','AI-Marketing-Insights-for-Strategic-Decision-Making',32]], 'The AI layer on top of our data: predictive analytics and AI-driven personalization, building on the segments from the last three weeks.', true],
+
   [3, [['Email Marketing Strategy Fundamentals','email-marketing-strategy-fundamentals',21]], 'Goals, audience, and technology: the strategy layer underneath every newsletter and member email.'],
-  [3, [['Creating Impactful Emails in HubSpot','creating-impactful-emails-in-hubspot',19]], 'The drag-and-drop editor, in-email CTAs, and send-time scheduling, hands-on in the tool we use every week.'],
+  [3, [['Creating Impactful Emails in HubSpot','creating-impactful-emails-in-hubspot',19]], 'Hands-on in the email editor, including the AI Content Assistant for drafting paragraphs, headings, and subject lines. Try it on a real draft this week.', true],
   [3, [['Understanding Permissions and Deliverability','understanding-permissions-and-deliverability',30]], 'Consent, compliance, and inbox placement. What keeps our emails out of spam folders.'],
-  [3, [['Improving Your Email Marketing Through Testing','improving-your-email-marketing-through-testing',18]], 'How to run A/B tests on subject lines and content, and how to read the results.'],
+  [3, [['Improving Your Email Marketing Through Testing','improving-your-email-marketing-through-testing',18]], 'How to run A/B tests on subject lines and content. Pairs well with testing AI-drafted subject lines against our own.'],
+
   [4, [['Capture Leads Using Forms and Conversations','capture-leads-in-hubspot',28]], 'Forms, live chat, and bots: every way HubSpot can capture a visitor’s information.'],
   [4, [['How to Create a Landing Page in HubSpot','creating-landing-pages-in-hubspot',30]], 'Landing page design, copy, and forms that convert. Directly applicable to campaign and partner pages.'],
   [4, [['Creating Calls-to-Action in HubSpot','creating-calls-to-action-in-hubspot',24]], 'Building and optimizing CTAs, the same kind of pieces we place in blog posts.'],
+  [4, [['Tailoring Your Website To Your Leads','tailoring-your-website-to-your-leads',32]], 'Personalizing forms, CTAs, and chatbots by segment. The lesson frames this as table stakes in the AI era, but it focuses on personalization rather than AI tools themselves.', true],
+
   [5, [['Creating a Content Strategy in HubSpot','creating-a-content-strategy-in-hubspot',32]], 'The SEO tool, pillar pages, and topic clusters: organizing the blog around topics we want to own.'],
   [5, [['Optimizing Your Website for Search Engines in HubSpot','optimizing-your-website-for-search-engines-in-hubspot',33]], 'On-page and technical SEO inside the CMS: titles, meta, structure, and HubSpot’s recommendations.'],
   [5, [['Measurement and Reporting for SEO','seo-reporting',20]], 'Reading SEO performance across HubSpot, Google Analytics, and Search Console.'],
+  [5, [['Content Creation in Content Hub','getting-started-with-content-creation-in-content-hub',16], ['The AI-Powered Content Toolkit for SMBs','the-ai-powered-content-toolkit-for-smbs',15]], 'Two short lessons: Breeze AI for drafting pages and blog posts, then how to use AI to speed up writing while keeping our own expertise and voice in charge.', true],
+  [5, [['Winning on Answer Engines','winning-on-answer-engines',19], ['Establishing Your AEO Foundation','establishing-your-aeo-foundation-en',16]], 'SEO for AI search (AEO): how ChatGPT, Perplexity, and Gemini choose what to cite, and the authority signals (E-E-A-T) that get our content picked.', true],
+  [5, [['Getting Started: From AEO Grader to Your Live Dashboard','getting-started-from-aeo-grader-to-your-live-dashboard-en',35]], 'Put AEO into practice: run HubSpot’s AEO Grader and set up a dashboard to track how RTB shows up in AI answers over time.', true],
+
   [6, [['How to Improve Your Reach on Social Media','extending-your-reach-on-social-media',30]], 'Influencers and user-generated content. Relevant to our affiliate and partner programs.'],
   [6, [['Foundations of Digital Advertising Strategy','foundation-digital-advertising-strategy',17]], 'How paid and organic work together, and where ads fit in an inbound strategy.'],
   [6, [['How to Write Ad Copy','ad-copy-creative-conversion',27]], 'Ad copy, creative, and the conversion path from click to landing page.'],
+  [6, [['Creating a Digital Presence with Ads and Social Media','creating-a-digital-presence-with-ads-and-social-media',32]], 'Organic plus paid social, including how AI drafts post ideas, recommends posting times, and dynamically adjusts ad creative and targeting.', true],
+
   [7, [['How to Set Up Inbound Workflows','Using-Workflows-to-Power-Your-Inbound-Strategy',15], ['Creating a Lead Nurturing Workflow','creating-a-lead-nurturing-workflow',14]], 'Two short lessons: what workflows can do across the Hubs, then building a nurture workflow step by step.'],
   [7, [['Lead Nurturing with HubSpot','lead-nurturing-with-hubspot',24]], 'Designing automated nurture campaigns that move prospects toward joining.'],
-  [7, [['Lead Scoring and Routing in HubSpot','lead-scoring-lead-routing-hubspot',35]], 'Scoring leads by fit and engagement so the hottest prospects get attention first.'],
+  [7, [['Lead Scoring and Routing in HubSpot','lead-scoring-lead-routing-hubspot',35]], 'Scoring leads by fit and engagement, including HubSpot’s predictive (machine-learning) lead scoring, so the hottest prospects get attention first.', true],
+  [7, [['AI for Building Pipeline','ai-for-building-pipeline',21]], 'Breeze AI for lead scoring, prioritization, and personalized outreach at scale: the next step up from the scoring and nurture we just built.', true],
+
   [8, [['Creating a Campaign in HubSpot','creating-a-campaign-in-hubspot',22]], 'The campaigns tool: grouping emails, pages, posts, and ads under one campaign with a budget and goals.'],
   [8, [['Understanding Reporting in Marketing Hub','understanding-reporting-in-marketing-hub-en',23]], 'Traffic reports, the Analyze tabs, and contact attribution: where to find the numbers.'],
   [8, [['Analyzing Your HubSpot Campaigns','analyzing-your-hubspot-campaigns',11], ['Using Data Visualization in HubSpot Reports','data-visualization-in-hubspot-reports',19]], 'Two short lessons: reading campaign performance, then picking the right chart to tell the story.'],
-  [8, [['Content Creation in Content Hub','getting-started-with-content-creation-in-content-hub',16], ['The AI-Powered Content Toolkit for SMBs','the-ai-powered-content-toolkit-for-smbs',15]], 'Capstone: Breeze AI for pages and blogs, and using AI to speed up work while keeping human expertise in charge.'],
+  [8, [['AI For Marketing Campaigns','ai-for-marketing-campaigns',37]], 'AI across a whole campaign, from strategy and content through targeting and analytics. A little over our usual length, so feel free to split it across two sittings.', true],
+  [8, [['Scaling Your AI Maturity','scaling-your-ai-maturity',19]], 'Capstone: revisit the AI maturity check from Week 4 and map a 90-day plan for where our team takes AI next.', true],
 ];
 
 
@@ -432,14 +460,22 @@ let FILE_SHA = null;
 let VIEW_WEEK = null;           // week being previewed in spotlight (null = current)
 let SYNC = 'loading';
 
+/* Weeks are saved by a stable ID (first lesson's slug) so lessons can be added or reordered later
+   without breaking saved progress. Older number-based files are still understood. */
+function weekId(w){ return WEEKS[w-1][1][0][1]; }
+function weekNum(id){ const i = WEEKS.findIndex(x=>x[1][0][1]===id); if(i>=0) return i+1; const n=parseInt(id,10); return (String(n)===String(id) && n>=1 && n<=TOTAL) ? n : 0; }
 function sanitize(s){
   const o = DEFAULT_STATE();
   if(s && typeof s==='object'){
-    const c = parseInt(s.currentWeek,10); if(c>=1 && c<=TOTAL) o.currentWeek=c;
-    if(s.completed && typeof s.completed==='object') for(const k in s.completed){ const n=parseInt(k,10); if(n>=1&&n<=TOTAL) o.completed[n]=String(s.completed[k]||''); }
+    const c = s.current!=null ? weekNum(s.current) : weekNum(String(s.currentWeek)); if(c) o.currentWeek=c;
+    if(s.completed && typeof s.completed==='object') for(const k in s.completed){ const n=weekNum(k); if(n) o.completed[n]=String(s.completed[k]||''); }
     o.updatedAt = s.updatedAt || null;
   }
   return o;
+}
+function serialize(s){
+  const completed={}; Object.keys(s.completed).sort((a,b)=>a-b).forEach(n=>{ completed[weekId(+n)] = s.completed[n]; });
+  return { current: weekId(s.currentWeek), currentWeek: s.currentWeek, completed, updatedAt: s.updatedAt };
 }
 
 /* ============================================================
@@ -449,12 +485,15 @@ function esc(s){ return (s==null?'':String(s)).replace(/[&<>"']/g,c=>({'&':'&amp
 function b64encode(str){ return btoa(unescape(encodeURIComponent(str))); }
 function b64decode(str){ return decodeURIComponent(escape(atob(str.replace(/\s/g,'')))); }
 function unitOf(n){ return UNITS[n-1]; }
-function wk(w){ const [u, lessons, focus] = WEEKS[w-1]; return { w, u, unit:unitOf(u), lessons, focus, mins:lessons.reduce((a,l)=>a+l[2],0) }; }
+function wk(w){ const [u, lessons, focus, ai] = WEEKS[w-1]; return { w, u, unit:unitOf(u), lessons, focus, ai:!!ai, mins:lessons.reduce((a,l)=>a+l[2],0) }; }
 function weekTitle(w){ return WEEKS[w-1][1].map(l=>l[0]).join(' + '); }
+function isAI(w){ return !!WEEKS[w-1][3]; }
 function isDone(w){ return !!STATE.completed[w]; }
 function doneCount(){ return Object.keys(STATE.completed).length; }
 function fmtDate(iso){ const d=new Date(iso); return isNaN(d)?'':d.toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric'}); }
 function toast(msg,type){ const t=document.getElementById('toast'); t.textContent=msg; t.className='toast show '+(type||''); clearTimeout(t._h); t._h=setTimeout(()=>t.className='toast',2800); }
+const SPARK = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l2.2 6.3L20.5 10l-6.3 2.2L12 18.5l-2.2-6.3L3.5 10l6.3-1.7z"/></svg>';
+let AI_ONLY = false;
 const PLAY = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>';
 
 /* ============================================================
@@ -470,7 +509,7 @@ async function ghGet(){
   try{ return sanitize(JSON.parse(b64decode(j.content||''))); }catch(e){ return DEFAULT_STATE(); }
 }
 async function ghPut(state, message){
-  const body = { message, content:b64encode(JSON.stringify(state,null,2)+'\n'), branch:CFG.branch };
+  const body = { message, content:b64encode(JSON.stringify(serialize(state),null,2)+'\n'), branch:CFG.branch };
   if(FILE_SHA) body.sha = FILE_SHA;
   let r = await fetch(apiUrl(), {method:'PUT', headers:ghHeaders(), body:JSON.stringify(body)});
   if(r.status===409 || r.status===422){ await ghGet().catch(()=>{}); if(FILE_SHA) body.sha=FILE_SHA; r = await fetch(apiUrl(), {method:'PUT', headers:ghHeaders(), body:JSON.stringify(body)}); }
@@ -480,7 +519,7 @@ async function ghPut(state, message){
 async function load(){
   try{
     STATE = await ghGet(); SYNC='live';
-    lsSet(LS.cache, JSON.stringify(STATE));
+    lsSet(LS.cache, JSON.stringify(serialize(STATE)));
   }catch(e){
     try{
       const r = await fetch('./'+CFG.path+'?t='+Date.now(), {cache:'no-store'});
@@ -504,7 +543,7 @@ async function commit(mutator, message){
     mutator(STATE); STATE.updatedAt = new Date().toISOString();
     render();
     await ghPut(STATE, message);
-    lsSet(LS.cache, JSON.stringify(STATE)); SYNC='live'; render();
+    lsSet(LS.cache, JSON.stringify(serialize(STATE))); SYNC='live'; render();
     toast('Saved for the whole team','ok');
   }catch(e){
     STATE = sanitize(JSON.parse(prev)); render();
@@ -536,7 +575,7 @@ function step(d){ const cur = VIEW_WEEK||STATE.currentWeek; const n=Math.min(TOT
 /* ============================================================
    Render
    ============================================================ */
-function render(){ renderSync(); renderSpot(); renderProg(); renderGrid(); renderUnits(); document.body.classList.toggle('admin', !!TOKEN); document.getElementById('adminControls').style.display = TOKEN?'block':'none'; }
+function render(){ document.getElementById('tagline').textContent = `${TOTAL} weeks · ${UNITS.length} units · 15–30 minutes a week, learning together`; renderSync(); renderSpot(); renderProg(); renderGrid(); renderUnits(); document.body.classList.toggle('admin', !!TOKEN); document.getElementById('adminControls').style.display = TOKEN?'block':'none'; }
 
 function renderSync(){
   const d=document.getElementById('syncDot'), t=document.getElementById('syncText');
@@ -559,7 +598,7 @@ function renderSpot(){
     ? `<button class="btn btn-ok btn-sm" onclick="completeAndAdvance(${w})">✓ Mark Week ${w} Complete${w===cur&&w<TOTAL?' &amp; Advance':''}</button>` : '';
   el.innerHTML = `
     <div class="spot-top"><span class="eyebrow">${label} · Week ${w} of ${TOTAL}</span>
-      <span class="chip" style="--ucolor:${x.unit.color}"><span class="sw"></span>Unit ${x.u}: ${esc(x.unit.name)}</span>${status}</div>
+      <span class="chip" style="--ucolor:${x.unit.color}"><span class="sw"></span>Unit ${x.u}: ${esc(x.unit.name)}</span>${x.ai?'<span class="chip ai">'+SPARK+'AI in HubSpot</span>':''}${status}</div>
     <h2>${esc(weekTitle(w))}</h2>
     <p class="focus">${esc(x.focus)}</p>
     <div class="lessons">${lessons}</div>
@@ -573,6 +612,7 @@ function renderSpot(){
 function renderProg(){
   const d = doneCount(), pct = Math.round(d/TOTAL*100);
   const mins = Object.keys(STATE.completed).reduce((a,w)=>a+wk(+w).mins,0);
+  const aiW = WEEKS.map((x,i)=>i+1).filter(isAI), aiTotal = aiW.length, aiDone = aiW.filter(isDone).length;
   const ub = UNITS.map(u=>{
     const ws = WEEKS.map((x,i)=>i+1).filter(i=>WEEKS[i-1][0]===u.n), dn = ws.filter(isDone).length;
     return `<div class="ub" style="--ucolor:${u.color}" title="Unit ${u.n}: ${esc(u.name)}"><span class="num">${u.n}</span><span class="track"><i style="width:${dn/ws.length*100}%"></i></span><span class="cnt">${dn}/${ws.length}</span></div>`;
@@ -582,16 +622,20 @@ function renderProg(){
     <div class="big"><span class="n">${d}</span><span class="of">of ${TOTAL} weeks complete</span></div>
     <div class="bar"><i style="width:${pct}%"></i></div>
     <div class="pct">${pct}% · ${mins} min of learning per person so far${STATE.updatedAt?' · updated '+esc(fmtDate(STATE.updatedAt)):''}</div>
+    <div class="ai-note">✦ ${aiDone} of ${aiTotal} AI-focused weeks complete</div>
     <div class="ubars">${ub}</div>`;
 }
 
 function renderGrid(){
+  const nAI = WEEKS.filter(x=>x[3]).length;
+  document.getElementById('filters').innerHTML = `<button class="fbtn ${AI_ONLY?'':'on'}" onclick="AI_ONLY=false;renderGrid()">All ${TOTAL} weeks</button><button class="fbtn ${AI_ONLY?'on':''}" onclick="AI_ONLY=true;renderGrid()">✦ AI-focused weeks (${nAI})</button>`;
   document.getElementById('legend').innerHTML = UNITS.map(u=>`<span><i style="background:${u.color}"></i>${u.n}. ${esc(u.name)}</span>`).join('');
   const cur = STATE.currentWeek, sel = VIEW_WEEK;
   document.getElementById('grid').innerHTML = WEEKS.map((_,i)=>{
     const w=i+1, x=wk(w), done=isDone(w);
-    const cls = ['wk', done?'done':'', w===cur?'cur':'', w===sel?'sel':''].join(' ');
-    const st = done?'<span class="st">✓ Done</span>':(w===cur?'<span class="st">This week</span>':'');
+    const cls = ['wk', done?'done':'', w===cur?'cur':'', w===sel?'sel':'', (AI_ONLY&&!x.ai)?'dim':''].join(' ');
+    const st0 = done?'<span class="st">✓ Done</span>':(w===cur?'<span class="st">This week</span>':'');
+    const st = `<span class="tags">${x.ai?'<span class="st-ai" title="AI-focused week">'+SPARK+'AI</span>':''}${st0}</span>`;
     return `<button class="${cls}" style="--ucolor:${x.unit.color}" onclick="preview(${w})" aria-label="Week ${w}: ${esc(weekTitle(w))}">
       <span class="wn">Week ${w}${st}</span>
       <span class="wt">${esc(weekTitle(w))}</span>
@@ -607,7 +651,7 @@ function renderUnits(){
   document.getElementById('units').innerHTML = UNITS.map(u=>{
     const ws = WEEKS.map((x,i)=>i+1).filter(i=>WEEKS[i-1][0]===u.n);
     const mins = ws.reduce((a,w)=>a+wk(w).mins,0), dn = ws.filter(isDone).length;
-    const items = ws.map(w=>wk(w).lessons.map((l,j)=>`<li><span class="w">${j?'':'Week '+w}</span>${isDone(w)?'<span class="ok">✓</span>':''}<a href="${BASE+l[1]}" target="_blank" rel="noopener">${esc(l[0])}</a><span class="m">${l[2]} min</span></li>`).join('')).join('');
+    const items = ws.map(w=>wk(w).lessons.map((l,j)=>`<li><span class="w">${j?'':'Week '+w}</span>${isDone(w)?'<span class="ok">✓</span>':''}<a href="${BASE+l[1]}" target="_blank" rel="noopener">${esc(l[0])}</a><span class="m">${l[2]} min</span>${(!j&&isAI(w))?'<span class="st-ai aitag">'+SPARK+'AI</span>':''}</li>`).join('')).join('');
     const bonus = u.bonus.map(b=>`<li><span class="w">Stretch</span><a href="${BASE+b[1]}" target="_blank" rel="noopener">${esc(b[0])}</a><span class="m">${b[2]} min</span></li>`).join('');
     return `<div class="card unit ${open.has(u.n)?'open':''}" data-u="${u.n}" style="--ucolor:${u.color}">
       <button class="unit-h" onclick="this.parentElement.classList.toggle('open')" aria-expanded="${open.has(u.n)}">
@@ -644,7 +688,7 @@ async function saveConnection(){
   lsSet(LS.cfg, JSON.stringify(CFG)); if(TOKEN) lsSet(LS.token, TOKEN); else lsDel(LS.token);
   toast('Testing connection…');
   try{
-    STATE = await ghGet(); SYNC='live'; lsSet(LS.cache, JSON.stringify(STATE));
+    STATE = await ghGet(); SYNC='live'; lsSet(LS.cache, JSON.stringify(serialize(STATE)));
     if(TOKEN){
       const r = await fetch(`https://api.github.com/repos/${CFG.owner}/${CFG.repo}`, {headers:ghHeaders()});
       const j = await r.json().catch(()=>({}));
