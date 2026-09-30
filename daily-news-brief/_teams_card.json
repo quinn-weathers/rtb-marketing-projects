@@ -14,20 +14,20 @@
             "size": "Small",
             "weight": "Bolder",
             "color": "Warning",
-            "text": "RTB · 2A DAILY INTEL · Tuesday, September 29, 2026",
+            "text": "RTB · 2A DAILY INTEL · Wednesday, September 30, 2026",
             "spacing": "None"
           },
           {
             "type": "TextBlock",
             "size": "Large",
             "weight": "Bolder",
-            "text": "The day after the Supreme Court’s long conference, no orders list has reached this board — and the federal fiscal year ends tomorrow.",
+            "text": "USCCA has published its first member-facing guide to how USCCA Law actually works.",
             "wrap": true,
             "spacing": "Small"
           },
           {
             "type": "TextBlock",
-            "text": "Nothing new was published in the past 24 hours by any source this board can read. The long-conference check could not be executed (supremecourt.gov unreachable) — an unexecuted check, not a finding.",
+            "text": "Privilege from the first call, attorney choice, insurance kept separate, and its own attorneys only “in states where USCCA Law is available.” Separately, Supreme Court dockets read directly correct three postures the board had carried.",
             "wrap": true,
             "spacing": "Small"
           },
@@ -43,16 +43,16 @@
             "type": "FactSet",
             "facts": [
               {
-                "title": "1. Ninth Circuit Yukutake ruling — day 5, no filing",
-                "value": "Heat 77 ▼"
-              },
-              {
-                "title": "2. Under-21 OLC opinion — ATF check unexecuted",
+                "title": "1. Ninth Circuit Yukutake ruling — day 6, no filing",
                 "value": "Heat 75 ▼"
               },
               {
-                "title": "3. AR-15 ban cases — argument Dec 2, T−64",
+                "title": "2. Under-21 OLC — no ATF guidance in press releases",
                 "value": "Heat 73 ▼"
+              },
+              {
+                "title": "3. AR-15 cases — respondents’ briefs due Oct 21",
+                "value": "Heat 72 ▼"
               }
             ]
           },
@@ -67,7 +67,7 @@
           {
             "type": "TextBlock",
             "size": "Small",
-            "text": "• Long-conference results: none reached this board (check unexecuted)\n• Fiscal year ends Wednesday — publish nothing predictive\n• Yukutake day 5: no rehearing or cert filing reported\n• Under-21 OLC at 75; ATF guidance check unexecuted, run 7",
+            "text": "• USCCA publishes USCCA Law access guide (9/29) — peer move\n• Correction: Novotny v. Moore rescheduled 9/24, not at Monday’s conference\n• Correction: Johnson v. Jacobson was distributed for 9/28; no order yet\n• Delaware HB 451 verified: 4–1 on Sept 8, exceptions confirmed",
             "wrap": true
           }
         ],
