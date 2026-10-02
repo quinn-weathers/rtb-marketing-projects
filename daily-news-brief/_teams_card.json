@@ -9,74 +9,20 @@
         "type": "AdaptiveCard",
         "version": "1.5",
         "body": [
-          {
-            "type": "TextBlock",
-            "size": "Small",
-            "weight": "Bolder",
-            "color": "Warning",
-            "text": "RTB · 2A DAILY INTEL · Wednesday, September 30, 2026",
-            "spacing": "None"
-          },
-          {
-            "type": "TextBlock",
-            "size": "Large",
-            "weight": "Bolder",
-            "text": "USCCA has published its first member-facing guide to how USCCA Law actually works.",
-            "wrap": true,
-            "spacing": "Small"
-          },
-          {
-            "type": "TextBlock",
-            "text": "Privilege from the first call, attorney choice, insurance kept separate, and its own attorneys only “in states where USCCA Law is available.” Separately, Supreme Court dockets read directly correct three postures the board had carried.",
-            "wrap": true,
-            "spacing": "Small"
-          },
-          {
-            "type": "TextBlock",
-            "size": "Small",
-            "weight": "Bolder",
-            "color": "Warning",
-            "text": "HOTTEST LEADS",
-            "spacing": "Medium"
-          },
-          {
-            "type": "FactSet",
-            "facts": [
-              {
-                "title": "1. Ninth Circuit Yukutake ruling — day 6, no filing",
-                "value": "Heat 75 ▼"
-              },
-              {
-                "title": "2. Under-21 OLC — no ATF guidance in press releases",
-                "value": "Heat 73 ▼"
-              },
-              {
-                "title": "3. AR-15 cases — respondents’ briefs due Oct 21",
-                "value": "Heat 72 ▼"
-              }
-            ]
-          },
-          {
-            "type": "TextBlock",
-            "size": "Small",
-            "weight": "Bolder",
-            "color": "Warning",
-            "text": "WHAT'S MOVING",
-            "spacing": "Medium"
-          },
-          {
-            "type": "TextBlock",
-            "size": "Small",
-            "text": "• USCCA publishes USCCA Law access guide (9/29) — peer move\n• Correction: Novotny v. Moore rescheduled 9/24, not at Monday’s conference\n• Correction: Johnson v. Jacobson was distributed for 9/28; no order yet\n• Delaware HB 451 verified: 4–1 on Sept 8, exceptions confirmed",
-            "wrap": true
-          }
+          { "type": "TextBlock", "size": "Small", "weight": "Bolder", "color": "Warning", "text": "RTB · 2A DAILY INTEL · Friday, October 2, 2026", "spacing": "None" },
+          { "type": "TextBlock", "size": "Large", "weight": "Bolder", "text": "A federal judge has put Connecticut’s “convertible pistol” law on hold the day before it was due to take effect — the first court win against the new “Glock ban” laws.", "wrap": true, "spacing": "Small" },
+          { "type": "TextBlock", "text": "On 30 September a federal judge enjoined Connecticut’s Public Act 26-41 hours before it took effect, finding the plaintiffs likely to win on Second Amendment grounds. Also corrected today: Johnson v. Jacobson is a carry-reciprocity case, and DOJ sued Minnesota on 24 September.", "wrap": true, "spacing": "Small" },
+          { "type": "TextBlock", "size": "Small", "weight": "Bolder", "color": "Warning", "text": "HOTTEST LEADS", "spacing": "Medium" },
+          { "type": "FactSet", "facts": [
+            { "title": "1. Connecticut “convertible pistol” law blocked", "value": "Heat 81 ▲▲▲" },
+            { "title": "2. AR-15 cases — previews begin; briefs due Oct 21", "value": "Heat 72 ▲" },
+            { "title": "3. Ninth Circuit Yukutake — day 8, no filing", "value": "Heat 71 ▼" }
+          ]},
+          { "type": "TextBlock", "size": "Small", "weight": "Bolder", "color": "Warning", "text": "WHAT'S MOVING", "spacing": "Medium" },
+          { "type": "TextBlock", "size": "Small", "text": "• CT convertible-pistol law blocked by preliminary injunction (9/30)\n• Correction: Johnson v. Jacobson is a reciprocity case; orders Mon 10/5\n• Correction: DOJ sued Minnesota over permits/waiting periods on 9/24\n• Ballot sweep: MA Q9 confirmed — a “yes” keeps the 2024 law", "wrap": true }
         ],
         "actions": [
-          {
-            "type": "Action.OpenUrl",
-            "title": "Read full brief →",
-            "url": "https://quinn-weathers.github.io/rtb-marketing-projects/daily-news-brief/"
-          }
+          { "type": "Action.OpenUrl", "title": "Read full brief →", "url": "https://quinn-weathers.github.io/rtb-marketing-projects/daily-news-brief/" }
         ]
       }
     }
