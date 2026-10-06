@@ -1,84 +1,84 @@
 {
- "type": "message",
- "attachments": [
-  {
-   "contentType": "application/vnd.microsoft.card.adaptive",
-   "contentUrl": null,
-   "content": {
-    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
-    "type": "AdaptiveCard",
-    "version": "1.5",
-    "body": [
-     {
-      "type": "TextBlock",
-      "size": "Small",
-      "weight": "Bolder",
-      "color": "Warning",
-      "text": "RTB · 2A DAILY INTEL · Monday, October 5, 2026",
-      "spacing": "None"
-     },
-     {
-      "type": "TextBlock",
-      "size": "Large",
-      "weight": "Bolder",
-      "text": "The Supreme Court declined this morning to hear the carry-licence reciprocity case, Johnson v. Jacobson, and the under-21 carry case, Salas-Martinez v. Texas.",
-      "wrap": true,
-      "spacing": "Small"
-     },
-     {
-      "type": "TextBlock",
-      "text": "The Court's first order list of the term (read at source) denies both, with no noted dissent; 48 of 57 gun petitions from the 9/28 conference were denied and none granted. Nothing about carrying across state lines changes today.",
-      "wrap": true,
-      "spacing": "Small"
-     },
-     {
-      "type": "TextBlock",
-      "size": "Small",
-      "weight": "Bolder",
-      "color": "Warning",
-      "text": "HOTTEST LEADS",
-      "spacing": "Medium"
-     },
-     {
-      "type": "FactSet",
-      "facts": [
-       {
-        "title": "1. AR-15 cases lead term previews; NJ asks to ride along",
-        "value": "Heat 79 ▲▲"
-       },
-       {
-        "title": "2. Connecticut 'convertible pistol' law stays blocked",
-        "value": "Heat 77 ▼"
-       },
-       {
-        "title": "3. SCOTUS denies reciprocity, under-21 carry petitions",
-        "value": "Heat 74 ▲▲"
-       }
-      ]
-     },
-     {
-      "type": "TextBlock",
-      "size": "Small",
-      "weight": "Bolder",
-      "color": "Warning",
-      "text": "WHAT'S MOVING",
-      "spacing": "Medium"
-     },
-     {
-      "type": "TextBlock",
-      "size": "Small",
-      "text": "• Johnson v. Jacobson denied (carry reciprocity); rules unchanged\n• 48 of 57 gun petitions denied, none granted; Novotny, Calce pending\n• Late find: 5th Cir. struck federal direct interstate handgun-buy ban (9/18)\n• New Jersey asks SCOTUS to hold its rifle/magazine case for AR-15 ruling",
-      "wrap": true
-     }
-    ],
-    "actions": [
-     {
-      "type": "Action.OpenUrl",
-      "title": "Read full brief →",
-      "url": "https://quinn-weathers.github.io/rtb-marketing-projects/daily-news-brief/"
-     }
-    ]
-   }
-  }
- ]
+  "type": "message",
+  "attachments": [
+    {
+      "contentType": "application/vnd.microsoft.card.adaptive",
+      "contentUrl": null,
+      "content": {
+        "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+        "type": "AdaptiveCard",
+        "version": "1.5",
+        "body": [
+          {
+            "type": "TextBlock",
+            "size": "Small",
+            "weight": "Bolder",
+            "color": "Warning",
+            "text": "RTB · 2A DAILY INTEL · Tuesday, October 6, 2026",
+            "spacing": "None"
+          },
+          {
+            "type": "TextBlock",
+            "size": "Large",
+            "weight": "Bolder",
+            "text": "A day after the Supreme Court passed on reciprocity, an Oklahoma Guard member deployed to Washington faces a D.C. felony for carrying a pistol that is legal at home.",
+            "wrap": true,
+            "spacing": "Small"
+          },
+          {
+            "type": "TextBlock",
+            "text": "Charged with carrying a pistol without a licence after a traffic stop, per the affidavit quoted by AmmoLand; four outlets; the case is pending. Nothing about carrying across state lines has changed: a home-state right does not travel, and D.C. recognises no out-of-state permits.",
+            "wrap": true,
+            "spacing": "Small"
+          },
+          {
+            "type": "TextBlock",
+            "size": "Small",
+            "weight": "Bolder",
+            "color": "Warning",
+            "text": "HOTTEST LEADS",
+            "spacing": "Medium"
+          },
+          {
+            "type": "FactSet",
+            "facts": [
+              {
+                "title": "1. AR-15 cases lead every term preview",
+                "value": "Heat 79 →"
+              },
+              {
+                "title": "2. Connecticut pistol law stays blocked; no appeal",
+                "value": "Heat 75 ▼"
+              },
+              {
+                "title": "3. Oklahoma Guard member faces D.C. carry felony",
+                "value": "Heat 71 ▲▲"
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "size": "Small",
+            "weight": "Bolder",
+            "color": "Warning",
+            "text": "WHAT'S MOVING",
+            "spacing": "Medium"
+          },
+          {
+            "type": "TextBlock",
+            "size": "Small",
+            "text": "• D.C.: Guard member faces felony for home-state-legal carry (4 outlets)\n• California SB 948 read: 4-hour live-fire course for safety certificate, 2029\n• Stopgap confirmed: Public Law 119-103, signed 2 Sept, runs to 11 Dec\n• Arkansas: the arms amendment is Issue 2 (Ballotpedia, read)",
+            "wrap": true
+          }
+        ],
+        "actions": [
+          {
+            "type": "Action.OpenUrl",
+            "title": "Read full brief →",
+            "url": "https://quinn-weathers.github.io/rtb-marketing-projects/daily-news-brief/"
+          }
+        ]
+      }
+    }
+  ]
 }
