@@ -1,84 +1,84 @@
 {
-  "type": "message",
-  "attachments": [
-    {
-      "contentType": "application/vnd.microsoft.card.adaptive",
-      "contentUrl": null,
-      "content": {
-        "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
-        "type": "AdaptiveCard",
-        "version": "1.5",
-        "body": [
-          {
-            "type": "TextBlock",
-            "size": "Small",
-            "weight": "Bolder",
-            "color": "Warning",
-            "text": "RTB · 2A DAILY INTEL · Tuesday, October 6, 2026",
-            "spacing": "None"
-          },
-          {
-            "type": "TextBlock",
-            "size": "Large",
-            "weight": "Bolder",
-            "text": "A day after the Supreme Court passed on reciprocity, an Oklahoma Guard member deployed to Washington faces a D.C. felony for carrying a pistol that is legal at home.",
-            "wrap": true,
-            "spacing": "Small"
-          },
-          {
-            "type": "TextBlock",
-            "text": "Charged with carrying a pistol without a licence after a traffic stop, per the affidavit quoted by AmmoLand; four outlets; the case is pending. Nothing about carrying across state lines has changed: a home-state right does not travel, and D.C. recognises no out-of-state permits.",
-            "wrap": true,
-            "spacing": "Small"
-          },
-          {
-            "type": "TextBlock",
-            "size": "Small",
-            "weight": "Bolder",
-            "color": "Warning",
-            "text": "HOTTEST LEADS",
-            "spacing": "Medium"
-          },
-          {
-            "type": "FactSet",
-            "facts": [
-              {
-                "title": "1. AR-15 cases lead every term preview",
-                "value": "Heat 79 →"
-              },
-              {
-                "title": "2. Connecticut pistol law stays blocked; no appeal",
-                "value": "Heat 75 ▼"
-              },
-              {
-                "title": "3. Oklahoma Guard member faces D.C. carry felony",
-                "value": "Heat 71 ▲▲"
-              }
-            ]
-          },
-          {
-            "type": "TextBlock",
-            "size": "Small",
-            "weight": "Bolder",
-            "color": "Warning",
-            "text": "WHAT'S MOVING",
-            "spacing": "Medium"
-          },
-          {
-            "type": "TextBlock",
-            "size": "Small",
-            "text": "• D.C.: Guard member faces felony for home-state-legal carry (4 outlets)\n• California SB 948 read: 4-hour live-fire course for safety certificate, 2029\n• Stopgap confirmed: Public Law 119-103, signed 2 Sept, runs to 11 Dec\n• Arkansas: the arms amendment is Issue 2 (Ballotpedia, read)",
-            "wrap": true
-          }
-        ],
-        "actions": [
-          {
-            "type": "Action.OpenUrl",
-            "title": "Read full brief →",
-            "url": "https://quinn-weathers.github.io/rtb-marketing-projects/daily-news-brief/"
-          }
-        ]
-      }
-    }
-  ]
+ "type": "message",
+ "attachments": [
+  {
+   "contentType": "application/vnd.microsoft.card.adaptive",
+   "contentUrl": null,
+   "content": {
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "type": "AdaptiveCard",
+    "version": "1.5",
+    "body": [
+     {
+      "type": "TextBlock",
+      "size": "Small",
+      "weight": "Bolder",
+      "color": "Warning",
+      "text": "RTB · 2A DAILY INTEL · Wednesday, October 7, 2026",
+      "spacing": "None"
+     },
+     {
+      "type": "TextBlock",
+      "size": "Large",
+      "weight": "Bolder",
+      "text": "DOJ has told a federal court that lawful self-defense carry is allowed in public national-park buildings, but the Park Service's own guidance still says it is not.",
+      "wrap": true,
+      "spacing": "Small"
+     },
+     {
+      "type": "TextBlock",
+      "text": "In a 2 October motion to dismiss in Zimmerman v. Blanche, DOJ argues visitors carrying lawfully for self-defense in park facilities open to the public face no credible threat of prosecution. It is a litigation position, not a ruling, and the NPS page still lists visitor centers as prohibited.",
+      "wrap": true,
+      "spacing": "Small"
+     },
+     {
+      "type": "TextBlock",
+      "size": "Small",
+      "weight": "Bolder",
+      "color": "Warning",
+      "text": "HOTTEST LEADS",
+      "spacing": "Medium"
+     },
+     {
+      "type": "FactSet",
+      "facts": [
+       {
+        "title": "1. AR-15 cases still lead term coverage",
+        "value": "Heat 77 ▼"
+       },
+       {
+        "title": "2. Connecticut pistol law stays blocked, no appeal",
+        "value": "Heat 72 ▼"
+       },
+       {
+        "title": "3. Mass. Question 9: WBUR and GBH explainers",
+        "value": "Heat 69 ▲"
+       }
+      ]
+     },
+     {
+      "type": "TextBlock",
+      "size": "Small",
+      "weight": "Bolder",
+      "color": "Warning",
+      "text": "WHAT'S MOVING",
+      "spacing": "Medium"
+     },
+     {
+      "type": "TextBlock",
+      "size": "Small",
+      "text": "• Nat'l parks: DOJ says public park buildings open to lawful carry; NPS disagrees\n• ATF: Trace analyses ~38,000 comments; NSSF opposes direct-to-door shipping\n• NICS: September NSSF-adjusted 1,152,077, down 2.3% y/y; 14th month over 1M\n• Denver: FPC sues over nonresident carry gap (filed 9/29)",
+      "wrap": true
+     }
+    ],
+    "actions": [
+     {
+      "type": "Action.OpenUrl",
+      "title": "Read full brief →",
+      "url": "https://quinn-weathers.github.io/rtb-marketing-projects/daily-news-brief/"
+     }
+    ]
+   }
+  }
+ ]
 }
