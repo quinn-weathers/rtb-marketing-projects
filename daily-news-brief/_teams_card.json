@@ -1,84 +1,30 @@
 {
- "type": "message",
- "attachments": [
-  {
-   "contentType": "application/vnd.microsoft.card.adaptive",
-   "contentUrl": null,
-   "content": {
-    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
-    "type": "AdaptiveCard",
-    "version": "1.5",
-    "body": [
-     {
-      "type": "TextBlock",
-      "size": "Small",
-      "weight": "Bolder",
-      "color": "Warning",
-      "text": "RTB · 2A DAILY INTEL · Wednesday, October 7, 2026",
-      "spacing": "None"
-     },
-     {
-      "type": "TextBlock",
-      "size": "Large",
-      "weight": "Bolder",
-      "text": "DOJ has told a federal court that lawful self-defense carry is allowed in public national-park buildings, but the Park Service's own guidance still says it is not.",
-      "wrap": true,
-      "spacing": "Small"
-     },
-     {
-      "type": "TextBlock",
-      "text": "In a 2 October motion to dismiss in Zimmerman v. Blanche, DOJ argues visitors carrying lawfully for self-defense in park facilities open to the public face no credible threat of prosecution. It is a litigation position, not a ruling, and the NPS page still lists visitor centers as prohibited.",
-      "wrap": true,
-      "spacing": "Small"
-     },
-     {
-      "type": "TextBlock",
-      "size": "Small",
-      "weight": "Bolder",
-      "color": "Warning",
-      "text": "HOTTEST LEADS",
-      "spacing": "Medium"
-     },
-     {
-      "type": "FactSet",
-      "facts": [
-       {
-        "title": "1. AR-15 cases still lead term coverage",
-        "value": "Heat 77 ▼"
-       },
-       {
-        "title": "2. Connecticut pistol law stays blocked, no appeal",
-        "value": "Heat 72 ▼"
-       },
-       {
-        "title": "3. Mass. Question 9: WBUR and GBH explainers",
-        "value": "Heat 69 ▲"
-       }
-      ]
-     },
-     {
-      "type": "TextBlock",
-      "size": "Small",
-      "weight": "Bolder",
-      "color": "Warning",
-      "text": "WHAT'S MOVING",
-      "spacing": "Medium"
-     },
-     {
-      "type": "TextBlock",
-      "size": "Small",
-      "text": "• Nat'l parks: DOJ says public park buildings open to lawful carry; NPS disagrees\n• ATF: Trace analyses ~38,000 comments; NSSF opposes direct-to-door shipping\n• NICS: September NSSF-adjusted 1,152,077, down 2.3% y/y; 14th month over 1M\n• Denver: FPC sues over nonresident carry gap (filed 9/29)",
-      "wrap": true
-     }
-    ],
-    "actions": [
-     {
-      "type": "Action.OpenUrl",
-      "title": "Read full brief →",
-      "url": "https://quinn-weathers.github.io/rtb-marketing-projects/daily-news-brief/"
-     }
-    ]
-   }
-  }
- ]
+  "type": "message",
+  "attachments": [
+    {
+      "contentType": "application/vnd.microsoft.card.adaptive",
+      "contentUrl": null,
+      "content": {
+        "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+        "type": "AdaptiveCard",
+        "version": "1.5",
+        "body": [
+          { "type": "TextBlock", "size": "Small", "weight": "Bolder", "color": "Warning", "text": "RTB · 2A DAILY INTEL · Thursday, October 8, 2026", "spacing": "None" },
+          { "type": "TextBlock", "size": "Large", "weight": "Bolder", "text": "Scam ads selling a \"national concealed carry permit\" that does not exist have spent more than $3.1 million on Facebook and Instagram, and they are aimed at seniors and veterans.", "wrap": true, "spacing": "Small" },
+          { "type": "TextBlock", "text": "An ISD report found 22 Meta pages pushing fake online carry permits, with at least 24.8 million impressions, AI likenesses of officials and fear-based hooks. There is no national permit; this is a scam-awareness and ad-hygiene moment for RTB.", "wrap": true, "spacing": "Small" },
+          { "type": "TextBlock", "size": "Small", "weight": "Bolder", "color": "Warning", "text": "HOTTEST LEADS", "spacing": "Medium" },
+          { "type": "FactSet", "facts": [
+            { "title": "1. The AR-15 cases still lead term coverage", "value": "Heat 75 ▼" },
+            { "title": "2. Maryland's convertible-pistol ban stays in effect", "value": "Heat 70 ▲▲" },
+            { "title": "3. Connecticut's law stays blocked; no appeal, day 8", "value": "Heat 67 ▼" }
+          ]},
+          { "type": "TextBlock", "size": "Small", "weight": "Bolder", "color": "Warning", "text": "WHAT'S MOVING", "spacing": "Medium" },
+          { "type": "TextBlock", "size": "Small", "text": "• ISD: $3.1M+ in Meta ads selling a nonexistent national carry permit\n• Judge declines to block Maryland's convertible-pistol ban; CT stays blocked\n• U.S. LawShield partners with Silencer Central on a free NFA trust\n• DOJ tells 5th Cir. it won't enforce under-21 handgun-sale ban", "wrap": true }
+        ],
+        "actions": [
+          { "type": "Action.OpenUrl", "title": "Read full brief →", "url": "https://quinn-weathers.github.io/rtb-marketing-projects/daily-news-brief/" }
+        ]
+      }
+    }
+  ]
 }
