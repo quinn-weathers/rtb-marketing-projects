@@ -9,20 +9,74 @@
         "type": "AdaptiveCard",
         "version": "1.5",
         "body": [
-          { "type": "TextBlock", "size": "Small", "weight": "Bolder", "color": "Warning", "text": "RTB · 2A DAILY INTEL · Thursday, October 8, 2026", "spacing": "None" },
-          { "type": "TextBlock", "size": "Large", "weight": "Bolder", "text": "Scam ads selling a \"national concealed carry permit\" that does not exist have spent more than $3.1 million on Facebook and Instagram, and they are aimed at seniors and veterans.", "wrap": true, "spacing": "Small" },
-          { "type": "TextBlock", "text": "An ISD report found 22 Meta pages pushing fake online carry permits, with at least 24.8 million impressions, AI likenesses of officials and fear-based hooks. There is no national permit; this is a scam-awareness and ad-hygiene moment for RTB.", "wrap": true, "spacing": "Small" },
-          { "type": "TextBlock", "size": "Small", "weight": "Bolder", "color": "Warning", "text": "HOTTEST LEADS", "spacing": "Medium" },
-          { "type": "FactSet", "facts": [
-            { "title": "1. The AR-15 cases still lead term coverage", "value": "Heat 75 ▼" },
-            { "title": "2. Maryland's convertible-pistol ban stays in effect", "value": "Heat 70 ▲▲" },
-            { "title": "3. Connecticut's law stays blocked; no appeal, day 8", "value": "Heat 67 ▼" }
-          ]},
-          { "type": "TextBlock", "size": "Small", "weight": "Bolder", "color": "Warning", "text": "WHAT'S MOVING", "spacing": "Medium" },
-          { "type": "TextBlock", "size": "Small", "text": "• ISD: $3.1M+ in Meta ads selling a nonexistent national carry permit\n• Judge declines to block Maryland's convertible-pistol ban; CT stays blocked\n• U.S. LawShield partners with Silencer Central on a free NFA trust\n• DOJ tells 5th Cir. it won't enforce under-21 handgun-sale ban", "wrap": true }
+          {
+            "type": "TextBlock",
+            "size": "Small",
+            "weight": "Bolder",
+            "color": "Warning",
+            "text": "RTB · 2A DAILY INTEL · Friday, October 9, 2026",
+            "spacing": "None"
+          },
+          {
+            "type": "TextBlock",
+            "size": "Large",
+            "weight": "Bolder",
+            "text": "Suppressor demand is surging, but the court ruling that removed NFA registration covers only some buyers, and DOJ is now arguing against widening it.",
+            "wrap": true,
+            "spacing": "Small"
+          },
+          {
+            "type": "TextBlock",
+            "text": "DOJ filed a brief on 7 October in a Missouri NFA case opposing relief for every resident of the plaintiff states or nationwide; a status conference is set for 22 October. NSSF figures show NFA registrations up 129% year over year in September.",
+            "wrap": true,
+            "spacing": "Small"
+          },
+          {
+            "type": "TextBlock",
+            "size": "Small",
+            "weight": "Bolder",
+            "color": "Warning",
+            "text": "HOTTEST LEADS",
+            "spacing": "Medium"
+          },
+          {
+            "type": "FactSet",
+            "facts": [
+              {
+                "title": "1. The AR-15 cases still lead, on earlier term coverage",
+                "value": "Heat 73 ▼"
+              },
+              {
+                "title": "2. NFA: DOJ opposes wider relief as registrations jump 129%",
+                "value": "Heat 72 ▲▲▲"
+              },
+              {
+                "title": "3. Contra Costa sheriff drops red-dot, light, 1911 carry bans",
+                "value": "Heat 71 ▲▲"
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "size": "Small",
+            "weight": "Bolder",
+            "color": "Warning",
+            "text": "WHAT'S MOVING",
+            "spacing": "Medium"
+          },
+          {
+            "type": "TextBlock",
+            "size": "Small",
+            "text": "• DOJ opposes wider NFA relief in Missouri; status conference 22 Oct\n• Contra Costa settles with SAF: red dots, lights, 1911s allowed on permits\n• FPC files for a preliminary injunction on Colorado's resident-only permits\n• SCOTUS conference today, with Maryland's Novotny listed",
+            "wrap": true
+          }
         ],
         "actions": [
-          { "type": "Action.OpenUrl", "title": "Read full brief →", "url": "https://quinn-weathers.github.io/rtb-marketing-projects/daily-news-brief/" }
+          {
+            "type": "Action.OpenUrl",
+            "title": "Read full brief →",
+            "url": "https://quinn-weathers.github.io/rtb-marketing-projects/daily-news-brief/"
+          }
         ]
       }
     }
