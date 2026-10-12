@@ -14,20 +14,20 @@
             "size": "Small",
             "weight": "Bolder",
             "color": "Warning",
-            "text": "RTB · 2A DAILY INTEL · Friday, October 9, 2026",
+            "text": "RTB · 2A DAILY INTEL · Monday, October 12, 2026",
             "spacing": "None"
           },
           {
             "type": "TextBlock",
             "size": "Large",
             "weight": "Bolder",
-            "text": "Suppressor demand is surging, but the court ruling that removed NFA registration covers only some buyers, and DOJ is now arguing against widening it.",
+            "text": "ATF has stopped requiring federal approval and registration for suppressors, short-barreled rifles and shotguns, and \"any other weapons,\" for everyone, nationwide.",
             "wrap": true,
             "spacing": "Small"
           },
           {
             "type": "TextBlock",
-            "text": "DOJ filed a brief on 7 October in a Missouri NFA case opposing relief for every resident of the plaintiff states or nationwide; a status conference is set for 22 October. NSSF figures show NFA registrations up 129% year over year in September.",
+            "text": "Effective Oct. 9, ATF no longer requires approval or registration for these four item types, applied to everyone, not just plaintiffs. Machine guns, state laws and SBR/SBS travel rules are unchanged, and the policy is reversible guidance, not law.",
             "wrap": true,
             "spacing": "Small"
           },
@@ -43,16 +43,16 @@
             "type": "FactSet",
             "facts": [
               {
-                "title": "1. The AR-15 cases still lead, on earlier term coverage",
-                "value": "Heat 73 ▼"
+                "title": "1. ATF ends NFA approval/registration for 4 item types",
+                "value": "Heat 94 ▲▲▲"
               },
               {
-                "title": "2. NFA: DOJ opposes wider relief as registrations jump 129%",
-                "value": "Heat 72 ▲▲▲"
+                "title": "2. Massachusetts Question 9, 22 days out",
+                "value": "Heat 72 ▲▲"
               },
               {
-                "title": "3. Contra Costa sheriff drops red-dot, light, 1911 carry bans",
-                "value": "Heat 71 ▲▲"
+                "title": "3. The AR-15 cases, seven weeks before argument",
+                "value": "Heat 71 ▼"
               }
             ]
           },
@@ -67,7 +67,7 @@
           {
             "type": "TextBlock",
             "size": "Small",
-            "text": "• DOJ opposes wider NFA relief in Missouri; status conference 22 Oct\n• Contra Costa settles with SAF: red dots, lights, 1911s allowed on permits\n• FPC files for a preliminary injunction on Colorado's resident-only permits\n• SCOTUS conference today, with Maryland's Novotny listed",
+            "text": "• NFA: ATF stops approval/registration for suppressors, SBRs, SBSs, AOWs\n• Virginia: GOA sues over under-21 purchase ban and private-sale checks\n• Ballots: MA Question 9 explainers multiply, 22 days out\n• Under-21: 174 House members ask DOJ to keep enforcing the age limit",
             "wrap": true
           }
         ],
