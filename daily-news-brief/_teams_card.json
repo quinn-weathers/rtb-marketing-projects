@@ -14,20 +14,20 @@
             "size": "Small",
             "weight": "Bolder",
             "color": "Warning",
-            "text": "RTB · 2A DAILY INTEL · Monday, October 12, 2026",
+            "text": "RTB · 2A DAILY INTEL · Tuesday, October 13, 2026",
             "spacing": "None"
           },
           {
             "type": "TextBlock",
             "size": "Large",
             "weight": "Bolder",
-            "text": "ATF has stopped requiring federal approval and registration for suppressors, short-barreled rifles and shotguns, and \"any other weapons,\" for everyone, nationwide.",
+            "text": "The NFA story moves to the states: 15 states still make suppressors and short-barreled guns legal only if they're federally registered.",
             "wrap": true,
             "spacing": "Small"
           },
           {
             "type": "TextBlock",
-            "text": "Effective Oct. 9, ATF no longer requires approval or registration for these four item types, applied to everyone, not just plaintiffs. Machine guns, state laws and SBR/SBS travel rules are unchanged, and the policy is reversible guidance, not law.",
+            "text": "FPC asked the attorneys general of 15 states to stop enforcing state laws tied to federal NFA registration. ATF's pause does not override state law, so members there could skip federal paperwork and still face state charges.",
             "wrap": true,
             "spacing": "Small"
           },
@@ -43,16 +43,16 @@
             "type": "FactSet",
             "facts": [
               {
-                "title": "1. ATF ends NFA approval/registration for 4 item types",
-                "value": "Heat 94 ▲▲▲"
+                "title": "1. ATF's nationwide NFA non-enforcement, day four",
+                "value": "Heat 92 →"
               },
               {
-                "title": "2. Massachusetts Question 9, 22 days out",
-                "value": "Heat 72 ▲▲"
+                "title": "2. The state-law front: FPC letters to 15 states",
+                "value": "Heat 76 ▲▲"
               },
               {
-                "title": "3. The AR-15 cases, seven weeks before argument",
-                "value": "Heat 71 ▼"
+                "title": "3. Massachusetts Question 9, 21 days out",
+                "value": "Heat 71 →"
               }
             ]
           },
@@ -67,7 +67,7 @@
           {
             "type": "TextBlock",
             "size": "Small",
-            "text": "• NFA: ATF stops approval/registration for suppressors, SBRs, SBSs, AOWs\n• Virginia: GOA sues over under-21 purchase ban and private-sale checks\n• Ballots: MA Question 9 explainers multiply, 22 days out\n• Under-21: 174 House members ask DOJ to keep enforcing the age limit",
+            "text": "• FPC asks 15 state AGs to stop enforcing NFA-linked state laws\n• NFA case name settled; NFA checks up 129% in September\n• No gun cases on SCOTUS list; Novotny moved to 10/16 conference\n• Georgia DoorDash shooting ruled self-defense; no charges",
             "wrap": true
           }
         ],
