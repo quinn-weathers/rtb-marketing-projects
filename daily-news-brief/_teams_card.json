@@ -14,20 +14,20 @@
             "size": "Small",
             "weight": "Bolder",
             "color": "Warning",
-            "text": "RTB · 2A DAILY INTEL · Wednesday, October 14, 2026",
+            "text": "RTB · 2A DAILY INTEL · Thursday, October 15, 2026",
             "spacing": "None"
           },
           {
             "type": "TextBlock",
             "size": "Large",
             "weight": "Bolder",
-            "text": "The first state answers on the NFA: Mississippi’s attorney general says federal suppressor registration is now voluntary for Mississippians.",
+            "text": "Washington is now policing permit delays: DOJ has opened a civil-rights investigation into how one New Jersey township handles handgun purchase permits.",
             "wrap": true,
             "spacing": "Small"
           },
           {
             "type": "TextBlock",
-            "text": "She also flagged a second state law, on carrying a suppressor concealed, that is still on the books. Meanwhile DOJ told the Texas court its injunction doesn’t cover everyone in the 15 plaintiff states, so for most buyers ATF policy is the floor.",
+            "text": "DOJ’s Civil Rights Division says it is investigating Pennsauken Township, N.J., over alleged delays in answering applications for handgun purchase permits; it says it has reached no conclusions. The same day, 174 House members asked DOJ to resume enforcing the under-21 handgun-sales ban.",
             "wrap": true,
             "spacing": "Small"
           },
@@ -43,16 +43,16 @@
             "type": "FactSet",
             "facts": [
               {
-                "title": "1. ATF’s nationwide NFA non-enforcement, day five",
-                "value": "Heat 90 ▼"
+                "title": "1. ATF’s nationwide NFA non-enforcement, day six",
+                "value": "Heat 88 ▼"
               },
               {
-                "title": "2. NFA state-law front: first AG answer (Mississippi)",
-                "value": "Heat 80 ▲"
+                "title": "2. The state-law front: Louisiana joins Mississippi",
+                "value": "Heat 82 ▲"
               },
               {
-                "title": "3. Felon gun ban: Third Circuit narrows; SCOTUS denies 13",
-                "value": "Heat 73 ▲▲"
+                "title": "3. Massachusetts Question 9, 19 days out",
+                "value": "Heat 72 →"
               }
             ]
           },
@@ -67,7 +67,7 @@
           {
             "type": "TextBlock",
             "size": "Small",
-            "text": "• Mississippi AG: federal suppressor registration voluntary; concealed carry still a crime\n• RTB + six peers take open questions Sat 10/17 at a livestreamed town hall\n• Third Circuit: felon gun ban can’t apply over old DUI convictions\n• Correction: Tuesday’s order list did include gun cases (13 denied)",
+            "text": "• DOJ investigates a NJ township over handgun-permit delays (no findings)\n• 174 House members ask DOJ to resume the under-21 handgun-sales ban\n• Louisiana agents won’t cite hunters over missing NFA paperwork\n• Appeals court: NFA registration is not an “infringement” (Sept. ruling)",
             "wrap": true
           }
         ],
