@@ -14,20 +14,20 @@
             "size": "Small",
             "weight": "Bolder",
             "color": "Warning",
-            "text": "RTB · 2A DAILY INTEL · Thursday, October 15, 2026",
+            "text": "RTB · 2A DAILY INTEL · Friday, October 16, 2026",
             "spacing": "None"
           },
           {
             "type": "TextBlock",
             "size": "Large",
             "weight": "Bolder",
-            "text": "Washington is now policing permit delays: DOJ has opened a civil-rights investigation into how one New Jersey township handles handgun purchase permits.",
+            "text": "Three children and a teacher were killed at an elementary school in Bend, Oregon, before a community member who followed the 16-year-old attacker inside shot and stopped him.",
             "wrap": true,
             "spacing": "Small"
           },
           {
             "type": "TextBlock",
-            "text": "DOJ’s Civil Rights Division says it is investigating Pennsauken Township, N.J., over alleged delays in answering applications for handgun purchase permits; it says it has reached no conclusions. The same day, 174 House members asked DOJ to resume enforcing the under-21 handgun-sales ban.",
+            "text": "Police say the attacker was dead within minutes of the first 911 call; the intervener is unidentified and no charging decision has been reported. Recommendation: pause promotional posts this weekend and do not use the event in marketing.",
             "wrap": true,
             "spacing": "Small"
           },
@@ -43,16 +43,16 @@
             "type": "FactSet",
             "facts": [
               {
-                "title": "1. ATF’s nationwide NFA non-enforcement, day six",
-                "value": "Heat 88 ▼"
+                "title": "1. Bend, Oregon: armed bystander stops school attacker",
+                "value": "Heat 98 ▲▲▲"
               },
               {
-                "title": "2. The state-law front: Louisiana joins Mississippi",
-                "value": "Heat 82 ▲"
+                "title": "2. The state-law front: a Florida prosecutor weighs in",
+                "value": "Heat 85 ▲"
               },
               {
-                "title": "3. Massachusetts Question 9, 19 days out",
-                "value": "Heat 72 →"
+                "title": "3. ATF’s nationwide NFA non-enforcement, day seven",
+                "value": "Heat 83 ▼"
               }
             ]
           },
@@ -67,7 +67,7 @@
           {
             "type": "TextBlock",
             "size": "Small",
-            "text": "• DOJ investigates a NJ township over handgun-permit delays (no findings)\n• 174 House members ask DOJ to resume the under-21 handgun-sales ban\n• Louisiana agents won’t cite hunters over missing NFA paperwork\n• Appeals court: NFA registration is not an “infringement” (Sept. ruling)",
+            "text": "• Bend school attack: 3 children, a teacher killed; armed civilian stopped it\n• Full Third Circuit: a 2005 DUI can’t justify a lifetime gun ban (8–6)\n• Florida State Attorney: SBRs, suppressors not presumed illegal unregistered\n• DOJ’s Pennsauken permit probe reaches the Inquirer and NJ.com",
             "wrap": true
           }
         ],
