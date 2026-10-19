@@ -14,20 +14,20 @@
             "size": "Small",
             "weight": "Bolder",
             "color": "Warning",
-            "text": "RTB · 2A DAILY INTEL · Friday, October 16, 2026",
+            "text": "RTB · 2A DAILY INTEL · Monday, October 19, 2026",
             "spacing": "None"
           },
           {
             "type": "TextBlock",
             "size": "Large",
             "weight": "Bolder",
-            "text": "Three children and a teacher were killed at an elementary school in Bend, Oregon, before a community member who followed the 16-year-old attacker inside shot and stopped him.",
+            "text": "Four days after the Bend school attack, the legal questions are turning to how the shotgun was obtained, not to the parent who stopped the attacker.",
             "wrap": true,
             "spacing": "Small"
           },
           {
             "type": "TextBlock",
-            "text": "Police say the attacker was dead within minutes of the first 911 call; the intervener is unidentified and no charging decision has been reported. Recommendation: pause promotional posts this weekend and do not use the event in marketing.",
+            "text": "The man who followed the attacker into Silver Rail Elementary has been identified by his family as the father of two students; prosecutors declined to confirm details and say any charges depend on the evidence. Recommendation: resume evergreen content this week, keep Bend out of all marketing, and hold any general 'after a defensive shooting' explainer until at least Wednesday.",
             "wrap": true,
             "spacing": "Small"
           },
@@ -43,16 +43,16 @@
             "type": "FactSet",
             "facts": [
               {
-                "title": "1. Bend, Oregon: armed bystander stops school attacker",
-                "value": "Heat 98 ▲▲▲"
+                "title": "1. Bend: the investigation after an armed parent stopped",
+                "value": "Heat 95 ▼"
               },
               {
-                "title": "2. The state-law front: a Florida prosecutor weighs in",
-                "value": "Heat 85 ▲"
+                "title": "2. NFA state-law front: PA, VA, NH, FL",
+                "value": "Heat 87 ▲"
               },
               {
-                "title": "3. ATF’s nationwide NFA non-enforcement, day seven",
-                "value": "Heat 83 ▼"
+                "title": "3. ATF's NFA non-enforcement, day ten",
+                "value": "Heat 80 ▼"
               }
             ]
           },
@@ -67,7 +67,7 @@
           {
             "type": "TextBlock",
             "size": "Small",
-            "text": "• Bend school attack: 3 children, a teacher killed; armed civilian stopped it\n• Full Third Circuit: a 2005 DUI can’t justify a lifetime gun ban (8–6)\n• Florida State Attorney: SBRs, suppressors not presumed illegal unregistered\n• DOJ’s Pennsauken permit probe reaches the Inquirer and NJ.com",
+            "text": "• Bend: too soon to say whether charges will follow; police update today\n• SCOTUS denies Maine waiting-period and felon-ban petitions\n• DOJ appeals ruling that struck the 'engaged in the business' rule\n• NFA mirror-law coverage spreads to PA, VA, NH; Alaska AG seeks fix",
             "wrap": true
           }
         ],
