@@ -14,20 +14,20 @@
             "size": "Small",
             "weight": "Bolder",
             "color": "Warning",
-            "text": "RTB · 2A DAILY INTEL · Monday, October 19, 2026",
+            "text": "RTB · 2A DAILY INTEL · Tuesday, October 20, 2026",
             "spacing": "None"
           },
           {
             "type": "TextBlock",
             "size": "Large",
             "weight": "Bolder",
-            "text": "Four days after the Bend school attack, the legal questions are turning to how the shotgun was obtained, not to the parent who stopped the attacker.",
+            "text": "Day five in Bend: a second, civil track has opened.",
             "wrap": true,
             "spacing": "Small"
           },
           {
             "type": "TextBlock",
-            "text": "The man who followed the attacker into Silver Rail Elementary has been identified by his family as the father of two students; prosecutors declined to confirm details and say any charges depend on the evidence. Recommendation: resume evergreen content this week, keep Bend out of all marketing, and hold any general 'after a defensive shooting' explainer until at least Wednesday.",
+            "text": "The family of the youngest victim has hired three law firms to examine the school's security, the gun's purchase and how the attacker got it. Keep Bend out of all marketing; no general \"what happens after\" explainer before Thursday.",
             "wrap": true,
             "spacing": "Small"
           },
@@ -43,16 +43,16 @@
             "type": "FactSet",
             "facts": [
               {
-                "title": "1. Bend: the investigation after an armed parent stopped",
-                "value": "Heat 95 ▼"
+                "title": "1. Bend: investigation and civil inquiry",
+                "value": "Heat 94 ▼"
               },
               {
-                "title": "2. NFA state-law front: PA, VA, NH, FL",
-                "value": "Heat 87 ▲"
+                "title": "2. NFA state-law front: Alaska, Montana",
+                "value": "Heat 87 →"
               },
               {
-                "title": "3. ATF's NFA non-enforcement, day ten",
-                "value": "Heat 80 ▼"
+                "title": "3. NFA non-enforcement, day eleven",
+                "value": "Heat 78 ▼"
               }
             ]
           },
@@ -67,7 +67,7 @@
           {
             "type": "TextBlock",
             "size": "Small",
-            "text": "• Bend: too soon to say whether charges will follow; police update today\n• SCOTUS denies Maine waiting-period and felon-ban petitions\n• DOJ appeals ruling that struck the 'engaged in the business' rule\n• NFA mirror-law coverage spreads to PA, VA, NH; Alaska AG seeks fix",
+            "text": "• Bend: victim's family opens a civil investigation; schools reopen Wed.\n• NSSF sues over New Mexico's 7-day wait, a day after SCOTUS left Maine's.\n• Alaska's NFA issue is its own suppressor/SBR felony law (USA Carry).\n• Armed-staff debate widens: new poll, Hawaii, Oregon security rules.",
             "wrap": true
           }
         ],
