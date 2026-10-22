@@ -14,20 +14,20 @@
             "size": "Small",
             "weight": "Bolder",
             "color": "Warning",
-            "text": "RTB · 2A DAILY INTEL · Wednesday, October 21, 2026",
+            "text": "RTB · 2A DAILY INTEL · Thursday, October 22, 2026",
             "spacing": "None"
           },
           {
             "type": "TextBlock",
             "size": "Large",
             "weight": "Bolder",
-            "text": "DOJ has added San Jose's gun-owner liability insurance mandate to its lawsuit against the city.",
+            "text": "A federal judge has struck down New York's ban on buying body armor, ruling that bullet-resistant vests are \"arms\" protected by the Second Amendment.",
             "wrap": true,
             "spacing": "Small"
           },
           {
             "type": "TextBlock",
-            "text": "The suit over San Jose's carry-permit costs now also targets the 2022 rule requiring owners to insure against accidental or negligent use, plus a $25 annual fee. Liability insurance and self-defense legal coverage are different products: a clear, non-Bend explainer opportunity.",
+            "text": "The judge held that New York's 2022 purchase ban fails the Bruen history test; the Attorney General's office is reviewing the ruling. Until the state's next step is clear, do not assume the ban is gone.",
             "wrap": true,
             "spacing": "Small"
           },
@@ -43,16 +43,16 @@
             "type": "FactSet",
             "facts": [
               {
-                "title": "1. Bend: investigation, civil inquiry, schools reopen",
-                "value": "Heat 91 ▼"
+                "title": "1. Bend: teacher speaks; gun bought legally",
+                "value": "Heat 89 ▼"
               },
               {
-                "title": "2. NFA state-law front: five states, five answers",
-                "value": "Heat 88 ▲"
+                "title": "2. NFA state-law front: hunting-season guidance",
+                "value": "Heat 87 ▼"
               },
               {
-                "title": "3. Waiting periods: NM suit becomes a coalition case",
-                "value": "Heat 80 ▲"
+                "title": "3. New York's body-armor ban struck down",
+                "value": "Heat 84 ▲▲"
               }
             ]
           },
@@ -67,7 +67,7 @@
           {
             "type": "TextBlock",
             "size": "Small",
-            "text": "• DOJ adds San Jose's gun-owner insurance mandate to its carry-fee suit.\n• Mass. SJC, 5-2, upholds the under-21 carry-license limit.\n• UMass/WCVB poll: Question 9 \"yes\" 70%, \"no\" 21%, 13 days out.\n• NM waiting-period suit is NSSF v. Torrez, with SAF, NRA and six others.",
+            "text": "• Federal judge strikes down New York's body-armor purchase ban.\n• Smith & Wesson buys Savage Arms for $160M; largest U.S. gunmaker.\n• Dearborn carry-license holder arrested, then not charged 3 days later.\n• Fifth Circuit: federal switchblade law violates the Second Amendment.",
             "wrap": true
           }
         ],
