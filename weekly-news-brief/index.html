@@ -3,8 +3,13 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>RTB &middot; 2A Weekly Intel &mdash; Week of Aug 24&ndash;28, 2026</title>
+<title>RTB &middot; 2A Weekly Intel &mdash; Week of Oct 19&ndash;23, 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap" />
 <style>
+  /* rtb-fontfix v1 */
+  html { font-synthesis: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; text-rendering: optimizeLegibility; }
   :root {
     color-scheme: light;
     --blue-steel: #234058;
@@ -35,7 +40,7 @@
     font-size: 15px;
   }
   .display, h1, h2, h3, h4, .display-font {
-    font-family: "Oswald", "Bebas Neue", Impact, "Haettenschweiler", "Arial Narrow Bold", sans-serif;
+    font-family: "Oswald", "Arial Narrow", "Roboto Condensed", "Helvetica Neue", Arial, sans-serif;
     text-transform: uppercase;
     letter-spacing: 0.04em;
     font-weight: 600;
@@ -57,15 +62,15 @@
   .brand-lockup .icon svg { width: 100%; height: 100%; display: block; }
   .brand-lockup .word-pipe { width: 3px; height: 42px; background: var(--warm-copper); }
   .brand-lockup .text-stack { display: flex; flex-direction: column; line-height: 1; }
-  .brand-lockup .word-right { font-family: "Oswald", Impact, sans-serif; font-size: 13px; font-weight: 500; letter-spacing: 0.18em; color: #c2cbd4; text-transform: uppercase; }
-  .brand-lockup .word-bear { font-family: "Oswald", Impact, sans-serif; font-size: 30px; font-weight: 700; letter-spacing: 0.06em; color: #fff; margin-top: 4px; }
+  .brand-lockup .word-right { font-family: "Oswald", "Arial Narrow", "Roboto Condensed", "Helvetica Neue", Arial, sans-serif; font-size: 13px; font-weight: 500; letter-spacing: 0.18em; color: #c2cbd4; text-transform: uppercase; }
+  .brand-lockup .word-bear { font-family: "Oswald", "Arial Narrow", "Roboto Condensed", "Helvetica Neue", Arial, sans-serif; font-size: 30px; font-weight: 700; letter-spacing: 0.06em; color: #fff; margin-top: 4px; }
   .topbar .meta-block { text-align: right; }
   .topbar .meta-block .kicker {
-    font-family: "Oswald", Impact, sans-serif;
+    font-family: "Oswald", "Arial Narrow", "Roboto Condensed", "Helvetica Neue", Arial, sans-serif;
     font-size: 11px; letter-spacing: 0.22em; color: var(--warm-copper); font-weight: 600;
   }
   .topbar .meta-block .title {
-    font-family: "Oswald", Impact, sans-serif;
+    font-family: "Oswald", "Arial Narrow", "Roboto Condensed", "Helvetica Neue", Arial, sans-serif;
     font-size: 22px; font-weight: 700; letter-spacing: 0.04em; margin-top: 4px;
   }
   .topbar .meta-block .date {
@@ -78,7 +83,7 @@
     color: #fff;
     padding: 9px 36px;
     display: flex; align-items: center; justify-content: space-between;
-    font-family: "Oswald", Impact, sans-serif;
+    font-family: "Oswald", "Arial Narrow", "Roboto Condensed", "Helvetica Neue", Arial, sans-serif;
     font-size: 13px; font-weight: 500; letter-spacing: 0.12em; text-transform: uppercase;
   }
   .tagline-strip .pure { color: var(--warm-copper); font-weight: 700; margin-right: 6px; }
@@ -99,7 +104,7 @@
     align-items: start;
   }
   .top-of-mind .label {
-    font-family: "Oswald", Impact, sans-serif;
+    font-family: "Oswald", "Arial Narrow", "Roboto Condensed", "Helvetica Neue", Arial, sans-serif;
     font-size: 11px; letter-spacing: 0.22em; color: var(--warm-copper); font-weight: 600; text-transform: uppercase;
   }
   .top-of-mind .label .day { display: block; color: #fff; font-size: 22px; margin-top: 6px; letter-spacing: 0.05em; }
@@ -134,9 +139,9 @@
     align-items: baseline; font-size: 13px;
   }
   .moving-today li:first-child { border-top: 0; padding-top: 4px; }
-  .moving-today .when { font-family: "Oswald", Impact, sans-serif; font-size: 11px; letter-spacing: 0.1em; color: #5b4d35; font-weight: 600; text-transform: uppercase; }
+  .moving-today .when { font-family: "Oswald", "Arial Narrow", "Roboto Condensed", "Helvetica Neue", Arial, sans-serif; font-size: 11px; letter-spacing: 0.1em; color: #5b4d35; font-weight: 600; text-transform: uppercase; }
   .moving-today .stage-mini {
-    font-family: "Oswald", Impact, sans-serif; font-size: 10px; letter-spacing: 0.1em;
+    font-family: "Oswald", "Arial Narrow", "Roboto Condensed", "Helvetica Neue", Arial, sans-serif; font-size: 10px; letter-spacing: 0.1em;
     text-transform: uppercase; padding: 2px 6px; border-radius: 2px; font-weight: 700;
     display: inline-block; text-align: center;
   }
@@ -154,11 +159,11 @@
     display: flex; align-items: baseline; justify-content: space-between; gap: 16px;
   }
   .section-head h2 {
-    font-family: "Oswald", Impact, sans-serif;
+    font-family: "Oswald", "Arial Narrow", "Roboto Condensed", "Helvetica Neue", Arial, sans-serif;
     font-size: 22px; font-weight: 700; letter-spacing: 0.06em; color: var(--blue-steel-deep);
   }
   .section-head .num {
-    font-family: "Oswald", Impact, sans-serif;
+    font-family: "Oswald", "Arial Narrow", "Roboto Condensed", "Helvetica Neue", Arial, sans-serif;
     font-size: 14px; color: var(--warm-copper); font-weight: 700;
     letter-spacing: 0.16em; margin-right: 10px;
   }
@@ -182,7 +187,7 @@
     margin-bottom: 8px; font-size: 12px;
   }
   .stage-badge {
-    font-family: "Oswald", Impact, sans-serif;
+    font-family: "Oswald", "Arial Narrow", "Roboto Condensed", "Helvetica Neue", Arial, sans-serif;
     font-size: 10px; letter-spacing: 0.16em;
     padding: 3px 8px; border-radius: 2px; font-weight: 700;
     text-transform: uppercase; color: #fff;
@@ -193,7 +198,7 @@
   .stage-badge .arrow { font-weight: 400; opacity: 0.85; margin-left: 3px; }
 
   .category-pill {
-    font-family: "Oswald", Impact, sans-serif;
+    font-family: "Oswald", "Arial Narrow", "Roboto Condensed", "Helvetica Neue", Arial, sans-serif;
     font-size: 10px; letter-spacing: 0.14em;
     padding: 3px 8px; border-radius: 2px; font-weight: 700;
     text-transform: uppercase;
@@ -201,7 +206,7 @@
   }
   .card-meta {
     margin-left: auto; font-size: 11px; color: var(--ink-muted);
-    font-family: "Oswald", Impact, sans-serif; letter-spacing: 0.08em; text-transform: uppercase;
+    font-family: "Oswald", "Arial Narrow", "Roboto Condensed", "Helvetica Neue", Arial, sans-serif; letter-spacing: 0.08em; text-transform: uppercase;
   }
 
   .card-title {
@@ -219,7 +224,7 @@
     padding: 2px 0 2px 10px; line-height: 1.45;
   }
   .rtb-angle .label {
-    font-family: "Oswald", Impact, sans-serif;
+    font-family: "Oswald", "Arial Narrow", "Roboto Condensed", "Helvetica Neue", Arial, sans-serif;
     font-weight: 700; color: var(--warm-copper);
     letter-spacing: 0.1em; font-size: 12px; margin-right: 4px;
     text-transform: uppercase;
@@ -234,7 +239,7 @@
   .card-foot .sources a:hover { color: var(--warm-copper); text-decoration: underline; }
   .card-foot .sources span.dot { color: #aaa; margin: 0 6px; }
   .stage-history {
-    font-family: "Oswald", Impact, sans-serif;
+    font-family: "Oswald", "Arial Narrow", "Roboto Condensed", "Helvetica Neue", Arial, sans-serif;
     font-size: 10px; letter-spacing: 0.08em; color: #888;
     text-transform: uppercase;
   }
@@ -249,7 +254,7 @@
     margin-top: 4px; margin-bottom: 6px;
   }
   .also-notable h4 {
-    font-family: "Oswald", Impact, sans-serif;
+    font-family: "Oswald", "Arial Narrow", "Roboto Condensed", "Helvetica Neue", Arial, sans-serif;
     font-size: 11px; letter-spacing: 0.18em; color: var(--ink-muted);
     margin-bottom: 6px; font-weight: 700; text-transform: uppercase;
   }
@@ -259,7 +264,7 @@
   .also-notable a { color: var(--blue-steel-deep); text-decoration: none; }
   .also-notable a:hover { color: var(--warm-copper); text-decoration: underline; }
   .also-notable .mini-stage {
-    font-family: "Oswald", Impact, sans-serif;
+    font-family: "Oswald", "Arial Narrow", "Roboto Condensed", "Helvetica Neue", Arial, sans-serif;
     font-size: 9px; letter-spacing: 0.1em;
     padding: 1px 5px; border-radius: 2px; font-weight: 700;
     text-transform: uppercase; margin-right: 8px;
@@ -279,7 +284,7 @@
     border-bottom: 4px solid var(--warm-copper);
   }
   .week-ahead h2 {
-    font-family: "Oswald", Impact, sans-serif;
+    font-family: "Oswald", "Arial Narrow", "Roboto Condensed", "Helvetica Neue", Arial, sans-serif;
     font-size: 18px; color: #fff; margin-bottom: 14px; letter-spacing: 0.08em;
   }
   .week-ahead h2 .copper { color: var(--warm-copper); }
@@ -290,7 +295,7 @@
   }
   .week-ahead li:first-child { border-top: 0; padding-top: 0; }
   .week-ahead .when {
-    font-family: "Oswald", Impact, sans-serif;
+    font-family: "Oswald", "Arial Narrow", "Roboto Condensed", "Helvetica Neue", Arial, sans-serif;
     font-size: 12px; letter-spacing: 0.1em; color: var(--copper-light); font-weight: 600;
     text-transform: uppercase;
   }
@@ -340,7 +345,7 @@
     padding-bottom: 10px; margin-bottom: 12px;
   }
   .heat-head h3 {
-    font-family: "Oswald", Impact, sans-serif;
+    font-family: "Oswald", "Arial Narrow", "Roboto Condensed", "Helvetica Neue", Arial, sans-serif;
     font-size: 18px; font-weight: 700;
     color: var(--blue-steel-deep);
     letter-spacing: 0.06em; text-transform: uppercase;
@@ -360,7 +365,7 @@
   .heat-row:first-child { border-top: 0; padding-top: 6px; }
   .heat-row:last-child  { padding-bottom: 6px; }
   .heat-row .rank {
-    font-family: "Oswald", Impact, sans-serif;
+    font-family: "Oswald", "Arial Narrow", "Roboto Condensed", "Helvetica Neue", Arial, sans-serif;
     font-size: 26px; font-weight: 700;
     color: var(--warm-copper);
     text-align: center; letter-spacing: 0.04em;
@@ -385,7 +390,7 @@
     padding-right: 6px;
   }
   .heat-score .score {
-    font-family: "Oswald", Impact, sans-serif;
+    font-family: "Oswald", "Arial Narrow", "Roboto Condensed", "Helvetica Neue", Arial, sans-serif;
     font-size: 34px; font-weight: 700;
     line-height: 1; letter-spacing: 0.02em;
   }
@@ -395,7 +400,7 @@
   .heat-score .score.t-cool     { color: var(--blue-steel-deep); }
   .heat-score .score.t-cold     { color: var(--ink-muted); }
   .heat-score .arrow {
-    font-family: "Oswald", Impact, sans-serif;
+    font-family: "Oswald", "Arial Narrow", "Roboto Condensed", "Helvetica Neue", Arial, sans-serif;
     font-size: 13px; font-weight: 700;
     letter-spacing: 0.5px;
     line-height: 1;
@@ -415,7 +420,7 @@
     gap: 6px; align-items: center;
   }
   .channel-bars .label {
-    font-family: "Oswald", Impact, sans-serif;
+    font-family: "Oswald", "Arial Narrow", "Roboto Condensed", "Helvetica Neue", Arial, sans-serif;
     font-size: 10px;
     letter-spacing: 0.06em;
     text-transform: uppercase;
@@ -432,7 +437,7 @@
   }
   .channel-bars .num {
     text-align: right;
-    font-family: "Oswald", Impact, sans-serif;
+    font-family: "Oswald", "Arial Narrow", "Roboto Condensed", "Helvetica Neue", Arial, sans-serif;
     font-weight: 600;
     color: #4a4a4a;
     font-size: 11px;
@@ -465,7 +470,7 @@
     display: inline-flex;
     align-items: center;
     gap: 6px;
-    font-family: "Oswald", Impact, sans-serif;
+    font-family: "Oswald", "Arial Narrow", "Roboto Condensed", "Helvetica Neue", Arial, sans-serif;
     font-size: 11px;
     letter-spacing: 0.08em;
     padding: 3px 9px;
@@ -482,7 +487,6 @@
   .heat-badge.t-warm     { background: #faf4dc; color: #8c6b1a; border-color: #e6d199; }
   .heat-badge.t-cool     { background: #e8edf2; color: #18304a; border-color: #c7d3df; }
   .heat-badge.t-cold     { background: #f0eddf; color: #555; border-color: #d4cdbf; }
-
   /* ===== WEEK STRIPE (per-card staying-power) ===== */
   .week-stripe {
     margin: 8px 0 4px;
@@ -531,6 +535,7 @@
 </head>
 <body>
 <div class="wrap">
+
   <header class="topbar">
     <div class="brand-lockup">
       <div class="icon" aria-label="Right To Bear logo">
@@ -618,62 +623,245 @@
     <div class="meta-block">
       <div class="kicker">2A &middot; Weekly Intel</div>
       <div class="title">Marketing Brief</div>
-      <div class="date">Week of Aug 24 &ndash; Aug 28, 2026 &middot; Friday AM</div>
+      <div class="date">Week of Oct 19 &ndash; Oct 23, 2026 &middot; Friday AM</div>
     </div>
   </header>
   <div class="tagline-strip">
     <div><span class="pure">PURE</span><span>PEACE OF MIND</span></div>
     <div class="credit">protectwithbear.com &middot; weekly edition &middot; Friday AM</div>
-  </div>
-    <div class="body-area"><div class="top-of-mind">
-      <div class="label">Top of mind<span class="day">08 &middot; 28</span></div>
+  </div>    <div class="body-area">
+
+<div class="top-of-mind">
+      <div class="label">Top of mind<span class="day">10 &middot; 23</span></div>
       <div>
-        <h2>Nothing moved in Congress this week &mdash; and the ground under federal firearm law still shifted three times. Every durable story of the week came from a <strong>court or an agency</strong>: a struck-down ATF kit rule, a finalised DOJ rights-restoration process, and a live NFA injunction that has now survived contact with ATF inspectors. For members, the practical question is not &ldquo;what is coming&rdquo; &mdash; it is <strong>what the law says today, and what is scheduled next.</strong></h2>
-        <p><strong>Three items stayed hot on every day this board ran.</strong> <em>Defense Distributed v. Blanche</em> led the week at a <strong>91 peak and an 87 average</strong> after a federal judge held ATF&rsquo;s frame-and-receiver rule unconstitutional &mdash; and the most important thing the marketing team can say about it is the limit: the relief is <strong>as-applied to Defense Distributed, the Second Amendment Foundation and covered members, not nationwide</strong>. DOJ&rsquo;s final firearm-rights restoration rule held an <strong>85 average across three days</strong> on four named structural features, with the rule text itself still unread from primary source. And the <em>Silencer Shop v. ATF</em> NFA injunction stayed live all week at a 70 average &mdash; quieter in the numbers, more consequential in practice, because <strong>four FFLs in four regions cleared ATF compliance inspections after Form&nbsp;4473-only suppressor transfers</strong>. That is the first operational evidence the injunction works in the field rather than only on paper.</p>
-        <p><strong>Only two things rose across the week, and both are counter-narrative data, not litigation.</strong> CDC restored its defensive-gun-use estimates &mdash; a range of roughly <strong>60,000 to 2.5&nbsp;million a year</strong>, traceable to a 2013 Institute of Medicine report and removed from the CDC site in 2022 &mdash; and the item climbed <strong>73&nbsp;&rarr;&nbsp;86</strong> as it went from one outlet to three. FBI 2025 crime data rose 59&nbsp;&rarr;&nbsp;67 on the same mechanism. Handle both carefully: the width of a range spanning a factor of forty <em>is</em> the finding, and the honest framing is that CDC <em>posts</em> the estimate rather than having produced it.</p>
-        <p><strong>What this week is really telling the marketing team is about tempo.</strong> Four of the five most consequential items are waiting on a single procedural event apiece &mdash; a notice of appeal, a Federal Register publication, an agency guidance document, a hearing date. None of them is a surprise. All of them are calendarable. The strongest content RTB can ship into next week is not reactive; it is the <em>Renna v. Bonta</em> multi-state explainer, written now and published the afternoon of <strong>September&nbsp;4</strong>, when the first courtroom test of the &ldquo;convertible pistol&rdquo; theory happens anywhere in the country.</p>
+      <h2><strong>Bend held the week&rsquo;s attention, and the NFA question kept moving to the states.</strong> Underneath, the courts were busy: the Supreme Court left Maine&rsquo;s waiting period in place, a coalition sued New Mexico over its own, and by Thursday two courts had called non-firearms &ldquo;arms.&rdquo;</h2>
+      <p><strong>What stayed hot.</strong> The Bend, Oregon school shooting led all five readings (week average <strong>93</strong>, hot 5/5, peak 98), cooling slowly from 98 to 89 as coverage moved from the attack itself to accountability, prevention and recovery. The state NFA &ldquo;mirror law&rdquo; question held flat at the top of the hot tier all week (<strong>87</strong>, 5/5, peak 88) as Mississippi, Florida, Idaho, Montana, Maryland and Alaska each gave a different answer. Waiting periods became a cluster and rose (<strong>75</strong>, 4/5, peak 80) after the Supreme Court declined Maine&rsquo;s case on Monday and gun groups sued New Mexico on Tuesday. Massachusetts Question&nbsp;9 climbed to its high of the cycle (<strong>74</strong>, 5/5, peak 77), and the state&rsquo;s top court upheld its under-21 carry-license bar.</p>
+      <p><strong>What faded.</strong> The federal side of the NFA story cooled every day (83 to 73) as the action moved to state capitols. DOJ&rsquo;s Pennsauken permit-delay probe fell from 74 to 55 with no township response, though DOJ opened two more such investigations in Connecticut on Thursday. The Third Circuit felon-ban ruling slid from 76 to 62 and left the board. Last Friday&rsquo;s one-day items, from Virginia&rsquo;s under-21 suit to Denver nonresident carry, did not come back.</p>
+      <p><strong>Arrived Thursday, not yet ranked.</strong> A federal judge struck down New York&rsquo;s body-armor purchase ban (84), Smith &amp; Wesson bought Savage Arms (80), Michigan prosecutors declined to charge a Dearborn carry-license holder (72), and the Fifth Circuit struck the federal switchblade law (66). Each has one reading; they carry into next week.</p>
+      <p><strong>Why it matters for RTB.</strong> Three member-ready themes this week, none of which touch Bend: <em>what the law says where you live</em> (NFA items and waiting periods both now differ state by state), <em>criminal and civil are separate tracks</em> (Dearborn, Valdosta and Portsmouth all show a prosecutor&rsquo;s review is its own step), and <em>where the law is still unsettled</em> (body armor is protected in one New York ruling, stayed for now). Bend stays out of all marketing.</p>
+      <div class="links"><a href="https://www.opb.org/article/2026/10/21/oregon-gun-laws-complicate-prosecution-in-bend-shooting/" target="_blank" rel="noopener">OPB 10/21: Oregon law and the Bend case</a><span class="dot">&middot;</span><a href="https://www.ammoland.com/2026/10/atf-nfa-changes-sbr-suppressor-state-laws/" target="_blank" rel="noopener">AmmoLand 10/20: states split on NFA items</a><span class="dot">&middot;</span><a href="https://www.bangordailynews.com/2026/10/19/nation/supreme-court-maine-72-hour-waiting-period-guns/" target="_blank" rel="noopener">Bangor Daily News 10/19: Maine wait stands</a><span class="dot">&middot;</span><a href="https://www.umass.edu/poll/about/reports/2026-10-massachusetts-public-opinion-poll" target="_blank" rel="noopener">UMass Amherst/WCVB poll</a><span class="dot">&middot;</span><a href="https://thereload.com/federal-judge-strikes-down-new-york-ban-on-civilian-body-armor-sales/" target="_blank" rel="noopener">The Reload 10/22: body armor (read)</a>
       </div>
     </div>
+    </div>
     <div class="moving-today">
-      <h3>THE WEEK IN NUMBERS &middot; MON 08/24 &ndash; FRI 08/28</h3>
+      <h3>The week in numbers (measurement window Fri 10/16 &ndash; Thu 10/22, the last five published daily readings. Today&rsquo;s Friday daily had not run when this edition was built, so the skill&rsquo;s fallback window was used; the weekly log notes it.)</h3>
       <ul>
-        <li><span class="when">Window</span><span class="stage-mini watch">3 of 5</span><span class="gist">Daily briefs ran Mon&nbsp;08/24, Wed&nbsp;08/26 and Thu&nbsp;08/27. <strong>Tue&nbsp;08/25 did not run</strong>, and <strong>Fri&nbsp;08/28 has not run yet</strong> &mdash; this weekly compiles before the Friday daily. Both render as muted absent bars, and every metric below is computed only over days the item actually appeared.</span></li>
-        <li><span class="when">Gate</span><span class="stage-mini new">10 kept</span><span class="gist">Ten items cleared the staying-power gate (hot on 2+ weekdays, or a peak of 85+). Nine lead the Week in Review; one was demoted to a rail for failing the three-source rule.</span></li>
-        <li><span class="when">Peak</span><span class="stage-mini moved">91</span><span class="gist"><a href="https://www.ammoland.com/2026/08/atf-frame-receiver-rule-defense-distributed/" target="_blank" rel="noopener">Defense Distributed v. Blanche, Monday &mdash; the only volcanic reading of the week</a></span></li>
-        <li><span class="when">Risers</span><span class="stage-mini new">2</span><span class="gist"><a href="https://thereload.com/cdc-restores-gun-defensive-use-estimates-to-website-years-after-removing-them-under-political-pressure/" target="_blank" rel="noopener">CDC defensive-gun-use 73&nbsp;&rarr;&nbsp;86 and FBI 2025 crime data 59&nbsp;&rarr;&nbsp;67 &mdash; both on multi-outlet pickup, not on new facts</a></span></li>
-        <li><span class="when">Congress</span><span class="stage-mini watch">Day 7</span><span class="gist"><a href="https://www.congress.gov/" target="_blank" rel="noopener">Recess for the seventh consecutive run. No chamber activity, no bill movement, and congress.gov unreachable from this board every day of the week</a></span></li>
-        <li><span class="when">Appeals</span><span class="stage-mini watch">0 filed</span><span class="gist"><a href="https://thereload.com/analysis-a-big-brittle-win-against-the-nfa-member-exclusive/" target="_blank" rel="noopener">No notice of appeal in <em>Silencer Shop</em> and none in <em>Defense Distributed</em>. The Silencer Shop window runs roughly 34 more days, to about October&nbsp;1</a></span></li>
-        <li><span class="when">Faded</span><span class="stage-mini moved">4</span><span class="gist">Four items appeared once below 85 and did not return &mdash; listed with reasons in <em>What faded</em> below.</span></li>
-        <li><span class="when">Next</span><span class="stage-mini new">T-7</span><span class="gist"><a href="https://www.ammoland.com/2026/08/california-glock-ban-injunction-renna-v-bonta/" target="_blank" rel="noopener"><em>Renna v. Bonta</em> preliminary-injunction hearing, September&nbsp;4 &mdash; the first courtroom test of the &ldquo;convertible pistol&rdquo; theory anywhere</a></span></li>
+        <li><span class="when">51 tracked</span><span class="stage-mini watch">Scored</span><span class="gist"><strong>51 items carried at least one heat reading (after merging duplicate threads); 25 cleared the staying-power gate</strong> (hot on 2+ days, or a peak of 85+). 13 lead cards below; the rest sit in the Also-notable rails because they could not reach three distinct-angle sources. Four Thursday arrivals have a single reading and are carried, not ranked.</span></li>
+        <li><span class="when">98 peak</span><span class="stage-mini new">Tier</span><span class="gist"><strong>The only volcanic readings of the week were Bend&rsquo;s</strong> (98, 95, 94, 91 before dipping to 89). The next-highest single reading was 88, for the state NFA question.</span></li>
+        <li><span class="when">0 rules</span><span class="stage-mini watch">ATF</span><span class="gist"><strong>No ATF documents in the Federal Register from 1 October through today</strong> (API checked 10/23). The NFA change is still guidance, not rulemaking. <a href="https://www.federalregister.gov/api/v1/documents.json?conditions%5Bagencies%5D%5B%5D=alcohol-tobacco-firearms-and-explosives-bureau&amp;conditions%5Bpublication_date%5D%5Bgte%5D=2026-10-01" target="_blank" rel="noopener">Federal Register API</a></span></li>
+        <li><span class="when">3 towns</span><span class="stage-mini new">DOJ</span><span class="gist"><strong>DOJ&rsquo;s Second Amendment Section now has permit-delay investigations open in Pennsauken, N.J. (10/14) and Middletown and Waterbury, Conn. (10/22)</strong>, and widened its San Jose suit to the city&rsquo;s insurance mandate. <a href="https://www.justice.gov/opa/pr/justice-department-opens-investigation-alleged-firearm-permitting-abuses-two-connecticut" target="_blank" rel="noopener">DOJ release 10/22 (read)</a></span></li>
+        <li><span class="when">2 denied</span><span class="stage-mini watch">SCOTUS</span><span class="gist"><strong>The 19 October order list denied <em>Beckwith v. Frey</em> (Maine&rsquo;s 72-hour wait) and <em>Landrum</em> (felon ban).</strong> <em>Novotny v. Moore</em> (Maryland sensitive places) has been rescheduled three times and not redistributed since 10/13 (docket read today). <a href="https://www.supremecourt.gov/search.aspx?filename=/docket/docketfiles/html/public/25-1324.html" target="_blank" rel="noopener">Novotny docket</a></span></li>
+        <li><span class="when">70 / 21</span><span class="stage-mini new">Poll</span><span class="gist"><strong>Massachusetts Question&nbsp;9: &ldquo;yes&rdquo; 70, &ldquo;no&rdquo; 21</strong> in the UMass Amherst/WCVB poll, as reported by The New Bedford Light (sample size and field dates not read). <a href="https://www.umass.edu/poll/about/reports/2026-10-massachusetts-public-opinion-poll" target="_blank" rel="noopener">UMass Amherst</a></span></li>
+        <li><span class="when">$22M</span><span class="stage-mini watch">Money</span><span class="gist"><strong>A newly disclosed $22&nbsp;million from Michael Bloomberg to Everytown&rsquo;s super PAC</strong> (October FEC report, per The Reload), the group&rsquo;s best midterm cycle. The NRA&rsquo;s only reported independent ad this cycle: about $495,000. <a href="https://thereload.com/bloomberg-pours-tens-of-millions-into-everytown-as-it-announces-another-3-million-midterm-ad-buy/" target="_blank" rel="noopener">The Reload 10/23 (read)</a></span></li>
+        <li><span class="when">22&rarr;32%</span><span class="stage-mini watch">Owners</span><span class="gist"><strong>Women&rsquo;s share of gun owners rose from 22% to 32% between 2018 and 2024</strong>, and women were close to half of recent new owners (RAND analysis as summarized by NSSF; RAND itself not read). <a href="https://www.theoutdoorwire.com/features/2026/10/women-are-surging-among-new-gun-owners-as-self-defense-reshapes-firearm-ownership/" target="_blank" rel="noopener">NSSF via The Outdoor Wire</a></span></li>
+        <li><span class="when">Day 44</span><span class="stage-mini watch">Peers</span><span class="gist"><strong>No coverage peer changed products, pricing or availability</strong>, and none has published on Bend, body armor or Dearborn. USCCA moved its &ldquo;Suppressors Explained&rdquo; explainer to the top of its blog on 10/21. <a href="https://www.usconcealedcarry.com/blog/" target="_blank" rel="noopener">USCCA blog</a></span></li>
       </ul>
     </div>
     <div class="section-head">
-      <h2><span class="num">01</span>Federal legislation &mdash; sustained heat</h2>
-      <span class="desc">Bills, hearings, appropriations &middot; nothing cleared the gate this week</span>
-    </div>
-    <p class="empty">No material movement this week. Congress was in recess for all five weekdays and no federal legislative item registered heat on two or more days, so nothing clears the staying-power gate. The federal picture changed anyway &mdash; through courts and agencies &mdash; and that story is carried in section 03. Everything below is carried without primary verification: congress.gov has been unreachable from this board for seven consecutive runs.</p>
-    <div class="also-notable">
-      <h4>Also notable</h4>
-      <ul>
-        <li><span class="mini-stage watch">Watch</span><a href="https://www.congress.gov/" target="_blank" rel="noopener">The Hearing Protection Act (S.&nbsp;218) remains the durable statutory alternative to a court injunction &mdash; repeal by statute cannot be appealed away. Bill number and status carried, not primary-verified, for a seventh consecutive run</a></li>
-        <li><span class="mini-stage watch">Watch</span><a href="https://thereload.com/analysis-a-big-brittle-win-against-the-nfa-member-exclusive/" target="_blank" rel="noopener">The reversal mechanism is arithmetic, not a docket entry, and is safe to publish: making and transfer taxes on silencers, SBRs, SBSs and AOWs fell from $200 to <strong>$0</strong> on January&nbsp;1,&nbsp;2026 under the July&nbsp;4,&nbsp;2025 reconciliation package, and registration survived the cut</a></li>
-        <li><span class="mini-stage watch">Watch</span><a href="https://www.ammoland.com/2026/08/zero-tax-zero-justification-congress-finish-nfa/" target="_blank" rel="noopener">A Freedom From Taxes Act would extend the zero-tax logic to machine guns and destructive devices &mdash; a materially larger ask than suppressors. Bill number and status unverified from primary text</a></li>
-        <li><span class="mini-stage watch">Watch</span><a href="https://www.ammoland.com/2026/08/lawmakers-doj-nfa-registration-ruling-nationwide/" target="_blank" rel="noopener">Forty-seven Republican lawmakers pressed DOJ to stop defending the NFA&rsquo;s zero-tax registration scheme and apply the Hendrix ruling nationwide. Three weeks on: no public DOJ response, no ATF guidance</a></li>
-        <li><span class="mini-stage watch">Watch</span><a href="https://www.ammoland.com/2026/08/herrera-opponent-raising-gun-buying-age/" target="_blank" rel="noopener">The under-21 purchase-age argument has become a named issue in a Texas congressional race, and the underlying legal split is genuinely unresolved. Track internally; publish nothing candidate-comparative</a></li>
-        </ul>
-    </div>
-    <div class="section-head">
-      <h2><span class="num">02</span>State legislation &amp; ballot measures &mdash; sustained heat</h2>
-      <span class="desc">Statehouses, AG actions, ballot questions &middot; two items cleared the gate</span>
+      <h2><span class="num">03A</span>Federal legislation &mdash; sustained heat</h2>
+      <span class="desc">Congress is out until the election, so the federal action ran through DOJ, letters and campaign money</span>
     </div>
     <article class="card" data-stage="moved">
       <header class="card-head">
-        <span class="stage-badge moved">Moved <span class="arrow">&rarr;</span></span>
-        <span class="category-pill">CA &middot; NY &middot; MD &middot; multi-state</span>
-        <span class="card-meta">hot 3 of 3 days run &middot; first hearing T-7</span>
+        <span class="stage-badge moved">Moved <span class="arrow">&#9654;</span></span>
+        <span class="category-pill">DOJ &middot; permit-delay investigations</span>
+        <span class="heat-badge t-warm"><span class="heat-label">Wk avg</span><span class="heat-num">64</span><span class="heat-arrow">&darr;&darr;</span></span>
+        <span class="card-meta">Pennsauken 10/14 &middot; San Jose amended ~10/20 &middot; Connecticut 10/22</span>
       </header>
-      <h3 class="card-title">The &ldquo;convertible pistol&rdquo; laws reach their first courtroom in seven days &mdash; <em>Renna v. Bonta</em>, September&nbsp;4, before Judge Dana Sabraw (appointed by George W. Bush)</h3>
-      <p class="card-summary">This was the steadiest item on the board &mdash; 68, 69, 68 across the three days the daily ran, never spiking and never falling off. The theory at issue is that a handgun is regulable because a trigger bar or similar internal part could be replaced to make it fire automatically, which reaches ordinary Glock and Glock-pattern pistols that no owner has modified. <strong>California&rsquo;s AB&nbsp;1127 has been in force since July&nbsp;1</strong>; <strong>New York&rsquo;s equivalent is under separate federal Second Amendment challenge</strong>; <strong>Maryland has enacted a version</strong>; and a fourth state is reported but not confirmed from statute by this board. <em>Renna v. Bonta</em> is a preliminary-injunction motion against California Penal Code &sect;&nbsp;27595(a), and the September&nbsp;4 hearing is the first time any court anywhere examines the theory on the merits. Everything in this card is carried from trade press; legiscan.com was unreachable every day this week, so <strong>no statute text has been read directly</strong>.</p>
+      <h3 class="card-title">DOJ opened two more permit-delay investigations, in Connecticut, and widened its San Jose suit to the city&rsquo;s gun-owner insurance mandate</h3>
+      <p class="card-summary">The Pennsauken, N.J. investigation announced 14 October cooled from 74 to 55 over the week as no township response surfaced. On Thursday the Civil Rights Division opened a new investigation into the <strong>Middletown and Waterbury, Connecticut police departments&rsquo; permitting systems</strong>, citing <em>Bruen</em>&rsquo;s warning against &ldquo;lengthy wait times&rdquo; and saying applicants may face a potentially years-long appeal process. Separately, TTAG reports DOJ amended its suit against San Jose to add the city&rsquo;s 2022 gun-owner liability-insurance requirement and $25 annual fee alongside carry-permit costs (the amended complaint itself was not read). <strong>Where things stand:</strong> these are investigations and allegations, not findings; no municipality&rsquo;s response has been reported.</p>
+      <div class="week-stripe">
+        <div class="ws-metrics">
+          <span>Hot <strong>5</strong>/5 days</span>
+          <span>Peak <strong>74</strong></span>
+          <span>Avg <strong>64</strong></span>
+          <span>Week <span class="ws-arrow cooling">&darr;&darr;</span></span>
+        </div>
+        <div class="ws-spark" aria-label="Weekly heat sparkline, Fri 10/16 to Thu 10/22">
+            <div class="ws-bar t-hot" style="height: 74%"></div>
+            <div class="ws-bar t-warm" style="height: 68%"></div>
+            <div class="ws-bar t-warm" style="height: 63%"></div>
+            <div class="ws-bar t-warm" style="height: 58%"></div>
+            <div class="ws-bar t-warm" style="height: 55%"></div>
+        </div>
+      </div>
+      <p class="rtb-angle"><span class="label">RTB angle</span><strong>&ldquo;How long should a carry permit take where you live?&rdquo;</strong> A factual explainer of statutory processing deadlines in New Jersey, Connecticut and California, plus a short checklist for documenting a delay. Email members in those three states; no predictions about the investigations&rsquo; outcomes.</p>
+      <div class="card-foot">
+        <span class="sources"><a href="https://www.justice.gov/opa/pr/justice-department-opens-investigation-alleged-firearm-permitting-abuses-two-connecticut" target="_blank" rel="noopener">DOJ release 10/22: Connecticut (primary, read)</a><span class="dot">&middot;</span><a href="https://www.justice.gov/opa/pr/justice-department-opens-investigation-pennsauken-new-jerseys-allegedly-unconstitutional" target="_blank" rel="noopener">DOJ release: Pennsauken (primary)</a><span class="dot">&middot;</span><a href="https://www.thetruthaboutguns.com/doj-san-jose-gun-insurance-mandate-lawsuit/" target="_blank" rel="noopener">TTAG 10/20: San Jose insurance mandate (trade, read)</a><span class="dot">&middot;</span><a href="https://www.inquirer.com/south-jersey/firearm-permitting-doj-pennsauken-20261015.html" target="_blank" rel="noopener">Philadelphia Inquirer 10/15 (mainstream)</a><span class="dot">&middot;</span><a href="https://www.msn.com/en-us/news/other/new-jersey-city-s-firearm-permitting-process-is-so-egregious-the-trump-doj-is-now-launching-an-investigation-report/ar-AA2ev3KD" target="_blank" rel="noopener">Western Journal 10/18 (conservative outlet)</a></span>
+        <span class="stage-history">Pennsauken 10/14 &rarr; San Jose amended ~10/20 &rarr; Middletown &amp; Waterbury 10/22 &rarr; <span class="now">no responses reported</span></span>
+      </div>
+    </article>
+    <article class="card" data-stage="moved">
+      <header class="card-head">
+        <span class="stage-badge moved">Moved <span class="arrow">&#9654;</span></span>
+        <span class="category-pill">DOJ &middot; under-21 handgun sales</span>
+        <span class="heat-badge t-warm"><span class="heat-label">Wk avg</span><span class="heat-num">59</span><span class="heat-arrow">&darr;</span></span>
+        <span class="card-meta">Senate letter 10/16 &middot; no court ruling</span>
+      </header>
+      <h3 class="card-title">Twenty senators ask DOJ to explain why it stopped enforcing the federal under-21 handgun-sale ban; the department&rsquo;s position stands</h3>
+      <p class="card-summary">DOJ&rsquo;s Office of Legal Counsel concluded in September that the federal ban on licensed dealers selling handguns to 18-to-20-year-olds is unconstitutional, and DOJ said it will not enforce it. A 174-member House letter on 8 October asked DOJ to reverse course; this week <strong>20 senators sent their own letter demanding an explanation</strong>, framing the change as raising school-shooting risk. TTAG framed the same letter as an attack on young adults&rsquo; rights. <strong>Where things stand:</strong> no ruling on DOJ&rsquo;s request to moot <em>Reese v. ATF</em>; no ATF dealer guidance in the Federal Register. State minimum-age laws are unaffected, and Massachusetts&rsquo; top court upheld one this week (see 03B).</p>
+      <div class="week-stripe">
+        <div class="ws-metrics">
+          <span>Hot <strong>5</strong>/5 days</span>
+          <span>Peak <strong>64</strong></span>
+          <span>Avg <strong>59</strong></span>
+          <span>Week <span class="ws-arrow cooling">&darr;</span></span>
+        </div>
+        <div class="ws-spark" aria-label="Weekly heat sparkline, Fri 10/16 to Thu 10/22">
+            <div class="ws-bar t-warm" style="height: 64%"></div>
+            <div class="ws-bar t-warm" style="height: 60%"></div>
+            <div class="ws-bar t-warm" style="height: 57%"></div>
+            <div class="ws-bar t-warm" style="height: 56%"></div>
+            <div class="ws-bar t-warm" style="height: 59%"></div>
+        </div>
+      </div>
+      <p class="rtb-angle"><span class="label">RTB angle</span><strong>Refresh &ldquo;Under 21? The federal counter vs. your state&rsquo;s law.&rdquo;</strong> Pair it with the Massachusetts ruling as a concrete example of why state law still controls. Email the 18&ndash;24 segment and parents; do not predict how long DOJ&rsquo;s position lasts.</p>
+      <div class="card-foot">
+        <span class="sources"><a href="https://www.thetruthaboutguns.com/senate-democrats-doj-under-21-handgun-sales/" target="_blank" rel="noopener">TTAG 10/21 (trade)</a><span class="dot">&middot;</span><a href="https://www.fingerlakes1.com/2026/10/21/gillibrand-challenges-doj-decision-on-handgun-sales-to-adults-under-21/" target="_blank" rel="noopener">FingerLakes1 10/21 (regional mainstream)</a><span class="dot">&middot;</span><a href="https://www.kelly.senate.gov/newsroom/press-releases/kelly-murphy-schiff-demand-answers-from-trump-administration-over-decision-to-allow-handgun-sales-to-teenagers/" target="_blank" rel="noopener">Senators&rsquo; joint release (primary; opposition framing)</a><span class="dot">&middot;</span><a href="https://thereload.com/analysis-dojs-attempt-to-moot-under-21-handgun-case-implicates-nfa-injunction-member-exclusive/" target="_blank" rel="noopener">The Reload 10/15 analysis (trade)</a></span>
+        <span class="stage-history">OLC opinion 09/17 &rarr; House letter 10/08 &rarr; Senate letter 10/16 &rarr; <span class="now">no ruling on mootness</span></span>
+      </div>
+    </article>
+    <article class="card" data-stage="moved">
+      <header class="card-head">
+        <span class="stage-badge moved">Moved <span class="arrow">&#9654;</span></span>
+        <span class="category-pill">Midterms &middot; gun-issue money</span>
+        <span class="heat-badge t-warm"><span class="heat-label">Wk avg</span><span class="heat-num">67</span><span class="heat-arrow">&uarr;</span></span>
+        <span class="card-meta">Election in 11 days &middot; October FEC reports</span>
+      </header>
+      <h3 class="card-title">Gun-control groups widened their spending lead in the final stretch, while polls keep gun policy near the bottom of voters&rsquo; priorities</h3>
+      <p class="card-summary">The Reload&rsquo;s read of October FEC filings: a newly disclosed <strong>$22&nbsp;million from Michael Bloomberg to Everytown&rsquo;s super PAC</strong>, making 2026 the group&rsquo;s best midterm cycle. On 10/21 Everytown and the Democratic Governors Association announced a <strong>$3&nbsp;million digital campaign in four governors&rsquo; races</strong> (Michigan, Minnesota, Nevada, Wisconsin), on top of $9&nbsp;million pledged for state-legislative races and $10&nbsp;million for House races. Giffords PAC has $7.1&nbsp;million of its $10&nbsp;million pledge showing in filings. The NRA&rsquo;s only reported independent ad so far is about $495,000 in a Texas U.S. Senate race, plus roughly $209,000 in texts and $472,000 in mail from 12&ndash;20 October. The Reload also notes NBC/Decision Desk polling with gun policy a top issue for about 3% of voters.</p>
+      <div class="week-stripe">
+        <div class="ws-metrics">
+          <span>Hot <strong>5</strong>/5 days</span>
+          <span>Peak <strong>69</strong></span>
+          <span>Avg <strong>67</strong></span>
+          <span>Week <span class="ws-arrow rising">&uarr;</span></span>
+        </div>
+        <div class="ws-spark" aria-label="Weekly heat sparkline, Fri 10/16 to Thu 10/22">
+            <div class="ws-bar t-warm" style="height: 66%"></div>
+            <div class="ws-bar t-warm" style="height: 67%"></div>
+            <div class="ws-bar t-warm" style="height: 68%"></div>
+            <div class="ws-bar t-warm" style="height: 67%"></div>
+            <div class="ws-bar t-warm" style="height: 69%"></div>
+        </div>
+      </div>
+      <p class="rtb-angle"><span class="label">RTB angle</span><strong>Stay above the race.</strong> No RTB content should endorse, oppose or grade any candidate. The usable civic angle is &ldquo;What&rsquo;s on your ballot that affects how you carry&rdquo; (Massachusetts Question&nbsp;9, Arkansas Issue&nbsp;2, Missouri Amendment&nbsp;8, Idaho&rsquo;s advisory vote) plus a reminder to check your state&rsquo;s polling-place carry rules before 3 November.</p>
+      <div class="card-foot">
+        <span class="sources"><a href="https://thereload.com/bloomberg-pours-tens-of-millions-into-everytown-as-it-announces-another-3-million-midterm-ad-buy/" target="_blank" rel="noopener">The Reload 10/23: FEC filings (trade, read)</a><span class="dot">&middot;</span><a href="https://momsdemandaction.org/press/everytown-democratic-governors-association-launch-3-million-campaign-to-elect-gun-safety-governors-in-key-battleground-states/" target="_blank" rel="noopener">Everytown/DGA release 10/21 (primary; gun-control side)</a><span class="dot">&middot;</span><a href="https://www.nytimes.com/2026/10/20/us/bloomberg-democrats-midterms-donation.html" target="_blank" rel="noopener">NYT 10/20: late donations (mainstream)</a><span class="dot">&middot;</span><a href="https://thereload.com/home-stretch-polling-suggests-gun-policy-a-low-priority-headed-into-election-day/" target="_blank" rel="noopener">The Reload 10/22: issue polling (trade)</a><span class="dot">&middot;</span><a href="https://azmirror.com/2026/10/16/gun-safety-advocates-launch-ad-campaign-to-flip-arizona-legislature/" target="_blank" rel="noopener">Arizona Mirror 10/16 (regional)</a></span>
+        <span class="stage-history">FEC filings 10/08 &rarr; NRA&rsquo;s first ad 10/14 &rarr; Everytown/DGA $3M 10/21 &rarr; <span class="now">$22M Bloomberg gift disclosed 10/23</span></span>
+      </div>
+    </article>
+    <div class="also-notable">
+      <h4>Also notable &middot; federal</h4>
+      <ul>
+        <li><span class="mini-stage watch">Calendar</span><strong>Congress is out until after the election;</strong> no firearm bill had a hearing, markup or floor vote this week (per the dailies; congress.gov hearing schedule not re-checked this run). Stopgap funding runs through 11&nbsp;December.</li>
+        <li><span class="mini-stage watch">Introduced</span><strong>&ldquo;Garrett&rsquo;s Law&rdquo;</strong> would treat lethal air guns as firearms under federal law. One reading (50); headline only (Buckeye Firearms), bill text and number not read.</li>
+        <li><span class="mini-stage watch">Unverified</span><strong>A plan to fold ATF into the DEA.</strong> One outlet reports the Attorney General defended the proposal on Monday, but its attribution conflicts with other reporting on who holds that office. Not confirmed at a second source; not scored. <a href="https://ticklethewire.com/bondi-defends-plan-to-eliminate-atf-merge-functions-into-dea/" target="_blank" rel="noopener">Tickle The Wire 10/22</a></li>
+      </ul>
+    </div>
+    <div class="section-head">
+      <h2><span class="num">03B</span>State legislation &amp; ballot measures &mdash; sustained heat</h2>
+      <span class="desc">NFA mirror laws, Massachusetts at the ballot and in court, and school carry rules</span>
+    </div>
+    <article class="card" data-stage="moved">
+      <header class="card-head">
+        <span class="stage-badge moved">Moved <span class="arrow">&#9654;</span></span>
+        <span class="category-pill">States &middot; NFA mirror laws</span>
+        <span class="heat-badge t-hot"><span class="heat-label">Wk avg</span><span class="heat-num">87</span><span class="heat-arrow">&rarr;</span></span>
+        <span class="card-meta">FPC letters to 15 AGs &middot; hunting-season questions</span>
+      </header>
+      <h3 class="card-title">State by state, the answer on suppressors and short-barreled guns is still &ldquo;it depends&rdquo;</h3>
+      <p class="card-summary">With ATF not enforcing NFA registration, states whose laws tie legality to federal paperwork are answering differently. AmmoLand&rsquo;s 10/20 round-up: <strong>Idaho&rsquo;s attorney general recognizes the change; Mississippi&rsquo;s AG opinion treats the federal form as voluntary; a Florida state attorney&rsquo;s memo covers six counties; Montana officials are drafting legislation to legalize the items; Maryland State Police say nothing changes.</strong> Alaska&rsquo;s acting attorney general asked the next Legislature to fix the state&rsquo;s own suppressor and short-barreled-rifle felony law. The Reload singles out Virginia&rsquo;s short-barreled-shotgun law as the clearest remaining source of uncertainty. Hunting season brought local explainers: Missouri shops report same-day suppressor sales on a standard Form 4473, and Pennsylvania outlets walked readers through what changes there. ATF&rsquo;s director, in an American Rifleman interview, said state laws &ldquo;must be understood&rdquo; before traveling with a suppressor.</p>
+      <div class="week-stripe">
+        <div class="ws-metrics">
+          <span>Hot <strong>5</strong>/5 days</span>
+          <span>Peak <strong>88</strong></span>
+          <span>Avg <strong>87</strong></span>
+          <span>Week <span class="ws-arrow steady">&rarr;</span></span>
+        </div>
+        <div class="ws-spark" aria-label="Weekly heat sparkline, Fri 10/16 to Thu 10/22">
+            <div class="ws-bar t-hot" style="height: 85%"></div>
+            <div class="ws-bar t-hot" style="height: 87%"></div>
+            <div class="ws-bar t-hot" style="height: 87%"></div>
+            <div class="ws-bar t-hot" style="height: 88%"></div>
+            <div class="ws-bar t-hot" style="height: 87%"></div>
+        </div>
+      </div>
+      <p class="rtb-angle"><span class="label">RTB angle</span><strong>The month&rsquo;s highest-value evergreen: &ldquo;Federal paperwork vs. your state&rsquo;s law: suppressors and short-barreled guns, state by state.&rdquo;</strong> A living table (recognizes / unchanged / legislation pending / unclear) with a &ldquo;last checked&rdquo; date on every row. Email members in the 15 letter states plus Florida, Idaho, Maryland and Virginia; social carousel for hunters. Never say an item is legal where the state has not said so.</p>
+      <div class="card-foot">
+        <span class="sources"><a href="https://www.ammoland.com/2026/10/atf-nfa-changes-sbr-suppressor-state-laws/" target="_blank" rel="noopener">AmmoLand 10/20 round-up (trade, read)</a><span class="dot">&middot;</span><a href="https://thereload.com/members-newsletter-how-will-states-handle-nfa-mirror-laws/" target="_blank" rel="noopener">The Reload 10/18 (trade)</a><span class="dot">&middot;</span><a href="https://www.gwcommonwealth.com/attorney-general-issues-opinion-suppressors-mississippi-after-atf-ends-mandatory-registration-6ad7c939dd64d" target="_blank" rel="noopener">Greenwood Commonwealth 10/19: Mississippi (regional)</a><span class="dot">&middot;</span><a href="https://www.bozemandailychronicle.com/news/big-sky/some-state-lawmakers-want-to-legalize-gun-suppressors-short-barreled-weapons/article_0b8fcd80-66ae-45c8-ae14-0aa1b0f67b05.html" target="_blank" rel="noopener">Bozeman Daily Chronicle 10/21: Montana (regional)</a><span class="dot">&middot;</span><a href="https://www.msn.com/en-us/news/other/federal-firearms-ruling-leaves-alaska-law-in-legal-uncertainty/ar-AA2epfnE" target="_blank" rel="noopener">Peninsula Clarion 10/16: Alaska (regional)</a><span class="dot">&middot;</span><a href="https://www.americanrifleman.org/content/interview-atf-director-cekada-on-suppressors/" target="_blank" rel="noopener">American Rifleman 10/22: ATF director interview</a></span>
+        <span class="stage-history">FPC letters 10/12 &rarr; MS opinion &rarr; FL memo &rarr; AK request &rarr; MD advisory &rarr; <span class="now">Montana drafting bills</span></span>
+      </div>
+    </article>
+    <article class="card" data-stage="moved">
+      <header class="card-head">
+        <span class="stage-badge moved">Moved <span class="arrow">&#9654;</span></span>
+        <span class="category-pill">Massachusetts &middot; Question&nbsp;9</span>
+        <span class="heat-badge t-hot"><span class="heat-label">Wk avg</span><span class="heat-num">74</span><span class="heat-arrow">&uarr;</span></span>
+        <span class="card-meta">Early voting through 10/30 &middot; vote 11/03</span>
+      </header>
+      <h3 class="card-title">Question&nbsp;9 climbed all week; the first poll we could read shows &ldquo;yes&rdquo; well ahead</h3>
+      <p class="card-summary">Question&nbsp;9 asks voters whether to keep the 2024 firearms law: a &ldquo;yes&rdquo; keeps it, a &ldquo;no&rdquo; repeals it. The UMass Amherst/WCVB poll, as reported by The New Bedford Light, has <strong>&ldquo;yes&rdquo; at 70 (49 &ldquo;definitely&rdquo;) and &ldquo;no&rdquo; at 21</strong>; sample and field dates were not read. State public-safety officials released a report saying firearm crimes fell nearly 12% (State House News). Framing split cleanly: The Berkshire Eagle editorial board backs &ldquo;yes&rdquo;; more than half of 600 Boston.com reader respondents said &ldquo;no&rdquo; (a self-selected survey, not a poll). Committees on all nine ballot questions have raised $21.6&nbsp;million combined (Boston.com).</p>
+      <div class="week-stripe">
+        <div class="ws-metrics">
+          <span>Hot <strong>5</strong>/5 days</span>
+          <span>Peak <strong>77</strong></span>
+          <span>Avg <strong>74</strong></span>
+          <span>Week <span class="ws-arrow rising">&uarr;</span></span>
+        </div>
+        <div class="ws-spark" aria-label="Weekly heat sparkline, Fri 10/16 to Thu 10/22">
+            <div class="ws-bar t-hot" style="height: 71%"></div>
+            <div class="ws-bar t-hot" style="height: 74%"></div>
+            <div class="ws-bar t-hot" style="height: 73%"></div>
+            <div class="ws-bar t-hot" style="height: 77%"></div>
+            <div class="ws-bar t-hot" style="height: 75%"></div>
+        </div>
+      </div>
+      <p class="rtb-angle"><span class="label">RTB angle</span><strong>For Massachusetts members: &ldquo;What a yes or no vote means for your license, your registration and your existing guns.&rdquo;</strong> Plain-language, no recommendation either way. Send before early voting closes 10/30; follow with a results-and-what-now note on 11/04.</p>
+      <div class="card-foot">
+        <span class="sources"><a href="https://www.wgbh.org/news/politics/2026-10-23/what-you-need-to-know-about-question-9-upholding-firearms-regulations" target="_blank" rel="noopener">GBH 10/23 guide (mainstream)</a><span class="dot">&middot;</span><a href="https://www.umass.edu/poll/about/reports/2026-10-massachusetts-public-opinion-poll" target="_blank" rel="noopener">UMass Amherst/WCVB poll (primary)</a><span class="dot">&middot;</span><a href="https://www.statehousenews.com/news/publicsafety/ahead-of-question-9-vote-state-says-firearm-crimes-dropped-nearly-12/article_ccc598bc-9c8d-4669-8721-ba21c4a2aed9.html" target="_blank" rel="noopener">State House News 10/20: state crime data</a><span class="dot">&middot;</span><a href="https://www.berkshireeagle.com/opinion-editorials/yes-on-question-9/5036813" target="_blank" rel="noopener">Berkshire Eagle: &ldquo;yes&rdquo; editorial</a><span class="dot">&middot;</span><a href="https://www.boston.com/community/readers-say/why-readers-say-theyre-voting-no-on-ballot-question-9/" target="_blank" rel="noopener">Boston.com: readers&rsquo; &ldquo;no&rdquo; responses</a></span>
+        <span class="stage-history">Guides 10/16 &rarr; poll 10/18 &rarr; state crime report 10/20 &rarr; <span class="now">early voting to 10/30</span></span>
+      </div>
+    </article>
+    <article class="card" data-stage="new">
+      <header class="card-head">
+        <span class="stage-badge new">New <span class="arrow">&#9650;</span></span>
+        <span class="category-pill">Massachusetts &middot; <em>Commonwealth v. Thomson</em></span>
+        <span class="heat-badge t-hot"><span class="heat-label">Wk avg</span><span class="heat-num">71</span><span class="heat-arrow">&darr;</span></span>
+        <span class="card-meta">SJC 5&ndash;2 &middot; decided 10/20</span>
+      </header>
+      <h3 class="card-title">Massachusetts&rsquo; highest court, 5&ndash;2, upholds the bar on licenses to carry handguns and large-capacity firearms for people under 21</h3>
+      <p class="card-summary">In the case of a 20-year-old convicted of carrying a loaded handgun, the Supreme Judicial Court held that restricting possession by people &ldquo;deemed too young to handle them safely outside of supervised settings&rdquo; fits the nation&rsquo;s regulatory tradition (Justice Wolohojian for the majority, per CommonWealth Beacon). The court looked to how the state&rsquo;s early militia regulated youths (MassLive). AmmoLand frames the decision as deepening a split with federal circuits that have struck down under-21 limits. The same age rule is part of the law on the ballot as Question&nbsp;9. The opinion itself was not read.</p>
+      <div class="week-stripe">
+        <div class="ws-metrics">
+          <span>Hot <strong>2</strong>/5 days</span>
+          <span>Peak <strong>74</strong></span>
+          <span>Avg <strong>71</strong></span>
+          <span>Week <span class="ws-arrow cooling">&darr;</span></span>
+        </div>
+        <div class="ws-spark" aria-label="Weekly heat sparkline, Fri 10/16 to Thu 10/22">
+            <div class="ws-bar absent" style="height: 6%"></div>
+            <div class="ws-bar absent" style="height: 6%"></div>
+            <div class="ws-bar absent" style="height: 6%"></div>
+            <div class="ws-bar t-hot" style="height: 74%"></div>
+            <div class="ws-bar t-warm" style="height: 68%"></div>
+        </div>
+      </div>
+      <p class="rtb-angle"><span class="label">RTB angle</span><strong>A short piece for 18&ndash;20-year-old members and their parents in Massachusetts:</strong> what they can and cannot carry today. Link it from the federal under-21 explainer (03A) as the example of state law controlling regardless of DOJ&rsquo;s position.</p>
+      <div class="card-foot">
+        <span class="sources"><a href="https://commonwealthbeacon.org/courts/sjc-upholds-mass-law-restricting-firearms-for-people-under-21/" target="_blank" rel="noopener">CommonWealth Beacon 10/20 (read)</a><span class="dot">&middot;</span><a href="https://www.masslive.com/westernmass/2026/10/restriction-on-carrying-guns-for-those-under-21-passes-muster-mass-sjc-says.html" target="_blank" rel="noopener">MassLive 10/20 (mainstream)</a><span class="dot">&middot;</span><a href="https://www.ammoland.com/2026/10/massachusetts-under-21-gun-carry-ban-ruling/" target="_blank" rel="noopener">AmmoLand 10/22: circuit-split framing (trade)</a><span class="dot">&middot;</span><a href="https://www.dotnews.com/2026/10/20/local-man-loses-case/" target="_blank" rel="noopener">Dorchester Reporter 10/20 (local)</a></span>
+        <span class="stage-history">Decided 10/20 &rarr; <span class="now">no further review reported</span></span>
+      </div>
+    </article>
+    <article class="card" data-stage="watch">
+      <header class="card-head">
+        <span class="stage-badge watch">Watch <span class="arrow">&#9679;</span></span>
+        <span class="category-pill">Schools &middot; staff carry rules</span>
+        <span class="heat-badge t-warm"><span class="heat-label">Wk avg</span><span class="heat-num">68</span><span class="heat-arrow">&rarr;</span></span>
+        <span class="card-meta">Polls &middot; district policies &middot; Oregon review</span>
+      </header>
+      <h3 class="card-title">The school-carry argument spread beyond Oregon: a new poll, two Idaho district policies, and experts who put prevention first</h3>
+      <p class="card-summary">Newsweek reported the Bend-La Pine district barred staff from carrying. A Crime Prevention Research Center/McLaughlin survey (via AmmoLand) found <strong>51.4% of voters and 57.3% of K-12 parents favor allowing armed teachers</strong>, against 35.7% and 30.2% opposed. In Idaho, the Marsing and Homedale school boards approved armed-staff policies that require board approval of each staff member (Idaho Press, 10/22). On the other side, experts quoted by The New York Times emphasized prevention over building defenses. By midweek Oregon coverage had moved to whether existing law and storage rules could have changed anything. Reason&rsquo;s Volokh Conspiracy carried the argument that places where guns are banned need armed protection.</p>
       <div class="week-stripe">
         <div class="ws-metrics">
           <span>Hot <strong>3</strong>/5 days</span>
@@ -681,483 +869,375 @@
           <span>Avg <strong>68</strong></span>
           <span>Week <span class="ws-arrow steady">&rarr;</span></span>
         </div>
-        <div class="ws-spark" aria-label="Weekly heat sparkline, Monday to Friday">
-          <div class="ws-bar t-warm" style="height: 68%"></div>
-          <div class="ws-bar absent" style="height: 6%"></div>
-          <div class="ws-bar t-warm" style="height: 69%"></div>
-          <div class="ws-bar t-warm" style="height: 68%"></div>
-          <div class="ws-bar absent" style="height: 6%"></div>
+        <div class="ws-spark" aria-label="Weekly heat sparkline, Fri 10/16 to Thu 10/22">
+            <div class="ws-bar absent" style="height: 6%"></div>
+            <div class="ws-bar absent" style="height: 6%"></div>
+            <div class="ws-bar t-warm" style="height: 69%"></div>
+            <div class="ws-bar t-warm" style="height: 68%"></div>
+            <div class="ws-bar t-warm" style="height: 67%"></div>
         </div>
       </div>
-      <p class="rtb-angle"><span class="label">RTB angle</span>This is the single highest-value piece the team can write this week, and it should be built <em>now</em> and held. Write one evergreen, multi-state explainer &mdash; &ldquo;what the convertible-pistol laws actually reach, state by state&rdquo; &mdash; on a permanent URL, and update it the afternoon of September&nbsp;4 rather than publishing a second dated post. Audience: California, New York and Maryland members who own an entirely unmodified pistol and have no idea whether the law reaches it. Channel: blog first, then the member email, then a short social cut. Frame it as &ldquo;here is what is in force today and here is what a judge looks at on the 4th&rdquo; &mdash; not as a warning.</p>
-      <footer class="card-foot">
-        <span class="sources"><a href="https://www.ammoland.com/2026/08/california-glock-ban-injunction-renna-v-bonta/" target="_blank" rel="noopener">AmmoLand &mdash; Renna v. Bonta injunction motion</a><span class="dot">&middot;</span><a href="https://www.ammoland.com/2026/08/new-york-glock-ban-second-amendment-lawsuit/" target="_blank" rel="noopener">AmmoLand &mdash; New York Glock-pattern ban hit with federal suit</a><span class="dot">&middot;</span><a href="https://www.ammoland.com/2026/08/new-york-glock-second-amendment-lawsuit/" target="_blank" rel="noopener">AmmoLand &mdash; New York Glock ban, Second Amendment challenge</a><span class="dot">&middot;</span><a href="https://www.usconcealedcarry.com/blog/understanding-the-case/" target="_blank" rel="noopener">USCCA / SAF 08/22 &mdash; Kostas Moros on features and circumvention</a><span class="dot">&middot;</span><a href="https://www.scotusblog.com/calendar" target="_blank" rel="noopener">SCOTUSblog calendar &mdash; Sep&nbsp;4 order list, Sep&nbsp;28 long conference</a><span class="dot">&middot;</span><a href="https://legiscan.com/" target="_blank" rel="noopener">legiscan.com &mdash; state bill tracking (unreachable this run)</a></span>
-        <span class="stage-history">multi-state &rarr; suit filed &rarr; PI motion &rarr; <strong>hearing T-7</strong></span>
-      </footer>
-    </article>
-    <article class="card" data-stage="watch">
-      <header class="card-head">
-        <span class="stage-badge watch">Watch <span class="arrow">&rarr;</span></span>
-        <span class="category-pill">CA &middot; NIST &middot; 2028 mandate</span>
-        <span class="card-meta">hot 2 of 3 days run &middot; single-outlet</span>
-      </header>
-      <h3 class="card-title">A NIST literature review finds no agreement that microstamping works reliably &mdash; and California&rsquo;s conditional 2028 mandate is what that finding runs against</h3>
-      <p class="card-summary">Entered Wednesday at 69 and eased to 65 on Thursday with nothing new to report. The reported finding is that a federal literature review found <strong>significant disagreement in the published research about whether microstamping performs reliably</strong>. Be precise about the ceiling on that claim: &ldquo;significant disagreement&rdquo; is <em>not</em> &ldquo;NIST found it does not work,&rdquo; and this board has not read the review itself &mdash; nist.gov has been unreachable two runs running and the item remains single-outlet, headline-and-dek only. The reason it matters is downstream: <strong>California has a conditional microstamping mandate for semiautomatic pistols dated 2028</strong>, and a federal technical finding of unsettled reliability is the kind of record that shapes both the rulemaking and any eventual challenge.</p>
-      <div class="week-stripe">
-        <div class="ws-metrics">
-          <span>Hot <strong>2</strong>/5 days</span>
-          <span>Peak <strong>69</strong></span>
-          <span>Avg <strong>67</strong></span>
-          <span>Week <span class="ws-arrow cooling">&#9660;</span></span>
-        </div>
-        <div class="ws-spark" aria-label="Weekly heat sparkline, Monday to Friday">
-          <div class="ws-bar absent" style="height: 6%"></div>
-          <div class="ws-bar absent" style="height: 6%"></div>
-          <div class="ws-bar t-warm" style="height: 69%"></div>
-          <div class="ws-bar t-warm" style="height: 65%"></div>
-          <div class="ws-bar absent" style="height: 6%"></div>
-        </div>
+      <p class="rtb-angle"><span class="label">RTB angle</span><strong>Do not connect this to Bend.</strong> Hold for an evergreen after the election: &ldquo;Carrying near schools: the federal school-zone law and your state&rsquo;s rules&rdquo; for parents who carry at pickup and drop-off. Factual, no position on staff-carry policy.</p>
+      <div class="card-foot">
+        <span class="sources"><a href="https://www.newsweek.com/oregon-school-shooting-district-had-banned-staff-from-carrying-guns-12578070" target="_blank" rel="noopener">Newsweek 10/16 (mainstream)</a><span class="dot">&middot;</span><a href="https://www.ammoland.com/2026/10/school-parents-support-armed-teachers-poll/" target="_blank" rel="noopener">AmmoLand 10/19: CPRC poll (trade, read)</a><span class="dot">&middot;</span><a href="https://www.idahopress.com/news/local/marsing-homedale-approve-armed-staff-policies/article_c66df622-4002-4619-832a-1692df98ad92.html" target="_blank" rel="noopener">Idaho Press 10/22 (regional)</a><span class="dot">&middot;</span><a href="https://www.nytimes.com/2026/10/16/us/bend-oregon-school-shooting-safety-measures-prevention-defenses.html" target="_blank" rel="noopener">NYT 10/16: prevention framing (mainstream)</a><span class="dot">&middot;</span><a href="https://reason.com/volokh/2026/10/19/second-amendment-roundup-saving-lives-at-silver-rail-elementary/" target="_blank" rel="noopener">Reason/Volokh 10/19 (commentary)</a></span>
+        <span class="stage-history">District policy reported 10/16 &rarr; poll 10/19 &rarr; Idaho policies 10/22 &rarr; <span class="now">off the board Thursday (67)</span></span>
       </div>
-      <p class="rtb-angle"><span class="label">RTB angle</span>Do not write this yet. Flag it for the content calendar with a September trigger: the <strong>SAAMI 2026 Ballistics Conference, September&nbsp;15&ndash;17 in Baltimore</strong>, is the first venue where the feasibility question gets a technical audience after the review, and it is the natural news hook. When it is written, the member-useful version is &ldquo;what a 2028 mandate would and would not change about what you can buy in California&rdquo; &mdash; a planning piece, not an alarm. Verify the review from nist.gov before publishing any characterisation of it.</p>
-      <footer class="card-foot">
-        <span class="sources"><a href="https://www.ammoland.com/2026/08/federal-review-microstamping-no-evidence/" target="_blank" rel="noopener">AmmoLand 08/25 &mdash; federal review finds no evidence microstamping is reliable</a><span class="dot">&middot;</span><a href="https://www.nist.gov/" target="_blank" rel="noopener">nist.gov &mdash; the review itself (unreachable, 2 consecutive runs)</a><span class="dot">&middot;</span><a href="https://legiscan.com/" target="_blank" rel="noopener">legiscan.com &mdash; state bill tracking (unreachable this run)</a><span class="dot">&middot;</span><a href="https://www.ammoland.com/2026/08/california-glock-ban-injunction-renna-v-bonta/" target="_blank" rel="noopener">AmmoLand &mdash; Renna v. Bonta injunction motion</a></span>
-        <span class="stage-history">new Wed &rarr; carried Thu &rarr; <strong>watch SAAMI Sep 15&ndash;17</strong></span>
-      </footer>
     </article>
     <div class="also-notable">
-      <h4>Also notable</h4>
+      <h4>Also notable &middot; state</h4>
       <ul>
-        <li><span class="mini-stage watch">Watch</span><a href="https://www.scotusblog.com/" target="_blank" rel="noopener"><strong>Demoted for sourcing, not for heat:</strong> a proposed DOJ settlement would put Los Angeles County&rsquo;s carry-permit backlog under four years of court-enforced reporting and federal verification. It cleared the staying-power gate (63 Mon, 61 Wed) but is single-outlet and headline-level, so it cannot carry a lead card under the three-source rule. Nothing is in force &mdash; a federal judge has not approved it</a></li>
-        <li><span class="mini-stage watch">Watch</span><a href="https://www.ammoland.com/2026/08/ohio-suppressor-law-sb-214-nfa-registration-trap/" target="_blank" rel="noopener">Ohio gun owners remain behind a stalled SB&nbsp;214, which leaves a state-law registration trap in place even where the federal NFA provisions are enjoined. This is the clearest example of why &ldquo;the federal injunction&rdquo; is not the whole answer for a member</a></li>
-        <li><span class="mini-stage watch">Watch</span><a href="https://www.ammoland.com/2026/08/washington-supreme-court-election-gun-rights-2026/" target="_blank" rel="noopener">Five Washington Supreme Court seats are on the November&nbsp;3 ballot &mdash; state high courts decide most of what a member actually experiences. Track internally; publish nothing candidate-comparative</a></li>
-        <li><span class="mini-stage watch">Watch</span><a href="https://ballotpedia.org/2026_ballot_measures" target="_blank" rel="noopener">Ballot reconciliation failed for an eleventh consecutive run. Massachusetts Question&nbsp;9 and Oregon IP&nbsp;28 are still unverified; ballotpedia.org has been unreachable every attempt. Escalate to the Massachusetts Secretary of the Commonwealth site by hand</a></li>
-        <li><span class="mini-stage watch">Watch</span><a href="https://www.ammoland.com/2026/08/oregon-measure-114-gun-demand-surge/" target="_blank" rel="noopener">Oregon Measure&nbsp;114&rsquo;s operative date is January&nbsp;1,&nbsp;2028, moved there by HB&nbsp;4145. A meaningful number of Oregon members likely believe it is already in force &mdash; that is a member-education gap worth closing</a></li>
-        </ul>
+        <li><span class="mini-stage moved">Upgraded</span><strong>Missouri Amendment&nbsp;8 is confirmed on the 3 November ballot</strong>: it would make county sheriff a constitutional office and limit who can seek a sheriff&rsquo;s removal. Previously marked Unverified; now confirmed at three outlets. Five readings, cooling (61 to 55). <a href="https://www.usatoday.com/story/news/politics/elections/2026/10/19/missouri-voters-to-decide-on-constitutional-sheriffs-with-amendment-8/92285799007/" target="_blank" rel="noopener">USA Today 10/19</a> &middot; <a href="https://www.ksmu.org/news/2026-10-20/missouris-constitutional-sheriff-push-reaches-voters-with-amendment-8" target="_blank" rel="noopener">KSMU 10/20</a> &middot; <a href="https://www.komu.com/news/elections/amendments-7-and-8-though-less-prominent-could-bring-fundamental-changes/article_a76e2db2-b045-49ee-aa82-5fc451849cc2.html" target="_blank" rel="noopener">KOMU 10/19</a></li>
+        <li><span class="mini-stage watch">Ballot</span><strong>Arkansas Issue&nbsp;2</strong> (right-to-bear-arms amendment): early voting opened 10/19. Flat all week (54&ndash;57). <a href="https://www.5newsonline.com/article/news/politics/elections/election-arkansas-issue-2-right-to-bear-arms-amendment/527-49a943d9-9f89-42d1-acdb-983d364e62fa" target="_blank" rel="noopener">5NEWS explainer</a></li>
+        <li><span class="mini-stage watch">Ballot</span><strong>Idaho&rsquo;s advisory vote on an official state firearm</strong>: symbolic; absentee-ballot requests close today, 23 October. <a href="https://cdapress.com/news/2026/oct/21/deadline-for-idaho-voters-to-request-absentee-ballot-for-general-election-is-oct-23/" target="_blank" rel="noopener">Coeur d&rsquo;Alene Press</a></li>
+        <li><span class="mini-stage watch">Calendar</span><strong>Washington&rsquo;s permit-to-purchase system starts 1 May 2027</strong> (fingerprints and a fee). The fee amount reported earlier remains Unverified. <a href="https://www.theblaze.com/news/washington-democrats-are-making-residents-pay-and-provide-fingerprints-just-to-shop-for-a-gun" target="_blank" rel="noopener">Blaze 10/16</a></li>
+        <li><span class="mini-stage watch">Pending</span><strong>New Jersey S1800</strong> would add dealer notices on straw purchases and lost-or-stolen reporting and require 15-year records; stage not confirmed. <a href="https://www.thetruthaboutguns.com/new-jersey-s1800-gun-dealer-requirements/" target="_blank" rel="noopener">TTAG 10/20</a></li>
+        <li><span class="mini-stage moved">Settled</span><strong>Contra Costa County</strong>: a 10/20 headline reports the sheriff has ended carry-permit restrictions on red dots, weapon lights and 1911-pattern pistols under the SAF settlement. The county&rsquo;s own page was not read; one source.</li>
+      </ul>
     </div>
     <div class="section-head">
-      <h2><span class="num">03</span>ATF, courts &amp; regulatory &mdash; sustained heat</h2>
-      <span class="desc">Rulemaking, dockets, enforcement &middot; five items cleared the gate</span>
+      <h2><span class="num">03C</span>ATF, courts &amp; regulatory &mdash; sustained heat</h2>
+      <span class="desc">NFA guidance without a rule, waiting periods, and the felon-ban docket</span>
     </div>
-    <article class="card" data-stage="moved">
-      <header class="card-head">
-        <span class="stage-badge moved">Moved <span class="arrow">&rarr;</span></span>
-        <span class="category-pill">N.D. Tex. &middot; frame-and-receiver rule</span>
-        <span class="card-meta">week leader &middot; peak 91 &middot; as-applied</span>
-      </header>
-      <h3 class="card-title">The story of the week: ATF&rsquo;s frame-and-receiver rule held unconstitutional in <em>Defense Distributed v. Blanche</em> &mdash; and the relief is <strong>as-applied, not nationwide</strong></h3>
-      <p class="card-summary">Opened Monday at 91, the only volcanic reading of the week, and cooled to 83 by Thursday on tempo rather than on any retraction. The holdings as reported: <strong>vagueness under the Fifth Amendment</strong>, and failure of the government&rsquo;s colonial-era analogues under <em>Bruen</em>. Two corrections this board issued during the week are the substance of the story. First, <strong>the relief is expressly &ldquo;as applied to Defense Distributed, the Second Amendment Foundation, and covered members&rdquo;</strong> &mdash; trade coverage put it plainly that the ruling &ldquo;is significant, but it is not nationwide.&rdquo; Second, the separate Ninth Circuit item that circulated alongside it was a <strong>standing holding, not a merits ruling</strong> &mdash; the court rejected an attempt by California and Giffords to expand the ATF rule, which is a procedural outcome rather than an endorsement of anything. The remaining open facts are real: the <strong>ruling date is still unresolved across three accounts</strong> (some say Monday 08/17, the SAF-hosted opinion PDF is filenamed 8.19.26), the opinion PDF could not be retrieved from this board, and <strong>no notice of appeal is visible</strong>. Note the irony worth one sentence and no more: this is the same judge, in the same case, that the Supreme Court reversed fifteen months ago in <em>Bondi v. VanDerStok</em>.</p>
-      <div class="week-stripe">
-        <div class="ws-metrics">
-          <span>Hot <strong>3</strong>/5 days</span>
-          <span>Peak <strong>91</strong></span>
-          <span>Avg <strong>87</strong></span>
-          <span>Week <span class="ws-arrow cooling">&#9660;</span></span>
-        </div>
-        <div class="ws-spark" aria-label="Weekly heat sparkline, Monday to Friday">
-          <div class="ws-bar t-volcanic" style="height: 91%"></div>
-          <div class="ws-bar absent" style="height: 6%"></div>
-          <div class="ws-bar t-hot" style="height: 87%"></div>
-          <div class="ws-bar t-hot" style="height: 83%"></div>
-          <div class="ws-bar absent" style="height: 6%"></div>
-        </div>
-      </div>
-      <p class="rtb-angle"><span class="label">RTB angle</span>Audit every ghost-gun draft written before 08/26 and fix the scope sentence before anything ships. The publishable line is: <strong>&ldquo;a federal court held the rule unconstitutional as applied to the parties in that case &mdash; it did not repeal the rule for everyone.&rdquo;</strong> Telling members otherwise would expose them. Do not print a ruling date until one is confirmed from the docket. The genuinely useful member piece here is not the ruling at all &mdash; it is <em>&ldquo;what party-scoped relief means and why it is not the same as a law changing,&rdquo;</em> which explains this case, the <em>Silencer Shop</em> injunction, and the next three rulings after them. Evergreen, on-brand, and nobody in the coverage-peer set has written it.</p>
-      <footer class="card-foot">
-        <span class="sources"><a href="https://thereload.com/analysis-why-a-federal-judge-tossed-the-ghost-gun-kit-rule-after-scotus-upheld-it-member-exclusive/" target="_blank" rel="noopener">The Reload 08/23 &mdash; why a federal judge tossed the ghost-gun kit rule</a><span class="dot">&middot;</span><a href="https://thereload.com/members-newsletter-how-the-atf-ghost-gun-kit-ban-went-from-kosher-to-over/" target="_blank" rel="noopener">The Reload &mdash; members&rsquo; newsletter, &ldquo;kosher to over&rdquo;</a><span class="dot">&middot;</span><a href="https://www.ammoland.com/2026/08/atf-frame-receiver-rule-defense-distributed/" target="_blank" rel="noopener">AmmoLand 08/23 &mdash; significant, but not nationwide</a><span class="dot">&middot;</span><a href="https://www.ammoland.com/2026/08/ninth-circuit-rejects-california-giffords-bid-to-expand-atf-ghost-gun-rule/" target="_blank" rel="noopener">AmmoLand &mdash; Ninth Circuit rejects California/Giffords expansion bid</a><span class="dot">&middot;</span><a href="https://saf.org/wp-content/uploads/2026/08/Defense-Distributed-opinion-8.19.26.pdf" target="_blank" rel="noopener">Primary &mdash; Defense Distributed opinion PDF, hosted by SAF (unreachable this run)</a><span class="dot">&middot;</span><a href="https://www.supremecourt.gov/opinions/24pdf/23-852_c07d.pdf" target="_blank" rel="noopener">Primary &mdash; Bondi v. VanDerStok, 2025 (supremecourt.gov PDF)</a></span>
-        <span class="stage-history">ruled &rarr; overstated 08/24 &rarr; <strong>corrected 08/26</strong> &rarr; holding 08/27</span>
-      </footer>
-    </article>
-    <article class="card" data-stage="moved">
-      <header class="card-head">
-        <span class="stage-badge moved">Moved <span class="arrow">&rarr;</span></span>
-        <span class="category-pill">DOJ &middot; final rule &middot; restoration</span>
-        <span class="card-meta">hot 3 of 3 days run &middot; text still unread</span>
-      </header>
-      <h3 class="card-title">DOJ&rsquo;s firearm-rights restoration rule is final, and its architecture is now named: application requirements, presumptive disqualifications, judicial review, and a fee</h3>
-      <p class="card-summary">Held the second slot every day it ran &mdash; 88, 85, 82 &mdash; cooling on tempo while staying the second most important thing on the board. Four structural features are reported: <strong>application requirements</strong>, <strong>presumptive disqualifications</strong>, <strong>judicial review of denials</strong>, and a <strong>reported $30 fee</strong>. Trade analysis has been split between &ldquo;good move&rdquo; and &ldquo;questions remain,&rdquo; and both framings are fair on the record so far. What has <em>not</em> happened matters as much: <strong>the rule text itself has not been read from primary source</strong> &mdash; federalregister.gov and justice.gov were unreachable from this board every day this week &mdash; and the process has not opened for applications. Congress did not design this; it is agency action, which means it carries the reversibility that agency action always carries.</p>
-      <div class="week-stripe">
-        <div class="ws-metrics">
-          <span>Hot <strong>3</strong>/5 days</span>
-          <span>Peak <strong>88</strong></span>
-          <span>Avg <strong>85</strong></span>
-          <span>Week <span class="ws-arrow cooling">&#9660;</span></span>
-        </div>
-        <div class="ws-spark" aria-label="Weekly heat sparkline, Monday to Friday">
-          <div class="ws-bar t-hot" style="height: 88%"></div>
-          <div class="ws-bar absent" style="height: 6%"></div>
-          <div class="ws-bar t-hot" style="height: 85%"></div>
-          <div class="ws-bar t-hot" style="height: 82%"></div>
-          <div class="ws-bar absent" style="height: 6%"></div>
-        </div>
-      </div>
-      <p class="rtb-angle"><span class="label">RTB angle</span>This is the <strong>highest-sensitivity item in the brief</strong> and the discipline around it should not relax as it gets older. Procedural voice only: what the process is, who administers it, what the published steps are. <strong>No eligibility guidance, no encouragement to apply, no worked examples</strong>, and every individual question routed to a lawyer. Do not publish anything until the Federal Register text is in hand. When it opens &mdash; likely in stages &mdash; the right first asset is a plain-language &ldquo;how this process is structured&rdquo; explainer with a prominent &ldquo;this is not legal advice, and eligibility is individual&rdquo; frame. This is a trust-building piece, not a traffic piece.</p>
-      <footer class="card-foot">
-        <span class="sources"><a href="https://thereload.com/doj-finalizes-gun-rights-restoration-process/" target="_blank" rel="noopener">The Reload &mdash; DOJ finalizes gun-rights restoration process</a><span class="dot">&middot;</span><a href="https://www.ammoland.com/2026/08/doj-federal-firearm-rights-restoration-rule/" target="_blank" rel="noopener">AmmoLand 08/23 &mdash; restoration rule architecture</a><span class="dot">&middot;</span><a href="https://www.ammoland.com/2026/08/doj-gun-rights-restoration-rule-questions/" target="_blank" rel="noopener">AmmoLand 08/18 &mdash; good move, questions remain</a><span class="dot">&middot;</span><a href="https://www.ammoland.com/2026/08/atf-reforms-gun-control-groups-backlash/" target="_blank" rel="noopener">AmmoLand &mdash; Everytown, Giffords and Brady campaign against ATF reforms</a><span class="dot">&middot;</span><a href="https://www.federalregister.gov/" target="_blank" rel="noopener">federalregister.gov &mdash; rule text (unreachable this run)</a></span>
-        <span class="stage-history">proposed &rarr; finalised &rarr; architecture named &rarr; <strong>awaiting FR text</strong></span>
-      </footer>
-    </article>
-    <article class="card" data-stage="moved">
-      <header class="card-head">
-        <span class="stage-badge moved">Moved <span class="arrow">&rarr;</span></span>
-        <span class="category-pill">ATF &middot; field compliance &middot; suppressors</span>
-        <span class="card-meta">hot 3 of 3 days run &middot; peak 74</span>
-      </header>
-      <h3 class="card-title">Four FFLs in four regions have cleared ATF compliance inspections after Form&nbsp;4473-only suppressor transfers &mdash; the first operational proof the injunction survives contact with the agency</h3>
-      <p class="card-summary">Ran 74, 70, 67 &mdash; the quietest important story of the week. Under the <em>Silencer Shop</em> injunction, dealers in four separate ATF regions have transferred suppressors on a <strong>Form&nbsp;4473 alone, with no Form&nbsp;4 and no tax stamp</strong>, and then <strong>passed ATF compliance inspections</strong> afterwards. That is the difference between a court order that exists and a court order that works. The first no-Form-4 transfers were reported out of Texas. The countervailing fact is the state layer: a dealer or buyer in a state like Ohio can be compliant federally under the injunction and still be exposed under state law, which is precisely the trap SB&nbsp;214 leaves open. <strong>ATF has published no guidance</strong> &mdash; day fifteen and counting &mdash; and everything here is carried from a single trade outlet at headline-and-dek level.</p>
-      <div class="week-stripe">
-        <div class="ws-metrics">
-          <span>Hot <strong>3</strong>/5 days</span>
-          <span>Peak <strong>74</strong></span>
-          <span>Avg <strong>70</strong></span>
-          <span>Week <span class="ws-arrow cooling">&#9660;</span></span>
-        </div>
-        <div class="ws-spark" aria-label="Weekly heat sparkline, Monday to Friday">
-          <div class="ws-bar t-hot" style="height: 74%"></div>
-          <div class="ws-bar absent" style="height: 6%"></div>
-          <div class="ws-bar t-hot" style="height: 70%"></div>
-          <div class="ws-bar t-warm" style="height: 67%"></div>
-          <div class="ws-bar absent" style="height: 6%"></div>
-        </div>
-      </div>
-      <p class="rtb-angle"><span class="label">RTB angle</span>There is an <strong>open lane here that no coverage peer has entered</strong>: an FFL-facing piece on what the injunction changes operationally and what it does not. Note for competitive context that US LawShield sells a dealer-facing product (FFL DEALERSHIELD&trade;) and has published nothing on this &mdash; its content operation has been dormant for roughly a year. The member-facing version is different and equally unwritten: <em>&ldquo;your dealer may be able to do this and your state may still say no&rdquo;</em> &mdash; a state-layer explainer that keeps a member out of trouble rather than selling them a headline. Verify from a second outlet before publication; this has been single-outlet all week.</p>
-      <footer class="card-foot">
-        <span class="sources"><a href="https://www.ammoland.com/2026/08/ffls-pass-atf-inspections-after-transferring-suppressors-on-form-4473/" target="_blank" rel="noopener">AmmoLand &mdash; four FFLs clear ATF inspections on a Form 4473</a><span class="dot">&middot;</span><a href="https://www.ammoland.com/2026/08/no-form-4-suppressor-transfers-texas/" target="_blank" rel="noopener">AmmoLand &mdash; first no-Form-4 suppressor transfers, Texas</a><span class="dot">&middot;</span><a href="https://www.ammoland.com/2026/08/ohio-suppressor-law-sb-214-nfa-registration-trap/" target="_blank" rel="noopener">AmmoLand &mdash; Ohio SB&nbsp;214 state-law registration trap</a><span class="dot">&middot;</span><a href="https://thereload.com/analysis-a-big-brittle-win-against-the-nfa-member-exclusive/" target="_blank" rel="noopener">The Reload &mdash; a big, brittle win against the NFA (member analysis)</a><span class="dot">&middot;</span><a href="https://www.atf.gov/" target="_blank" rel="noopener">atf.gov &mdash; no guidance published (unreachable this run)</a></span>
-        <span class="stage-history">first transfers &rarr; four regions &rarr; <strong>inspections passed</strong> &rarr; no ATF guidance</span>
-      </footer>
-    </article>
     <article class="card" data-stage="watch">
       <header class="card-head">
-        <span class="stage-badge watch">Watch <span class="arrow">&rarr;</span></span>
-        <span class="category-pill">N.D. Tex. &middot; NFA injunction &middot; day 15</span>
-        <span class="card-meta">hot 3 of 3 days run &middot; appeal window open</span>
+        <span class="stage-badge watch">Watch <span class="arrow">&#9679;</span></span>
+        <span class="category-pill">ATF &middot; NFA non-enforcement</span>
+        <span class="heat-badge t-hot"><span class="heat-label">Wk avg</span><span class="heat-num">78</span><span class="heat-arrow">&darr;</span></span>
+        <span class="card-meta">Day 14 &middot; 0 Federal Register documents &middot; <em>Brown</em> conference held 10/22</span>
       </header>
-      <h3 class="card-title"><em>Silencer Shop v. ATF</em> &mdash; roughly 34 days of appeal window left, and the one-dollar-tax problem is still the most important sentence in the case</h3>
-      <p class="card-summary">The flattest line on the board: 72, 69, 70. That flatness is the point &mdash; the injunction has been live and unchallenged all week. The mechanism is the quotable part, and it is arithmetic rather than a docket entry: <strong>the making and transfer taxes on silencers, SBRs, SBSs and AOWs fell from $200 to $0 on January&nbsp;1,&nbsp;2026</strong> under the reconciliation package enacted July&nbsp;4,&nbsp;2025, <strong>the registration requirement survived the cut</strong>, and Judge Hendrix found that mismatch fatal &mdash; a registration scheme justified as a tax measure, with the tax gone. The fragility is equally real and should be said out loud: this is <strong>party-scoped preliminary relief that an appellate court could undo</strong>. <strong>No notice of appeal has been filed</strong>, and the outside edge of DOJ&rsquo;s window sits near October&nbsp;1. Forty-seven Republican lawmakers have publicly pressed DOJ to stop defending the scheme and to apply the ruling nationwide; DOJ has said nothing publicly in response.</p>
+      <h3 class="card-title">Two weeks into NFA non-enforcement there is still no rule, and the practical questions moved to the gun counter</h3>
+      <p class="card-summary">ATF&rsquo;s 9 October guidance (no federal enforcement of registration, prior approval or tax-stamp requirements for suppressors, short-barreled rifles and shotguns, and &ldquo;any other weapons&rdquo;) remains guidance: <strong>the Federal Register shows no ATF documents since 1 October</strong>. In an American Rifleman interview, ATF&rsquo;s director addressed traveling across state lines with a suppressor. Retail moved fast: GrabAGun issued a statement, and Missouri shops are completing same-day suppressor sales on a standard Form 4473 (OzarksFirst). TTAG fielded the solvent-trap question. The legal gap remains: in September the Third Circuit (<em>U.S. v. Berger</em>) held silencer registration does not &ldquo;infringe&rdquo; (Duke analysis). The <em>Brown v. ATF</em> status conference on how far relief reaches was set for 10/22 in the Eastern District of Missouri; <strong>we found no report of its outcome</strong> in the sources we could reach. Background checks, state laws and some travel rules still apply.</p>
       <div class="week-stripe">
         <div class="ws-metrics">
-          <span>Hot <strong>3</strong>/5 days</span>
-          <span>Peak <strong>72</strong></span>
-          <span>Avg <strong>70</strong></span>
-          <span>Week <span class="ws-arrow cooling">&#9660;</span></span>
+          <span>Hot <strong>5</strong>/5 days</span>
+          <span>Peak <strong>83</strong></span>
+          <span>Avg <strong>78</strong></span>
+          <span>Week <span class="ws-arrow cooling">&darr;</span></span>
         </div>
-        <div class="ws-spark" aria-label="Weekly heat sparkline, Monday to Friday">
-          <div class="ws-bar t-hot" style="height: 72%"></div>
-          <div class="ws-bar absent" style="height: 6%"></div>
-          <div class="ws-bar t-warm" style="height: 69%"></div>
-          <div class="ws-bar t-hot" style="height: 70%"></div>
-          <div class="ws-bar absent" style="height: 6%"></div>
+        <div class="ws-spark" aria-label="Weekly heat sparkline, Fri 10/16 to Thu 10/22">
+            <div class="ws-bar t-hot" style="height: 83%"></div>
+            <div class="ws-bar t-hot" style="height: 80%"></div>
+            <div class="ws-bar t-hot" style="height: 78%"></div>
+            <div class="ws-bar t-hot" style="height: 75%"></div>
+            <div class="ws-bar t-hot" style="height: 73%"></div>
         </div>
       </div>
-      <p class="rtb-angle"><span class="label">RTB angle</span>The evergreen asset the whole week points to is <strong>&ldquo;the four mechanisms&rdquo;</strong>: statute, litigation, rulemaking, and agency discretion &mdash; four routes changing firearm law right now with four completely different reversibilities. This case is the litigation column and the Hearing Protection Act is the statute column, and the contrast teaches a member how to read the next two years without any candidate framing at all. Ship it as a member-email lead with a permanent blog home. Separately: if the appeal window lapses on October&nbsp;1 with no filing, the injunction&rsquo;s practical durability changes materially, and that is a same-day publish trigger.</p>
-      <footer class="card-foot">
-        <span class="sources"><a href="https://thereload.com/analysis-a-big-brittle-win-against-the-nfa-member-exclusive/" target="_blank" rel="noopener">The Reload &mdash; a big, brittle win against the NFA (member analysis)</a><span class="dot">&middot;</span><a href="https://www.ammoland.com/wp-content/uploads/2026/08/Silencer-Shop-Foundation-v.-ATF-Opinion-and-Order.pdf" target="_blank" rel="noopener">Primary &mdash; Silencer Shop Foundation v. ATF, opinion and order (PDF)</a><span class="dot">&middot;</span><a href="https://www.ammoland.com/2026/08/federal-judge-blocks-atf-enforcement-of-nfa-registry-after-tax-drops-to-0/" target="_blank" rel="noopener">AmmoLand &mdash; judge blocks NFA registry after the tax hits $0</a><span class="dot">&middot;</span><a href="https://www.ammoland.com/2026/08/lawmakers-doj-nfa-registration-ruling-nationwide/" target="_blank" rel="noopener">AmmoLand &mdash; 47 lawmakers press DOJ to apply the ruling nationwide</a><span class="dot">&middot;</span><a href="https://www.atf.gov/" target="_blank" rel="noopener">atf.gov &mdash; no guidance published (unreachable this run)</a></span>
-        <span class="stage-history">injunction &rarr; day 11 &rarr; day 13 &rarr; <strong>day 15, no appeal</strong></span>
-      </footer>
+      <p class="rtb-angle"><span class="label">RTB angle</span><strong>&ldquo;What did not change&rdquo; FAQ:</strong> background checks still apply, state law still applies, and guidance can be revised or reversed by a court or a future administration. Calm, factual, linked from the state-by-state table in 03B.</p>
+      <div class="card-foot">
+        <span class="sources"><a href="https://www.federalregister.gov/api/v1/documents.json?conditions%5Bagencies%5D%5B%5D=alcohol-tobacco-firearms-and-explosives-bureau&amp;conditions%5Bpublication_date%5D%5Bgte%5D=2026-10-01" target="_blank" rel="noopener">Federal Register API, checked 10/23 (primary)</a><span class="dot">&middot;</span><a href="https://www.americanrifleman.org/content/interview-atf-director-cekada-on-suppressors/" target="_blank" rel="noopener">American Rifleman 10/22: ATF director interview</a><span class="dot">&middot;</span><a href="https://www.ozarksfirst.com/news/atf-shortens-suppressor-wait/" target="_blank" rel="noopener">OzarksFirst 10/22 (regional)</a><span class="dot">&middot;</span><a href="https://www.msn.com/en-us/news/other/atf-to-stop-enforcing-registration-rules-on-gun-silencers-and-short-barreled-rifles-what-to-know/ar-AA2etGqP" target="_blank" rel="noopener">Sacramento Bee 10/18: what to know (mainstream)</a><span class="dot">&middot;</span><a href="https://www.thetruthaboutguns.com/solvent-trap-kits-legal-nfa-ruling/" target="_blank" rel="noopener">TTAG 10/22: solvent traps (trade)</a><span class="dot">&middot;</span><a href="https://firearmslaw.duke.edu/2026/10/third-circuit-upholds-federal-machine-gun-ban-silencer-registration-requirements" target="_blank" rel="noopener">Duke Center 10/14: <em>Berger</em> (academic)</a></span>
+        <span class="stage-history">Guidance 10/09 &rarr; explainers &rarr; <em>Brown</em> conference 10/22 &rarr; <span class="now">day 14, no rule</span></span>
+      </div>
     </article>
-    <article class="card" data-stage="watch">
+    <article class="card" data-stage="moved">
       <header class="card-head">
-        <span class="stage-badge watch">Watch <span class="arrow">&rarr;</span></span>
-        <span class="category-pill">W.D. Tex. &middot; Engaged in the Business</span>
-        <span class="card-meta">hot 2 of 3 days run &middot; single-outlet</span>
+        <span class="stage-badge moved">Moved <span class="arrow">&#9654;</span></span>
+        <span class="category-pill">Waiting periods &middot; Maine &amp; New Mexico</span>
+        <span class="heat-badge t-hot"><span class="heat-label">Wk avg</span><span class="heat-num">75</span><span class="heat-arrow">&uarr;</span></span>
+        <span class="card-meta">Cert denied 10/19 &middot; <em>NSSF v. Torrez</em> filed 10/20</span>
       </header>
-      <h3 class="card-title">ATF&rsquo;s 2024 &ldquo;Engaged in the Business&rdquo; rule is fully vacated &mdash; and the court is reported to have warned that the proposed rewrite repeats the same error</h3>
-      <p class="card-summary">Entered Monday at 71 and eased to 66 on Wednesday. A federal judge <strong>vacated the rule in full</strong>, rejecting DOJ&rsquo;s attempt to preserve severable pieces of it. This one matters more to ordinary members than a 68-average suggests, because the vacated rule governed <strong>the line between a private sale and unlicensed dealing</strong> &mdash; the single most misunderstood question in everyday firearms law. The reported warning about the proposed rewrite is significant if accurate: an agency reissuing in substance what a court has already called defective is a story in itself. Handle with care &mdash; this is <strong>single-outlet and headline-and-dek only</strong>. <strong>The judge, the court and the case name are all still unknown to this board</strong>, and federalregister.gov was unreachable all week. Treat as <strong>Unverified</strong> pending a second source.</p>
+      <h3 class="card-title">The Supreme Court left Maine&rsquo;s 72-hour wait in place; a day later, a nine-plaintiff coalition sued over New Mexico&rsquo;s seven-day wait</h3>
+      <p class="card-summary">The 19 October order list denied review in <em>Beckwith v. Frey</em> (26-258), leaving in place the First Circuit&rsquo;s April ruling that Maine&rsquo;s law is likely constitutional; there was no written dissent. Maine enacted the wait after the 2023 Lewiston shooting (Press Herald). On 20 October NSSF, the Second Amendment Foundation, the NRA, New Mexico groups, two retailers and a private citizen filed <em>NSSF v. Torrez</em>, arguing the state keeps enforcing its wait against everyone except the plaintiffs who won <em>Ortega v. Grisham</em> in the Tenth Circuit; Courthouse News describes the state as waiving the wait only for &ldquo;a select duo.&rdquo; Court and case number were not found. AmmoLand notes the circuit split stays unresolved. <strong>Brand note:</strong> one plaintiff organization is named &ldquo;Right to Bear Arms&rdquo;; it is not affiliated with RTB.</p>
       <div class="week-stripe">
         <div class="ws-metrics">
-          <span>Hot <strong>2</strong>/5 days</span>
-          <span>Peak <strong>71</strong></span>
-          <span>Avg <strong>68</strong></span>
-          <span>Week <span class="ws-arrow cooling">&#9660;</span></span>
+          <span>Hot <strong>4</strong>/5 days</span>
+          <span>Peak <strong>80</strong></span>
+          <span>Avg <strong>75</strong></span>
+          <span>Week <span class="ws-arrow rising">&uarr;</span></span>
         </div>
-        <div class="ws-spark" aria-label="Weekly heat sparkline, Monday to Friday">
-          <div class="ws-bar t-hot" style="height: 71%"></div>
-          <div class="ws-bar absent" style="height: 6%"></div>
-          <div class="ws-bar t-warm" style="height: 66%"></div>
-          <div class="ws-bar absent" style="height: 6%"></div>
-          <div class="ws-bar absent" style="height: 6%"></div>
+        <div class="ws-spark" aria-label="Weekly heat sparkline, Fri 10/16 to Thu 10/22">
+            <div class="ws-bar absent" style="height: 6%"></div>
+            <div class="ws-bar t-warm" style="height: 66%"></div>
+            <div class="ws-bar t-hot" style="height: 76%"></div>
+            <div class="ws-bar t-hot" style="height: 80%"></div>
+            <div class="ws-bar t-hot" style="height: 78%"></div>
         </div>
       </div>
-      <p class="rtb-angle"><span class="label">RTB angle</span>Do not publish anything member-facing on this until the case is named and a second outlet confirms. What you <em>can</em> do now is prepare the durable piece it unlocks: <strong>&ldquo;private sale or unlicensed dealing &mdash; where the line actually is&rdquo;</strong> is a perennial member question, it drives search, and it is squarely the kind of practical legal education RTB exists to provide. Draft it against current law with a clearly-dated &ldquo;this is where the rule stands as of&rdquo; block, so it can be updated in one edit when the vacatur is confirmed. Expect the opposition framing to be loud &mdash; Everytown, Giffords and Brady have opened a coordinated campaign against ATF&rsquo;s proposed reforms &mdash; so report their position accurately and adjudicate nothing.</p>
-      <footer class="card-foot">
-        <span class="sources"><a href="https://www.ammoland.com/2026/08/federal-judge-deals-death-blow-atfs-engaged-business-rule/" target="_blank" rel="noopener">AmmoLand &mdash; &ldquo;Engaged in the Business&rdquo; rule vacated</a><span class="dot">&middot;</span><a href="https://www.ammoland.com/2026/08/atf-reforms-gun-control-groups-backlash/" target="_blank" rel="noopener">AmmoLand &mdash; Everytown, Giffords and Brady campaign against ATF reforms</a><span class="dot">&middot;</span><a href="https://www.federalregister.gov/" target="_blank" rel="noopener">federalregister.gov &mdash; rule text (unreachable this run)</a><span class="dot">&middot;</span><a href="https://thereload.com/analysis-a-big-brittle-win-against-the-nfa-member-exclusive/" target="_blank" rel="noopener">The Reload &mdash; a big, brittle win against the NFA (member analysis)</a></span>
-        <span class="stage-history">vacated &rarr; carried Wed &rarr; <strong>Unverified, case unnamed</strong></span>
-      </footer>
+      <p class="rtb-angle"><span class="label">RTB angle</span><strong>&ldquo;Waiting periods: where they apply and how long&rdquo;</strong> map plus a one-question FAQ (&ldquo;Does a waiting period apply to my purchase?&rdquo;). Email Maine and New Mexico members. Prepare a one-line answer for member services in case anyone asks whether RTB is a plaintiff.</p>
+      <div class="card-foot">
+        <span class="sources"><a href="https://www.supremecourt.gov/orders/courtorders/101926zor_q8l1.pdf" target="_blank" rel="noopener">SCOTUS order list 10/19 (primary)</a><span class="dot">&middot;</span><a href="https://www.bangordailynews.com/2026/10/19/nation/supreme-court-maine-72-hour-waiting-period-guns/" target="_blank" rel="noopener">Bangor Daily News 10/19 (mainstream)</a><span class="dot">&middot;</span><a href="https://www.pressherald.com/2026/10/19/u-s-supreme-court-declines-to-hear-appeal-of-maines-gun-sale-waiting-period/" target="_blank" rel="noopener">Portland Press Herald 10/19 (mainstream)</a><span class="dot">&middot;</span><a href="https://www.nssf.org/articles/nssf-challenges-new-mexicos-rights-delayed-seven-day-waiting-period-after-governor-ignores-court-rulings-declaring-it-unconstitutional/" target="_blank" rel="noopener">NSSF release 10/20 (plaintiff, read)</a><span class="dot">&middot;</span><a href="https://www.courthousenews.com/gun-advocates-fire-off-fresh-challenge-to-new-mexicos-weeklong-waiting-period/" target="_blank" rel="noopener">Courthouse News 10/20 (legal press)</a><span class="dot">&middot;</span><a href="https://www.ammoland.com/2026/10/supreme-court-maine-gun-waiting-period-beckwith-frey/" target="_blank" rel="noopener">AmmoLand 10/19 (trade, read)</a></span>
+        <span class="stage-history">Cert denied 10/19 &rarr; NM suit 10/20 &rarr; <span class="now">court and case number not yet public in our sources</span></span>
+      </div>
+    </article>
+    <article class="card" data-stage="moved">
+      <header class="card-head">
+        <span class="stage-badge moved">Moved <span class="arrow">&#9654;</span></span>
+        <span class="category-pill">Courts &middot; felon ban, 18 U.S.C. 922(g)(1)</span>
+        <span class="heat-badge t-warm"><span class="heat-label">Wk avg</span><span class="heat-num">69</span><span class="heat-arrow">&darr;</span></span>
+        <span class="card-meta">11/06 conference: 17 gun cases, 12 felon-ban</span>
+      </header>
+      <h3 class="card-title">The felon-ban story cooled all week, but it sets up the Supreme Court&rsquo;s 6&nbsp;November conference</h3>
+      <p class="card-summary">The full Third Circuit&rsquo;s 13 October rulings still anchor the issue: the federal ban is unconstitutional as applied to Edward Williams over a decades-old DUI, but valid as applied to a man convicted of terroristic threats. This week brought recaps rather than news (TTAG 10/19, a JD Supra legal analysis, a widely shared video explainer). Duke&rsquo;s tracker counted seven new 922(g)(1) petitions and <strong>17 gun cases set for the 6 November conference, 12 of them felon-ban cases</strong>. On 10/19 the Court also denied <em>Landrum v. United States</em>. Heat fell from 76 to 62 and the item left the board Thursday.</p>
+      <div class="week-stripe">
+        <div class="ws-metrics">
+          <span>Hot <strong>5</strong>/5 days</span>
+          <span>Peak <strong>76</strong></span>
+          <span>Avg <strong>69</strong></span>
+          <span>Week <span class="ws-arrow cooling">&darr;</span></span>
+        </div>
+        <div class="ws-spark" aria-label="Weekly heat sparkline, Fri 10/16 to Thu 10/22">
+            <div class="ws-bar t-hot" style="height: 76%"></div>
+            <div class="ws-bar t-hot" style="height: 71%"></div>
+            <div class="ws-bar t-hot" style="height: 70%"></div>
+            <div class="ws-bar t-warm" style="height: 66%"></div>
+            <div class="ws-bar t-warm" style="height: 62%"></div>
+        </div>
+      </div>
+      <p class="rtb-angle"><span class="label">RTB angle</span><strong>Evergreen: &ldquo;Can an old conviction affect your gun rights?&rdquo;</strong> Explain the federal rule and the relief paths that exist today. Do not imply anyone is newly eligible; time a refresh for the week after the 11/06 conference.</p>
+      <div class="card-foot">
+        <span class="sources"><a href="https://www.thetruthaboutguns.com/third-circuit-lifetime-gun-ban-dui-williams-blanche/" target="_blank" rel="noopener">TTAG 10/19 (trade)</a><span class="dot">&middot;</span><a href="https://www.jdsupra.com/legalnews/two-en-banc-third-circuit-decisions-8406316/" target="_blank" rel="noopener">JD Supra 10/19 (legal analysis)</a><span class="dot">&middot;</span><a href="https://firearmslaw.duke.edu/" target="_blank" rel="noopener">Duke Center for Firearms Law tracker (academic)</a><span class="dot">&middot;</span><a href="https://www.msn.com/en-us/news/other/same-court-same-day-opposite-outcomes-on-felons-with-guns/vi-AA2erkn8" target="_blank" rel="noopener">Video explainer 10/17 (heat signal)</a></span>
+        <span class="stage-history">En banc rulings 10/13 &rarr; <em>Landrum</em> denied 10/19 &rarr; <span class="now">11/06 conference</span></span>
+      </div>
     </article>
     <div class="also-notable">
-      <h4>Also notable</h4>
+      <h4>Also notable &middot; ATF, courts &amp; regulatory</h4>
       <ul>
-        <li><span class="mini-stage watch">Watch</span><a href="https://www.usconcealedcarry.com/blog/understanding-the-case/" target="_blank" rel="noopener"><strong>Not a fade &mdash; a late-week entrant.</strong> The <em>Viramontes</em> assault-weapons question presented is now quotable verbatim, and it entered the board only on Thursday at 76. Roughly ten states ban AR-15-style rifles, most by name <em>and</em> by feature, and SAF&rsquo;s argument is that a model-only ruling is easy to draft around. Argument is projected for the first week of December</a></li>
-        <li><span class="mini-stage watch">Watch</span><a href="https://www.ammoland.com/2026/08/ninth-circuit-rejects-california-giffords-bid-to-expand-atf-ghost-gun-rule/" target="_blank" rel="noopener">The Ninth Circuit item that travelled with the ghost-gun story was <strong>standing, not merits</strong> &mdash; the court rejected a California and Giffords bid to expand the ATF rule. It appeared once, on Monday, at 59, and was absorbed into the <em>Defense Distributed</em> card by Thursday</a></li>
-        <li><span class="mini-stage watch">Watch</span><a href="https://www.federalregister.gov/" target="_blank" rel="noopener">The State-to-Commerce suppressor export transfer still takes effect <strong>November&nbsp;20</strong> &mdash; a hard manufacturer compliance date, unaffected by the NFA injunction in either direction. federalregister.gov unreachable all week</a></li>
-        <li><span class="mini-stage watch">Watch</span><a href="https://www.scotusblog.com/calendar" target="_blank" rel="noopener">The magazine cases are <strong>neither granted nor denied</strong>. The September&nbsp;28 long conference is the first bulk cert action of the term and the realistic next beat</a></li>
-        </ul>
+        <li><span class="mini-stage new">Arrived Thu</span><strong>New York&rsquo;s body-armor purchase ban struck down.</strong> U.S. District Judge John L. Sinatra Jr. (W.D.N.Y.) held in <em>Heeter v. James</em> that body armor is an &ldquo;arm&rdquo; and the state did not show a historical tradition of similar laws; he stayed his order 14 days for a possible appeal. The law followed the 2022 Buffalo supermarket shooting (Spectrum). One reading (84); certain to be a lead next week. <a href="https://thereload.com/federal-judge-strikes-down-new-york-ban-on-civilian-body-armor-sales/" target="_blank" rel="noopener">The Reload (read)</a> &middot; <a href="https://www.courthousenews.com/new-york-body-armor-prohibition-struck-down-by-judge/" target="_blank" rel="noopener">Courthouse News</a> &middot; <a href="https://reason.com/volokh/2026/10/21/body-armor-ban-struck-down-by-n-y-federal-court/" target="_blank" rel="noopener">Volokh</a> &middot; <a href="https://spectrumlocalnews.com/nys/buffalo/news/2026/10/21/judge-strikes-down-n-y--state-s-body-armor-ban" target="_blank" rel="noopener">Spectrum News</a></li>
+        <li><span class="mini-stage new">Arrived Thu</span><strong>Fifth Circuit holds the federal switchblade law unconstitutional</strong> (<em>Knife Rights v. Blanche</em>; Judge Jennifer Walker Elrod, joined by Judges Don Willett and Cory Wilson): switchblades are &ldquo;arms&rdquo; in common use. A separate restriction for territories and tribal land was outside the challenge. One reading (66). <a href="https://www.usnews.com/news/top-news/articles/2026-10-22/us-ban-on-switchblades-is-unconstitutional-appeals-court-rules" target="_blank" rel="noopener">Reuters via U.S. News</a> &middot; <a href="https://reason.com/volokh/2026/10/22/switchblade-ban-violates-second-amendment-fifth-circuit-holds/" target="_blank" rel="noopener">Volokh (read)</a> &middot; <a href="https://www.theoutdoorwire.com/releases/2026/10/5th-circuit-federal-switchblade-act-unconstitutional/" target="_blank" rel="noopener">Knife Rights release</a></li>
+        <li><span class="mini-stage moved">Briefed</span><strong>AR-15 cases (<em>Viramontes</em> / <em>Grant</em>): Cook County and Connecticut filed their merits briefs 10/21</strong>; supporting amici are due about 10/28; argument 2&nbsp;December. Reason highlights Cook County&rsquo;s argument that popularity does not settle the question. <a href="https://www.supremecourt.gov/search.aspx?filename=/docket/docketfiles/html/public/25-238.html" target="_blank" rel="noopener">Docket 25-238 (read)</a> &middot; <a href="https://reason.com/2026/10/22/defending-its-ar-15-ban-cook-county-urges-scotus-to-ignore-the-rifles-popularity/" target="_blank" rel="noopener">Reason</a> &middot; <a href="https://www.ammoland.com/2026/10/supreme-court-ar15-ban-second-amendment/" target="_blank" rel="noopener">AmmoLand</a></li>
+        <li><span class="mini-stage watch">Appealed</span><strong>DOJ appealed the ruling that vacated the &ldquo;engaged in the business&rdquo; rule</strong> (<em>Texas v. ATF</em>, notice 10/9, Fifth Circuit); ATF says it wants a narrower rule. Four readings (60 to 54) but one source, so it stays here. <a href="https://www.thetruthaboutguns.com/doj-appeals-goa-win-in-case-challenging-bidens-engaged-in-the-business-final-rule/" target="_blank" rel="noopener">TTAG 10/16</a></li>
+        <li><span class="mini-stage watch">Argued</span><strong>New York&rsquo;s Court of Appeals heard a post-<em>Bruen</em> challenge</strong> to the felony gun-possession law on 10/20: must prosecutors prove the defendant lacked a license? No ruling. <a href="https://www.law.com/newyorklawjournal/2026/10/19/ny-high-court-takes-up-post-bruen-challenge-to-gun-possession-law/" target="_blank" rel="noopener">Law.com</a> &middot; <a href="https://www.courthousenews.com/new-york-fends-off-challenge-over-handgun-legislation/" target="_blank" rel="noopener">Courthouse News</a></li>
+      </ul>
     </div>
     <div class="section-head">
-      <h2><span class="num">04</span>Industry, coverage peers &amp; culture &mdash; sustained heat</h2>
-      <span class="desc">Trade, competitors, public-opinion data &middot; the week&rsquo;s only two risers</span>
+      <h2><span class="num">03D</span>Industry, coverage peers &amp; culture &mdash; sustained heat</h2>
+      <span class="desc">Bend&rsquo;s first week, manufacturers reshaping, banking access, and self-defense outcomes</span>
     </div>
     <article class="card" data-stage="moved">
       <header class="card-head">
-        <span class="stage-badge moved">Moved <span class="arrow">&rarr;</span></span>
-        <span class="category-pill">CDC &middot; defensive gun use &middot; data</span>
-        <span class="card-meta">biggest riser &middot; 73 &rarr; 86 &middot; three outlets</span>
+        <span class="stage-badge moved">Moved <span class="arrow">&#9654;</span></span>
+        <span class="category-pill">Bend, Oregon &middot; aftermath</span>
+        <span class="heat-badge t-volcanic"><span class="heat-label">Wk avg</span><span class="heat-num">93</span><span class="heat-arrow">&darr;</span></span>
+        <span class="card-meta">Day 8 &middot; schools reopened 10/21 &middot; no charging decision</span>
       </header>
-      <h3 class="card-title">CDC has restored its defensive-gun-use estimates &mdash; and the <strong>procedural record behind the restoration is more useful to RTB than the statistic ever was</strong></h3>
-      <p class="card-summary">The largest single move of the week: <strong>73 on Wednesday to 86 on Thursday</strong>, driven entirely by outlet pickup rather than by any new fact. The restored language is reported to be <strong>identical to the text removed in 2022</strong>, and it cites a <strong>2013 Institute of Medicine report</strong>, <em>Priorities for Research to Reduce the Threat of Firearm-Related Violence</em>, for a range of roughly <strong>60,000 to 2.5&nbsp;million defensive gun uses a year</strong>. <em>The Trace</em> is credited with reporting the restoration first, more than a month ago. CDC made the change <strong>with no public statement</strong> and declined to explain it when asked. It is also being reported as one piece of a broader administration rollback, which means the honest telling includes that context.</p>
+      <h3 class="card-title">Bend, week one: the focus moved from what happened to accountability, prevention and recovery</h3>
+      <p class="card-summary">On 15 October a 16-year-old killed three children and a teacher at Silver Rail Elementary School before an armed parent stopped him. Across the week: police finished evidence collection and confirmed four staff and five children were in the classroom (KTVZ, 10/19); one victim&rsquo;s family retained three law firms to examine school protocols and how the attacker obtained the gun (AP via U.S. News, 10/19); police confirmed the shotgun was bought legally, and experts told OPB that Oregon law may make it hard to hold anyone else criminally responsible; the FBI is examining the attacker&rsquo;s online radicalization (OregonLive, 10/21); classes resumed 10/21 and the injured teacher spoke publicly. <strong>How each side framed it:</strong> Brady called for secure storage; gun-rights writers, including Reason&rsquo;s Volokh Conspiracy, pointed to the armed parent and the district&rsquo;s staff-carry ban. No charging decision has been reported. As in the dailies, we do not name the victims, the attacker, the parent or the attacker&rsquo;s family.</p>
       <div class="week-stripe">
         <div class="ws-metrics">
-          <span>Hot <strong>2</strong>/5 days</span>
-          <span>Peak <strong>86</strong></span>
-          <span>Avg <strong>80</strong></span>
-          <span>Week <span class="ws-arrow rising">&#9650;</span></span>
+          <span>Hot <strong>5</strong>/5 days</span>
+          <span>Peak <strong>98</strong></span>
+          <span>Avg <strong>93</strong></span>
+          <span>Week <span class="ws-arrow cooling">&darr;</span></span>
         </div>
-        <div class="ws-spark" aria-label="Weekly heat sparkline, Monday to Friday">
-          <div class="ws-bar absent" style="height: 6%"></div>
-          <div class="ws-bar absent" style="height: 6%"></div>
-          <div class="ws-bar t-hot" style="height: 73%"></div>
-          <div class="ws-bar t-hot" style="height: 86%"></div>
-          <div class="ws-bar absent" style="height: 6%"></div>
+        <div class="ws-spark" aria-label="Weekly heat sparkline, Fri 10/16 to Thu 10/22">
+            <div class="ws-bar t-volcanic" style="height: 98%"></div>
+            <div class="ws-bar t-volcanic" style="height: 95%"></div>
+            <div class="ws-bar t-volcanic" style="height: 94%"></div>
+            <div class="ws-bar t-volcanic" style="height: 91%"></div>
+            <div class="ws-bar t-hot" style="height: 89%"></div>
         </div>
       </div>
-      <p class="rtb-angle"><span class="label">RTB angle</span><strong>Do not lead with 2.5&nbsp;million.</strong> A range spanning a factor of forty is a statement about how hard the thing is to measure, and the width <em>is</em> the finding &mdash; leading with the top of the range is exactly the kind of number-grabbing RTB&rsquo;s brand is supposed to be the alternative to. Two more precision points: the range traces to an Institute of Medicine report, not to a CDC study, so say CDC <em>posts</em> it; and credit <em>The Trace</em> as first to report, including the rollback context, because omitting it would be selective and a reader will find it. The piece worth writing is the process story &mdash; <em>&ldquo;how a number gets removed from a federal website and how it gets put back&rdquo;</em> &mdash; which is genuinely interesting, defensible from any direction, and not something any coverage peer has attempted.</p>
-      <footer class="card-foot">
-        <span class="sources"><a href="https://thereload.com/cdc-restores-gun-defensive-use-estimates-to-website-years-after-removing-them-under-political-pressure/" target="_blank" rel="noopener">The Reload 08/27 &mdash; CDC restores defensive-use estimates</a><span class="dot">&middot;</span><a href="https://www.ammoland.com/2026/08/cdc-restores-defensive-gun-use-data/" target="_blank" rel="noopener">AmmoLand 08/25 &mdash; CDC restores defensive-gun-use data</a><span class="dot">&middot;</span><a href="https://www.usconcealedcarry.com/blog/gun-rights-defensive-gun-use/" target="_blank" rel="noopener">USCCA 08/04 &mdash; why defensive-gun-use numbers vary so widely</a><span class="dot">&middot;</span><a href="https://www.thetrace.org/" target="_blank" rel="noopener">The Trace &mdash; credited as first to report the CDC restoration (site unreachable this run)</a></span>
-        <span class="stage-history">one outlet &rarr; two &rarr; <strong>three, read in full</strong></span>
-      </footer>
+      <p class="rtb-angle"><span class="label">RTB angle</span><strong>Bend stays out of all marketing, ads and offers.</strong> The approved general piece, &ldquo;After any self-defense incident, criminal and civil are separate tracks,&rdquo; may run with no reference to Bend (cleared from 10/22 in the daily guidance). Keep monitoring peers; none has published on Bend.</p>
+      <div class="card-foot">
+        <span class="sources"><a href="https://ktvz.com/news/crime-courts/2026/10/19/silver-rail-shooting-update-bend-police-confirm-four-staff-members-five-children-were-in-classroom/" target="_blank" rel="noopener">KTVZ 10/19: police update (local)</a><span class="dot">&middot;</span><a href="https://www.usnews.com/news/us/articles/2026-10-19/parents-of-bend-school-shooting-victim-hire-attorneys-to-investigate-school-plans-and-gun-purchase" target="_blank" rel="noopener">AP via U.S. News 10/19 (mainstream)</a><span class="dot">&middot;</span><a href="https://www.opb.org/article/2026/10/21/oregon-gun-laws-complicate-prosecution-in-bend-shooting/" target="_blank" rel="noopener">OPB 10/21 (public media, read)</a><span class="dot">&middot;</span><a href="https://www.oregonlive.com/crime/2026/10/fbi-probes-16-year-old-bend-shooters-online-radicalization-apparent-nazi-obsession.html" target="_blank" rel="noopener">OregonLive 10/21: FBI (regional)</a><span class="dot">&middot;</span><a href="https://www.bradyunited.org/press/silver-rail-elementary-school-shooting" target="_blank" rel="noopener">Brady statement (gun-control side)</a><span class="dot">&middot;</span><a href="https://reason.com/volokh/2026/10/19/second-amendment-roundup-saving-lives-at-silver-rail-elementary/" target="_blank" rel="noopener">Reason/Volokh 10/19 (gun-rights commentary)</a></span>
+        <span class="stage-history">Attack 10/15 &rarr; civil inquiry 10/19 &rarr; schools reopen 10/21 &rarr; <span class="now">no charging decision</span></span>
+      </div>
+    </article>
+    <article class="card" data-stage="moved">
+      <header class="card-head">
+        <span class="stage-badge moved">Moved <span class="arrow">&#9654;</span></span>
+        <span class="category-pill">Industry &middot; manufacturers</span>
+        <span class="heat-badge t-warm"><span class="heat-label">Wk avg</span><span class="heat-num">59</span><span class="heat-arrow">&darr;</span></span>
+        <span class="card-meta">Ruger 2030 &middot; S&amp;W&ndash;Savage closed 10/21</span>
+      </header>
+      <h3 class="card-title">Gunmakers reshape their lineups: Ruger trims 19 models, and Smith &amp; Wesson buys Savage Arms</h3>
+      <p class="card-summary">Ruger is pausing or discontinuing 19 handgun and rifle models, including well-known revolver lines, under its &ldquo;Ruger 2030&rdquo; strategy; TheStreet notes some models date to 1955 (Ruger&rsquo;s own release was not read). Stripe below tracks Ruger. On Wednesday <strong>Smith &amp; Wesson announced and completed its acquisition of Savage Arms for about $160&nbsp;million in cash and stock</strong> (company release), expanding into hunting rifles and shotguns and, per American Hunter, making it the largest U.S. commercial firearms maker; the company projects about $18&nbsp;million in added annual EBITDA. One data service lists about $180&nbsp;million; we use the company&rsquo;s figure. The S&amp;W item read 80 on its only day.</p>
+      <div class="week-stripe">
+        <div class="ws-metrics">
+          <span>Hot <strong>4</strong>/5 days</span>
+          <span>Peak <strong>63</strong></span>
+          <span>Avg <strong>59</strong></span>
+          <span>Week <span class="ws-arrow cooling">&darr;</span></span>
+        </div>
+        <div class="ws-spark" aria-label="Weekly heat sparkline, Fri 10/16 to Thu 10/22">
+            <div class="ws-bar absent" style="height: 6%"></div>
+            <div class="ws-bar t-warm" style="height: 63%"></div>
+            <div class="ws-bar t-warm" style="height: 59%"></div>
+            <div class="ws-bar t-warm" style="height: 57%"></div>
+            <div class="ws-bar t-warm" style="height: 58%"></div>
+        </div>
+      </div>
+      <p class="rtb-angle"><span class="label">RTB angle</span><strong>Newsletter &ldquo;industry in brief&rdquo; only.</strong> Useful context for retail and range partnerships (a larger S&amp;W&ndash;Savage sales footprint); no member-facing legal angle.</p>
+      <div class="card-foot">
+        <span class="sources"><a href="https://www.thetruthaboutguns.com/ruger-discontinuing-19-firearm-models-2026/" target="_blank" rel="noopener">TTAG 10/16: Ruger (trade)</a><span class="dot">&middot;</span><a href="https://finance.yahoo.com/markets/stocks/articles/ruger-america-largest-firearms-maker-233700665.html" target="_blank" rel="noopener">TheStreet via Yahoo Finance 10/19 (business)</a><span class="dot">&middot;</span><a href="https://finance.yahoo.com/markets/stocks/articles/smith-wesson-acquires-savage-arms-130000241.html" target="_blank" rel="noopener">Smith &amp; Wesson release 10/21 (primary)</a><span class="dot">&middot;</span><a href="https://www.masslive.com/westernmass/2026/10/smith-wesson-buys-westfields-savage-arms-for-160m-in-stock-cash-deal.html" target="_blank" rel="noopener">MassLive 10/21 (regional, read)</a><span class="dot">&middot;</span><a href="https://www.americanhunter.org/content/smith-wesson-acquires-savage-arms-for-160-million/" target="_blank" rel="noopener">American Hunter 10/21</a></span>
+        <span class="stage-history">Ruger cuts 10/16 &rarr; S&amp;W&ndash;Savage 10/21 &rarr; <span class="now">integration</span></span>
+      </div>
     </article>
     <article class="card" data-stage="watch">
       <header class="card-head">
-        <span class="stage-badge watch">Watch <span class="arrow">&rarr;</span></span>
-        <span class="category-pill">FBI &middot; 2025 crime data &middot; murder rate</span>
-        <span class="card-meta">riser &middot; 59 &rarr; 67 &middot; two outlets</span>
+        <span class="stage-badge watch">Watch <span class="arrow">&#9679;</span></span>
+        <span class="category-pill">Banking access &middot; OCC report</span>
+        <span class="heat-badge t-warm"><span class="heat-label">Wk avg</span><span class="heat-num">53</span><span class="heat-arrow">&darr;</span></span>
+        <span class="card-meta">Report 10/14 &middot; CFPB inquiry opened</span>
       </header>
-      <h3 class="card-title">FBI 2025 crime data reaches two-outlet standing &mdash; reported as &ldquo;the largest one-year rate decline since national estimates began&rdquo;</h3>
-      <p class="card-summary">Rose 59 to 67 across the two days it appeared, on pickup rather than on new data. The reported finding is that the <strong>2025 murder rate ties or sets a historic low</strong>, described as the largest one-year rate decline since national estimates began, and that it occurred <strong>after a period of record firearm sales</strong>. The analyst who forecast the decline says on the record that it has not stopped and that <strong>its breadth defeats the simple partisan explanations</strong> offered by both sides &mdash; it is happening in cities and states with very different policy regimes. That last point is the whole value of the datum and the reason it should not be used as a partisan chip. fbi.gov was unreachable from this board all week, so the figures are carried from trade press without primary verification.</p>
+      <h3 class="card-title">A federal bank regulator says nine large banks restricted service to the firearm industry; banking experts dispute the framing</h3>
+      <p class="card-summary">The Office of the Comptroller of the Currency&rsquo;s year-long review found nine of the largest national banks restricted access to services for disfavored sectors, including firearm makers and sellers, from 2020 through September 2025; it reviewed close to 100,000 complaints and about 420,000 pages (Ballotpedia News). The CFPB opened a parallel investigation (Forbes). NSSF urged passage of fair-access bills. <strong>Counter-framing:</strong> experts quoted by American Banker say the report conflates legitimate risk decisions with discrimination. The report itself was not read.</p>
       <div class="week-stripe">
         <div class="ws-metrics">
-          <span>Hot <strong>2</strong>/5 days</span>
-          <span>Peak <strong>67</strong></span>
-          <span>Avg <strong>63</strong></span>
-          <span>Week <span class="ws-arrow rising">&#9650;</span></span>
+          <span>Hot <strong>4</strong>/5 days</span>
+          <span>Peak <strong>56</strong></span>
+          <span>Avg <strong>53</strong></span>
+          <span>Week <span class="ws-arrow cooling">&darr;</span></span>
         </div>
-        <div class="ws-spark" aria-label="Weekly heat sparkline, Monday to Friday">
-          <div class="ws-bar t-warm" style="height: 59%"></div>
-          <div class="ws-bar absent" style="height: 6%"></div>
-          <div class="ws-bar t-warm" style="height: 67%"></div>
-          <div class="ws-bar absent" style="height: 6%"></div>
-          <div class="ws-bar absent" style="height: 6%"></div>
+        <div class="ws-spark" aria-label="Weekly heat sparkline, Fri 10/16 to Thu 10/22">
+            <div class="ws-bar t-warm" style="height: 56%"></div>
+            <div class="ws-bar t-warm" style="height: 55%"></div>
+            <div class="ws-bar t-warm" style="height: 52%"></div>
+            <div class="ws-bar t-warm" style="height: 51%"></div>
+            <div class="ws-bar t-cool" style="height: 49%"></div>
         </div>
       </div>
-      <p class="rtb-angle"><span class="label">RTB angle</span>This is the <strong>strongest counter-narrative datum available to RTB right now</strong>, and the way to use it is the opposite of how it will be used elsewhere. Do not run &ldquo;more guns, less crime.&rdquo; Run the analyst&rsquo;s actual point: the decline is broad enough that no single policy story explains it, which is a reason for members to be calm and a reason for everyone to be humble. Pair it with the CDC piece as a two-part series on <em>how firearm data gets made and mis-used</em> &mdash; that is a differentiated content position nobody in the coverage-peer set occupies, and it builds the credibility that makes every other RTB claim land. Verify the numbers from fbi.gov before publication.</p>
-      <footer class="card-foot">
-        <span class="sources"><a href="https://www.ammoland.com/2026/08/fbi-2025-crime-data-murder-rate-record-low/" target="_blank" rel="noopener">AmmoLand 08/25 &mdash; murder rate ties historic low after record gun sales</a><span class="dot">&middot;</span><a href="https://thereload.com/podcast-murder-hits-all-time-low-ft-ah-datalytics-jeff-asher/" target="_blank" rel="noopener">The Reload &mdash; podcast with Jeff Asher, AH Datalytics</a><span class="dot">&middot;</span><a href="https://www.fbi.gov/how-we-investigate/nics" target="_blank" rel="noopener">fbi.gov &mdash; NICS and crime data (unreachable this run)</a></span>
-        <span class="stage-history">entered 59 &rarr; two-outlet 67 &rarr; <strong>off the board Thu on tempo</strong></span>
-      </footer>
+      <p class="rtb-angle"><span class="label">RTB angle</span><strong>Low priority.</strong> Background for vendor and payment-processor conversations; a short member piece (&ldquo;If your bank closes your account&rdquo;) only if members ask.</p>
+      <div class="card-foot">
+        <span class="sources"><a href="https://www.thetruthaboutguns.com/occ-report-confirms-banks-de-banked-the-gun-industry/" target="_blank" rel="noopener">TTAG 10/17 (trade)</a><span class="dot">&middot;</span><a href="https://news.ballotpedia.org/2026/10/21/occ-finds-nine-major-banks-engaged-in-debanking-practices/" target="_blank" rel="noopener">Ballotpedia News 10/21 (nonpartisan)</a><span class="dot">&middot;</span><a href="https://www.forbes.com/sites/ajdhaliwal/2026/10/16/cfpb-opens-debanking-investigation-into-nine-large-national-banks/" target="_blank" rel="noopener">Forbes 10/16 (business)</a><span class="dot">&middot;</span><a href="https://www.americanbanker.com/news/occ-report-conflates-valid-risk-calls-with-discrimination" target="_blank" rel="noopener">American Banker 10/21 (counter-framing)</a></span>
+        <span class="stage-history">Report 10/14 &rarr; CFPB inquiry &rarr; <span class="now">cooled below 50 Thursday</span></span>
+      </div>
     </article>
     <div class="also-notable">
-      <h4>Also notable</h4>
+      <h4>Also notable &middot; industry, peers &amp; culture</h4>
       <ul>
-        <li><span class="mini-stage new">New</span><a href="https://www.usconcealedcarry.com/membership/" target="_blank" rel="noopener"><strong>Not a fade &mdash; a Thursday entrant, and the longest-open question in this file finally closed.</strong> USCCA&nbsp;Law&reg; is confirmed from USCCA&rsquo;s own membership page after fifteen consecutive runs marked unverified: &ldquo;Tom Grieve &middot; USCCA&nbsp;Law&reg; Attorney.&rdquo; Approved external language is &ldquo;USCCA markets a branded attorney offering called USCCA&nbsp;Law&rdquo; and nothing further &mdash; scope, jurisdictions, staffing and tier coverage are all undocumented</a></li>
-        <li><span class="mini-stage new">New</span><a href="https://firearmslegal.com/" target="_blank" rel="noopener">Both peer price ladders were read directly in one pass on Thursday: <strong>USCCA $39 / $49 / $59 per month</strong>; <strong>Firearms Legal Protection $16.95 / $27.95 / $44.95 per month</strong> plus setup fees. Circulate the map; factual comparison only, and never characterise a competitor&rsquo;s coverage as inadequate</a></li>
-        <li><span class="mini-stage watch">Watch</span><a href="https://www.usconcealedcarry.com/blog/" target="_blank" rel="noopener"><strong>The content gap is now measured rather than asserted.</strong> Not one of the four coverage peers has published on the NFA injunction, the DOJ restoration rule, or the SCOTUS assault-weapons grant &mdash; except through SAF&rsquo;s bylined explainer on USCCA&rsquo;s blog. That is the opportunity this whole brief keeps pointing at</a></li>
-        <li><span class="mini-stage watch">Watch</span><a href="https://saf.org/about/" target="_blank" rel="noopener">USCCA is publishing Second Amendment Foundation content under a standing partnership &mdash; a structural change in a competitor&rsquo;s legal-content capability, not a one-off. It appeared once, on Monday, at 50, but the underlying arrangement is durable and should stay on the competitor file</a></li>
-        <li><span class="mini-stage watch">Watch</span><a href="https://ccwsafe.com/resources/ccw-safe-15th-anniversary-podcast/" target="_blank" rel="noopener">CCW Safe marked fifteen years with a founders&rsquo; podcast, and its own cancellation survey names US LawShield and USCCA as the switching destinations. US LawShield&rsquo;s content operation remains dormant &mdash; homepage February&nbsp;2025, newest post September&nbsp;2024</a></li>
-        <li><span class="mini-stage watch">Watch</span><a href="https://www.ammoland.com/2026/08/sig-m17-m18-cleared-p320-safety-questions/" target="_blank" rel="noopener">The military cleared the M17 and M18 after inspecting roughly 114,000 pistols, with civilian P320 questions explicitly left open. Appeared Monday and Wednesday in the brief but never registered above the heat floor; single-outlet throughout</a></li>
-        </ul>
+        <li><span class="mini-stage new">Arrived Thu</span><strong>Dearborn, Mich.: no charges for a woman with a 30-year carry license</strong> who shot a man attacking her boyfriend in a store; Wayne County prosecutors said the evidence could not disprove self-defense. Police say other charges may still come. One reading (72). <a href="https://www.wxyz.com/news/prosecutors-wont-charge-dearborn-woman-who-shot-man-inside-shoe-store" target="_blank" rel="noopener">WXYZ 10/20</a> &middot; <a href="https://www.fox2detroit.com/news/dearborn-woman-who-shot-suspect-who-attacked-boyfriend-wont-be-charged" target="_blank" rel="noopener">FOX 2 Detroit (read)</a> &middot; <a href="https://www.msn.com/en-us/news/other/prosecutors-won-t-charge-woman-who-opened-fire-during-fight-at-dearborn-sneaker-store/ar-AA2fOZNg" target="_blank" rel="noopener">EURweb</a></li>
+        <li><span class="mini-stage watch">Outcome</span><strong>Valdosta, Ga.: no charges for an armed shopper</strong> who intervened in an assault at a Dollar General. Four readings (55 to 49); one outlet. <a href="https://www.thetruthaboutguns.com/georgia-dollar-general-armed-shopper-no-charges/" target="_blank" rel="noopener">TTAG 10/18</a></li>
+        <li><span class="mini-stage watch">Outcome</span><strong>Portsmouth, Va.: charges dropped against two men in a fatal Wawa shooting</strong> amid evidence supporting self-defense. <a href="https://www.dailypress.com/2026/10/16/charges-dropped-wawa-shooting-portsmouth/" target="_blank" rel="noopener">Daily Press 10/16</a> &middot; <a href="https://hoodline.com/2026/10/prosecutors-drop-charges-against-2-men-in-portsmouth-wawa-shooting-that-killed-teen/" target="_blank" rel="noopener">Hoodline</a></li>
+        <li><span class="mini-stage watch">Research</span><strong>Who the new owners are:</strong> RAND (via NSSF) puts women near half of recent new owners; TTAG summarizes a count of nearly 30&nbsp;million Americans acquiring guns 2021&ndash;2024, 11&nbsp;million of them first-time. <a href="https://www.thetruthaboutguns.com/30-million-new-gun-owners-demographics/" target="_blank" rel="noopener">TTAG 10/22</a></li>
+        <li><span class="mini-stage watch">Peers</span><strong>Peer watch, day 44:</strong> no product, pricing or availability moves at USCCA, U.S. LawShield, CCW Safe or Firearms Legal Protection; no peer recap of the 10/17 insurance town hall surfaced.</li>
+      </ul>
     </div>
     <div class="heat-index">
       <div class="heat-head">
-        <h3>The week&rsquo;s heat leaderboard &middot; five-day average</h3>
-        <span class="heat-key">Week-average composite 0&ndash;100 &middot; NOT a Friday snapshot &middot; bars are Mon&ndash;Fri readings, &ldquo;&mdash;&rdquo; = no daily run &middot; &#9650; rising &rarr; steady &#9660; cooling across the week &middot; multi-outlet pickup proxy in use</span>
+        <h3>04 &middot; The week&rsquo;s heat leaderboard</h3>
+        <span class="heat-key">Ranked by <strong>week-average composite</strong> (Fri 10/16 &ndash; Thu 10/22, days present; two or more readings required), not by any single day&rsquo;s snapshot. Composite = News 40% &middot; Social 25% &middot; Search 20% &middot; Forums 15%</span>
       </div>
       <ol class="heat-list">
         <li class="heat-row">
-          <span class="rank">01</span>
+          <div class="rank">01</div>
           <div class="title-block">
-            <h4><em>Defense Distributed v. Blanche</em> &mdash; ATF&rsquo;s frame-and-receiver rule held unconstitutional, as-applied to the parties</h4>
-            <p>The week&rsquo;s leader and its only volcanic reading. Peaked at <strong>91 on Monday</strong> and cooled to 83 by Thursday on tempo, not on retraction. Party-scoped relief, an unresolved ruling date across three accounts, and no notice of appeal visible.</p>
+            <h4>Bend, Oregon: the aftermath of the Silver Rail shooting</h4>
+            <p><strong>Hot 5/5 &middot; peak 98 &middot; week &darr;.</strong> Volcanic Friday through Wednesday; 89 Thursday as coverage moved to accountability.</p>
           </div>
-          <div class="heat-score"><span class="score t-hot">87</span><span class="arrow cooling">&#9660;</span></div>
-          <div class="channel-bars">
-<div class="bar"><span class="label">Mon</span><div class="track"><div class="fill" style="width: 91%"></div></div><span class="num">91</span></div><div class="bar"><span class="label">Tue</span><div class="track"><div class="fill" style="width: 0%"></div></div><span class="num">&mdash;</span></div><div class="bar"><span class="label">Wed</span><div class="track"><div class="fill" style="width: 87%"></div></div><span class="num">87</span></div><div class="bar"><span class="label">Thu</span><div class="track"><div class="fill" style="width: 83%"></div></div><span class="num">83</span></div><div class="bar"><span class="label">Fri</span><div class="track"><div class="fill" style="width: 0%"></div></div><span class="num">&mdash;</span></div>
-          </div>
+          <div class="heat-score"><span class="score t-volcanic">93</span><span class="arrow cooling">&#9660;</span></div>
         </li>
         <li class="heat-row">
-          <span class="rank">02</span>
+          <div class="rank">02</div>
           <div class="title-block">
-            <h4>DOJ&rsquo;s final firearm-rights restoration rule &mdash; four structural features named, rule text still unread</h4>
-            <p>Second every day it ran. Application requirements, presumptive disqualifications, judicial review of denials, and a reported $30 fee. <strong>Highest-sensitivity item in the brief</strong>; federalregister.gov unreachable all week.</p>
+            <h4>State NFA &ldquo;mirror&rdquo; laws: six states, six answers</h4>
+            <p><strong>Hot 5/5 &middot; peak 88 &middot; week &rarr;.</strong> Flat at 85&ndash;88 all week; Montana, Maryland and Alaska added answers.</p>
           </div>
-          <div class="heat-score"><span class="score t-hot">85</span><span class="arrow cooling">&#9660;</span></div>
-          <div class="channel-bars">
-<div class="bar"><span class="label">Mon</span><div class="track"><div class="fill" style="width: 88%"></div></div><span class="num">88</span></div><div class="bar"><span class="label">Tue</span><div class="track"><div class="fill" style="width: 0%"></div></div><span class="num">&mdash;</span></div><div class="bar"><span class="label">Wed</span><div class="track"><div class="fill" style="width: 85%"></div></div><span class="num">85</span></div><div class="bar"><span class="label">Thu</span><div class="track"><div class="fill" style="width: 82%"></div></div><span class="num">82</span></div><div class="bar"><span class="label">Fri</span><div class="track"><div class="fill" style="width: 0%"></div></div><span class="num">&mdash;</span></div>
-          </div>
+          <div class="heat-score"><span class="score t-hot">87</span><span class="arrow steady">&#9654;</span></div>
         </li>
         <li class="heat-row">
-          <span class="rank">03</span>
+          <div class="rank">03</div>
           <div class="title-block">
-            <h4>CDC restores its defensive-gun-use estimates &mdash; roughly 60,000 to 2.5 million a year, removed in 2022</h4>
-            <p><strong>The biggest single move of the week</strong>, 73&nbsp;&rarr;&nbsp;86, on outlet pickup rather than new facts. Range traces to a 2013 Institute of Medicine report; <em>The Trace</em> reported it first; CDC issued no public statement.</p>
+            <h4>ATF NFA non-enforcement, day 14</h4>
+            <p><strong>Hot 5/5 &middot; peak 83 &middot; week &darr;.</strong> Down every day; still no rule in the Federal Register.</p>
           </div>
-          <div class="heat-score"><span class="score t-hot">80</span><span class="arrow rising">&#9650;</span></div>
-          <div class="channel-bars">
-<div class="bar"><span class="label">Mon</span><div class="track"><div class="fill" style="width: 0%"></div></div><span class="num">&mdash;</span></div><div class="bar"><span class="label">Tue</span><div class="track"><div class="fill" style="width: 0%"></div></div><span class="num">&mdash;</span></div><div class="bar"><span class="label">Wed</span><div class="track"><div class="fill" style="width: 73%"></div></div><span class="num">73</span></div><div class="bar"><span class="label">Thu</span><div class="track"><div class="fill" style="width: 86%"></div></div><span class="num">86</span></div><div class="bar"><span class="label">Fri</span><div class="track"><div class="fill" style="width: 0%"></div></div><span class="num">&mdash;</span></div>
-          </div>
+          <div class="heat-score"><span class="score t-hot">78</span><span class="arrow cooling">&#9660;</span></div>
         </li>
         <li class="heat-row">
-          <span class="rank">04</span>
+          <div class="rank">04</div>
           <div class="title-block">
-            <h4>The Supreme Court&rsquo;s assault-weapons question presented, now verified word for word</h4>
-            <p>A <strong>Thursday entrant, not a week-long story</strong> &mdash; one day at 76. Ranks high on average precisely because it entered late and hot. Roughly ten states have bans in scope; argument projected for the first week of December.</p>
+            <h4>Waiting periods: Maine denied, New Mexico sued</h4>
+            <p><strong>Hot 4/5 &middot; peak 80 &middot; week &uarr;.</strong> Entered Monday with the cert denial; climbed to 80 Wednesday.</p>
           </div>
-          <div class="heat-score"><span class="score t-hot">76</span><span class="arrow steady">&mdash;</span></div>
-          <div class="channel-bars">
-<div class="bar"><span class="label">Mon</span><div class="track"><div class="fill" style="width: 0%"></div></div><span class="num">&mdash;</span></div><div class="bar"><span class="label">Tue</span><div class="track"><div class="fill" style="width: 0%"></div></div><span class="num">&mdash;</span></div><div class="bar"><span class="label">Wed</span><div class="track"><div class="fill" style="width: 0%"></div></div><span class="num">&mdash;</span></div><div class="bar"><span class="label">Thu</span><div class="track"><div class="fill" style="width: 76%"></div></div><span class="num">76</span></div><div class="bar"><span class="label">Fri</span><div class="track"><div class="fill" style="width: 0%"></div></div><span class="num">&mdash;</span></div>
-          </div>
+          <div class="heat-score"><span class="score t-hot">75</span><span class="arrow rising">&#9650;</span></div>
         </li>
         <li class="heat-row">
-          <span class="rank">05</span>
+          <div class="rank">05</div>
           <div class="title-block">
-            <h4>USCCA&nbsp;Law&reg; confirmed from USCCA&rsquo;s own membership page after fifteen runs marked unverified</h4>
-            <p>Also a Thursday entrant, at 74. Enters on <strong>primary-source confirmation from the subject&rsquo;s own site</strong> rather than on outlet count. The trademark and one attorney credit are confirmed; scope, jurisdictions and tier coverage are not.</p>
+            <h4>Massachusetts Question&nbsp;9</h4>
+            <p><strong>Hot 5/5 &middot; peak 77 &middot; week &uarr;.</strong> Poll 70&ndash;21 for &ldquo;yes&rdquo;; early voting to 10/30, vote 11/03.</p>
           </div>
-          <div class="heat-score"><span class="score t-hot">74</span><span class="arrow steady">&mdash;</span></div>
-          <div class="channel-bars">
-<div class="bar"><span class="label">Mon</span><div class="track"><div class="fill" style="width: 0%"></div></div><span class="num">&mdash;</span></div><div class="bar"><span class="label">Tue</span><div class="track"><div class="fill" style="width: 0%"></div></div><span class="num">&mdash;</span></div><div class="bar"><span class="label">Wed</span><div class="track"><div class="fill" style="width: 0%"></div></div><span class="num">&mdash;</span></div><div class="bar"><span class="label">Thu</span><div class="track"><div class="fill" style="width: 74%"></div></div><span class="num">74</span></div><div class="bar"><span class="label">Fri</span><div class="track"><div class="fill" style="width: 0%"></div></div><span class="num">&mdash;</span></div>
-          </div>
+          <div class="heat-score"><span class="score t-hot">74</span><span class="arrow rising">&#9650;</span></div>
         </li>
         <li class="heat-row">
-          <span class="rank">06</span>
+          <div class="rank">06</div>
           <div class="title-block">
-            <h4>Four FFLs in four ATF regions clear compliance inspections after Form&nbsp;4473-only suppressor transfers</h4>
-            <p>Hot all three days the board ran, peaking at 74 on Monday. <strong>The first operational proof the NFA injunction survives contact with the agency.</strong> Single-outlet throughout; ATF has published no guidance in fifteen days.</p>
+            <h4>Mass. SJC upholds the under-21 carry-license bar</h4>
+            <p><strong>Hot 2/5 &middot; peak 74 &middot; week &darr;.</strong> Entered Wednesday at 74; same rule is in the Question&nbsp;9 law.</p>
           </div>
-          <div class="heat-score"><span class="score t-hot">70</span><span class="arrow cooling">&#9660;</span></div>
-          <div class="channel-bars">
-<div class="bar"><span class="label">Mon</span><div class="track"><div class="fill" style="width: 74%"></div></div><span class="num">74</span></div><div class="bar"><span class="label">Tue</span><div class="track"><div class="fill" style="width: 0%"></div></div><span class="num">&mdash;</span></div><div class="bar"><span class="label">Wed</span><div class="track"><div class="fill" style="width: 70%"></div></div><span class="num">70</span></div><div class="bar"><span class="label">Thu</span><div class="track"><div class="fill" style="width: 67%"></div></div><span class="num">67</span></div><div class="bar"><span class="label">Fri</span><div class="track"><div class="fill" style="width: 0%"></div></div><span class="num">&mdash;</span></div>
-          </div>
+          <div class="heat-score"><span class="score t-hot">71</span><span class="arrow cooling">&#9660;</span></div>
         </li>
         <li class="heat-row">
-          <span class="rank">07</span>
+          <div class="rank">07</div>
           <div class="title-block">
-            <h4><em>Silencer Shop v. ATF</em> &mdash; the NFA registration injunction, live and unappealed</h4>
-            <p>The flattest line on the board: 72, 69, 70. The tax fell to $0, registration survived, and the court found the mismatch fatal. <strong>Roughly 34 days of appeal window left</strong>, outside date near October&nbsp;1.</p>
+            <h4>Felon ban: Third Circuit rulings and the 11/06 conference</h4>
+            <p><strong>Hot 5/5 &middot; peak 76 &middot; week &darr;.</strong> Recaps only; left the board Thursday.</p>
           </div>
-          <div class="heat-score"><span class="score t-hot">70</span><span class="arrow cooling">&#9660;</span></div>
-          <div class="channel-bars">
-<div class="bar"><span class="label">Mon</span><div class="track"><div class="fill" style="width: 72%"></div></div><span class="num">72</span></div><div class="bar"><span class="label">Tue</span><div class="track"><div class="fill" style="width: 0%"></div></div><span class="num">&mdash;</span></div><div class="bar"><span class="label">Wed</span><div class="track"><div class="fill" style="width: 69%"></div></div><span class="num">69</span></div><div class="bar"><span class="label">Thu</span><div class="track"><div class="fill" style="width: 70%"></div></div><span class="num">70</span></div><div class="bar"><span class="label">Fri</span><div class="track"><div class="fill" style="width: 0%"></div></div><span class="num">&mdash;</span></div>
-          </div>
+          <div class="heat-score"><span class="score t-warm">69</span><span class="arrow cooling">&#9660;</span></div>
         </li>
         <li class="heat-row">
-          <span class="rank">08</span>
+          <div class="rank">08</div>
           <div class="title-block">
-            <h4>ATF&rsquo;s 2024 &ldquo;Engaged in the Business&rdquo; rule vacated in full</h4>
-            <p>Two days, 71 then 66. Governs <strong>the line between a private sale and unlicensed dealing</strong> &mdash; the most misunderstood question in everyday firearms law. Case, court and judge still unknown to this board; marked <strong>Unverified</strong>.</p>
+            <h4>School carry rules after Bend</h4>
+            <p><strong>Hot 3/5 &middot; peak 69 &middot; week &rarr;.</strong> Polls and district policies; left the board Thursday.</p>
           </div>
-          <div class="heat-score"><span class="score t-warm">68</span><span class="arrow cooling">&#9660;</span></div>
-          <div class="channel-bars">
-<div class="bar"><span class="label">Mon</span><div class="track"><div class="fill" style="width: 71%"></div></div><span class="num">71</span></div><div class="bar"><span class="label">Tue</span><div class="track"><div class="fill" style="width: 0%"></div></div><span class="num">&mdash;</span></div><div class="bar"><span class="label">Wed</span><div class="track"><div class="fill" style="width: 66%"></div></div><span class="num">66</span></div><div class="bar"><span class="label">Thu</span><div class="track"><div class="fill" style="width: 0%"></div></div><span class="num">&mdash;</span></div><div class="bar"><span class="label">Fri</span><div class="track"><div class="fill" style="width: 0%"></div></div><span class="num">&mdash;</span></div>
-          </div>
+          <div class="heat-score"><span class="score t-warm">68</span><span class="arrow steady">&#9654;</span></div>
         </li>
         <li class="heat-row">
-          <span class="rank">09</span>
+          <div class="rank">09</div>
           <div class="title-block">
-            <h4>The &ldquo;convertible pistol&rdquo; laws &mdash; California, New York, Maryland &mdash; and <em>Renna v. Bonta</em> on September&nbsp;4</h4>
-            <p>68, 69, 68 &mdash; the steadiest item of the week and the one with the nearest hard date. First courtroom test of the trigger-bar theory anywhere, before Judge Dana Sabraw. No statute text read directly; legiscan unreachable all week.</p>
+            <h4>Midterm gun-issue money</h4>
+            <p><strong>Hot 5/5 &middot; peak 69 &middot; week &uarr;.</strong> Steady; the $22M Bloomberg gift was disclosed 10/23, after the window.</p>
           </div>
-          <div class="heat-score"><span class="score t-warm">68</span><span class="arrow steady">&rarr;</span></div>
-          <div class="channel-bars">
-<div class="bar"><span class="label">Mon</span><div class="track"><div class="fill" style="width: 68%"></div></div><span class="num">68</span></div><div class="bar"><span class="label">Tue</span><div class="track"><div class="fill" style="width: 0%"></div></div><span class="num">&mdash;</span></div><div class="bar"><span class="label">Wed</span><div class="track"><div class="fill" style="width: 69%"></div></div><span class="num">69</span></div><div class="bar"><span class="label">Thu</span><div class="track"><div class="fill" style="width: 68%"></div></div><span class="num">68</span></div><div class="bar"><span class="label">Fri</span><div class="track"><div class="fill" style="width: 0%"></div></div><span class="num">&mdash;</span></div>
-          </div>
+          <div class="heat-score"><span class="score t-warm">67</span><span class="arrow rising">&#9650;</span></div>
         </li>
         <li class="heat-row">
-          <span class="rank">10</span>
+          <div class="rank">10</div>
           <div class="title-block">
-            <h4>A federal review finds significant disagreement over whether microstamping works reliably</h4>
-            <p>Two days, 69 then 65. Points at <strong>California&rsquo;s conditional 2028 mandate</strong>. The ceiling on the claim is &ldquo;significant disagreement,&rdquo; not &ldquo;it does not work&rdquo; &mdash; nist.gov unreachable two runs running.</p>
+            <h4>DOJ permit-delay probes (Pennsauken, N.J.)</h4>
+            <p><strong>Hot 5/5 &middot; peak 74 &middot; week &darr;&darr;.</strong> Fell daily with no township response; the Connecticut probe came after Thursday&rsquo;s reading.</p>
           </div>
-          <div class="heat-score"><span class="score t-warm">67</span><span class="arrow cooling">&#9660;</span></div>
-          <div class="channel-bars">
-<div class="bar"><span class="label">Mon</span><div class="track"><div class="fill" style="width: 0%"></div></div><span class="num">&mdash;</span></div><div class="bar"><span class="label">Tue</span><div class="track"><div class="fill" style="width: 0%"></div></div><span class="num">&mdash;</span></div><div class="bar"><span class="label">Wed</span><div class="track"><div class="fill" style="width: 69%"></div></div><span class="num">69</span></div><div class="bar"><span class="label">Thu</span><div class="track"><div class="fill" style="width: 65%"></div></div><span class="num">65</span></div><div class="bar"><span class="label">Fri</span><div class="track"><div class="fill" style="width: 0%"></div></div><span class="num">&mdash;</span></div>
-          </div>
+          <div class="heat-score"><span class="score t-warm">64</span><span class="arrow cooling">&#9660;</span></div>
         </li>
       </ol>
+      <p class="heat-foot">Five daily readings: Fri 10/16 and Mon 10/19 &ndash; Thu 10/22 (fallback window: today&rsquo;s Friday daily had not run when this edition was built). Week arrow = last reading minus first, &plusmn;2 read as steady, doubled at &plusmn;15. Merged threads: Bend&rsquo;s civil-investigation reading folds into Bend; Monday&rsquo;s Maine cert denial and Tuesday&rsquo;s NSSF filing fold into the waiting-period item; Alaska folds into the state NFA item. Just below the line: Ruger (59), Missouri Amendment&nbsp;8 (59), DOJ under-21 (59), San Jose insurance suit (59). Single-reading Thursday arrivals not ranked: New York body armor (84), Smith &amp; Wesson&ndash;Savage (80), Dearborn (72), switchblades (66).</p>
     </div>
     <div class="section-head">
-      <h2><span class="num">06</span>What faded</h2>
-      <span class="desc">One-day flings and items that fell off &middot; the contrast is the point</span>
+      <h2><span class="num">05</span>What faded</h2>
+      <span class="desc">Started warm, did not hold. The contrast is the point</span>
     </div>
-    <p class="card-summary" style="margin-bottom:10px">Four items appeared exactly once, below the volcanic threshold, and did not return. None of them is unimportant &mdash; a fade here means the <em>attention</em> did not sustain, not that the fact stopped being true. The distinction matters when the marketing team is deciding what to write: a fling is a bad peg for a blog post and a fine footnote in an evergreen one.</p>
     <div class="also-notable">
-      <h4>Also notable</h4>
+      <h4>Quiet exits this week</h4>
       <ul>
-        <li><span class="mini-stage moved">Moved</span><a href="https://www.ammoland.com/2026/08/ninth-circuit-rejects-california-giffords-bid-to-expand-atf-ghost-gun-rule/" target="_blank" rel="noopener"><strong>Ninth Circuit / ghost-gun expansion &mdash; Monday only, 59.</strong> Faded because it was procedurally narrow and easy to misread: the court rejected a California and Giffords bid on <em>standing</em>, not on the merits. By Thursday it had been absorbed as a clause inside the <em>Defense Distributed</em> card, which is where it belongs</a></li>
-        <li><span class="mini-stage moved">Moved</span><a href="https://saf.org/about/" target="_blank" rel="noopener"><strong>USCCA&ndash;SAF content partnership &mdash; Monday only, 50.</strong> Faded as a news beat because it was a one-day discovery, not a developing story. The underlying arrangement is structural and stays on the competitor file permanently &mdash; a peer that has outsourced legal analysis to SAF has changed its capability, not just its calendar</a></li>
-        <li><span class="mini-stage moved">Moved</span><a href="https://www.ammoland.com/2026/08/sig-m17-m18-cleared-p320-safety-questions/" target="_blank" rel="noopener"><strong>M17 / M18 military clearance &mdash; in the brief Monday and Wednesday, never above the heat floor.</strong> Faded because the civilian P320 question it actually bears on was explicitly left open, so there was nothing for a member to do with it. Single-outlet throughout</a></li>
-        <li><span class="mini-stage moved">Moved</span><a href="https://www.ammoland.com/2026/08/fbi-2025-crime-data-murder-rate-record-low/" target="_blank" rel="noopener"><strong>FBI 2025 crime data dropped off the leaderboard Thursday on tempo, not on value.</strong> It rose 59&nbsp;&rarr;&nbsp;67 and then stopped being picked up. It remains the strongest counter-narrative datum available and it leads a card in section 04 &mdash; a good example of an item worth writing about <em>after</em> its news cycle rather than during it</a></li>
-        <li><span class="mini-stage watch">Watch</span><a href="https://www.usconcealedcarry.com/blog/understanding-the-case/" target="_blank" rel="noopener"><strong>Three items are NOT fades and should not be treated as such.</strong> <em>Viramontes</em> (76), USCCA&nbsp;Law&reg; verification (74) and the peer price ladder (63) all entered on Thursday, the last day the daily ran. They have one reading each because the week ended, not because interest collapsed. All three carry into next week&rsquo;s measurement</a></li>
-        </ul>
+        <li><span class="mini-stage watch">Faded</span><strong>The Great 2A Insurance Town Hall</strong> (RTB on the panel): 58, 55, 50, 48, then off the board. The event happened 10/17; no public recap surfaced, so there was nothing new to score.</li>
+        <li><span class="mini-stage watch">Fling</span><strong>Denver nonresident-carry suit (<em>Hoffman</em>)</strong>: hot five days last week, one Friday reading (54) this week, no hearing date.</li>
+        <li><span class="mini-stage watch">Fling</span><strong>Virginia under-21 private-sale suit</strong>: one Friday reading (58). Overtaken by the federal under-21 letters.</li>
+        <li><span class="mini-stage watch">Fling</span><strong><em>Zimmerman v. Blanche</em> (national-park buildings)</strong>: one Friday reading (54). The plaintiffs&rsquo; response was estimated for today; the docket was not checked.</li>
+        <li><span class="mini-stage watch">Faded</span><strong>GVA: third-quarter shooting deaths at a decade low</strong>: 50, 48, 46. A notable data point that never caught on in the news cycle. <a href="https://www.thetruthaboutguns.com/shooting-deaths-decade-low-gun-sales-rise-2026/" target="_blank" rel="noopener">TTAG 10/19</a></li>
+        <li><span class="mini-stage watch">Faded</span><strong>Columbus, Ohio preemption ruling</strong>: 52, 48, gone. An appeals court upheld the injunction against city gun ordinances; headline-level only.</li>
+        <li><span class="mini-stage watch">Fling</span><strong>Maine dropping reciprocity with four states</strong>: one reading (50), still Unverified, never confirmed.</li>
+      </ul>
     </div>
     <div class="week-ahead">
-      <h2>Look <span class="copper">forward</span> &middot; the week of Aug 31 &ndash; Sep 4</h2>
-      <h2 style="font-size:14px; margin-top:4px;">A &middot; Confirmed <span class="copper">calendar</span></h2>
+      <h2>06 &middot; <span class="copper">Look forward</span> &mdash; next week and the weeks that follow</h2>
       <ul>
-        <li><span class="when">Sep 1</span><span class="what"><strong>Labor Day &mdash; federal holiday.</strong> No court or agency activity. Plan any Tuesday send around it.</span></li>
-        <li><span class="when">Sep 4 (T-7)</span><span class="what"><strong><em>Renna v. Bonta</em> preliminary-injunction hearing</strong> before Judge Dana Sabraw (appointed by George W. Bush), S.D. Cal., on California Penal Code &sect;&nbsp;27595(a). <strong>The single most important calendar item of next week</strong> &mdash; first courtroom test of the &ldquo;convertible pistol&rdquo; theory anywhere in the country. <a href="https://www.ammoland.com/2026/08/california-glock-ban-injunction-renna-v-bonta/" target="_blank" rel="noopener">source</a></span></li>
-        <li><span class="when">Sep 4 (T-7)</span><span class="what"><strong>SCOTUS summer order list</strong> &mdash; primary-verified from the published calendar. The realistic first opportunity for action on <em>Duncan v. Bonta</em> or <em>Gator&rsquo;s Custom Guns</em>, both still neither granted nor denied. <a href="https://www.scotusblog.com/calendar" target="_blank" rel="noopener">source</a></span></li>
-        <li><span class="when">Early Sep</span><span class="what"><strong>August NICS release</strong> &mdash; the first print capturing demand after the NFA injunction went live. fbi.gov has been unreachable from this board all week. <a href="https://www.fbi.gov/how-we-investigate/nics" target="_blank" rel="noopener">source</a></span></li>
-        <li><span class="when">September</span><span class="what"><strong>Congress returns from recess.</strong> Exact return date <strong>Unverified</strong> &mdash; congress.gov has been unreachable seven consecutive runs. It returns to a live NFA injunction, an open appeal window, a finalised restoration rule it did not write, a vacated ATF business rule, and a granted SCOTUS assault-weapons case. <a href="https://www.congress.gov/" target="_blank" rel="noopener">source</a></span></li>
-        <li><span class="when">Sep 15&ndash;17 (T-18)</span><span class="what"><strong>SAAMI 2026 Ballistics Conference, Baltimore</strong> &mdash; the first venue where microstamping feasibility gets a technical audience after the federal review. <a href="https://www.ammoland.com/2026/08/federal-review-microstamping-no-evidence/" target="_blank" rel="noopener">source</a></span></li>
-        <li><span class="when">Sep 16 (T-19)</span><span class="what"><strong>SCOTUSblog Summit</strong> &mdash; watch for panel treatment of the assault-weapons grant. <a href="https://www.scotusblog.com/summit/" target="_blank" rel="noopener">source</a></span></li>
-        <li><span class="when">Sep 28 (T-31)</span><span class="what"><strong>SCOTUS long conference</strong> &mdash; primary-verified. First bulk cert action of the term; the magazine cases are the ones to watch. <a href="https://www.scotusblog.com/calendar" target="_blank" rel="noopener">source</a></span></li>
-        <li><span class="when">~Oct 1 (T-34)</span><span class="what"><strong>Outside edge of DOJ&rsquo;s appeal window in <em>Silencer Shop</em></strong>. <a href="https://thereload.com/analysis-a-big-brittle-win-against-the-nfa-member-exclusive/" target="_blank" rel="noopener">source</a></span></li>
-        <li><span class="when">Oct 5 (T-38)</span><span class="what"><strong>Supreme Court arguments open</strong> &mdash; primary-verified. No assault-weapons case in the October sitting; <em>Viramontes</em> argument projected for the first week of December. <a href="https://www.scotusblog.com/calendar" target="_blank" rel="noopener">source</a></span></li>
-        <li><span class="when">Nov 3 (T-67)</span><span class="what"><strong>Election Day</strong> &mdash; Senate control, five Washington Supreme Court seats, and a ballot-measure file this board has failed to verify eleven consecutive times. Ballot measures are publishable once verified; candidate races stay internal. <a href="https://ballotpedia.org/2026_ballot_measures" target="_blank" rel="noopener">source</a></span></li>
-        <li><span class="when">Nov 20 (T-84)</span><span class="what"><strong>Suppressor export rules take effect</strong> &mdash; the State-to-Commerce transfer. A hard manufacturer compliance date, unaffected by the NFA injunction. <a href="https://www.federalregister.gov/" target="_blank" rel="noopener">source</a></span></li>
+        <li><span class="when">Calendar</span><span class="what"><strong>Fri 10/23 (today):</strong> Idaho absentee-ballot request deadline, 5 p.m. local. &middot; <em>Zimmerman</em> plaintiffs&rsquo; response to DOJ&rsquo;s motion to dismiss (AmmoLand&rsquo;s 21-day estimate; docket not checked).</span></li>
+        <li><span class="when">Calendar</span><span class="what"><strong>Wed 10/28 (T&minus;5) &mdash; AR-15 cases: amici supporting Cook County and Connecticut due</strong> (about seven days after the respondents&rsquo; 10/21 briefs, per the Court&rsquo;s amicus rule; not a docketed date). &middot; Massachusetts registration and serialization requirements begin (carried from earlier editions; not re-checked this run). <a href="https://www.supremecourt.gov/search.aspx?filename=/docket/docketfiles/html/public/25-238.html" target="_blank" rel="noopener">Docket 25-238</a></span></li>
+        <li><span class="when">Calendar</span><span class="what"><strong>Fri 10/30 (T&minus;7) &mdash; Massachusetts early voting ends.</strong> <a href="https://www.capenews.net/bourne/columns/beacon-hill-roll-call---october-23-2026/article_03995a5b-2258-4fde-b2ee-7eff974c5174.html" target="_blank" rel="noopener">Beacon Hill Roll Call</a></span></li>
+        <li><span class="when">Calendar</span><span class="what"><strong>Tue 11/03 (T&minus;11) &mdash; Election Day:</strong> Massachusetts Question&nbsp;9, Arkansas Issue&nbsp;2, Missouri Amendment&nbsp;8, Idaho&rsquo;s advisory firearm vote. &middot; <strong>~Wed 11/04 &mdash; the 14-day stay of the New York body-armor ruling runs out</strong> unless extended or replaced by a stay pending appeal (stay reported by Just the News).</span></li>
+        <li><span class="when">Calendar</span><span class="what"><strong>Fri 11/06 (T&minus;14) &mdash; Supreme Court conference with 17 gun cases, 12 of them felon-ban</strong> (Duke count). &middot; <strong>Tue 11/24</strong> &mdash; comments close on two ATF explosives-storage proposals. &middot; <strong>Wed 12/02</strong> &mdash; AR-15 argument. &middot; <strong>Fri 12/11</strong> &mdash; stopgap funding expires. &middot; No congressional hearings are scheduled before the election.</span></li>
+        <li><span class="when">Carry-over</span><span class="what"><strong>State NFA laws.</strong> Next data points: Montana&rsquo;s bill drafts; answers from the letter states that have not spoken publicly in sources we read (Colorado, Connecticut, Georgia, Michigan, Nevada, North Carolina, North Dakota, Ohio, Oregon, Pennsylvania, Washington, Wisconsin); and any report on the 10/22 <em>Brown v. ATF</em> conference.</span></li>
+        <li><span class="when">Carry-over</span><span class="what"><strong>New Mexico waiting period.</strong> Next data points: the court and case number, and whether plaintiffs seek a preliminary injunction. Maine&rsquo;s law is unchanged.</span></li>
+        <li><span class="when">Carry-over</span><span class="what"><strong>DOJ permit-delay investigations.</strong> Next data points: responses from Middletown, Waterbury and Pennsauken, and San Jose&rsquo;s answer to the amended complaint.</span></li>
+        <li><span class="when">Carry-over</span><span class="what"><strong>Bend, Oregon.</strong> Next data points: any charging decision, civil filings by the victims&rsquo; families, and the FBI&rsquo;s radicalization findings. We will report facts as they are confirmed.</span></li>
+        <li><span class="when">Predicted</span><span class="what"><span class="stage-badge watch" style="margin-right:6px">Predicted</span><strong>New York files a notice of appeal and seeks a stay pending appeal of the body-armor ruling before ~11/04.</strong> <em>Why:</em> the judge stayed his own order 14 days expressly to allow an appeal, the attorney general&rsquo;s office said it is reviewing the decision, and the state has appealed earlier adverse Second Amendment rulings.</span></li>
+        <li><span class="when">Predicted</span><span class="what"><span class="stage-badge watch" style="margin-right:6px">Predicted</span><strong>DOJ&rsquo;s Second Amendment Section announces at least one more permit-delay investigation by 11/06.</strong> <em>Why:</em> two announcements eight days apart (Pennsauken 10/14, Connecticut 10/22), plus the San Jose amendment, after earlier actions in Philadelphia, Los Angeles County and San Jose.</span></li>
+        <li><span class="when">Predicted</span><span class="what"><span class="stage-badge watch" style="margin-right:6px">Predicted</span><strong><em>Novotny v. Moore</em> gets no ruling on the 10/26 or 11/02 order lists.</strong> <em>Why:</em> rescheduled on 9/24, 10/6 and 10/13 and not redistributed since; a case usually needs a fresh distribution about two weeks before the conference that decides it.</span></li>
+        <li><span class="when">Predicted</span><span class="what"><span class="stage-badge watch" style="margin-right:6px">Predicted</span><strong>Bend falls below 85 on the heat index by midweek, while the body-armor ruling becomes a lead card.</strong> <em>Why:</em> Bend declined every day this week (98 to 89) as schools reopened; the body-armor ruling debuted at 84 with a stay deadline and an appeal decision pending.</span></li>
+        <li><span class="when">Scorecard</span><span class="what"><strong>Last week&rsquo;s predictions:</strong> Bend leads next week&rsquo;s gun coverage with school-security and armed-bystander framing: <strong>hit</strong> (avg 93, 5/5; a separate school-carry item emerged). One more FPC-letter state publishes NFA guidance by 10/23: <strong>partial</strong> (Montana, a letter state, moved to draft legislation; no new formal guidance from a letter state found). <em>Novotny</em> not granted on the 10/19 list: <strong>hit</strong> (rescheduled before conference). Massachusetts coverage peaks 10/19&ndash;10/28: <strong>on track</strong> (peak 77 on 10/21; window still open). Carried: Connecticut seeks Second Circuit review by ~10/30, <strong>open</strong>; AR-15 amicus wave ~10/28, <strong>open</strong>.</span></li>
       </ul>
-      <h2 style="font-size:14px; margin-top:22px;">B &middot; Carry-over <span class="copper">to watch</span> &mdash; with the next foreseeable data point named</h2>
-      <ul>
-        <li><span class="when">Avg 87</span><span class="what"><strong><em>Defense Distributed v. Blanche</em></strong> &mdash; next foreseeable data point: a <strong>government notice of appeal</strong>, or a docket entry that finally settles the ruling date three accounts still disagree about (08/17 vs. the 8.19.26 opinion filename). Nothing else moves this story. <a href="https://www.ammoland.com/2026/08/atf-frame-receiver-rule-defense-distributed/" target="_blank" rel="noopener">source</a></span></li>
-        <li><span class="when">Avg 85</span><span class="what"><strong>DOJ restoration rule</strong> &mdash; next data point: <strong>Federal Register publication of the rule text</strong>, then the application process opening in stages. Same-day trigger, procedural voice only, no eligibility guidance. <a href="https://thereload.com/doj-finalizes-gun-rights-restoration-process/" target="_blank" rel="noopener">source</a></span></li>
-        <li><span class="when">Avg 80</span><span class="what"><strong>CDC defensive-gun-use restoration</strong> &mdash; next data point: <strong>any public CDC statement</strong>. There has been none, and CDC declined to explain the change when asked. If one comes, it changes the process story materially. <a href="https://thereload.com/cdc-restores-gun-defensive-use-estimates-to-website-years-after-removing-them-under-political-pressure/" target="_blank" rel="noopener">source</a></span></li>
-        <li><span class="when">Avg 70</span><span class="what"><strong>Form 4473 / FFL inspections</strong> &mdash; next data point: a <strong>fifth region reporting</strong>, a second outlet picking it up, or the first inspection that goes badly. Any of the three is publishable; the third is the one to prepare for. <a href="https://www.ammoland.com/2026/08/ffls-pass-atf-inspections-after-transferring-suppressors-on-form-4473/" target="_blank" rel="noopener">source</a></span></li>
-        <li><span class="when">Avg 70</span><span class="what"><strong><em>Silencer Shop v. ATF</em></strong> &mdash; next data point: a <strong>DOJ notice of appeal</strong>, <strong>ATF or DOJ guidance on the enjoined provisions</strong> (day fifteen with none, and the highest-value unpublished document on this board), or the window lapsing near October&nbsp;1. <a href="https://www.atf.gov/" target="_blank" rel="noopener">source</a></span></li>
-        <li><span class="when">Avg 68</span><span class="what"><strong>ATF &ldquo;Engaged in the Business&rdquo; vacatur</strong> &mdash; next data point: <strong>the case name</strong>. Until a second outlet names the court and judge this stays Unverified and unpublishable. <a href="https://www.ammoland.com/2026/08/federal-judge-deals-death-blow-atfs-engaged-business-rule/" target="_blank" rel="noopener">source</a></span></li>
-        <li><span class="when">Avg 68</span><span class="what"><strong>&ldquo;Convertible pistol&rdquo; laws</strong> &mdash; next data point: the <strong>September&nbsp;4 hearing</strong>, and whether Judge Sabraw rules from the bench or takes it under submission. <a href="https://www.ammoland.com/2026/08/california-glock-ban-injunction-renna-v-bonta/" target="_blank" rel="noopener">source</a></span></li>
-        <li><span class="when">Late entrant</span><span class="what"><strong><em>Viramontes</em></strong> &mdash; entered Thursday at 76 with the question presented now quotable verbatim. Next data point: the <strong>September&nbsp;28 long conference</strong>, then a December argument date. <a href="https://www.usconcealedcarry.com/blog/understanding-the-case/" target="_blank" rel="noopener">source</a></span></li>
-      </ul>
-      <h2 style="font-size:14px; margin-top:22px;">C &middot; <span class="copper">Predicted</span> catalysts &mdash; forecasts, each anchored to a signal</h2>
-      <ul>
-        <li><span class="when">Next week</span><span class="what"><span class="stage-badge moved">Predicted</span> <strong>DOJ files no notice of appeal in <em>Silencer Shop</em> next week either.</strong> <em>Why:</em> the window has now run roughly fifteen days with no filing, forty-seven lawmakers have publicly asked DOJ to stop defending the scheme, and DOJ has published nothing to the contrary &mdash; the observable signal is sustained silence against a public ask. If it lapses near October&nbsp;1, the injunction&rsquo;s practical durability changes materially and that is a same-day story. <a href="https://www.ammoland.com/2026/08/lawmakers-doj-nfa-registration-ruling-nationwide/" target="_blank" rel="noopener">signal</a></span></li>
-        <li><span class="when">Sep 4&ndash;18</span><span class="what"><span class="stage-badge moved">Predicted</span> <strong><em>Renna v. Bonta</em> is decided within about two weeks of the hearing.</strong> <em>Why:</em> it is a preliminary-injunction posture against a statute already in force since July&nbsp;1, and PI motions in that posture are ordinarily resolved quickly because the asserted harm is ongoing. Have the evergreen explainer built and the update block ready before the 4th. <a href="https://www.ammoland.com/2026/08/california-glock-ban-injunction-renna-v-bonta/" target="_blank" rel="noopener">signal</a></span></li>
-        <li><span class="when">Next 2 weeks</span><span class="what"><span class="stage-badge moved">Predicted</span> <strong>The ghost-gun story&rsquo;s next move is an appeal, not a nationwide expansion.</strong> <em>Why:</em> the relief was written as-applied to Defense Distributed, SAF and covered members, and a separate Ninth Circuit panel just rejected an expansion attempt on standing. Nothing on the record points toward broader relief without an appellate ruling first. <a href="https://www.ammoland.com/2026/08/ninth-circuit-rejects-california-giffords-bid-to-expand-atf-ghost-gun-rule/" target="_blank" rel="noopener">signal</a></span></li>
-        <li><span class="when">Ongoing</span><span class="what"><span class="stage-badge moved">Predicted</span> <strong>CDC stays silent on the defensive-gun-use restoration.</strong> <em>Why:</em> the change was made with no public statement, CDC declined to explain it when asked, and no hearing, FOIA deadline or rulemaking is pending that would force a response. Write the process story on that assumption and treat any statement as a bonus update. <a href="https://thereload.com/cdc-restores-gun-defensive-use-estimates-to-website-years-after-removing-them-under-political-pressure/" target="_blank" rel="noopener">signal</a></span></li>
-        <li><span class="when">September</span><span class="what"><span class="stage-badge moved">Predicted</span> <strong>Congress re-engages through oversight letters, not floor votes.</strong> <em>Why:</em> no chamber activity was scheduled for any day this week, and every federal 2A development for three straight weeks has come from a court or an agency &mdash; the forty-seven-lawmaker letter to DOJ is the template, and it costs a member nothing to send another one. Do not build a content calendar around a bill vote. <a href="https://www.congress.gov/" target="_blank" rel="noopener">signal</a></span></li>
-        <li><span class="when">Watch</span><span class="what"><span class="stage-badge moved">Predicted</span> <strong>ATF publishes no guidance on the enjoined NFA provisions before the appeal window closes.</strong> <em>Why:</em> fifteen days have passed with none, and an agency that may still appeal has an obvious institutional reason not to publish operating instructions premised on losing. Meanwhile FFLs keep transacting and passing inspections, so the field is running ahead of the paper. <a href="https://www.atf.gov/" target="_blank" rel="noopener">signal</a></span></li>
-      </ul>
-      <p class="links" style="margin-top:18px"><strong>What marketing should be drafting now:</strong> the <em>Renna v. Bonta</em> multi-state &ldquo;convertible pistol&rdquo; explainer, on a permanent URL, written this week and published the afternoon of September&nbsp;4. It is the only item on this page with a hard date, a member audience that does not know the law reaches them, and no coverage-peer competition. Second priority: the &ldquo;four mechanisms&rdquo; evergreen &mdash; statute, litigation, rulemaking, agency discretion &mdash; which explains this entire week in one asset that stays true for two years.</p>
     </div>
     <div class="footer-note">
-      <span class="copper">RIGHT TO BEAR</span> &middot; 2A WEEKLY INTEL &middot; FRIDAY, AUGUST 28, 2026 &middot; 06:00 ET<br>
-      Editorial guardrails: factual, evenhanded, source-linked, empowerment-led. Every claim carries its source and its verification level. <strong>Measured across Mon 08/24 &ndash; Fri 08/28.</strong>
-
-      <br><br><strong>Window and method.</strong> The Mon&ndash;Fri window contains <strong>three published daily runs</strong>: 08/24, 08/26 and 08/27. <strong>Tuesday 08/25 did not run</strong>, and <strong>Friday 08/28 had not run when this weekly compiled</strong> &mdash; the weekly is generated before the Friday daily. Both render as muted absent bars in every sparkline, and no metric is averaged over a day an item did not appear. Inclusion gate: <strong>hot on two or more weekdays (composite &ge;&nbsp;50) OR a peak of 85+</strong>. Ten items cleared it; nine lead cards, one demoted to a rail for sourcing. Week velocity compares the last available reading to the first, not Friday to Monday, because Friday is absent.
-
-      <br><br><strong>Live verification was unavailable this run.</strong> No WebSearch tool was present in this session, and outbound fetching was blocked for every target attempted, including thereload.com and scotusblog.com. <strong>Every item and every link on this page is carried from the 08/24, 08/26 and 08/27 daily briefs, where it was verified at the level each card states.</strong> Nothing here has been re-confirmed today. Treat every &ldquo;Unverified&rdquo; label as still standing and every countdown as computed from 08/28 rather than freshly checked. The Reload&rsquo;s homepage and member archive were read at article level on 08/24 and 08/27 and those readings are the basis for the Reload-sourced material below; they could not be refreshed today.
-
-      <br><br><strong>Multi-source rule.</strong> Every lead card in the Week in Review carries at least three source links across distinct angles &mdash; primary or official, trade press, peer or mainstream, opposition framing, and heat signal. Cards ranged from three to six links. <strong>One gate-passing item was demoted rather than shipped thinly sourced:</strong> the proposed DOJ settlement on Los Angeles County&rsquo;s carry-permit backlog (63 Mon, 61 Wed) is single-outlet and headline-level, so it sits in the section&nbsp;02 rail. Genuine opposition-side links were thin this week &mdash; thetrace.org and the advocacy organisations were unreachable &mdash; so opposition framing is carried through trade reporting of their positions rather than from their own pages, which is a weaker form of it and is flagged here rather than papered over.
-
-      <br><br><strong>Heat methodology.</strong> Composite = News&nbsp;&times;0.40 + Social&nbsp;&times;0.25 + Search&nbsp;&times;0.20 + Forums&nbsp;&times;0.15, as computed by each daily run. Platform signals (Google Trends, X, Reddit) were unreachable throughout, so the <strong>multi-outlet pickup proxy</strong> stood in for the News channel all week: one outlet is baseline, two to three elevated, four or more high salience. That is why the week&rsquo;s two risers &mdash; CDC defensive-gun-use and FBI crime data &mdash; rose on <em>pickup</em> rather than on new facts, and it is why single-outlet items are capped no matter how consequential they are. The leaderboard above is the <strong>week&rsquo;s average composite</strong>, not a Friday snapshot; two items rank high on a single high reading taken on the last day the board ran, and both are labelled as such.
-
-      <br><br><strong>Aliases merged for honest sparklines.</strong> Multi-day stories were tracked under different keys on different days and have been merged so a single line reads continuously: <em>ghostgun-defdist</em> &larr; ghostgun-kit-rule-defense-distributed&nbsp;+&nbsp;defense-distributed-blanche; <em>ffl-4473-inspections</em> &larr; nfa-injunction-4473-ffl-inspections&nbsp;+&nbsp;ffl-4473-suppressor-inspections; <em>fbi-2025-crime-data</em> &larr; fbi-2025-crime-murder-rate-low&nbsp;+&nbsp;fbi-2025-crime-data-murder-rate-low; <em>convertible-pistol-renna</em> &larr; convertible-pistol-glock-bans&nbsp;+&nbsp;renna-glock-ban-california.
-
-      <br><br><strong>Unverified this week &mdash; verify before publication.</strong> The &ldquo;Engaged in the Business&rdquo; vacatur (case, court and judge all unnamed); the <em>Defense Distributed</em> ruling date, which three accounts still contradict; the NIST microstamping review, never read from nist.gov; the four-FFL Form&nbsp;4473 inspection story, single-outlet all week; the FBI 2025 crime figures; all federal bill numbers and statuses, seven consecutive runs without congress.gov; the Massachusetts Question&nbsp;9 and Oregon IP&nbsp;28 ballot file, eleven consecutive failures; and every statute text behind the &ldquo;convertible pistol&rdquo; laws, legiscan unreachable all week. <strong>Primary-verified during the week:</strong> USCCA&nbsp;Law&reg; as a brand and USCCA tier pricing, from USCCA&rsquo;s own membership page; the <em>Viramontes</em> question presented; Firearms Legal Protection pricing; the SCOTUS autumn calendar.
-
-      <br><br><strong>Sensitive-topic notes carried into next week.</strong> <strong>On the restoration rule:</strong> highest-sensitivity item on the board &mdash; procedural voice only, no eligibility guidance, individual questions to a lawyer, nothing published before the Federal Register text is in hand. <strong>On the CDC range:</strong> do not lead with 2.5&nbsp;million; the width of a forty-fold range is the finding, the range traces to a 2013 Institute of Medicine report rather than a CDC study, and the rollback context belongs in the piece. <strong>On the ghost-gun ruling:</strong> party-scoped relief is not a nationwide rule change, and telling members otherwise would expose them. <strong>On microstamping:</strong> &ldquo;significant disagreement&rdquo; is the ceiling. <strong>On peers:</strong> factual comparison only &mdash; never characterise a competitor&rsquo;s coverage as inadequate; RTB&rsquo;s differentiation is clarity and empowerment, not fear about the alternatives. <strong>On elections and candidate races:</strong> track internally, publish nothing candidate-comparative; verified ballot measures are publishable.
-
-      <br><br>weekly intel &middot; Week of Aug 24 &ndash; Aug 28, 2026</div>
-
+      <span class="copper">RIGHT TO BEAR</span> &middot; 2A WEEKLY INTEL &middot; FRIDAY, OCTOBER 23, 2026 &middot; FRIDAY AM<br>
+      <strong>Delivery:</strong> this scheduled run could not reach the local git clone (the folder is not connected to scheduled sessions), so the files were written to <code>News\_pending_push\weekly\</code>. Nothing is published and Teams will not post until someone copies them into <code>weekly-news-brief/</code> and pushes. The public weekly archive still has no editions after 28&nbsp;August.<br>
+      Compiled for the RTB marketing team. Factual, evenhanded, source-linked, empowerment-led. Every Week-in-Review lead card carries at least three source links from distinct angles; items that could not reach three stayed in the Also-notable rails. <strong>Unverified</strong> marks claims not cross-confirmed at two sources; <strong>Predicted</strong> marks forecasts, each tied to a named signal. No candidate or legislator is named, scored or graded; judges and parties are named only where needed for accuracy. Not legal advice.<br>
+      <strong>Measurement window:</strong> Fri 10/16 and Mon 10/19 &ndash; Thu 10/22 (the last five published daily readings), because today&rsquo;s daily had not run when this edition was built. Readings come from the dailies&rsquo; pending state files; <code>tracking.json</code> itself has not been rewritten since 11&nbsp;September.<br>
+      <strong>Source reachability this run (browser):</strong> read directly: The Reload (site API, all posts 10/16&ndash;10/23; full text of the 10/23 money story), TTAG and AmmoLand feeds (10/16&ndash;10/23), justice.gov (Connecticut release; Pennsauken release located), supremecourt.gov (<em>Novotny</em> and AR-15 dockets), federalregister.gov (API), Bing News RSS (headline and summary level for about 80 targeted queries). Not run this session: Reddit, X and Google Trends (no card claims forum heat beyond the composite), congress.gov and Senate Judiciary schedules, Ballotpedia deadlines, CourtListener (redirected). WebSearch was not available; direct page fetches outside the browser were refused.<br>
+      <span class="copper">weekly intel &middot; Week of Oct 19 &ndash; Oct 23, 2026</span>
     </div>
+
+
+</div>
+
 </div>
 </body>
 </html>

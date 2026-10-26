@@ -9,79 +9,21 @@
         "type": "AdaptiveCard",
         "version": "1.5",
         "body": [
-          {
-            "type": "TextBlock",
-            "size": "Small",
-            "weight": "Bolder",
-            "color": "Warning",
-            "text": "RTB · 2A WEEKLY INTEL · Week of Aug 24 – Aug 28, 2026",
-            "spacing": "None"
-          },
-          {
-            "type": "TextBlock",
-            "size": "Large",
-            "weight": "Bolder",
-            "text": "Nothing moved in Congress this week — and federal firearm law still shifted three times. Every durable story came from a court or an agency.",
-            "wrap": true,
-            "spacing": "Small"
-          },
-          {
-            "type": "TextBlock",
-            "text": "Three items stayed hot every day the board ran: Defense Distributed v. Blanche peaked at 91 after a judge held ATF's frame-and-receiver rule unconstitutional — as-applied to the parties, not nationwide. DOJ's final rights-restoration rule held an 85 average with its text still unread from primary source.",
-            "wrap": true,
-            "spacing": "Small"
-          },
-          {
-            "type": "TextBlock",
-            "size": "Small",
-            "weight": "Bolder",
-            "color": "Warning",
-            "text": "STAYED HOT ALL WEEK",
-            "spacing": "Medium"
-          },
-          {
-            "type": "FactSet",
-            "facts": [
-              {
-                "title": "1. Defense Distributed v. Blanche — ATF kit rule struck",
-                "value": "Avg 87 · 3/5 days · ▼"
-              },
-              {
-                "title": "2. DOJ final firearm-rights restoration rule",
-                "value": "Avg 85 · 3/5 days · ▼"
-              },
-              {
-                "title": "3. CDC restores defensive-gun-use estimates",
-                "value": "Avg 80 · 2/5 days · ▲"
-              }
-            ]
-          },
-          {
-            "type": "TextBlock",
-            "size": "Small",
-            "weight": "Bolder",
-            "color": "Warning",
-            "text": "WATCH NEXT WEEK",
-            "spacing": "Medium"
-          },
-          {
-            "type": "TextBlock",
-            "size": "Small",
-            "text": "• [Calendar] Sep 4 — Renna v. Bonta PI hearing, Judge Sabraw\n• [Calendar] Sep 4 — SCOTUS summer order list; Duncan, Gator's pending\n• [Carry-over] Silencer Shop — no appeal filed, ~34 days left\n• [Predicted] DOJ files no notice of appeal next week either",
-            "wrap": true
-          }
+          { "type": "TextBlock", "size": "Small", "weight": "Bolder", "color": "Warning", "text": "RTB · 2A WEEKLY INTEL · Week of Oct 19 – Oct 23, 2026", "spacing": "None" },
+          { "type": "TextBlock", "size": "Large", "weight": "Bolder", "text": "Bend held the week's attention, and the NFA question kept moving to the states.", "wrap": true, "spacing": "Small" },
+          { "type": "TextBlock", "text": "The Bend, Oregon school shooting led all five readings (avg 93, peak 98), cooling as coverage moved to accountability and recovery. The state NFA mirror-law question held at 85-88 all week as six states gave six different answers.", "wrap": true, "spacing": "Small" },
+          { "type": "TextBlock", "size": "Small", "weight": "Bolder", "color": "Warning", "text": "STAYED HOT ALL WEEK", "spacing": "Medium" },
+          { "type": "FactSet", "facts": [
+            { "title": "1. Bend, Oregon: aftermath of the Silver Rail shooting", "value": "Avg 93 · 5/5 days · ↓" },
+            { "title": "2. State NFA mirror laws: six states, six answers", "value": "Avg 87 · 5/5 days · →" },
+            { "title": "3. ATF NFA non-enforcement, day 14", "value": "Avg 78 · 5/5 days · ↓" }
+          ]},
+          { "type": "TextBlock", "size": "Small", "weight": "Bolder", "color": "Warning", "text": "WATCH NEXT WEEK", "spacing": "Medium" },
+          { "type": "TextBlock", "size": "Small", "text": "• [Calendar] Wed 10/28: AR-15 amici due; MA early voting ends 10/30\n• [Calendar] Tue 11/03: MA Q9, AR Issue 2, MO Amendment 8 on ballots\n• [Carry-over] State NFA laws: Montana bills, Brown v. ATF outcome\n• [Predicted] NY appeals body-armor ruling, seeks stay by ~11/04", "wrap": true }
         ],
         "actions": [
-          {
-            "type": "Action.OpenUrl",
-            "title": "Read the full weekly →",
-            "url": "https://quinn-weathers.github.io/rtb-marketing-projects/weekly-news-brief/"
-          },
-          {
-            "type": "Action.OpenUrl",
-            "title": "Today's daily →",
-            "url": "https://quinn-weathers.github.io/rtb-marketing-projects/daily-news-brief/"
-          }
+          { "type": "Action.OpenUrl", "title": "Read the full weekly →", "url": "https://quinn-weathers.github.io/rtb-marketing-projects/weekly-news-brief/" },
+          { "type": "Action.OpenUrl", "title": "Today's daily →", "url": "https://quinn-weathers.github.io/rtb-marketing-projects/daily-news-brief/" }
         ]
       }
     }
