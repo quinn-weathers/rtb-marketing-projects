@@ -14,20 +14,20 @@
             "size": "Small",
             "weight": "Bolder",
             "color": "Warning",
-            "text": "RTB · 2A DAILY INTEL · Friday, October 23, 2026",
+            "text": "RTB · 2A DAILY INTEL · Monday, October 26, 2026",
             "spacing": "None"
           },
           {
             "type": "TextBlock",
             "size": "Large",
             "weight": "Bolder",
-            "text": "New York now requires gun owners to lock up firearms that are not under their immediate control, and has expanded checks on ammunition buyers.",
+            "text": "The Justice Department has opened civil-rights investigations into how two Connecticut cities handle gun permits.",
             "wrap": true,
             "spacing": "Small"
           },
           {
             "type": "TextBlock",
-            "text": "Governor Hochul signed Francesco's Law Wednesday evening: firearms must be secured with a locked container, trigger lock or other device when not under the owner's immediate control, with escalating penalties when a minor or prohibited person is likely to gain access. Effective date and statute text not yet read.",
+            "text": "It is the second such probe this month, after Pennsauken, New Jersey. DOJ's letters to Waterbury and Middletown say it will examine whether permits are being unnecessarily delayed or denied, and that no conclusions have been reached.",
             "wrap": true,
             "spacing": "Small"
           },
@@ -43,16 +43,16 @@
             "type": "FactSet",
             "facts": [
               {
-                "title": "1. Bend, Oregon: recovery and investigation, day eight",
-                "value": "Heat 86 ▼"
+                "title": "1. Bend: intervener's interview, memorial, license surge",
+                "value": "Heat 88 ▲"
               },
               {
-                "title": "2. NFA state-law front: states sort out local rules",
-                "value": "Heat 84 ▼"
+                "title": "2. The NFA state-law front",
+                "value": "Heat 82 ▼"
               },
               {
-                "title": "3. NY signs Francesco's Law + ammunition-check expansion",
-                "value": "Heat 83 ▲▲"
+                "title": "3. Massachusetts Question 9, T-8",
+                "value": "Heat 80 ▲"
               }
             ]
           },
@@ -67,7 +67,7 @@
           {
             "type": "TextBlock",
             "size": "Small",
-            "text": "• New York: Francesco's Law signed; guns must be secured when not in owner's control\n• Delaware: state sues Glock over pistols it says convert easily to machine guns\n• Massachusetts: Question 9 enters last ten days; registration deadline Saturday\n• SCOTUS: Cook County makes its AR-15 case in public; amici due ~Oct 28",
+            "text": "• Connecticut: DOJ opens permit-delay probes in Waterbury, Middletown\n• Industry: Ruger suspends 19 product lines, four revolvers immediately\n• New Mexico: preliminary-injunction motion filed against 7-day wait\n• Massachusetts: Question 9 final week; mail-ballot requests due Tue",
             "wrap": true
           }
         ],
