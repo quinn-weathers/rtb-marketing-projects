@@ -14,20 +14,20 @@
             "size": "Small",
             "weight": "Bolder",
             "color": "Warning",
-            "text": "RTB · 2A DAILY INTEL · Monday, October 26, 2026",
+            "text": "RTB · 2A DAILY INTEL · Tuesday, October 27, 2026",
             "spacing": "None"
           },
           {
             "type": "TextBlock",
             "size": "Large",
             "weight": "Bolder",
-            "text": "The Justice Department has opened civil-rights investigations into how two Connecticut cities handle gun permits.",
+            "text": "Starting 27 November, licensed gun dealers can run their own employees and job applicants through the FBI’s background-check system.",
             "wrap": true,
             "spacing": "Small"
           },
           {
             "type": "TextBlock",
-            "text": "It is the second such probe this month, after Pennsauken, New Jersey. DOJ's letters to Waterbury and Middletown say it will examine whether permits are being unnecessarily delayed or denied, and that no conclusions have been reached.",
+            "text": "DOJ published the final “firearm handler check” rule in today’s Federal Register, four years after Congress authorized it. Dealers may use NICS voluntarily to screen current or prospective employees; nothing changes for buyers or carriers.",
             "wrap": true,
             "spacing": "Small"
           },
@@ -43,16 +43,16 @@
             "type": "FactSet",
             "facts": [
               {
-                "title": "1. Bend: intervener's interview, memorial, license surge",
-                "value": "Heat 88 ▲"
+                "title": "1. Bend: state emergency, survivor out of ICU, walkout",
+                "value": "Heat 89 ▲"
               },
               {
-                "title": "2. The NFA state-law front",
-                "value": "Heat 82 ▼"
+                "title": "2. NFA state-law front: Ohio and Alaska move",
+                "value": "Heat 82 →"
               },
               {
-                "title": "3. Massachusetts Question 9, T-8",
-                "value": "Heat 80 ▲"
+                "title": "3. Massachusetts Question 9, T-7",
+                "value": "Heat 81 ▲"
               }
             ]
           },
@@ -67,7 +67,7 @@
           {
             "type": "TextBlock",
             "size": "Small",
-            "text": "• Connecticut: DOJ opens permit-delay probes in Waterbury, Middletown\n• Industry: Ruger suspends 19 product lines, four revolvers immediately\n• New Mexico: preliminary-injunction motion filed against 7-day wait\n• Massachusetts: Question 9 final week; mail-ballot requests due Tue",
+            "text": "• DOJ/FBI: firearm handler check rule published; effective 27 November\n• Massachusetts: mail-ballot requests due today; deadline reports unverified\n• SCOTUS: first AR-15 amicus brief filed; the rest due Wednesday\n• SCOTUS: 6 November conference grows to 24 firearms cases",
             "wrap": true
           }
         ],
