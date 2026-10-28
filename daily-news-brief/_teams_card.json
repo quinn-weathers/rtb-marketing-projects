@@ -14,20 +14,20 @@
             "size": "Small",
             "weight": "Bolder",
             "color": "Warning",
-            "text": "RTB · 2A DAILY INTEL · Tuesday, October 27, 2026",
+            "text": "RTB · 2A DAILY INTEL · Wednesday, October 28, 2026",
             "spacing": "None"
           },
           {
             "type": "TextBlock",
             "size": "Large",
             "weight": "Bolder",
-            "text": "Starting 27 November, licensed gun dealers can run their own employees and job applicants through the FBI’s background-check system.",
+            "text": "Six days out, Massachusetts' Question 9 is the most-covered firearms story in the country.",
             "wrap": true,
             "spacing": "Small"
           },
           {
             "type": "TextBlock",
-            "text": "DOJ published the final “firearm handler check” rule in today’s Federal Register, four years after Congress authorized it. Dealers may use NICS voluntarily to screen current or prospective employees; nothing changes for buyers or carriers.",
+            "text": "Seven outlets ran Question 9 explainers in a single day, and the reported \"28 October\" gun-registration deadline lands today without anyone we could read confirming it. A \"yes\" keeps the 2024 law; a \"no\" repeals it.",
             "wrap": true,
             "spacing": "Small"
           },
@@ -43,16 +43,16 @@
             "type": "FactSet",
             "facts": [
               {
-                "title": "1. Bend: state emergency, survivor out of ICU, walkout",
-                "value": "Heat 89 ▲"
+                "title": "1. Bend, Oregon: closure extended, families surveyed",
+                "value": "Heat 88 ▼"
               },
               {
-                "title": "2. NFA state-law front: Ohio and Alaska move",
+                "title": "2. Massachusetts Question 9, T-6",
+                "value": "Heat 83 ▲"
+              },
+              {
+                "title": "3. NFA state-law front: Ohio suppressor bill",
                 "value": "Heat 82 →"
-              },
-              {
-                "title": "3. Massachusetts Question 9, T-7",
-                "value": "Heat 81 ▲"
               }
             ]
           },
@@ -67,7 +67,7 @@
           {
             "type": "TextBlock",
             "size": "Small",
-            "text": "• DOJ/FBI: firearm handler check rule published; effective 27 November\n• Massachusetts: mail-ballot requests due today; deadline reports unverified\n• SCOTUS: first AR-15 amicus brief filed; the rest due Wednesday\n• SCOTUS: 6 November conference grows to 24 firearms cases",
+            "text": "• Massachusetts: seven Question 9 explainers in a day; deadline unverified\n• SCOTUS: Cook County's corrected AR-15 brief filed; amici due today\n• DOJ/FBI: handler-check rule read in full: voluntary, written consent\n• Midterms: NBC says Democrats in close races stress gun rights",
             "wrap": true
           }
         ],
