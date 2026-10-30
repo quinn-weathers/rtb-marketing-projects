@@ -14,20 +14,20 @@
             "size": "Small",
             "weight": "Bolder",
             "color": "Warning",
-            "text": "RTB · 2A DAILY INTEL · Wednesday, October 28, 2026",
+            "text": "RTB · 2A DAILY INTEL · Thursday, October 29, 2026",
             "spacing": "None"
           },
           {
             "type": "TextBlock",
             "size": "Large",
             "weight": "Bolder",
-            "text": "Six days out, Massachusetts' Question 9 is the most-covered firearms story in the country.",
+            "text": "About 40 briefs defending \"assault weapon\" bans reached the Supreme Court in a single day.",
             "wrap": true,
             "spacing": "Small"
           },
           {
             "type": "TextBlock",
-            "text": "Seven outlets ran Question 9 explainers in a single day, and the reported \"28 October\" gun-registration deadline lands today without anyone we could read confirming it. A \"yes\" keeps the 2024 law; a \"no\" repeals it.",
+            "text": "They came from 19 attorneys general, police chiefs, doctors, teachers, and families of school-shooting victims. The AR-15 cases are argued 2 December; nothing changes for gun owners until the Court rules.",
             "wrap": true,
             "spacing": "Small"
           },
@@ -43,16 +43,16 @@
             "type": "FactSet",
             "facts": [
               {
-                "title": "1. Bend, Oregon: closure extended, families surveyed",
-                "value": "Heat 88 ▼"
+                "title": "1. Bend, Oregon: names in national press; return planned",
+                "value": "Heat 89 ▲"
               },
               {
-                "title": "2. Massachusetts Question 9, T-6",
-                "value": "Heat 83 ▲"
+                "title": "2. AR-15 cases: ~40 briefs back the bans",
+                "value": "Heat 87 ▲▲"
               },
               {
-                "title": "3. NFA state-law front: Ohio suppressor bill",
-                "value": "Heat 82 →"
+                "title": "3. Massachusetts Question 9, T-5",
+                "value": "Heat 83 →"
               }
             ]
           },
@@ -67,7 +67,7 @@
           {
             "type": "TextBlock",
             "size": "Small",
-            "text": "• Massachusetts: seven Question 9 explainers in a day; deadline unverified\n• SCOTUS: Cook County's corrected AR-15 brief filed; amici due today\n• DOJ/FBI: handler-check rule read in full: voluntary, written consent\n• Midterms: NBC says Democrats in close races stress gun rights",
+            "text": "• SCOTUS: ~40 amicus briefs back the bans, incl. 19 attorneys general\n• Oregon: national outlets name attacker and intervener; return planned\n• 7th Circuit: argument on Illinois' suppressor ban\n• Massachusetts: dueling Globe op-eds; registration claim unverified",
             "wrap": true
           }
         ],
