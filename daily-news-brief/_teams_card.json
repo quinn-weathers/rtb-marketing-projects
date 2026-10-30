@@ -14,20 +14,20 @@
             "size": "Small",
             "weight": "Bolder",
             "color": "Warning",
-            "text": "RTB · 2A DAILY INTEL · Thursday, October 29, 2026",
+            "text": "RTB · 2A DAILY INTEL · Friday, October 30, 2026",
             "spacing": "None"
           },
           {
             "type": "TextBlock",
             "size": "Large",
             "weight": "Bolder",
-            "text": "About 40 briefs defending \"assault weapon\" bans reached the Supreme Court in a single day.",
+            "text": "Two cities moved in opposite directions on concealed carry this week.",
             "wrap": true,
             "spacing": "Small"
           },
           {
             "type": "TextBlock",
-            "text": "They came from 19 attorneys general, police chiefs, doctors, teachers, and families of school-shooting victims. The AR-15 cases are argued 2 December; nothing changes for gun owners until the Court rules.",
+            "text": "Portland ended the license-holder exemption in city meeting buildings; DOJ gave Glendale, California, until Nov. 4 to drop carry-permit costs reported at about $2,000. Both are headline-only so far: the ordinance and the DOJ letter were not read.",
             "wrap": true,
             "spacing": "Small"
           },
@@ -43,16 +43,16 @@
             "type": "FactSet",
             "facts": [
               {
-                "title": "1. Bend, Oregon: names in national press; return planned",
-                "value": "Heat 89 ▲"
+                "title": "1. AR-15 cases: states publicize briefs; argued Dec. 2",
+                "value": "Heat 87 →"
               },
               {
-                "title": "2. AR-15 cases: ~40 briefs back the bans",
-                "value": "Heat 87 ▲▲"
+                "title": "2. Bend, day 15: recovery, surgery, fundraising",
+                "value": "Heat 85 ▼"
               },
               {
-                "title": "3. Massachusetts Question 9, T-5",
-                "value": "Heat 83 →"
+                "title": "3. Massachusetts Question 9, T-4",
+                "value": "Heat 84 ▲"
               }
             ]
           },
@@ -67,7 +67,7 @@
           {
             "type": "TextBlock",
             "size": "Small",
-            "text": "• SCOTUS: ~40 amicus briefs back the bans, incl. 19 attorneys general\n• Oregon: national outlets name attacker and intervener; return planned\n• 7th Circuit: argument on Illinois' suppressor ban\n• Massachusetts: dueling Globe op-eds; registration claim unverified",
+            "text": "• Portland bars concealed carry in city meeting buildings, licensees included\n• DOJ: Glendale, CA must drop ~$2,000 permit costs by 11/4 or be sued\n• DOJ filing: ATF staff among poll monitors, unarmed and out of uniform\n• Massachusetts Question 9 at T-4; registration claim still unverified",
             "wrap": true
           }
         ],
