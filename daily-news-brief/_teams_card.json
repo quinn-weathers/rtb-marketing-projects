@@ -14,20 +14,20 @@
             "size": "Small",
             "weight": "Bolder",
             "color": "Warning",
-            "text": "RTB · 2A DAILY INTEL · Friday, October 30, 2026",
+            "text": "RTB · 2A DAILY INTEL · Monday, November 2, 2026",
             "spacing": "None"
           },
           {
             "type": "TextBlock",
             "size": "Large",
             "weight": "Bolder",
-            "text": "Two cities moved in opposite directions on concealed carry this week.",
+            "text": "Voters decide five firearms-related ballot questions tomorrow, and ATF's chief counsel has resigned.",
             "wrap": true,
             "spacing": "Small"
           },
           {
             "type": "TextBlock",
-            "text": "Portland ended the license-holder exemption in city meeting buildings; DOJ gave Glendale, California, until Nov. 4 to drop carry-permit costs reported at about $2,000. Both are headline-only so far: the ordinance and the DOJ letter were not read.",
+            "text": "ATF announced Friday that Chief Counsel Robert Leider, architect of its 34-rule rollback package, has resigned; The Reload expects most rules to survive but flags the no-visit dealer-sales rule as at risk. Tomorrow: MA Question 9, Arkansas Issue 2, Missouri Amendment 8, Idaho's state-gun question and a Lea County, NM tax.",
             "wrap": true,
             "spacing": "Small"
           },
@@ -43,16 +43,16 @@
             "type": "FactSet",
             "facts": [
               {
-                "title": "1. AR-15 cases: states publicize briefs; argued Dec. 2",
-                "value": "Heat 87 →"
+                "title": "1. Massachusetts Question 9, Election Day tomorrow",
+                "value": "Heat 88 ▲"
               },
               {
-                "title": "2. Bend, day 15: recovery, surgery, fundraising",
-                "value": "Heat 85 ▼"
+                "title": "2. ATF chief counsel resigns; rule package questioned",
+                "value": "Heat 84 ▲▲"
               },
               {
-                "title": "3. Massachusetts Question 9, T-4",
-                "value": "Heat 84 ▲"
+                "title": "3. Bend, day 18: teacher's statement goes national",
+                "value": "Heat 83 ▼"
               }
             ]
           },
@@ -67,7 +67,7 @@
           {
             "type": "TextBlock",
             "size": "Small",
-            "text": "• Portland bars concealed carry in city meeting buildings, licensees included\n• DOJ: Glendale, CA must drop ~$2,000 permit costs by 11/4 or be sued\n• DOJ filing: ATF staff among poll monitors, unarmed and out of uniform\n• Massachusetts Question 9 at T-4; registration claim still unverified",
+            "text": "• ATF: chief counsel resigns; fate of some proposed rules questioned\n• Ballots: Election Day tomorrow in MA, AR, MO, ID; Lea County, NM\n• Portland names three buildings; not in force until signs go up\n• Pennsylvania: FPC and NRA sue over the age-21 carry-license rule",
             "wrap": true
           }
         ],
