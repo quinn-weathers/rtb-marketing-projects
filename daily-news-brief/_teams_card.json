@@ -1,84 +1,84 @@
 {
-  "type": "message",
-  "attachments": [
-    {
-      "contentType": "application/vnd.microsoft.card.adaptive",
-      "contentUrl": null,
-      "content": {
-        "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
-        "type": "AdaptiveCard",
-        "version": "1.5",
-        "body": [
-          {
-            "type": "TextBlock",
-            "size": "Small",
-            "weight": "Bolder",
-            "color": "Warning",
-            "text": "RTB · 2A DAILY INTEL · Monday, November 2, 2026",
-            "spacing": "None"
-          },
-          {
-            "type": "TextBlock",
-            "size": "Large",
-            "weight": "Bolder",
-            "text": "Voters decide five firearms-related ballot questions tomorrow, and ATF's chief counsel has resigned.",
-            "wrap": true,
-            "spacing": "Small"
-          },
-          {
-            "type": "TextBlock",
-            "text": "ATF announced Friday that Chief Counsel Robert Leider, architect of its 34-rule rollback package, has resigned; The Reload expects most rules to survive but flags the no-visit dealer-sales rule as at risk. Tomorrow: MA Question 9, Arkansas Issue 2, Missouri Amendment 8, Idaho's state-gun question and a Lea County, NM tax.",
-            "wrap": true,
-            "spacing": "Small"
-          },
-          {
-            "type": "TextBlock",
-            "size": "Small",
-            "weight": "Bolder",
-            "color": "Warning",
-            "text": "HOTTEST LEADS",
-            "spacing": "Medium"
-          },
-          {
-            "type": "FactSet",
-            "facts": [
-              {
-                "title": "1. Massachusetts Question 9, Election Day tomorrow",
-                "value": "Heat 88 ▲"
-              },
-              {
-                "title": "2. ATF chief counsel resigns; rule package questioned",
-                "value": "Heat 84 ▲▲"
-              },
-              {
-                "title": "3. Bend, day 18: teacher's statement goes national",
-                "value": "Heat 83 ▼"
-              }
-            ]
-          },
-          {
-            "type": "TextBlock",
-            "size": "Small",
-            "weight": "Bolder",
-            "color": "Warning",
-            "text": "WHAT'S MOVING",
-            "spacing": "Medium"
-          },
-          {
-            "type": "TextBlock",
-            "size": "Small",
-            "text": "• ATF: chief counsel resigns; fate of some proposed rules questioned\n• Ballots: Election Day tomorrow in MA, AR, MO, ID; Lea County, NM\n• Portland names three buildings; not in force until signs go up\n• Pennsylvania: FPC and NRA sue over the age-21 carry-license rule",
-            "wrap": true
-          }
-        ],
-        "actions": [
-          {
-            "type": "Action.OpenUrl",
-            "title": "Read full brief →",
-            "url": "https://quinn-weathers.github.io/rtb-marketing-projects/daily-news-brief/"
-          }
-        ]
-      }
-    }
-  ]
+ "type": "message",
+ "attachments": [
+  {
+   "contentType": "application/vnd.microsoft.card.adaptive",
+   "contentUrl": null,
+   "content": {
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "type": "AdaptiveCard",
+    "version": "1.5",
+    "body": [
+     {
+      "type": "TextBlock",
+      "size": "Small",
+      "weight": "Bolder",
+      "color": "Warning",
+      "text": "RTB · 2A DAILY INTEL · Tuesday, November 3, 2026",
+      "spacing": "None"
+     },
+     {
+      "type": "TextBlock",
+      "size": "Large",
+      "weight": "Bolder",
+      "text": "It is Election Day: Massachusetts voters decide whether to keep the 2024 gun law, with firearms-related questions also on ballots in AR, MO, ID and one NM county.",
+      "wrap": true,
+      "spacing": "Small"
+     },
+     {
+      "type": "TextBlock",
+      "text": "Nothing changes for gun owners until results are called and states certify them. ATF's chief counsel is on administrative leave since 11/2 and employed through January, per CBS citing a source; no successor named.",
+      "wrap": true,
+      "spacing": "Small"
+     },
+     {
+      "type": "TextBlock",
+      "size": "Small",
+      "weight": "Bolder",
+      "color": "Warning",
+      "text": "HOTTEST LEADS (scores carried from 11/2)",
+      "spacing": "Medium"
+     },
+     {
+      "type": "FactSet",
+      "facts": [
+       {
+        "title": "1. Massachusetts Question 9: Election Day",
+        "value": "Heat 88 ▲"
+       },
+       {
+        "title": "2. ATF chief counsel resigns; rules question",
+        "value": "Heat 84 ▲▲"
+       },
+       {
+        "title": "3. Bend school shooting, day 19",
+        "value": "Heat 83 ▼"
+       }
+      ]
+     },
+     {
+      "type": "TextBlock",
+      "size": "Small",
+      "weight": "Bolder",
+      "color": "Warning",
+      "text": "WHAT'S MOVING",
+      "spacing": "Medium"
+     },
+     {
+      "type": "TextBlock",
+      "size": "Small",
+      "text": "• Election Day: MA Q9, AR Issue 2, MO Amend. 8, ID advisory, Lea Co. NM tax\n• ATF chief counsel on leave since 11/2; successor unnamed\n• MA registration deadline was 10/28 per Boston.com; 'register today' claim unsupported\n• Glendale permit-cost deadline tomorrow; SCOTUS conf. Fri 11/6",
+      "wrap": true
+     }
+    ],
+    "actions": [
+     {
+      "type": "Action.OpenUrl",
+      "title": "Read full brief →",
+      "url": "https://quinn-weathers.github.io/rtb-marketing-projects/daily-news-brief/"
+     }
+    ]
+   }
+  }
+ ]
 }
