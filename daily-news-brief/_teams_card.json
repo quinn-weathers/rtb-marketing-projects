@@ -1,84 +1,84 @@
 {
- "type": "message",
- "attachments": [
-  {
-   "contentType": "application/vnd.microsoft.card.adaptive",
-   "contentUrl": null,
-   "content": {
-    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
-    "type": "AdaptiveCard",
-    "version": "1.5",
-    "body": [
-     {
-      "type": "TextBlock",
-      "size": "Small",
-      "weight": "Bolder",
-      "color": "Warning",
-      "text": "RTB · 2A DAILY INTEL · Tuesday, November 3, 2026",
-      "spacing": "None"
-     },
-     {
-      "type": "TextBlock",
-      "size": "Large",
-      "weight": "Bolder",
-      "text": "It is Election Day: Massachusetts voters decide whether to keep the 2024 gun law, with firearms-related questions also on ballots in AR, MO, ID and one NM county.",
-      "wrap": true,
-      "spacing": "Small"
-     },
-     {
-      "type": "TextBlock",
-      "text": "Nothing changes for gun owners until results are called and states certify them. ATF's chief counsel is on administrative leave since 11/2 and employed through January, per CBS citing a source; no successor named.",
-      "wrap": true,
-      "spacing": "Small"
-     },
-     {
-      "type": "TextBlock",
-      "size": "Small",
-      "weight": "Bolder",
-      "color": "Warning",
-      "text": "HOTTEST LEADS (scores carried from 11/2)",
-      "spacing": "Medium"
-     },
-     {
-      "type": "FactSet",
-      "facts": [
-       {
-        "title": "1. Massachusetts Question 9: Election Day",
-        "value": "Heat 88 ▲"
-       },
-       {
-        "title": "2. ATF chief counsel resigns; rules question",
-        "value": "Heat 84 ▲▲"
-       },
-       {
-        "title": "3. Bend school shooting, day 19",
-        "value": "Heat 83 ▼"
-       }
-      ]
-     },
-     {
-      "type": "TextBlock",
-      "size": "Small",
-      "weight": "Bolder",
-      "color": "Warning",
-      "text": "WHAT'S MOVING",
-      "spacing": "Medium"
-     },
-     {
-      "type": "TextBlock",
-      "size": "Small",
-      "text": "• Election Day: MA Q9, AR Issue 2, MO Amend. 8, ID advisory, Lea Co. NM tax\n• ATF chief counsel on leave since 11/2; successor unnamed\n• MA registration deadline was 10/28 per Boston.com; 'register today' claim unsupported\n• Glendale permit-cost deadline tomorrow; SCOTUS conf. Fri 11/6",
-      "wrap": true
-     }
-    ],
-    "actions": [
-     {
-      "type": "Action.OpenUrl",
-      "title": "Read full brief →",
-      "url": "https://quinn-weathers.github.io/rtb-marketing-projects/daily-news-brief/"
-     }
-    ]
-   }
-  }
- ]
+  "type": "message",
+  "attachments": [
+    {
+      "contentType": "application/vnd.microsoft.card.adaptive",
+      "contentUrl": null,
+      "content": {
+        "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+        "type": "AdaptiveCard",
+        "version": "1.5",
+        "body": [
+          {
+            "type": "TextBlock",
+            "size": "Small",
+            "weight": "Bolder",
+            "color": "Warning",
+            "text": "RTB · 2A DAILY INTEL · Thursday, November 5, 2026",
+            "spacing": "None"
+          },
+          {
+            "type": "TextBlock",
+            "size": "Large",
+            "weight": "Bolder",
+            "text": "Election results still the story; October gun sales up 7.9%; Sixth Circuit upholds mental-health gun ban",
+            "wrap": true,
+            "spacing": "Small"
+          },
+          {
+            "type": "TextBlock",
+            "text": "Massachusetts keeps its 2024 gun law, Arkansas approved its right-to-bear-arms amendment, and Democrats are projected to lead both chambers (unofficial until certified). October adjusted gun-sales checks ran 7.9% above last year, and Ruger reported Q3 sales up 16.5%.",
+            "wrap": true,
+            "spacing": "Small"
+          },
+          {
+            "type": "TextBlock",
+            "size": "Small",
+            "weight": "Bolder",
+            "color": "Warning",
+            "text": "HOTTEST LEADS",
+            "spacing": "Medium"
+          },
+          {
+            "type": "FactSet",
+            "facts": [
+              {
+                "title": "1. Massachusetts keeps 2024 gun law (Question 9)",
+                "value": "Heat 88 ▼"
+              },
+              {
+                "title": "2. Democrats projected to win House and Senate",
+                "value": "Heat 86 ▼"
+              },
+              {
+                "title": "3. ATF chief counsel resigns; no successor named",
+                "value": "Heat 77 ▼"
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "size": "Small",
+            "weight": "Bolder",
+            "color": "Warning",
+            "text": "WHAT'S MOVING",
+            "spacing": "Medium"
+          },
+          {
+            "type": "TextBlock",
+            "size": "Small",
+            "text": "• Sixth Circuit upholds §922(g)(4) mental-health ban (Laykovich)\n• October NICS checks up 7.9% y/y (NSSF via The Reload)\n• Ruger Q3 net sales $147.6M, up 16.5%\n• SCOTUS conference Fri 11/6: 24 firearms petitions",
+            "wrap": true
+          }
+        ],
+        "actions": [
+          {
+            "type": "Action.OpenUrl",
+            "title": "Read full brief →",
+            "url": "https://quinn-weathers.github.io/rtb-marketing-projects/daily-news-brief/"
+          }
+        ]
+      }
+    }
+  ]
 }
