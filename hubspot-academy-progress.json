@@ -1,11 +1,12 @@
 {
-  "current": "managing-your-contacts-with-the-hubspot-crm",
-  "currentWeek": 5,
+  "current": "exploring-the-contacts-database-in-hubspot",
+  "currentWeek": 6,
   "completed": {
     "introduction-to-marketing-hub": "2026-10-09T19:53:50.164Z",
     "flywheel": "2026-10-19T12:53:33.712Z",
     "buyer-personas": "2026-10-26T21:14:12.796Z",
-    "assessing-your-ai-maturity": "2026-10-30T21:29:43.553Z"
+    "assessing-your-ai-maturity": "2026-10-30T21:29:43.553Z",
+    "managing-your-contacts-with-the-hubspot-crm": "2026-11-10T21:04:51.073Z"
   },
-  "updatedAt": "2026-10-30T21:29:43.553Z"
+  "updatedAt": "2026-11-10T21:04:51.073Z"
 }
