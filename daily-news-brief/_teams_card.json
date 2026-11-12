@@ -1,84 +1,84 @@
 {
- "type": "message",
- "attachments": [
-  {
-   "contentType": "application/vnd.microsoft.card.adaptive",
-   "contentUrl": null,
-   "content": {
-    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
-    "type": "AdaptiveCard",
-    "version": "1.5",
-    "body": [
-     {
-      "type": "TextBlock",
-      "size": "Small",
-      "weight": "Bolder",
-      "color": "Warning",
-      "text": "RTB · 2A DAILY INTEL · Tuesday, November 10, 2026",
-      "spacing": "None"
-     },
-     {
-      "type": "TextBlock",
-      "size": "Large",
-      "weight": "Bolder",
-      "text": "Supreme Court lets the Solicitor General join the AR-15 argument; withdrawal and mootness filings still undecided",
-      "wrap": true,
-      "spacing": "Small"
-     },
-     {
-      "type": "TextBlock",
-      "text": "The docket shows a 11/9 order granting the Solicitor General's motion to participate in argument and for divided argument. No ruling yet on the 10/29 withdrawal motion or the 11/5 mootness suggestion; argument stays set for 2 December.",
-      "wrap": true,
-      "spacing": "Small"
-     },
-     {
-      "type": "TextBlock",
-      "size": "Small",
-      "weight": "Bolder",
-      "color": "Warning",
-      "text": "HOTTEST LEADS",
-      "spacing": "Medium"
-     },
-     {
-      "type": "FactSet",
-      "facts": [
-       {
-        "title": "1. AR-15 cases, T-22: SG divided argument granted; no ruling on mootness",
-        "value": "Heat 84 →"
-       },
-       {
-        "title": "2. Democrats gain full control of six more state governments",
-        "value": "Heat 78 ▼"
-       },
-       {
-        "title": "3. Midterms: Democrats win House and Senate",
-        "value": "Heat 75 ▼"
-       }
-      ]
-     },
-     {
-      "type": "TextBlock",
-      "size": "Small",
-      "weight": "Bolder",
-      "color": "Warning",
-      "text": "WHAT'S MOVING",
-      "spacing": "Medium"
-     },
-     {
-      "type": "TextBlock",
-      "size": "Small",
-      "text": "• SCOTUS: SG motion for divided argument granted 11/9\n• SCOTUS: no ruling on withdrawal/mootness filings\n• Bend: Silver Rail Elementary set to reopen Thu 11/12\n• Peers: no dated moves at four of four (day 59)",
-      "wrap": true
-     }
-    ],
-    "actions": [
-     {
-      "type": "Action.OpenUrl",
-      "title": "Read full brief →",
-      "url": "https://quinn-weathers.github.io/rtb-marketing-projects/daily-news-brief/"
-     }
-    ]
-   }
-  }
- ]
+  "type": "message",
+  "attachments": [
+    {
+      "contentType": "application/vnd.microsoft.card.adaptive",
+      "contentUrl": null,
+      "content": {
+        "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+        "type": "AdaptiveCard",
+        "version": "1.5",
+        "body": [
+          {
+            "type": "TextBlock",
+            "size": "Small",
+            "weight": "Bolder",
+            "color": "Warning",
+            "text": "RTB · 2A DAILY INTEL · Thursday, November 12, 2026",
+            "spacing": "None"
+          },
+          {
+            "type": "TextBlock",
+            "size": "Large",
+            "weight": "Bolder",
+            "text": "A federal judge dismissed DOJ's lawsuit against Montgomery County, Maryland's 100-yard gun ban; the county rule stays in force for permit holders.",
+            "wrap": true,
+            "spacing": "Small"
+          },
+          {
+            "type": "TextBlock",
+            "text": "On Nov. 9, Judge Chuang (D. Md.) dismissed U.S. v. Montgomery County: DOJ's complaint alleged no police 'pattern or practice', so the Second Amendment question was not decided. DOJ is weighing next steps; private suits continue.",
+            "wrap": true,
+            "spacing": "Small"
+          },
+          {
+            "type": "TextBlock",
+            "size": "Small",
+            "weight": "Bolder",
+            "color": "Warning",
+            "text": "HOTTEST LEADS",
+            "spacing": "Medium"
+          },
+          {
+            "type": "FactSet",
+            "facts": [
+              {
+                "title": "1. AR-15 cases, T-20: no new docket entry since 11/9",
+                "value": "Heat 82 ▼"
+              },
+              {
+                "title": "2. DOJ suit vs Montgomery County 100-yard ban dismissed",
+                "value": "Heat 79 ▲"
+              },
+              {
+                "title": "3. Newly Democratic-led states: 2027 gun agendas",
+                "value": "Heat 77 →"
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "size": "Small",
+            "weight": "Bolder",
+            "color": "Warning",
+            "text": "WHAT'S MOVING",
+            "spacing": "Medium"
+          },
+          {
+            "type": "TextBlock",
+            "size": "Small",
+            "text": "• Maryland: DOJ suit vs Montgomery County carry ban dismissed (11/9)\n• Florida AG memo: SBRs/SBSs not unlawful under 790.221; statute unchanged\n• DOJ rights-restoration portal closed at 5,000; reopens Jan 2027\n• SCOTUS: no new AR-15 docket entry; argument 12/2 (T-20)",
+            "wrap": true
+          }
+        ],
+        "actions": [
+          {
+            "type": "Action.OpenUrl",
+            "title": "Read full brief →",
+            "url": "https://quinn-weathers.github.io/rtb-marketing-projects/daily-news-brief/"
+          }
+        ]
+      }
+    }
+  ]
 }
