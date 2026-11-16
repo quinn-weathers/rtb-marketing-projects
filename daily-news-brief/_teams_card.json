@@ -14,20 +14,20 @@
             "size": "Small",
             "weight": "Bolder",
             "color": "Warning",
-            "text": "RTB · 2A DAILY INTEL · Thursday, November 12, 2026",
+            "text": "RTB · 2A DAILY INTEL · Monday, November 16, 2026",
             "spacing": "None"
           },
           {
             "type": "TextBlock",
             "size": "Large",
             "weight": "Bolder",
-            "text": "A federal judge dismissed DOJ's lawsuit against Montgomery County, Maryland's 100-yard gun ban; the county rule stays in force for permit holders.",
+            "text": "The Supreme Court declined to hear the challenge to Maryland's \"sensitive places\" carry restrictions, leaving the Fourth Circuit's ruling in place.",
             "wrap": true,
             "spacing": "Small"
           },
           {
             "type": "TextBlock",
-            "text": "On Nov. 9, Judge Chuang (D. Md.) dismissed U.S. v. Montgomery County: DOJ's complaint alleged no police 'pattern or practice', so the Second Amendment question was not decided. DOJ is weighing next steps; private suits continue.",
+            "text": "On today's order list the Court turned away Novotny v. Moore (No. 25-1324). Maryland's limits at campuses, hospitals, parks, transit and venues serving alcohol stay in force; a denial is not a ruling on the merits.",
             "wrap": true,
             "spacing": "Small"
           },
@@ -43,16 +43,16 @@
             "type": "FactSet",
             "facts": [
               {
-                "title": "1. AR-15 cases, T-20: no new docket entry since 11/9",
-                "value": "Heat 82 ▼"
+                "title": "1. SCOTUS declines Maryland sensitive-places challenge",
+                "value": "Heat 86 ▲"
               },
               {
-                "title": "2. DOJ suit vs Montgomery County 100-yard ban dismissed",
+                "title": "2. AR-15 cases, T-16: mootness briefing done, no ruling",
+                "value": "Heat 83 ▲"
+              },
+              {
+                "title": "3. Texas: ~35 firearm bills prefiled for 2027 session",
                 "value": "Heat 79 ▲"
-              },
-              {
-                "title": "3. Newly Democratic-led states: 2027 gun agendas",
-                "value": "Heat 77 →"
               }
             ]
           },
@@ -67,7 +67,7 @@
           {
             "type": "TextBlock",
             "size": "Small",
-            "text": "• Maryland: DOJ suit vs Montgomery County carry ban dismissed (11/9)\n• Florida AG memo: SBRs/SBSs not unlawful under 790.221; statute unchanged\n• DOJ rights-restoration portal closed at 5,000; reopens Jan 2027\n• SCOTUS: no new AR-15 docket entry; argument 12/2 (T-20)",
+            "text": "• SCOTUS: cert denied in Novotny v. Moore; Maryland carry limits stand\n• Florida AG: 2018 bump-stock ban unconstitutional; statute unchanged\n• DOJ sues Glendale, CA over carry-permit costs near $2,000\n• Texas: ~35 firearm bills prefiled; session opens Jan 12",
             "wrap": true
           }
         ],
