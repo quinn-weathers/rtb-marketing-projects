@@ -14,20 +14,20 @@
             "size": "Small",
             "weight": "Bolder",
             "color": "Warning",
-            "text": "RTB · 2A DAILY INTEL · Monday, November 16, 2026",
+            "text": "RTB · 2A DAILY INTEL · Tuesday, November 17, 2026",
             "spacing": "None"
           },
           {
             "type": "TextBlock",
             "size": "Large",
             "weight": "Bolder",
-            "text": "The Supreme Court declined to hear the challenge to Maryland's \"sensitive places\" carry restrictions, leaving the Fourth Circuit's ruling in place.",
+            "text": "Justice Thomas wrote separately when the Court turned away the Maryland “sensitive places” case; no justice dissented.",
             "wrap": true,
             "spacing": "Small"
           },
           {
             "type": "TextBlock",
-            "text": "On today's order list the Court turned away Novotny v. Moore (No. 25-1324). Maryland's limits at campuses, hospitals, parks, transit and venues serving alcohol stay in force; a denial is not a ruling on the merits.",
+            "text": "The 11/16 order list shows Novotny v. Moore denied with a Thomas statement doubting Maryland’s location limits but urging a narrower case. Maryland’s list remains the law; new today: Ohio SB 214 awaits the governor and NC’s permitless-carry override is on the House calendar.",
             "wrap": true,
             "spacing": "Small"
           },
@@ -43,16 +43,16 @@
             "type": "FactSet",
             "facts": [
               {
-                "title": "1. SCOTUS declines Maryland sensitive-places challenge",
-                "value": "Heat 86 ▲"
+                "title": "1. Thomas statement on Novotny denial; no dissent",
+                "value": "Heat 85 ▶ steady"
               },
               {
-                "title": "2. AR-15 cases, T-16: mootness briefing done, no ruling",
-                "value": "Heat 83 ▲"
+                "title": "2. Ohio SB 214 awaits governor (suppressors, SBR/SBS)",
+                "value": "Heat 81 ▲ rising"
               },
               {
-                "title": "3. Texas: ~35 firearm bills prefiled for 2027 session",
-                "value": "Heat 79 ▲"
+                "title": "3. AR-15 cases T−15: argument 2 December",
+                "value": "Heat 80 ▼ cooling"
               }
             ]
           },
@@ -67,7 +67,7 @@
           {
             "type": "TextBlock",
             "size": "Small",
-            "text": "• SCOTUS: cert denied in Novotny v. Moore; Maryland carry limits stand\n• Florida AG: 2018 bump-stock ban unconstitutional; statute unchanged\n• DOJ sues Glendale, CA over carry-permit costs near $2,000\n• Texas: ~35 firearm bills prefiled; session opens Jan 12",
+            "text": "• SCOTUS: Thomas statement on Novotny denial; no dissent\n• Ohio: SB 214 awaits governor; sheriff urges veto\n• N. Carolina: SB 50 permitless-carry override on House calendar\n• Arizona: new majorities explore red-flag bill for January",
             "wrap": true
           }
         ],
