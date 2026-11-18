@@ -14,20 +14,20 @@
             "size": "Small",
             "weight": "Bolder",
             "color": "Warning",
-            "text": "RTB · 2A DAILY INTEL · Tuesday, November 17, 2026",
+            "text": "RTB · 2A DAILY INTEL · Wednesday, November 18, 2026",
             "spacing": "None"
           },
           {
             "type": "TextBlock",
             "size": "Large",
             "weight": "Bolder",
-            "text": "Justice Thomas wrote separately when the Court turned away the Maryland “sensitive places” case; no justice dissented.",
+            "text": "North Carolina's permitless-carry override did not get a vote this week; the next window is 30 November to 18 December.",
             "wrap": true,
             "spacing": "Small"
           },
           {
             "type": "TextBlock",
-            "text": "The 11/16 order list shows Novotny v. Moore denied with a Thomas statement doubting Maryland’s location limits but urging a narrower case. Maryland’s list remains the law; new today: Ohio SB 214 awaits the governor and NC’s permitless-carry override is on the House calendar.",
+            "text": "On Tuesday the NC House took up none of the four vetoed bills on its calendar, SB 50 among them; with 117 present, 70 votes were needed and the majority had 68. Current permit rules continue for now.",
             "wrap": true,
             "spacing": "Small"
           },
@@ -43,16 +43,16 @@
             "type": "FactSet",
             "facts": [
               {
-                "title": "1. Thomas statement on Novotny denial; no dissent",
-                "value": "Heat 85 ▶ steady"
+                "title": "1. House Oversight hearing today on ATF out-of-business records",
+                "value": "Heat 82 ▲"
               },
               {
-                "title": "2. Ohio SB 214 awaits governor (suppressors, SBR/SBS)",
-                "value": "Heat 81 ▲ rising"
+                "title": "2. SCOTUS declines Maryland sensitive-places case (Novotny)",
+                "value": "Heat 81 ▼"
               },
               {
-                "title": "3. AR-15 cases T−15: argument 2 December",
-                "value": "Heat 80 ▼ cooling"
+                "title": "3. Ohio SB 214 (suppressors, SBRs) still awaits governor",
+                "value": "Heat 80 ▶"
               }
             ]
           },
@@ -67,7 +67,7 @@
           {
             "type": "TextBlock",
             "size": "Small",
-            "text": "• SCOTUS: Thomas statement on Novotny denial; no dissent\n• Ohio: SB 214 awaits governor; sheriff urges veto\n• N. Carolina: SB 50 permitless-carry override on House calendar\n• Arizona: new majorities explore red-flag bill for January",
+            "text": "• NC: no SB 50 override vote; next window 30 Nov–18 Dec\n• Congress: Oversight hearing on ATF out-of-business records, 2pm ET\n• Texas: prefiled bills named (under-21, private sales, ERPO)\n• Gallup: 56% stricter, 27% as is, record 15% less strict",
             "wrap": true
           }
         ],
